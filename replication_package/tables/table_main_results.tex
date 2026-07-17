@@ -1,0 +1,43 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Main 10-seed compact-classifier diagnostic results reconstructed from saved result files.}
+\label{tab:main-results}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Dataset & Method & Accuracy & Macro-F1 & Nonzero ratio \\
+\midrule
+CIFAR-10 & Softmax & $0.382 \pm 0.019$ & $0.366 \pm 0.022$ & 0.999 \\
+CIFAR-10 & Sparsemax & $0.394 \pm 0.017$ & $0.381 \pm 0.022$ & 0.458 \\
+CIFAR-10 & Entmax-1.5 & $0.396 \pm 0.014$ & $0.383 \pm 0.016$ & 0.768 \\
+CIFAR-10 & HAE & $0.397 \pm 0.012$ & $0.384 \pm 0.012$ & 0.769 \\
+CIFAR-10 & Top-k 0.125 & $0.404 \pm 0.010$ & $0.394 \pm 0.014$ & 0.176 \\
+CIFAR-10 & Top-k 0.25 & $0.408 \pm 0.010$ & $0.398 \pm 0.012$ & 0.294 \\
+CIFAR-10 & Top-k 0.50 & $0.406 \pm 0.009$ & $0.391 \pm 0.011$ & 0.529 \\
+\addlinespace
+Fashion-MNIST & Softmax & $0.780 \pm 0.011$ & $0.775 \pm 0.013$ & 1.000 \\
+Fashion-MNIST & Sparsemax & $0.803 \pm 0.007$ & $0.801 \pm 0.008$ & 0.490 \\
+Fashion-MNIST & Entmax-1.5 & $0.797 \pm 0.008$ & $0.795 \pm 0.010$ & 0.780 \\
+Fashion-MNIST & HAE & $0.796 \pm 0.008$ & $0.794 \pm 0.010$ & 0.779 \\
+Fashion-MNIST & Top-k 0.125 & $0.806 \pm 0.007$ & $0.806 \pm 0.008$ & 0.176 \\
+Fashion-MNIST & Top-k 0.25 & $0.803 \pm 0.012$ & $0.801 \pm 0.016$ & 0.294 \\
+Fashion-MNIST & Top-k 0.50 & $0.795 \pm 0.008$ & $0.792 \pm 0.013$ & 0.529 \\
+\addlinespace
+20 Newsgroups & Softmax & $0.304 \pm 0.009$ & $0.286 \pm 0.010$ & 0.998 \\
+20 Newsgroups & Sparsemax & $0.326 \pm 0.014$ & $0.310 \pm 0.014$ & 0.156 \\
+20 Newsgroups & Entmax-1.5 & $0.349 \pm 0.010$ & $0.332 \pm 0.011$ & 0.420 \\
+20 Newsgroups & HAE & $0.350 \pm 0.012$ & $0.333 \pm 0.013$ & 0.401 \\
+20 Newsgroups & Top-k 0.125 & $0.328 \pm 0.016$ & $0.312 \pm 0.017$ & 0.134 \\
+20 Newsgroups & Top-k 0.25 & $0.329 \pm 0.016$ & $0.313 \pm 0.018$ & 0.258 \\
+20 Newsgroups & Top-k 0.50 & $0.328 \pm 0.019$ & $0.312 \pm 0.021$ & 0.505 \\
+\addlinespace
+Synthetic & Softmax & $0.101 \pm 0.007$ & $0.097 \pm 0.008$ & 1.000 \\
+Synthetic & Sparsemax & $0.100 \pm 0.008$ & $0.098 \pm 0.009$ & 0.061 \\
+Synthetic & Entmax-1.5 & $0.101 \pm 0.003$ & $0.098 \pm 0.003$ & 0.261 \\
+Synthetic & HAE & $0.100 \pm 0.007$ & $0.097 \pm 0.008$ & 0.239 \\
+Synthetic & Top-k 0.125 & $0.097 \pm 0.005$ & $0.094 \pm 0.006$ & 0.134 \\
+Synthetic & Top-k 0.25 & $0.100 \pm 0.004$ & $0.096 \pm 0.004$ & 0.258 \\
+Synthetic & Top-k 0.50 & $0.103 \pm 0.006$ & $0.098 \pm 0.007$ & 0.505 \\
+\bottomrule
+\end{tabular}
+\end{table*}

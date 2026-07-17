@@ -1,0 +1,27 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Implementation timing diagnostics report mean wall-clock seconds over ten seeds for the training loop and one full test-set inference pass in the saved main benchmark.}
+\label{tab:runtime-summary}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+Dataset & Method & Train loop & Inference \\
+\midrule
+CIFAR-10 & Softmax & 7.02 & 0.139 \\
+CIFAR-10 & Top-k 0.25 & 8.29 & 0.147 \\
+CIFAR-10 & HAE & 29.26 & 0.589 \\
+\addlinespace
+Fashion-MNIST & Softmax & 8.08 & 0.145 \\
+Fashion-MNIST & Top-k 0.125 & 8.97 & 0.163 \\
+Fashion-MNIST & HAE & 28.64 & 0.467 \\
+\addlinespace
+20 Newsgroups & Softmax & 9.01 & 0.211 \\
+20 Newsgroups & Entmax-1.5 & 39.31 & 1.507 \\
+20 Newsgroups & HAE & 45.13 & 2.013 \\
+\addlinespace
+Synthetic & Softmax & 24.27 & 0.383 \\
+Synthetic & Top-k 0.50 & 37.33 & 0.959 \\
+Synthetic & HAE & 83.90 & 2.241 \\
+\bottomrule
+\end{tabular}
+\end{table}

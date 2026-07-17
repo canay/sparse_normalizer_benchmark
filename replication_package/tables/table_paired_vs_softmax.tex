@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Matched-seed comparisons supporting the main softmax-reference claims, with Holm correction applied separately within the main four-dataset family and the KMNIST follow-up family.}
+\label{tab:paired-softmax}
+\begin{tabular}{@{}lllccccc@{}}
+\toprule
+Family & Dataset & Method & $\Delta$ acc. & 95\% CI & $\Delta$ Macro-F1 & Raw $p$ & Holm $p$ \\
+\midrule
+Main & CIFAR-10 & Top-k 0.25 & 0.0263 & [0.0161, 0.0365] & 0.0319 & 0.0002 & 0.0051 \\
+Main & Fashion-MNIST & Top-k 0.125 & 0.0260 & [0.0158, 0.0362] & 0.0307 & 0.0003 & 0.0055 \\
+Main & 20 Newsgroups & HAE & 0.0463 & [0.0393, 0.0532] & 0.0478 & $1.06 \times 10^{-7}$ & $2.55 \times 10^{-6}$ \\
+Main & 20 Newsgroups & Entmax-1.5 & 0.0449 & [0.0380, 0.0517] & 0.0461 & $1.31 \times 10^{-7}$ & $3.01 \times 10^{-6}$ \\
+KMNIST & KMNIST & Top-k 0.25 & 0.0186 & [0.0063, 0.0308] & 0.0179 & 0.0076 & 0.0381 \\
+\bottomrule
+\end{tabular}
+\end{table*}

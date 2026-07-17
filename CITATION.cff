@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the accompanying manuscript."
+title: "Diagnostic Benchmark of Sparse Attention Normalizers in Compact Classification"
+authors:
+  - family-names: "Canay"
+    given-names: "Ozkan"
+    orcid: "https://orcid.org/0000-0001-7539-6001"
+repository-code: "https://github.com/canay/sparse_normalizer_benchmark"
+license: "MIT"
