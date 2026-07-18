@@ -4,8 +4,9 @@ Last verified: 2026-07-18
 
 ## Release status
 
-This repository is the public replication package for *Diagnostic Benchmark
-of Sparse Attention Normalizers in Compact Classification*.
+This repository is the public replication package for *Task-Conditional
+Accuracy–Support Trade-offs of Sparse Attention Normalizers in Compact
+Classifiers*.
 
 - Repository: <https://github.com/canay/sparse_normalizer_benchmark>
 - Published release: `v1.0.1`

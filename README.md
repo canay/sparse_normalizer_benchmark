@@ -1,6 +1,6 @@
 # Sparse Normalizer Benchmark
 
-Replication materials for **Diagnostic Benchmark of Sparse Attention Normalizers in Compact Classification** by Özkan Canay, Department of Information Systems and Technologies, Sakarya University.
+Replication materials for **Task-Conditional Accuracy–Support Trade-offs of Sparse Attention Normalizers in Compact Classifiers** by Özkan Canay, Department of Information Systems and Technologies, Sakarya University.
 
 The study compares softmax, sparsemax, entmax-1.5, fixed-ratio top-k softmax, and head-wise adaptive entmax in compact classifiers. It reports ten-seed predictive summaries, paired comparisons, attention-support density, and implementation-specific timing diagnostics.
 

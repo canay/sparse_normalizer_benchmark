@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this replication package, please cite the accompanying manuscript."
-title: "Diagnostic Benchmark of Sparse Attention Normalizers in Compact Classification"
+title: "Task-Conditional Accuracy–Support Trade-offs of Sparse Attention Normalizers in Compact Classifiers"
 authors:
   - family-names: "Canay"
     given-names: "Ozkan"
