@@ -8,7 +8,7 @@ This repository is the public replication package for *Diagnostic Benchmark
 of Sparse Attention Normalizers in Compact Classification*.
 
 - Repository: <https://github.com/canay/sparse_normalizer_benchmark>
-- Published release: `v1.0.0`
+- Published release: `v1.0.1`
 - License for author-created code and documentation: MIT
 - Citation metadata: `CITATION.cff`
 - Release inventory: `MANIFEST.csv`
