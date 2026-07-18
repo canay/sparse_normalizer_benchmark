@@ -1,5 +1,18 @@
 # Replication Package
 
+## Requirements
+
+- Python 3.12 (the recorded runs used Python 3.12.12)
+- Dependency versions pinned in `requirements.txt`
+- A CUDA-capable GPU for practical full reruns; the saved artifact rebuild is CPU-safe
+
+## Install
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+```
+
 ## Saved evidence
 
 - `results/main_combined_runs.csv`: 280 completed rows from the four-dataset main benchmark.
@@ -15,11 +28,21 @@
 
 The 20 Newsgroups path deliberately preserves the original unmasked fixed-length padding behavior. See `REPRODUCIBILITY.md` and `../docs/DATASETS_AND_LICENSES.md` before interpreting or rerunning that task.
 
-## Quick verification
+## Run
 
 ```powershell
-python code/benchmark.py --help
-python code/build_results_artifacts.py
+.venv\Scripts\python code\benchmark.py --help
+.venv\Scripts\python code\build_results_artifacts.py
 ```
 
 Training is intentionally not launched by the artifact rebuild command.
+
+## Expected output
+
+The artifact-only command rewrites five LaTeX tables under `tables/` and four
+plot files under `figures/` from the saved CSV evidence. A successful run ends
+with a message reporting the output directory. The command does not download
+datasets or create new training results.
+
+For the exact full-rerun commands, recorded environment, and reproducibility
+boundary, see `REPRODUCIBILITY.md`.

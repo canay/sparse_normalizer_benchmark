@@ -334,7 +334,12 @@ def build_accuracy_figure(rows: list[dict[str, str]]) -> None:
         borderaxespad=0.15,
     )
     fig.subplots_adjust(left=0.075, right=0.995, bottom=0.17, top=0.985)
-    fig.savefig(FIGURES / "figure_accuracy_by_dataset.pdf", bbox_inches="tight", pad_inches=0.015)
+    fig.savefig(
+        FIGURES / "figure_accuracy_by_dataset.pdf",
+        bbox_inches="tight",
+        pad_inches=0.015,
+        metadata={"CreationDate": None, "ModDate": None},
+    )
     fig.savefig(FIGURES / "figure_accuracy_by_dataset.png", dpi=220, bbox_inches="tight", pad_inches=0.015)
     plt.close(fig)
 
@@ -401,7 +406,12 @@ def build_density_scatter(rows: list[dict[str, str]]) -> None:
         ncol=3,
     )
     fig.subplots_adjust(left=0.12, right=0.985, bottom=0.34, top=0.985)
-    fig.savefig(FIGURES / "figure_density_accuracy.pdf", bbox_inches="tight", pad_inches=0.015)
+    fig.savefig(
+        FIGURES / "figure_density_accuracy.pdf",
+        bbox_inches="tight",
+        pad_inches=0.015,
+        metadata={"CreationDate": None, "ModDate": None},
+    )
     fig.savefig(FIGURES / "figure_density_accuracy.png", dpi=220, bbox_inches="tight", pad_inches=0.015)
     plt.close(fig)
 
