@@ -1,5 +1,4 @@
-replication_package/data_cache/
-replication_package/outputs/
+data_cache/
 __pycache__/
 *.py[cod]
 .venv/

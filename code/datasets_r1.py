@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Dependency-free dataset loaders for the r1 benchmark (torch + numpy only).
+"""Dependency-free dataset loaders for the benchmark (torch and numpy only).
 
-Why this exists rather than torchvision/sklearn: the only machine in the fleet
-with a CUDA GPU (`mta-cuda`) is SHARED and its root partition is 97% full. The
-two usable torch environments on it belong to other papers and carry neither
-torchvision nor sklearn. Installing a fresh torch stack would cost ~5 GB of a
-~15 GB budget, and installing into another paper's environment is not ours to
-do. So the loaders fetch and parse the canonical archives directly.
+These fetch and parse the canonical archives directly rather than going through
+torchvision or scikit-learn, so the benchmark runs on any environment that has
+torch and numpy and nothing else. That keeps the dependency surface small
+enough to state exactly, which matters for a study whose subject is protocol
+discipline.
 
 Every loader returns raw numpy arrays and records the SHA-256 of each archive it
 downloaded, so the data provenance is checkable rather than assumed.
