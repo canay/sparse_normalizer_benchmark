@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "frozen_at": "2026-08-18 09:25:49 +0300",
+  "frozen_at_epoch": 1787034349.9526126,
+  "newest_validation_log_mtime": 1787034342.7647715,
+  "tier": "compact",
+  "selection_basis": "validation accuracy only; the official test partition was not read",
+  "selected": {
+    "cifar10": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.6656900000000001
+    },
+    "cifar100": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.37963
+    },
+    "fashion_mnist": {
+      "topk_method": "topk_softmax_025",
+      "val_accuracy": 0.8873166666666666
+    },
+    "kmnist": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.9608666666666666
+    },
+    "mnist": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.9786333333333334
+    },
+    "synthetic_marker": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.10754999999999999
+    },
+    "twenty_news": {
+      "topk_method": "topk_softmax_05",
+      "val_accuracy": 0.556517896597437
+    }
+  },
+  "all_topk_validation": [
+    {
+      "dataset": "cifar10",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.63866,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "cifar10",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.6531,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "cifar10",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.6656900000000001,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "cifar100",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.35275,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "cifar100",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.36609,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "cifar100",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.37963,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "fashion_mnist",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.8866583333333333,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "fashion_mnist",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.8873166666666666,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "fashion_mnist",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.8865999999999999,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "kmnist",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.95565,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "kmnist",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.959825,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "kmnist",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.9608666666666666,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "mnist",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.9777166666666666,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "mnist",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.9785916666666665,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "mnist",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.9786333333333334,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "synthetic_marker",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.10652500000000001,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "synthetic_marker",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.106725,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "synthetic_marker",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.10754999999999999,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "twenty_news",
+      "method": "topk_softmax_0125",
+      "val_accuracy": 0.5392399469730446,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "twenty_news",
+      "method": "topk_softmax_025",
+      "val_accuracy": 0.5522757401679186,
+      "n_seeds": 10
+    },
+    {
+      "dataset": "twenty_news",
+      "method": "topk_softmax_05",
+      "val_accuracy": 0.556517896597437,
+      "n_seeds": 10
+    }
+  ],
+  "sha256": "a3071cfd24f4ed148e4601f17ebd5c80f2f47ba878d5959d4877297c44cff1be"
+}

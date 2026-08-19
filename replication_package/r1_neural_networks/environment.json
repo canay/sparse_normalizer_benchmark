@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-08-19",
+  "captured_from": "the host that executed every reported r1 run",
+  "operating_system": "Ubuntu 24.04.4 LTS",
+  "gpu": "NVIDIA GeForce RTX 5060, 8151 MiB",
+  "nvidia_driver": "595.71.05",
+  "python": "3.12.3",
+  "torch": "2.13.0+cu130",
+  "torch_release_date": "2026-07-08",
+  "cuda_build": "13.0",
+  "cudnn": "9.2.0",
+  "numpy": "1.26.4",
+  "note": "The benchmark imports torch and numpy only. No other third-party package is required to reproduce the reported numbers."
+}
