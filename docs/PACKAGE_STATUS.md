@@ -1,6 +1,6 @@
 # Package Status
 
-Last verified: 2026-08-19
+Last verified: 2026-08-21
 
 ## Release status
 
@@ -17,10 +17,12 @@ in Compact Classifiers*.
 ## Contents
 
 The selection-stage benchmark, dataset loaders that hash every archive they
-fetch, a test-evaluation tool with `freeze` and `test` subcommands, the frozen
-selection record, per-cell run logs, per-epoch processed predictors, the single
-test read, the design decisions with their pre-registered thresholds, the
-measured environment, and a per-file SHA-256 inventory.
+fetch, the E5-B task-expansion loaders and runner, the frozen label/power-check
+analysis, a test-evaluation tool with `freeze` and `test` subcommands, the frozen
+selection record, per-cell run logs, per-epoch processed predictors, paired
+summaries, run manifests, deterministic table generators, the single test read, the
+design decisions with their pre-registered thresholds, the measured
+environment, and a per-file SHA-256 inventory.
 
 ## Protocol
 
@@ -33,6 +35,13 @@ The test path is unreachable from the selection stage. `code/test_eval_r1.py
 test` refuses to run unless `outputs/selection.json` exists, hashes as
 recorded, and is newer than every validation log. That is what makes the single
 test read auditable rather than merely asserted.
+
+The full-budget comparison is uniform at batch 256: 13 tasks x 7 methods x 10
+seeds, 910 completed cells. A later `grid_batch256_repair` record supersedes the
+three affected core-grid task rows, and only the final batch-256 executions of
+the six extension tasks are present. USPS is the sole Holm-supported positive;
+the pre-registered positive-class floor is not met and no selection rule is
+fitted.
 
 ## Environment
 
@@ -56,8 +65,12 @@ receives.
 
 Checks that pass:
 
-- Python source compilation for all three modules;
+- Python source compilation for all eight modules;
 - `MANIFEST.csv` agreeing with every published blob;
+- every added run manifest recording batch 256, the expected completed-cell
+  count, and zero failed cells;
+- the frozen E5 power check reproducing thirteen labels with one positive and
+  exit code 2;
 - `outputs/selection.json` parsing and carrying its recorded freeze fields; and
 - no host path, private hostname, credential, or key pattern anywhere in the
   published tree.

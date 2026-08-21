@@ -1,0 +1,21 @@
+==========================================================================
+E5  step 1: labels and the pre-registered power condition
+==========================================================================
+cifar10              helps=False  best -0.0052 (topk_softmax_05)
+cifar100             helps=False  best -0.0026 (topk_softmax_05)
+emnist_balanced      helps=False  best -0.0011 (topk_softmax_05)
+emnist_digits        helps=False  best -0.0002 (topk_softmax_025)
+emnist_letters       helps=False  best +0.0021 (topk_softmax_05)
+fashion_mnist        helps=False  best +0.0035 (topk_softmax_05)
+k49                  helps=False  best +0.0022 (sparsemax)
+kmnist               helps=False  best +0.0006 (topk_softmax_05)
+mnist                helps=False  best -0.0013 (topk_softmax_025)
+svhn                 helps=False  best -0.0030 (topk_softmax_05)
+synthetic_marker     helps=False  best +0.0004 (topk_softmax_05)
+twenty_news          helps=False  best +0.0046 (topk_softmax_05)
+usps                 helps=True   best +0.0126 (topk_softmax_025)
+
+gorev sayisi: 13 | pozitif sinif: 1 -> ['usps']
+
+POWER CONDITION TRIGGERED (on-kayitli esik 3).
+Kural FIT EDILMEDI. Bu bir sonuctur, yarim kalmis bir calisma degil.

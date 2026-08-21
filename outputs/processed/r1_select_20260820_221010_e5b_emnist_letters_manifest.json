@@ -1,0 +1,58 @@
+{
+  "run_id": "r1_select_20260820_221010_e5b_emnist_letters",
+  "args": {
+    "datasets": [
+      "emnist_letters"
+    ],
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "topk_softmax_05",
+      "sparsemax",
+      "entmax15",
+      "headwise_adaptive_entmax"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tier": "compact",
+    "max_epochs": 30,
+    "patience": 5,
+    "val_fraction": 0.2,
+    "batch_size": 256,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 5.0,
+    "dropout": 0.1,
+    "patch": 0,
+    "train_limit": 60000,
+    "text_train_limit": 0,
+    "synthetic_train_limit": 20000,
+    "seq_len": 96,
+    "vocab_size": 20000,
+    "data_root": "./data_cache",
+    "out": "../outputs",
+    "self_check": false,
+    "skip_existing": true,
+    "tag": "e5b_emnist_letters",
+    "env": false
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "torch": "2.13.0+cu130",
+  "host": "<execution-host>",
+  "dataset_sha256": {},
+  "completed": 70,
+  "failed": 0,
+  "finished": "2026-08-20 23:04:10 +0300"
+}

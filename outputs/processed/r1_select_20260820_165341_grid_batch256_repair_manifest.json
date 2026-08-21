@@ -1,0 +1,65 @@
+{
+  "run_id": "r1_select_20260820_165341_grid_batch256_repair",
+  "args": {
+    "datasets": [
+      "mnist",
+      "fashion_mnist",
+      "kmnist"
+    ],
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "topk_softmax_05",
+      "sparsemax",
+      "entmax15",
+      "headwise_adaptive_entmax"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tier": "compact",
+    "max_epochs": 30,
+    "patience": 5,
+    "val_fraction": 0.2,
+    "batch_size": 256,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 5.0,
+    "dropout": 0.1,
+    "patch": 4,
+    "train_limit": 0,
+    "text_train_limit": 0,
+    "synthetic_train_limit": 20000,
+    "seq_len": 96,
+    "vocab_size": 20000,
+    "data_root": "./data_cache",
+    "out": "./outputs",
+    "self_check": false,
+    "skip_existing": true,
+    "tag": "grid_batch256_repair",
+    "env": false
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "torch": "2.13.0+cu130",
+  "host": "<execution-host>",
+  "dataset_sha256": {
+    "train-images-idx3-ubyte.gz": "51467d22d8cc72929e2a028a0428f2086b092bb31cfb79c69cc0a90ce135fde4",
+    "train-labels-idx1-ubyte.gz": "e38f9ebcd0f3ebcdec7fc8eabdcdaef93bb0df8ea12bee65224341c8183d8e17",
+    "t10k-images-idx3-ubyte.gz": "edd7a857845ad6bb1d0ba43fe7e794d164fe2dce499a1694695a792adfac43c5",
+    "t10k-labels-idx1-ubyte.gz": "20bb9a0ef54c7db3efc55a92eef5582c109615df22683c380526788f98e42a1c"
+  },
+  "completed": 210,
+  "failed": 0,
+  "finished": "2026-08-20 19:28:23 +0300"
+}

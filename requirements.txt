@@ -1,3 +1,4 @@
 # Pinned to the versions that produced the reported results.
 torch==2.13.0
 numpy==1.26.4
+scipy==1.11.4
