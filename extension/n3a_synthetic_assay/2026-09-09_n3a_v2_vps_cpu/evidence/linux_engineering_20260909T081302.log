@@ -1,0 +1,122 @@
+ENGINEERING_ONLY_NO_SCIENTIFIC_OUTCOMES
+src/analyze_assay.py: OK
+src/campaign.py: OK
+src/fork_runner.py: OK
+src/resource_summary.py: OK
+src/supervise.py: OK
+src/training_models.py: OK
+src/training_operators.py: OK
+src/training_runner.py: OK
+tests/test_admission_repairs.py: OK
+tests/test_analysis.py: OK
+tests/test_campaign.py: OK
+tests/test_fork_runner.py: OK
+tests/test_n3_operators.py: OK
+tests/test_supervise.py: OK
+PROSPECTIVE_V2.md: OK
+config_n3a_candidate.json: OK
+config_private_pilot_candidate.json: OK
+2026-09-09T11:13:02+03:00
+vps-host
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       193G  170G   23G  89% /
+Filesystem       Inodes   IUsed    IFree IUse% Mounted on
+/dev/sda1      26083328 1781034 24302294    7% /
+FIXTURE_ARCHITECTURE=query_AND_campaign_THREAD_COUNT=2
+test_analysis_source_and_b_review_binding (test_admission_repairs.RepairFixture.test_analysis_source_and_b_review_binding) ... ok
+test_both_operator_constant_drifts_rejected (test_admission_repairs.RepairFixture.test_both_operator_constant_drifts_rejected) ... ok
+test_hidden_retirement_interruption_preserves_bytes_and_resumes (test_admission_repairs.RepairFixture.test_hidden_retirement_interruption_preserves_bytes_and_resumes) ... ok
+test_hidden_staging_interruption_preserves_bytes_and_resumes (test_admission_repairs.RepairFixture.test_hidden_staging_interruption_preserves_bytes_and_resumes) ... ok
+test_resource_receipt_rejects_multiple_or_incomplete_launches (test_admission_repairs.RepairFixture.test_resource_receipt_rejects_multiple_or_incomplete_launches) ... ok
+test_exact_sign_and_ties (test_analysis.InferenceFixture.test_exact_sign_and_ties) ... ok
+test_holm_original_order (test_analysis.InferenceFixture.test_holm_original_order) ... ok
+test_no_context_cannot_be_mechanism_support (test_analysis.InferenceFixture.test_no_context_cannot_be_mechanism_support) ... ok
+test_planted_support_and_opposite_direction (test_analysis.InferenceFixture.test_planted_support_and_opposite_direction) ... ok
+test_unattainable_coverage_is_unbounded (test_analysis.InferenceFixture.test_unattainable_coverage_is_unbounded) ... ok
+test_full_census_and_replay_then_deleted_marker_rejection (test_campaign.CampaignFixture.test_full_census_and_replay_then_deleted_marker_rejection) ... ok
+test_global_invalid_guard_persists_before_relaunch (test_campaign.CampaignFixture.test_global_invalid_guard_persists_before_relaunch) ... ok
+test_signal_maps_to_interrupted_not_scientific_failure (test_campaign.CampaignFixture.test_signal_maps_to_interrupted_not_scientific_failure) ... ok
+test_unadmitted_scientific_config_cannot_launch (test_campaign.CampaignFixture.test_unadmitted_scientific_config_cannot_launch) ... ok
+test_actual_surrogate_and_forward_arms_are_not_bypassed (test_fork_runner.ForkFixture.test_actual_surrogate_and_forward_arms_are_not_bypassed) ... ok
+test_all_arms_resume_exact_model_optimizer_rng (test_fork_runner.ForkFixture.test_all_arms_resume_exact_model_optimizer_rng) ... ok
+test_artifact_census_is_not_vacuous (test_fork_runner.ForkFixture.test_artifact_census_is_not_vacuous) ... ok
+test_byte_tampering_is_rejected (test_fork_runner.ForkFixture.test_byte_tampering_is_rejected) ... ok
+test_completed_skip_does_not_rewrite (test_fork_runner.ForkFixture.test_completed_skip_does_not_rewrite) ... ok
+test_config_content_cannot_hide_under_old_hash (test_fork_runner.ForkFixture.test_config_content_cannot_hide_under_old_hash) ... ok
+test_global_invalid_marker_blocks_every_entry (test_fork_runner.ForkFixture.test_global_invalid_marker_blocks_every_entry) ... ok
+test_heartbeat_contains_durable_checkpoint_identity (test_fork_runner.ForkFixture.test_heartbeat_contains_durable_checkpoint_identity) ... ok
+test_identity_drift_is_rejected (test_fork_runner.ForkFixture.test_identity_drift_is_rejected) ... ok
+test_missing_planned_endpoint_cannot_self_certify (test_fork_runner.ForkFixture.test_missing_planned_endpoint_cannot_self_certify) ... ok
+test_null_is_nonidentity_and_preserves_global_rng (test_fork_runner.ForkFixture.test_null_is_nonidentity_and_preserves_global_rng) ... ok
+test_parent_hash_tamper_rejected_before_fork (test_fork_runner.ForkFixture.test_parent_hash_tamper_rejected_before_fork) ... ok
+test_pid_probe_is_non_destructive (test_fork_runner.ForkFixture.test_pid_probe_is_non_destructive) ... ok
+test_restore_restores_deliberately_advanced_rng (test_fork_runner.ForkFixture.test_restore_restores_deliberately_advanced_rng) ... ok
+test_sparse_fork_is_identical_to_parent_continuation (test_fork_runner.ForkFixture.test_sparse_fork_is_identical_to_parent_continuation) ... ok
+test_two_advancing_heartbeats_in_one_attempt (test_fork_runner.ForkFixture.test_two_advancing_heartbeats_in_one_attempt) ... ok
+test_unregistered_and_unsafe_forks_rejected (test_fork_runner.ForkFixture.test_unregistered_and_unsafe_forks_rejected) ... ok
+test_real_signal_resume_and_advancing_process_cpu_heartbeats (test_supervise.SupervisorFixture.test_real_signal_resume_and_advancing_process_cpu_heartbeats) ... REAL_PID_SIGNAL_RESUME_AND_CPU_HEARTBEAT_PASS threads=2 worker_nice>=10
+ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 24.624s
+
+OK
+FIXTURE_ARCHITECTURE=transformer_THREAD_COUNT=2
+test_actual_surrogate_and_forward_arms_are_not_bypassed (test_fork_runner.ForkFixture.test_actual_surrogate_and_forward_arms_are_not_bypassed) ... ok
+test_all_arms_resume_exact_model_optimizer_rng (test_fork_runner.ForkFixture.test_all_arms_resume_exact_model_optimizer_rng) ... ok
+test_artifact_census_is_not_vacuous (test_fork_runner.ForkFixture.test_artifact_census_is_not_vacuous) ... ok
+test_byte_tampering_is_rejected (test_fork_runner.ForkFixture.test_byte_tampering_is_rejected) ... ok
+test_completed_skip_does_not_rewrite (test_fork_runner.ForkFixture.test_completed_skip_does_not_rewrite) ... ok
+test_config_content_cannot_hide_under_old_hash (test_fork_runner.ForkFixture.test_config_content_cannot_hide_under_old_hash) ... ok
+test_global_invalid_marker_blocks_every_entry (test_fork_runner.ForkFixture.test_global_invalid_marker_blocks_every_entry) ... ok
+test_heartbeat_contains_durable_checkpoint_identity (test_fork_runner.ForkFixture.test_heartbeat_contains_durable_checkpoint_identity) ... ok
+test_identity_drift_is_rejected (test_fork_runner.ForkFixture.test_identity_drift_is_rejected) ... ok
+test_missing_planned_endpoint_cannot_self_certify (test_fork_runner.ForkFixture.test_missing_planned_endpoint_cannot_self_certify) ... ok
+test_null_is_nonidentity_and_preserves_global_rng (test_fork_runner.ForkFixture.test_null_is_nonidentity_and_preserves_global_rng) ... ok
+test_parent_hash_tamper_rejected_before_fork (test_fork_runner.ForkFixture.test_parent_hash_tamper_rejected_before_fork) ... ok
+test_pid_probe_is_non_destructive (test_fork_runner.ForkFixture.test_pid_probe_is_non_destructive) ... ok
+test_restore_restores_deliberately_advanced_rng (test_fork_runner.ForkFixture.test_restore_restores_deliberately_advanced_rng) ... ok
+test_sparse_fork_is_identical_to_parent_continuation (test_fork_runner.ForkFixture.test_sparse_fork_is_identical_to_parent_continuation) ... ok
+test_two_advancing_heartbeats_in_one_attempt (test_fork_runner.ForkFixture.test_two_advancing_heartbeats_in_one_attempt) ... ok
+test_unregistered_and_unsafe_forks_rejected (test_fork_runner.ForkFixture.test_unregistered_and_unsafe_forks_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 10.758s
+
+OK
+PASS: 7 N3 operator test groups
+09c6094bb6461ef42d9487ea75bdac2c19243800a98a21733258c6f28162147e  src/analyze_assay.py
+750a389e366c93b84e13ab284038bd394a7d4ac18fe9019b9b59c7c6c0a0ebb5  src/campaign.py
+6a091d83a968c03cb1849792ecb610bfb5487a9efe901c6854e51f251c51570e  src/fork_runner.py
+dc02aaabc4e66e2d3526e66b89791d67ff66b2f22fb4c19f583b9bdbeca246f7  src/resource_summary.py
+8193b99400ad50740cc4457652c89500508264306e709f44786f0aa9a71e47e8  src/supervise.py
+7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d  src/training_models.py
+a00243650487d62894d2f36295ed42d897c2b867bf84c965e201b7a96deb2200  src/training_operators.py
+b3e533cd8d3a2d57b3f2a7432748a4027940283f2e6c67c5171375164c390212  src/training_runner.py
+5ed5d77f67c0594d1b28202117d89801e8639e2d2c1c44a8668ff48e4cb65e35  tests/test_admission_repairs.py
+5fce51a4ace1668709c49ebbd7ae7e763b02628122d251a57f3f6ed160ac351b  tests/test_analysis.py
+0d8ff031d2164c9b6c30b4784ed4f8eb4edd4d489a360b7d164ef99ae512576d  tests/test_campaign.py
+bba7ac650acd91d627b8c9bbd3fdaac629056bef055058430e72a91ad30ef8df  tests/test_fork_runner.py
+0b3238156f655be082bf31602d10067664d67ccb902e4f492a5b20bdbfb2ceef  tests/test_n3_operators.py
+448ff757f4c616ffb4028af43b0f7ca27c6acaa70ca441da72ecaeecae144e63  tests/test_supervise.py
+451717e80a1f06b3f348b2f6a2401728f2454e33c268d031d0080e5c8083ce5f  config_n3a_candidate.json
+e623dd32a3958a30cb61bb0fc280fd5948aaf7b081aa3c523f759ba53e230ae2  config_private_pilot_candidate.json
+f32e9fa915a106e6d6d02ef2fcd805ede7b6dfb7275b01a839b0d55e18f922ff  PROSPECTIVE_V2.md
+src/analyze_assay.py: OK
+src/campaign.py: OK
+src/fork_runner.py: OK
+src/resource_summary.py: OK
+src/supervise.py: OK
+src/training_models.py: OK
+src/training_operators.py: OK
+src/training_runner.py: OK
+tests/test_admission_repairs.py: OK
+tests/test_analysis.py: OK
+tests/test_campaign.py: OK
+tests/test_fork_runner.py: OK
+tests/test_n3_operators.py: OK
+tests/test_supervise.py: OK
+PROSPECTIVE_V2.md: OK
+config_n3a_candidate.json: OK
+config_private_pilot_candidate.json: OK
+ENGINEERING_ALL_PASS

@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-09-28_codex_local_saved-seed-diagnostics",
+  "status": "FAILED_NON_EVIDENCE",
+  "started_utc": "2026-09-28T00:56:01.301293+00:00",
+  "ended_utc": "2026-09-28T00:56:02.697563+00:00",
+  "wall_seconds": 1.329859699937515,
+  "exit_code": 1,
+  "command_argv": [
+    "<user-home>\\miniforge3\\python.exe",
+    "-B",
+    "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-09-28_codex_local_saved-seed-diagnostics\\src\\saved_seed_diagnostics.py",
+    "--project",
+    "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark",
+    "--output",
+    "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-09-28_codex_local_saved-seed-diagnostics\\outputs\\attempt-001"
+  ],
+  "working_directory": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark",
+  "host": "workstation-a",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+    "logical_cpu_count": 12,
+    "gpu": "no_GPU_used",
+    "ram_total_bytes": 16839692288,
+    "ram_available_after_bytes": 2056822784,
+    "cpu_model": "12th Gen Intel(R) Core(TM) i5-12500"
+  },
+  "producer_sha256": "6D716ADEB96F7780F4E8E6AEEC6AD83EC000D4FE4A8A8FF17CDC22BC0521A2FF",
+  "cli_log": "experiments/2026-09-28_codex_local_saved-seed-diagnostics/logs/attempt-001.log",
+  "cli_log_sha256": "462970AE46128F1D26ED171D493A9251FFB2B0268CE25E4572CF01CE7F85FF74",
+  "registered_outcomes_changed": false,
+  "new_training_or_test_evaluation": false
+}

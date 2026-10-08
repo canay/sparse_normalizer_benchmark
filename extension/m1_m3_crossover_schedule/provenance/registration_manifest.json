@@ -1,0 +1,128 @@
+{
+  "registered_at": "2026-08-26T18:02:00+03:00",
+  "preregistration_sha256_at_launch": "45B5CF5A1847045C10C1A733F1DB501D0F87A1EBE977702B0B878D8FB4B2D629",
+  "preregistration_sha256_post_launch_clarification_before_audit_trail": "500D973D4A79332D668E7FCA2D45BFE6617D84036D7B5848F05BCFE635049598",
+  "preregistration_sha256_current_pre_m2_m3_freeze": "9C2D8654C1F9CE87B8F49637CA62B67AE35CB60D1DF9700462F8966CA46FDD45",
+  "immutable_published_sources": {
+    "benchmark_r1.py": "EE2C60761260000972FEFC894003D62AC5571255EC1AA0B62E5DEE69269649D3",
+    "datasets_r1.py": "C0D2E439B04D8B90E5E6907012BD383760709727F6A124FC14004499593A9D94",
+    "datasets_e5b.py": "E531F1F7CF6EBB2F07612B2ED7E7D662A2A7AEE34606685FEC75C65628C58140"
+  },
+  "extension_sources": {
+    "extension_runner.py": "6D2DEBDA2A46F757856205777437FA73540FF243ACDE4CF49FE25BEB4D87FFE7",
+    "launch_m1.sh": "1F649905C3732F2036DB72F245FE80D4A18B02E031A967BE35DD6D2391493A6A",
+    "launch_pilot.sh": "E9B8DD1323CA2D32E95BF91E5C2CE98B7AACC353968441F1E6E645D73825E242",
+    "validate_run.py": "941631ABCB0DE137AB2DD116C3B5225033351D0CE7426619BECBCD2D5704C5B0"
+  },
+  "future_phase_sources_pre_m2_freeze": {
+    "extension_runner.py": "8BEDA4EB7C5F37C8FFDD68AC01E1B49B8F7FD785C62FE6B2C7C5B371FD004806",
+    "validate_run.py": "F466B31D18E14993709D906B60EB30927D8F21E3CDDF369C31E292B0098AC6D6",
+    "analyze_m1.py": "44392CAA9EE49AC6074FFF38090789A6D564A90347FEFA4DD0597CDC2D6C706A",
+    "analyze_m2.py": "1F1FF5BD5B8A4A05E5BDB7431732F7807CDF92F652598310CFA4E470216F2CFC",
+    "build_m3_switch_map.py": "B2FB2282A91B5C94901DCDAE569F630AEB900EAD5EEE78E2B844C7EE85A2A60E",
+    "analyze_m3.py": "A793554EFD224BE8696C97F2C8AA944D35D00383B589CAC31E5FD5927A8207D7",
+    "analyze_m3_test.py": "C2EE2BC5863CF691D739B0CF6E71201CAD8BD57757F0762AE2B7B1105C58F93A",
+    "launch_m2.sh": "82630276BB7DAF450610A1274104C4375514B30AE651F6C281B9B6594066A7AC",
+    "start_m2.sh": "48A50E973DF83D50DC489DC6C945F1155C64AFA6C4E32E573CF92ABDB18BFE0D",
+    "launch_m3_baselines.sh": "8FC111086FBF58B157820A5C69CD08CF71A7D440FB846B1A61F3B0D9D6BDC02D",
+    "launch_m3_schedules.sh": "1BDD59BF89A1A4471A234BA78D01D47F48B03533480445D5EE7526F50AABBEA6",
+    "launch_m3_test.sh": "6606F92D0FF0780301D68657A370E0E12530C272D6496599763AD7B66222C4F9",
+    "test_extension_runner.py": "5D0A23B52A53456633B9D54D44F54FB5A8DB1E83FFA4EEB4BBBB2011F367F0D6",
+    "test_analysis_contract.py": "A0E12AEFD64B86DFF695C4AB8E9DC79B1DDBBA4BA77945955801633279631A7B"
+  },
+  "experiments": [
+    {
+      "experiment_id": "EXP-SND-101",
+      "name": "discovery mechanism and crossover map",
+      "status": "running",
+      "datasets": [
+        "mnist",
+        "fashion_mnist",
+        "kmnist",
+        "cifar10",
+        "cifar100",
+        "twenty_news",
+        "synthetic_marker",
+        "emnist_letters",
+        "emnist_digits",
+        "usps"
+      ],
+      "architectures": [
+        "plain_transformer",
+        "local_hybrid"
+      ],
+      "capacities": [
+        "compact",
+        "deep",
+        "wide"
+      ],
+      "methods": [
+        "softmax",
+        "topk_softmax_025"
+      ],
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected_cells": 600,
+      "epochs": 30,
+      "batch_size": 256,
+      "early_stopping": false,
+      "probe_size": 128,
+      "controller": "src/launch_m1.sh",
+      "cell_timeout_seconds": 7200,
+      "maximum_infrastructure_attempts_per_segment": 5
+    },
+    {
+      "experiment_id": "EXP-SND-102",
+      "name": "discovery schedule-method comparison",
+      "status": "authorized_waiting_for_m1_freeze",
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "experiment_id": "EXP-SND-103",
+      "name": "untouched confirmation and one-read test",
+      "status": "authorized_blocked_until_discovery_freeze",
+      "datasets": [
+        "emnist_balanced",
+        "k49",
+        "svhn"
+      ],
+      "seeds": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "smoke_and_pilot": {
+    "unit_contract_tests": "10/10 pass after pre-M2/M3 evidence-binding hardening",
+    "local_smoke": "3/3 completed; excluded",
+    "controlled_interrupt_resume": "pass; two exact-config cells skipped and two resumed",
+    "mta_pilot": "10/10 completed; validator pass; excluded",
+    "pilot_validator": "logs/pilot_validation.json"
+  },
+  "historical_original_manifest_sha256": "b02d094d28bda21c0849a2a73ac9e58a11a894836cc63cb715efc281470b9a4f",
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.13.0+cu130",
+    "gpu": "NVIDIA GeForce RTX 5060"
+  },
+  "note": "Scientific projection of the historical manifest; historical running/pending statuses are preserved and superseded by the completed saved-result censuses. Host network routing is omitted."
+}

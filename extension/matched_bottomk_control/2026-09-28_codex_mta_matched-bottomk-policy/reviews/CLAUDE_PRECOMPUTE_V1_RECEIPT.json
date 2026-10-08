@@ -1,0 +1,53 @@
+{
+  "status": "AUTHENTIC_DESIGN_REVIEW_VERIFIED_NOT_COMPUTE_ADMISSION",
+  "operation_id": "snd-approved-b-repair-20260928",
+  "captured_at_utc": "2026-09-28T00:49:30.111807+00:00",
+  "verify_output": {
+    "status": "PASS",
+    "words": 3281,
+    "bytes": 22676
+  },
+  "requested_model": "claude-opus-5-5",
+  "requested_effort": "max",
+  "actual_provider_model_usage": {
+    "claude-opus-5-5": {
+      "inputTokens": 144,
+      "outputTokens": 172860,
+      "cacheReadInputTokens": 19177811,
+      "cacheCreationInputTokens": 475902,
+      "webSearchRequests": 0,
+      "costUSD": 11.1005542,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 104415,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "verdict": "ADMISSIBLE_DESIGN_PENDING_ENGINEERING_CONDITIONAL_A1_A8_AND_B_G",
+  "root_acceptance": "Same-session root AUTHENTIC_REVIEW_ACCEPTED_AND_IMPLEMENTATION_RELEASED; no registered-seed main launch",
+  "files": [
+    {
+      "path": "q1-audit/claude_rounds/snd-matched-bottomk-precompute-20260928-v1/claude_stdout.json",
+      "sha256": "FE0409F1977AFA2B56B711C82823B9A7439F038C0B787D6C66B06171741153E2",
+      "bytes": 24755
+    },
+    {
+      "path": "q1-audit/claude_rounds/snd-matched-bottomk-precompute-20260928-v1/terminal_status.json",
+      "sha256": "8B9243B57F496C7B4DE0B3A1FCB61ABF55C1D6FF3D9C221E49C3AFBB10E1011A",
+      "bytes": 1817
+    },
+    {
+      "path": "q1-audit/claude_rounds/snd-matched-bottomk-precompute-20260928-v1/claude_stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/reviews/claude_precompute_v1.md",
+      "sha256": "A22D8AD1809E0B92C6860A574F49CBB93A852FCB175AC23493915AB80AE338BC",
+      "bytes": 22677
+    }
+  ]
+}

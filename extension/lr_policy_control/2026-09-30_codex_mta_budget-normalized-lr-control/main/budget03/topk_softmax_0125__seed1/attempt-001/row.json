@@ -1,0 +1,88 @@
+{
+  "best_epoch": 2,
+  "cfg_base_lr": 0.001,
+  "cfg_batch_size": 256,
+  "cfg_budget": 3,
+  "cfg_max_epochs": 3,
+  "cfg_patch": 4,
+  "cfg_patience": 0,
+  "cfg_val_fraction": 0.2,
+  "classes": 10,
+  "dataset": "cifar10",
+  "dataset_source": "cifar10:patch4",
+  "embed_dim": 64,
+  "epoch_log": [
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1928092539310455,
+      "epoch": 0,
+      "train_loss": 1.856640338897705,
+      "val_accuracy": 0.4052,
+      "val_loss": 1.642036071419716,
+      "val_macro_f1": 0.393353097848974
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1901544600725176,
+      "epoch": 1,
+      "train_loss": 1.5619828701019287,
+      "val_accuracy": 0.4594,
+      "val_loss": 1.4949696123600007,
+      "val_macro_f1": 0.45306057586903725
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.189595764875412,
+      "epoch": 2,
+      "train_loss": 1.4570581912994385,
+      "val_accuracy": 0.4864,
+      "val_loss": 1.4374853134155274,
+      "val_macro_f1": 0.48216984595156304
+    }
+  ],
+  "epochs_run": 3,
+  "heads": 4,
+  "layers": 2,
+  "lr_epoch_trace": [
+    {
+      "epoch": 0,
+      "first": 0.001,
+      "last": 0.0006687898089171976
+    },
+    {
+      "epoch": 1,
+      "first": 0.0006666666666666668,
+      "last": 0.00033545647558386415
+    },
+    {
+      "epoch": 2,
+      "first": 0.0003333333333333334,
+      "last": 2.123142250530785e-06
+    }
+  ],
+  "lr_policy": "linear_per_optimizer_update_eta0_times_1_minus_t_over_T",
+  "lr_sequence_float64_sha256": "12DACDAA95CB582FC8B55A346748E00FDEFD60D56B6C6BB1107363940D142E55",
+  "masked_attention": false,
+  "method": "topk_softmax_0125",
+  "n_train": 40000,
+  "n_val": 10000,
+  "optimizer_updates": 471,
+  "parameter_count": 107978,
+  "peak_memory_mb": 863.45849609375,
+  "seed": 1,
+  "seq_len": 65,
+  "status": "completed",
+  "tier": "compact",
+  "train_seconds": 4.794472602981841,
+  "val_accuracy": 0.4864,
+  "val_attention_entropy": 2.189595764875412,
+  "val_loss": 1.4374853134155274,
+  "val_macro_f1": 0.48216984595156304,
+  "val_nonzero_ratio": 0.13846154510974884
+}

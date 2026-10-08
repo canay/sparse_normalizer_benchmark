@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_SCIENTIFIC_CONFIG_ENGINEERING_PENDING",
+  "run_id": "2026-09-28_codex_mta_matched-bottomk-policy",
+  "operation_id": "snd-approved-b-repair-20260928",
+  "change_id": "MCH-SND-007",
+  "project_relative_run": "experiments/2026-09-28_codex_mta_matched-bottomk-policy",
+  "candidate_sha256": "26D0308AC4986BD280B3854C174AD66C87871B43D3F9817159945EBF99A7FEDF",
+  "review_sha256": "A22D8AD1809E0B92C6860A574F49CBB93A852FCB175AC23493915AB80AE338BC",
+  "decision_sha256": "F7F8E5F97F43754B74BE3945C20FA6E5B5E8F3C404246F320E8DB20EA8E98A95",
+  "protocol_sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+  "protocol_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/FINAL_PROTOCOL.md",
+  "methods": [
+    "softmax",
+    "topk_softmax_0125",
+    "topk_softmax_025",
+    "bottomk_softmax_0125",
+    "bottomk_softmax_025"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "smoke_seeds": [
+    1000,
+    1001
+  ],
+  "training_arguments": {
+    "tier": "compact",
+    "batch_size": 256,
+    "patch": 4,
+    "val_fraction": 0.2,
+    "max_epochs": 30,
+    "patience": 0,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 5.0,
+    "dropout": 0.1,
+    "train_limit": 0,
+    "text_train_limit": 0,
+    "synthetic_train_limit": 20000,
+    "seq_len": 96,
+    "vocab_size": 20000
+  },
+  "expected_cells": 50,
+  "expected_epochs_per_cell": 30,
+  "archive_path": "data/cifar-10-python.tar.gz",
+  "archive_url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+  "archive_sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+  "archive_bytes": 170498071,
+  "archive_size_status": "Prospective expected170498071; acquisition actualbytes and fixedSHA must both match beforedecode",
+  "resource_ceiling": {
+    "workers": 1,
+    "numerical_threads": 2,
+    "nice": 10,
+    "gpu_allocated_gib": 4,
+    "worker_rss_gib": 4,
+    "new_output_gib": 2,
+    "wall_hours": 6,
+    "minimum_free_disk_gib": 5,
+    "heartbeat_seconds": 60,
+    "stall_seconds": 600,
+    "cell_timeout_seconds": 300,
+    "minimum_free_vram_gib": 3
+  },
+  "maximum_total_infrastructure_attempts": 3,
+  "matmul_precision": "high",
+  "torch_threads": 2,
+  "torch_interop_threads": 2,
+  "pythonhashseed": "0",
+  "primary_endpoint": "best_validation_accuracy_within_30_earliest_tie",
+  "secondary_endpoints": [
+    "epoch30_validation_accuracy",
+    "macro_f1_at_accuracy_selected_epoch",
+    "epoch30_macro_f1",
+    "complete_epoch_log",
+    "best_epoch",
+    "training_seconds",
+    "peak_memory_mb"
+  ],
+  "dense_control_mean_floor": 0.6,
+  "primary_contrasts": 6,
+  "nominal95_t_df9": 2.2621571628540993,
+  "all50_required_for_aggregate": true,
+  "scientific_nonfinite_retry": false,
+  "complete_case_allowed": false,
+  "registered_seed_main_requires_separate_release": true,
+  "official_test_decode_evaluation": false,
+  "evaluator_semantics": {
+    "applicability": "not_applicable",
+    "not_applicable_reason": "This is a single-outcome classifier comparison, not a multi-mode policy simulation; the intervention changes retained attention scores and all endpoints are actual saved classification predictions and epoch metrics."
+  },
+  "post_gate_continuation": {
+    "confirmatory_on_primary_fail": "forbidden",
+    "exploratory_non_rescue": {
+      "authorization": "none"
+    },
+    "hard_stops": [
+      "ethics",
+      "license",
+      "leakage",
+      "invalid_data",
+      "resource_ceiling"
+    ],
+    "primary_verdict_immutable": true,
+    "exploratory_result_may_upgrade_primary_verdict": false,
+    "exploratory_result_may_raise_claim_level": false
+  }
+}

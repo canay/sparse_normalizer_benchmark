@@ -1,0 +1,59 @@
+{
+  "status": "DETACHED_LAUNCH_CAPTURE_NOT_RUNTIME_ADMISSION",
+  "captured_unix": 1790603227.2412565,
+  "wrapper_pid_from_actual_shell": 25368,
+  "wrapper_process_at_capture": {
+    "pid": 25368,
+    "ppid": 25361,
+    "start_token": "984214",
+    "state": "R",
+    "session_id": 25368,
+    "tty_nr": 0,
+    "cpu_ticks": 2,
+    "rss_bytes": 16363520
+  },
+  "actual_wrapper_argv_at_capture": [
+    "/usr/bin/python3",
+    "-B",
+    "src/launch.py",
+    "supervise",
+    "--supervision-id",
+    "between-cell-interrupt",
+    "--",
+    "--mode",
+    "smoke",
+    "--campaign",
+    "between-cell-replay",
+    "--methods",
+    "softmax",
+    "topk_softmax_0125",
+    "--seeds",
+    "1001",
+    "--interrupt-after-cells",
+    "1"
+  ],
+  "actual_wrapper_cwd_at_capture": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "wrapper_cmdline_sha256_at_capture": "8DC71C8EDC55C73EF69E6CCE39CE30379E7BF7C1558EEC33D8E19CE6897323E4",
+  "supervisor_process": null,
+  "supervisor_identity_requires_separate_actual_launch_receipt": true,
+  "actual_cwd": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "operator_script": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/snd-v8-root-between-interrupt-20260928T134706822677Z.sh",
+  "supervision_id": "between-cell-interrupt",
+  "launcher_python_argv": [
+    "-"
+  ],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "actual_release_references": {
+    "admission/ENGINEERING_RELEASE.json": {
+      "sha256": "CBDC1C15A6D7A5CB092C7529C2E20706DA70F0A8307260627BFADD363668FF5F",
+      "bytes": 2634
+    },
+    "admission/SMOKE_INPUT_BINDING.json": {
+      "sha256": "BD1E0793B089D46D6423C53109E099F9AFA7788F220429EF84232B18AB0FFB00",
+      "bytes": 1256
+    }
+  },
+  "stdout_log": "admission/between-cell-interrupt.detached.stdout.log",
+  "stderr_log": "admission/between-cell-interrupt.detached.stderr.log"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "prelaunch_declared",
+  "freeze_id": "MCH-SND-005-2026-09-09_n3a_v2_vps_cpu",
+  "lineage": {
+    "candidate": {
+      "sha256": "83ed33052874298dbcc0c26f0fc40fdc7ff3981f34d019d67dec23721a0ba38f",
+      "size_bytes": 4766,
+      "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/CANDIDATE_V2.json"
+    },
+    "review": {
+      "sha256": "0de04991eb8ad1c57117640b51326732c63382305b8e9b780e729d1e54a2afcb",
+      "size_bytes": 10430,
+      "binds_candidate_sha256": "83ed33052874298dbcc0c26f0fc40fdc7ff3981f34d019d67dec23721a0ba38f",
+      "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/reviews/20260909T105044/review.txt"
+    },
+    "final": {
+      "path": "experiments/2026-09-09_n3a_v2_vps_cpu/FINAL_RESOURCE_20260912.json",
+      "sha256": "a0d9198f684a9c1e257cb587c325b2753a7df6a04e0de202a7dca95078c131ed",
+      "size_bytes": 5617,
+      "binds_candidate_sha256": "83ed33052874298dbcc0c26f0fc40fdc7ff3981f34d019d67dec23721a0ba38f",
+      "binds_decision_sha256": "2ea079589706745aae4104c50a87dca60572a5a72014a5f5784ee645f382b755"
+    },
+    "decision": {
+      "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/DECISION_RESOURCE_20260912.md",
+      "sha256": "2ea079589706745aae4104c50a87dca60572a5a72014a5f5784ee645f382b755",
+      "size_bytes": 4100,
+      "binds_review_sha256": "0de04991eb8ad1c57117640b51326732c63382305b8e9b780e729d1e54a2afcb"
+    }
+  },
+  "post_gate_continuation": {
+    "confirmatory_on_primary_fail": "forbidden",
+    "exploratory_non_rescue": {
+      "authorization": "none"
+    },
+    "hard_stops": [
+      "ethics",
+      "license",
+      "leakage",
+      "invalid_data",
+      "resource_ceiling"
+    ],
+    "primary_verdict_immutable": true,
+    "exploratory_result_may_upgrade_primary_verdict": false,
+    "exploratory_result_may_raise_claim_level": false,
+    "prospective_contract_sha256": "83ed33052874298dbcc0c26f0fc40fdc7ff3981f34d019d67dec23721a0ba38f"
+  },
+  "design_contract": {
+    "required_metrics": [
+      "validation_cross_entropy",
+      "score_vjp_norm",
+      "parameter_update_norm"
+    ],
+    "evaluator_semantics": {
+      "applicability": "not_applicable",
+      "not_applicable_reason": "Paired trained-classifier loss contrasts; not a multi-mode policy/failure-avoidance simulation evaluator. No unaffected failure mode is credited."
+    },
+    "required_baselines": [
+      "D",
+      "S",
+      "L",
+      "P",
+      "G",
+      "N"
+    ]
+  },
+  "schema_version": 3,
+  "run_id": "2026-09-09_n3a_v2_vps_cpu",
+  "resource_amendment_review": {
+    "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/reviews/20260912T203514/review.txt",
+    "sha256": "c836df9709abca3c4665430dce66c6e15d2300f6daca0488ae17ee1180f71341",
+    "size_bytes": 9210
+  }
+}

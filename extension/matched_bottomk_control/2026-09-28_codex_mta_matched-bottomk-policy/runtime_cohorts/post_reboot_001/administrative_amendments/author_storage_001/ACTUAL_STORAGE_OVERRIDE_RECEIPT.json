@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_AUTHOR_STORAGE_OVERRIDE_APPLIED_AND_FROZEN_VERIFIED",
+  "recorded_unix": 1790602691.1244128,
+  "physical_run_root": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "actual_free_disk_bytes_before": 9614012416,
+  "minimum_free_disk_gib": 5,
+  "new_output_ceiling_gib": 2,
+  "scientific_configuration_unchanged": true,
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "archive_sha256": "6D958BE074577803D12ECDEFD02955F39262C83C16FE9348329D7FE0B5C001CE",
+  "archive_bytes": 170498071,
+  "references": {
+    "final_config.json": {
+      "sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+      "bytes": 3699
+    },
+    "SOURCE_MANIFEST.json": {
+      "sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+      "bytes": 7201
+    },
+    "AUTHOR_RUNTIME_STORAGE_OVERRIDE.json": {
+      "sha256": "447E1E22AFFE54C81CD1E57071D97169E954CD1E13797B74028F8CBDA81B26ED",
+      "bytes": 1841
+    },
+    "admission/ENGINEERING_RELEASE.json": {
+      "sha256": "CBDC1C15A6D7A5CB092C7529C2E20706DA70F0A8307260627BFADD363668FF5F",
+      "bytes": 2634
+    },
+    "admission/ACQUISITION_RECEIPT.json": {
+      "sha256": "C0B9A286D051BEABD229E9DE60321EFC3D665B2AFB209E5015CEABCAFDF8C483",
+      "bytes": 2687
+    }
+  },
+  "registered_main_authorized": false,
+  "fresh_runtime_admissions_required": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "remote_receipt_sha256": "a1bd3201acee8bab74f989b51d24bc64df4b37bc8f98da03a8adc90aef7bfc47",
+  "validator_sha256": "52cd650585d81a1b69b4b36e6f436b134a54e6f6dd83fd25dca083c67a4da471",
+  "checked_operational_files": {
+    "2026-09-09_n3a_v2_vps_cpu/outputs/status.json": "6b4e206197a744817dbd3bddeadb92713e18c0b33106c2fe252104bfca31cb71",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/launches/4fb5fe6498274c23b96666273b054cc8.json": "6b4e206197a744817dbd3bddeadb92713e18c0b33106c2fe252104bfca31cb71",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/operational_overlays/72ad0c46f8bc4e0fb766dccd940efe49/launch.json": "561151b6d0cc73ce2838d1cd4c2ed3b41f189d81e8b3076318a40ef231a1e5d4",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/operational_overlays/c73259ab6ee541be970b875c06cf201f/launch.json": "3a47b643ab72943dfd649adcc735821731f4a783ed849a0dbe5e3b5d45934f9b",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/operational_overlays/c73259ab6ee541be970b875c06cf201f/terminal.json": "457c6656c1d486cb301ea7886b36d4e837fb9cf0f0653194247c012c3109aa57",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/supervisor/27cab9a7210a443c9e6e8716a9e5aa93/launch.json": "7a2cb85370048c7c213e12004638721f3cb076a5904b97c950fe4a6d88bf0f83",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/supervisor/caf8ba12ece74576917377175d14c584/launch.json": "f90826cc3acad62d539c28d7e7281c40d6950ef297d62922339a77f413eb3b30",
+    "2026-09-09_n3a_v2_vps_cpu/outputs/supervisor/27cab9a7210a443c9e6e8716a9e5aa93/terminal.json": "a3b012bc3c4fc6b17324123e04c9db193ff1f1fab64167d60067b5452d5058df"
+  },
+  "outcomes_read": false
+}

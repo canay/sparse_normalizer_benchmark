@@ -1,0 +1,127 @@
+{
+  "status": "DERIVED_DATA_VERIFIED_NOT_SCIENTIFIC_GATE",
+  "results": {
+    "m1": {
+      "raw_runs": 600,
+      "raw_processed_epoch_matches": 18000,
+      "registered_events": 39,
+      "loo_event_counts": [
+        39,
+        40,
+        37,
+        40,
+        40
+      ],
+      "events_surviving_all_omissions": 34,
+      "events_preserving_all_target_times": 2,
+      "registered_nonevents_becoming_events": 8,
+      "interpretation": "posthoc_descriptive_selected_windows_not_calibrated_crossover_or_prevalence"
+    },
+    "r1": {
+      "validation_runs": 910,
+      "validation_raw_processed_metric_matches": 1820,
+      "initial_saved_test_runs": 350,
+      "test_evaluation_performed": false,
+      "replicated_corner_runs": 70,
+      "replicated_corner_raw_processed_metric_matches": 140,
+      "secondary_method_dataset_comparisons": 78,
+      "opposite_signed_accuracy_f1_mean_differences": 7,
+      "selection": "macro_F1_at_accuracy_selected_epoch_not_F1_reselection"
+    },
+    "budget_prefixes": {
+      "separate_execution_rows": 350,
+      "short_budget_prefix_comparisons": 300,
+      "exact_full_json_prefix_matches": 300,
+      "mismatches": 0,
+      "raw_processed_metric_matches": 700,
+      "methods": {
+        "softmax": 70,
+        "topk_softmax_0125": 70,
+        "topk_softmax_025": 70,
+        "sparsemax": 70,
+        "entmax15": 70
+      },
+      "interpretation": "separate_executions_under_constant_LR_are_identical_trajectory_prefixes_not_independent_replication"
+    },
+    "m3": {
+      "saved_test_runs": 720,
+      "raw_processed_metric_matches": 1440,
+      "paired_conditions": 180,
+      "seed_clusters": 30,
+      "exact_cluster_bootstrap": {
+        "dataset_means": [
+          -0.00223492907801419,
+          -0.0023252998503990783,
+          -0.001708154066789593
+        ],
+        "ordered_resamples": 27,
+        "mathematical_support_size": 10,
+        "each_extreme_probability": 0.037037037037037035,
+        "observed_dataset_range": [
+          -0.0023252998503990783,
+          -0.001708154066789593
+        ],
+        "enumerated_percentile_2_5_97_5": [
+          -0.0023252998503990783,
+          -0.001708154066789593
+        ],
+        "exact_distribution_quantile_definition": "inverse_CDF_atom_mass1/27_not_linear_interpolation_of27_observations",
+        "registered_monte_carlo_seed": 260829,
+        "registered_monte_carlo_resamples": 20000,
+        "registered_monte_carlo_percentile_2_5_97_5": [
+          -0.0023252998503990783,
+          -0.001708154066789593
+        ],
+        "floating_point_endpoint_range_max_abs_difference": 0.0,
+        "numerical_equality_tolerance": 2e-15
+      },
+      "all_registered_comparison_seed_clusters": 90,
+      "registered_test_status_preserved": "M3_TEST_PASS",
+      "registered_final_method_status_preserved": "KILLED",
+      "interpretation": "nondegenerate_registered_three_cluster_percentile_endpoints_equal_range; limited_transfer_precision",
+      "test_evaluation_performed": false
+    },
+    "m3_validation": {
+      "merged_unique_validation_runs": 720,
+      "raw_processed_registered_metric_matches": 5040,
+      "registered_method_pairs": 180,
+      "seed_clusters": 30,
+      "exact_cluster_bootstrap": {
+        "dataset_means": [
+          0.07467592592592592,
+          0.0695436507936508,
+          0.06924519924519924
+        ],
+        "ordered_resamples": 27,
+        "mathematical_support_size": 10,
+        "each_extreme_probability": 0.037037037037037035,
+        "observed_dataset_range": [
+          0.06924519924519924,
+          0.07467592592592592
+        ],
+        "enumerated_percentile_2_5_97_5": [
+          0.06924519924519924,
+          0.07467592592592592
+        ],
+        "exact_distribution_quantile_definition": "inverse_CDF_atom_mass1/27_not_linear_interpolation_of27_observations",
+        "registered_monte_carlo_seed": 260828,
+        "registered_monte_carlo_resamples": 20000,
+        "registered_monte_carlo_percentile_2_5_97_5": [
+          0.06924519924519924,
+          0.07467592592592592
+        ],
+        "floating_point_endpoint_range_max_abs_difference": 0.0,
+        "numerical_equality_tolerance": 2e-15
+      },
+      "registered_status_preserved": "M3_CONFIRMATION_KILLED",
+      "registered_criteria_preserved": {
+        "time_to_target": false,
+        "noninferiority": true,
+        "direction_breadth": true
+      }
+    }
+  },
+  "manifest": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-09-28_codex_local_saved-seed-diagnostics\\outputs\\attempt-002\\ANALYSIS_MANIFEST.json"
+}
+
+STDERR:

@@ -1,0 +1,15 @@
+
+STDERR:
+Traceback (most recent call last):
+  File "<controlled-workspace>\CALISMALAR\60_GONDERILDI\SCI-sparse_normalizer_benchmark\experiments\2026-09-28_codex_local_saved-seed-diagnostics\src\saved_seed_diagnostics.py", line 562, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<controlled-workspace>\CALISMALAR\60_GONDERILDI\SCI-sparse_normalizer_benchmark\experiments\2026-09-28_codex_local_saved-seed-diagnostics\src\saved_seed_diagnostics.py", line 538, in main
+    "m3":m3(out),"m3_validation":m3_validation(out)}
+         ^^^^^^^
+  File "<controlled-workspace>\CALISMALAR\60_GONDERILDI\SCI-sparse_normalizer_benchmark\experiments\2026-09-28_codex_local_saved-seed-diagnostics\src\saved_seed_diagnostics.py", line 477, in m3
+    support, exact = exact_three_cluster(test_means,"test_accuracy_delta")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<controlled-workspace>\CALISMALAR\60_GONDERILDI\SCI-sparse_normalizer_benchmark\experiments\2026-09-28_codex_local_saved-seed-diagnostics\src\saved_seed_diagnostics.py", line 346, in exact_three_cluster
+    raise ValueError("registered three-cluster percentile/range identity not reproduced")
+ValueError: registered three-cluster percentile/range identity not reproduced

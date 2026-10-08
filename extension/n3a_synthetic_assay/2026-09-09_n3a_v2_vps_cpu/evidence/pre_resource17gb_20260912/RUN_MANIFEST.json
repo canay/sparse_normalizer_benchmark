@@ -1,0 +1,254 @@
+{
+  "run_id": "2026-09-09_n3a_v2_vps_cpu",
+  "makale_kisa_adi": "SCI-sparse_normalizer_benchmark",
+  "operation_id": "snd-n3-v2-admission-20260909",
+  "status": "planned",
+  "run_kind": "canonical",
+  "tool": "Codex",
+  "model_or_session": "Codex; independent precompute Claude Fable5.1/max R2 completed with D1-D5 conditions",
+  "host_label": "vps",
+  "hostname": "vps-host",
+  "local_run_folder": "experiments/2026-09-09_n3a_v2_vps_cpu/",
+  "remote_run_folder": "<vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu/",
+  "sync_status": "sync_pending",
+  "created_at_utc": "2026-09-09T07:50:42Z",
+  "started_at": "",
+  "ended_at": "",
+  "working_directory": "<vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu",
+  "command": "nice -n 10 python3 src/supervise.py --run-root <vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu",
+  "script": "experiments/2026-09-09_n3a_v2_vps_cpu/src/supervise.py",
+  "config": "experiments/2026-09-09_n3a_v2_vps_cpu/config.json",
+  "dataset": "new generated synthetic inputs only; no old or official test arrays",
+  "input_generation": {
+    "source_sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+    "n": 32,
+    "train": 4096,
+    "validation": 2048,
+    "seeds": [
+      64000,
+      64001,
+      64002,
+      64003,
+      64004,
+      64005,
+      64006,
+      64007,
+      64008,
+      64009,
+      64010,
+      64011,
+      64012,
+      64013,
+      64014,
+      64015,
+      64016,
+      64017,
+      64018,
+      64019,
+      64020,
+      64021,
+      64022,
+      64023,
+      64024,
+      64025,
+      64026,
+      64027,
+      64028,
+      64029,
+      64030,
+      64031,
+      64032,
+      64033,
+      64034,
+      64035,
+      64036,
+      64037,
+      64038,
+      64039,
+      64040,
+      64041,
+      64042,
+      64043,
+      64044,
+      64045,
+      64046,
+      64047,
+      64048,
+      64049,
+      64050,
+      64051,
+      64052,
+      64053,
+      64054,
+      64055,
+      64056,
+      64057,
+      64058,
+      64059,
+      64060,
+      64061,
+      64062,
+      64063
+    ],
+    "r": [
+      1,
+      4,
+      16,
+      24
+    ],
+    "byte_hashes": "generated atomically by prepare_inputs and verified on every resume"
+  },
+  "hyperparameters": {
+    "schema_version": 1,
+    "n": 32,
+    "top_k": 8,
+    "tail_leak_mass": 0.1111111111111111,
+    "train_size": 4096,
+    "validation_size": 2048,
+    "batch_size": 128,
+    "gradient_accumulation_steps": 1,
+    "updates": 1024,
+    "fork_updates": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "adam_epsilon": 1E-08,
+    "primary_relative_margin": 0.005,
+    "alpha": 0.05,
+    "top_score_range_ceiling": 700,
+    "score_vjp_zero_tolerance": 1E-14,
+    "torch_threads": 2,
+    "max_disk_bytes": 16000000000,
+    "minimum_free_disk_bytes": 5000000000,
+    "maximum_cuda_memory_bytes": 7000000000,
+    "maximum_resident_memory_bytes": 8000000000,
+    "maximum_launch_wall_seconds": 604800,
+    "maximum_unit_wall_seconds": 7200
+  },
+  "baselines_or_methods": [
+    "D",
+    "S",
+    "L",
+    "P",
+    "G",
+    "N"
+  ],
+  "planned_units": 6144,
+  "source_sha256": [
+    {
+      "sha256": "09c6094bb6461ef42d9487ea75bdac2c19243800a98a21733258c6f28162147e",
+      "size_bytes": 10512,
+      "path": "src/analyze_assay.py"
+    },
+    {
+      "sha256": "750a389e366c93b84e13ab284038bd394a7d4ac18fe9019b9b59c7c6c0a0ebb5",
+      "size_bytes": 12331,
+      "path": "src/campaign.py"
+    },
+    {
+      "sha256": "6a091d83a968c03cb1849792ecb610bfb5487a9efe901c6854e51f251c51570e",
+      "size_bytes": 11042,
+      "path": "src/fork_runner.py"
+    },
+    {
+      "sha256": "dc02aaabc4e66e2d3526e66b89791d67ff66b2f22fb4c19f583b9bdbeca246f7",
+      "size_bytes": 4711,
+      "path": "src/resource_summary.py"
+    },
+    {
+      "sha256": "8193b99400ad50740cc4457652c89500508264306e709f44786f0aa9a71e47e8",
+      "size_bytes": 7649,
+      "path": "src/supervise.py"
+    },
+    {
+      "sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+      "size_bytes": 5195,
+      "path": "src/training_models.py"
+    },
+    {
+      "sha256": "a00243650487d62894d2f36295ed42d897c2b867bf84c965e201b7a96deb2200",
+      "size_bytes": 8925,
+      "path": "src/training_operators.py"
+    },
+    {
+      "sha256": "b3e533cd8d3a2d57b3f2a7432748a4027940283f2e6c67c5171375164c390212",
+      "size_bytes": 47922,
+      "path": "src/training_runner.py"
+    },
+    {
+      "sha256": "5ed5d77f67c0594d1b28202117d89801e8639e2d2c1c44a8668ff48e4cb65e35",
+      "size_bytes": 5185,
+      "path": "tests/test_admission_repairs.py"
+    },
+    {
+      "sha256": "5fce51a4ace1668709c49ebbd7ae7e763b02628122d251a57f3f6ed160ac351b",
+      "size_bytes": 1912,
+      "path": "tests/test_analysis.py"
+    },
+    {
+      "sha256": "0d8ff031d2164c9b6c30b4784ed4f8eb4edd4d489a360b7d164ef99ae512576d",
+      "size_bytes": 3948,
+      "path": "tests/test_campaign.py"
+    },
+    {
+      "sha256": "bba7ac650acd91d627b8c9bbd3fdaac629056bef055058430e72a91ad30ef8df",
+      "size_bytes": 12233,
+      "path": "tests/test_fork_runner.py"
+    },
+    {
+      "sha256": "0b3238156f655be082bf31602d10067664d67ccb902e4f492a5b20bdbfb2ceef",
+      "size_bytes": 7919,
+      "path": "tests/test_n3_operators.py"
+    },
+    {
+      "sha256": "448ff757f4c616ffb4028af43b0f7ca27c6acaa70ca441da72ecaeecae144e63",
+      "size_bytes": 4751,
+      "path": "tests/test_supervise.py"
+    }
+  ],
+  "code_snapshot_path": "experiments/2026-09-09_n3a_v2_vps_cpu/CODE_SNAPSHOT.tar",
+  "code_snapshot_sha256": "83260e74142b1ba6ab3b48bccacf4f33a615b5b30140ea2002c9c678144d78a4",
+  "environment": {
+    "os_family": "Linux",
+    "arch": "aarch64",
+    "python": "3.12.3",
+    "host": "vps-host",
+    "torch": "2.12.0",
+    "cpu": "4 ARM Neoverse N1 CPUs",
+    "torch_threads": 2,
+    "ram": "23 GiB total, approximately19 GiB available at preflight",
+    "gpu": "none used; CPU only",
+    "container": "none",
+    "numeric": "float32 network parameters and input arrays; float64 routing weights/VJP; deterministic CPU kernels; no TF32/flash/memory efficient SDP"
+  },
+  "resource_limits": {
+    "workers": 1,
+    "threads": 2,
+    "max_disk_bytes": 16000000000,
+    "min_free_bytes": 5000000000,
+    "max_rss_bytes": 8000000000,
+    "whole_run_watchdog_seconds": 604800,
+    "unit_seconds": 7200,
+    "worker_nice_minimum": 10
+  },
+  "artifacts": {
+    "status_file": "STATUS.md",
+    "durability_plan": "DURABILITY_PLAN.md",
+    "commands": "commands.md",
+    "config": "config.json",
+    "raw_outputs": [
+      "inputs/",
+      "outputs/"
+    ],
+    "source": "src/",
+    "immutable_snapshot": "CODE_SNAPSHOT.tar",
+    "supervisor": "outputs/supervisor/<attempt>/"
+  },
+  "rerun_of": "",
+  "supersedes": "",
+  "manuscript_locations": [],
+  "notes": "New independent N3-v2 lineage MCH-SND-005, not a continuation/resume of N2 or old orchestrator. Both pilot and science require explicit hash-bound ADMISSION. A effects remain blinded until independently frozen B code/protocol/analysis.",
+  "binds_final_sha256": "e00b27c545e25eba955de1ef2b5dde84c2403957d6c94e6a0879a2efba4d149f",
+  "binds_decision_sha256": "4a442bc6cc76bda84944496955ae1e05375dd17ec894f88d1d42b8120ca4be9c",
+  "analysis_firewall": "No person/tool reads A metrics/predictions/decisions on remote or local mirror before ANALYSIS_RELEASE plus independently frozen B source/protocol/analysis attesting no earlier A read.",
+  "relaunch_policy": "Same frozen census with validated checkpoint and new attempt only after INTERRUPTED_UNKNOWN or launch wall/disk/RAM guard cause resolved. Never resume INVALID_CONTROL, WORKFLOW_NONDETERMINISTIC, census mismatch or unresolved residue. Preserve all earlier logs/status/recovery. Exactly one pilot launch required for resource qualification."
+}

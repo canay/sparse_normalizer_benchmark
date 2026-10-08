@@ -1,0 +1,85 @@
+{
+  "actual_returncode": 0,
+  "artifacts": [
+    {
+      "bytes": 1325,
+      "path": "launch.json",
+      "sha256": "BC1BB8951D123170110AF1560AFBE2D5EBB1E1D336D0715787EE70BDD4C06BA2"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 8273,
+      "path": "samples.jsonl",
+      "sha256": "060FF3B2B28F2A7B3F4BD506EE7038C2B7AC14223FF4F1C2E948DE4A108BAF24"
+    },
+    {
+      "bytes": 1457,
+      "path": "heartbeat.json",
+      "sha256": "B07D0E0E4D0120DD1D027DDB5A81AA008111F87E4CC498283E7DD97FF1B52505"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 3185,
+      "path": "engineering_smoke/midcell-replay/cells/softmax__seed1000/attempt-002/launch.json",
+      "sha256": "E697FE5DA380B43D9DDC66E81A6C5C11AB2045E9AD47F84C6C213411CE6B11AA"
+    }
+  ],
+  "campaign": "midcell-replay",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": "E8718A2744E32ABAA0D850EC5FBE6F97B1B6F77B010703ADAA299178E4D48C53",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1000
+    }
+  ],
+  "expected_cells": 1,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790603521.5184853,
+  "launched_attempt_count": 1,
+  "mode": "smoke",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 1,
+      "pid": 28193,
+      "ppid": 28192,
+      "rss_bytes": 17080320,
+      "session_id": 28192,
+      "start_token": "1010067",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 28209,
+      "ppid": 28192,
+      "rss_bytes": 491520,
+      "session_id": 28192,
+      "start_token": "1010077",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790603485.7213368,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "midcell-resume"
+}

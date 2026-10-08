@@ -1,0 +1,1114 @@
+{
+  "actual_returncode": 0,
+  "artifacts": [
+    {
+      "bytes": 1268,
+      "path": "launch.json",
+      "sha256": "F3885BE97BDD0798817FCCE3DFB5D50E83937E5757BBD3AFB49D2D20533D5526"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 549069,
+      "path": "samples.jsonl",
+      "sha256": "20158C1B1BECEB546FB50E6D3DF487BCDA35FC005366EA7BFAB9DCAE88A1D5E7"
+    },
+    {
+      "bytes": 1523,
+      "path": "heartbeat.json",
+      "sha256": "2680FE9DE49C0D7728CE8ABE32D6A17D1C8BB31554FEEE3F6D5586186DB28DC1"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 3549,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed0/attempt-001/launch.json",
+      "sha256": "AAC68AE630FB9017A5F4C2F54C1C1B4DB72A555CC3950CAB1D6F67DA4119A5A2"
+    },
+    {
+      "bytes": 3453,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed1/attempt-001/launch.json",
+      "sha256": "037AD288212FE59B0E17F96529B4688E9B7B3FD86211DFE414D6CCE07CDE03DE"
+    },
+    {
+      "bytes": 3552,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed2/attempt-001/launch.json",
+      "sha256": "F0AEF7A308F05161E80F5C93AD6263EE89FEE05D656CAB7BBD747338143D732A"
+    },
+    {
+      "bytes": 3551,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed3/attempt-001/launch.json",
+      "sha256": "7DDAE05710649F6CFD9D67391AF00DC03B3E69B60031C108919C41149C91A1E3"
+    },
+    {
+      "bytes": 3552,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed4/attempt-001/launch.json",
+      "sha256": "C292BEFE5E8E4F71ABFECF53E8806F25F33C7670BDBC7BD23E6B27277CA1B7D3"
+    },
+    {
+      "bytes": 3550,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed5/attempt-001/launch.json",
+      "sha256": "AF1F1C9B21715E2F79FE0E834721AAA14256B9F5E22837BCCE594E266C070DCA"
+    },
+    {
+      "bytes": 3551,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed6/attempt-001/launch.json",
+      "sha256": "C72AC5190C68F39A9BB3FE0E43BECA0AC9CCCD5BCB70EE270A3C4AA2F50CDBFB"
+    },
+    {
+      "bytes": 3549,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed7/attempt-001/launch.json",
+      "sha256": "E931186452D5F1702A1C127905B7F7876CD1946E4FE0982051F505D909D7C719"
+    },
+    {
+      "bytes": 3552,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed8/attempt-001/launch.json",
+      "sha256": "966E5AF9F5FDCEB54A8E7162D29B0743886A2AA5937D1237688C438516459A9C"
+    },
+    {
+      "bytes": 3552,
+      "path": "main/matched50/cells/bottomk_softmax_0125__seed9/attempt-001/launch.json",
+      "sha256": "49612E70B6BF08E2B64C4A3E512AC0862025F84947614843C59A582F158A0D76"
+    },
+    {
+      "bytes": 3556,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed0/attempt-001/launch.json",
+      "sha256": "4886DF7A1EFCFAFA8DEDBC25DE9FD6A8DEDB2421FF0DE6CE9D5C884FEE9E7CAE"
+    },
+    {
+      "bytes": 3554,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed1/attempt-001/launch.json",
+      "sha256": "E9B765E82564EC0F476C792B697CF2EACD290163C30612F6877AFA635680E266"
+    },
+    {
+      "bytes": 3460,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed2/attempt-001/launch.json",
+      "sha256": "CFB1527674FC979495D874F27B6402860F8B545D708B026F1A41F28E914B183B"
+    },
+    {
+      "bytes": 3558,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed3/attempt-001/launch.json",
+      "sha256": "2F06C0A752607EAACC87CE5CE6E1F936F9C822BC2AE36113D228B9548B1A2C3B"
+    },
+    {
+      "bytes": 3555,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed4/attempt-001/launch.json",
+      "sha256": "A22C07508D70B76ADA8E815A8CC6B3874F353B487B7AF6D0D88ACBA10183401D"
+    },
+    {
+      "bytes": 3557,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed5/attempt-001/launch.json",
+      "sha256": "AEEBD9AD2A7833C256672EC9CD0FFC38A13DBEB6F077A040E9F57BA3E6522E80"
+    },
+    {
+      "bytes": 3557,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed6/attempt-001/launch.json",
+      "sha256": "4A971724A03B141DC9B0B2E171FF441017E7090243245EA39A94ABD3F0F61AB5"
+    },
+    {
+      "bytes": 3555,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed7/attempt-001/launch.json",
+      "sha256": "43B3314B07918A46C98581DBAEE86E231B64A113C7809592E181A8EB1AF31B13"
+    },
+    {
+      "bytes": 3557,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed8/attempt-001/launch.json",
+      "sha256": "D2DA62E786A1011207E2B0C1D35AD1D35B0D8FE3E2A7B0B5F01E79E216290EE9"
+    },
+    {
+      "bytes": 3557,
+      "path": "main/matched50/cells/bottomk_softmax_025__seed9/attempt-001/launch.json",
+      "sha256": "397440CC531261592B4B1431028306DC3358F9FE575270F82E1E28D9FEC8C1A1"
+    },
+    {
+      "bytes": 2740,
+      "path": "main/matched50/cells/softmax__seed0/attempt-001/launch.json",
+      "sha256": "B7DEF1B079780FAB944AF8AB24D41334AD587061BF07B79C204B5D14A9871CAA"
+    },
+    {
+      "bytes": 3533,
+      "path": "main/matched50/cells/softmax__seed1/attempt-001/launch.json",
+      "sha256": "96ED6B3498BC04C9528BB2CBDEF4A1AABD1EC066597F288237DE38C7D99F355A"
+    },
+    {
+      "bytes": 3531,
+      "path": "main/matched50/cells/softmax__seed2/attempt-001/launch.json",
+      "sha256": "2F7A75CBE72FBF897AB083CC338A988B4B0AA7DF22899161F9EF31E655628A05"
+    },
+    {
+      "bytes": 3535,
+      "path": "main/matched50/cells/softmax__seed3/attempt-001/launch.json",
+      "sha256": "3546E0552D455E1261907EA1A2EA33E664EB8A73A4556322BC2E5BEC38148285"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/softmax__seed4/attempt-001/launch.json",
+      "sha256": "10F768A2E2CD8537046DF90ECBB030DDF29CE9E8277A5D7F1AD75B05DC269642"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/softmax__seed5/attempt-001/launch.json",
+      "sha256": "7A010CD4B65F50B22322BD05A69ABB56D53121292F317EEB0751B8677198A606"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/softmax__seed6/attempt-001/launch.json",
+      "sha256": "A67DE25F880E274848891321B3379E53CD03C916EDF0AA97C1C1F42E9454237C"
+    },
+    {
+      "bytes": 3533,
+      "path": "main/matched50/cells/softmax__seed7/attempt-001/launch.json",
+      "sha256": "7D9D99740EE3BA784E54CF085ED16CC7866587DFF8475EAF7ED76C3F800B3365"
+    },
+    {
+      "bytes": 3535,
+      "path": "main/matched50/cells/softmax__seed8/attempt-001/launch.json",
+      "sha256": "BAF8630216AD805552D9E14AADFD439C2B2A4465EC1D23D692C48294807088D9"
+    },
+    {
+      "bytes": 3535,
+      "path": "main/matched50/cells/softmax__seed9/attempt-001/launch.json",
+      "sha256": "90DFAF316F20B004A20CA2EAED21AA0516067C4D44F673E05F69C8DAE611B1A7"
+    },
+    {
+      "bytes": 3470,
+      "path": "main/matched50/cells/topk_softmax_0125__seed0/attempt-001/launch.json",
+      "sha256": "22C65C3CA1919CC84920BC19E87CE543EEC455668772C6FB8AB5152366F10D8C"
+    },
+    {
+      "bytes": 3528,
+      "path": "main/matched50/cells/topk_softmax_0125__seed1/attempt-001/launch.json",
+      "sha256": "424AFD64FE148792B7B67099379983A52242D0E23A8668C45496EC54C0710181"
+    },
+    {
+      "bytes": 3529,
+      "path": "main/matched50/cells/topk_softmax_0125__seed2/attempt-001/launch.json",
+      "sha256": "9790467910E96B7C4503D08D15981EED8FACB96D4181B4400BFB532391EFA18C"
+    },
+    {
+      "bytes": 3434,
+      "path": "main/matched50/cells/topk_softmax_0125__seed3/attempt-001/launch.json",
+      "sha256": "2633D98DF74692D2B7F6903BE05E3AD8103F5D4195F0168BFC84C082710B0A30"
+    },
+    {
+      "bytes": 3529,
+      "path": "main/matched50/cells/topk_softmax_0125__seed4/attempt-001/launch.json",
+      "sha256": "C6BF6B4D9CF0931D4CF8C9CECCAAF3C5F43E93938C6CBAC4E755B1DB5FAB0EF9"
+    },
+    {
+      "bytes": 3529,
+      "path": "main/matched50/cells/topk_softmax_0125__seed5/attempt-001/launch.json",
+      "sha256": "AB00E3D59059EDD6F05B1D1CAB7A04A76F032E68318D652A950CF6816EC47686"
+    },
+    {
+      "bytes": 3531,
+      "path": "main/matched50/cells/topk_softmax_0125__seed6/attempt-001/launch.json",
+      "sha256": "13DF591C8DFC282DA506CC631402A143D0F620C10C48395D5991EC86257DDC7F"
+    },
+    {
+      "bytes": 3527,
+      "path": "main/matched50/cells/topk_softmax_0125__seed7/attempt-001/launch.json",
+      "sha256": "A0EC7BC77893CA70D4BCC5F20C3483E5AAAED892D5B1D1B581EEEE057E09FD5E"
+    },
+    {
+      "bytes": 3527,
+      "path": "main/matched50/cells/topk_softmax_0125__seed8/attempt-001/launch.json",
+      "sha256": "85ACC815A9850871CE2802A22963DBA221734BF89D14FAF2B28B8E3F84787749"
+    },
+    {
+      "bytes": 3528,
+      "path": "main/matched50/cells/topk_softmax_0125__seed9/attempt-001/launch.json",
+      "sha256": "FE604CED032FF0E50E04121D9A142A614B942C0892EA517137177797E93FBDB8"
+    },
+    {
+      "bytes": 3534,
+      "path": "main/matched50/cells/topk_softmax_025__seed0/attempt-001/launch.json",
+      "sha256": "9610268C3356C4275A787A6A85F6C8B2F6333F3A9AE98FC784D1C867360D5199"
+    },
+    {
+      "bytes": 3534,
+      "path": "main/matched50/cells/topk_softmax_025__seed1/attempt-001/launch.json",
+      "sha256": "97431304DD63F0EE6404DAF052D7EE28CA79EC7B7CD1CA97F60592F9CB792865"
+    },
+    {
+      "bytes": 3534,
+      "path": "main/matched50/cells/topk_softmax_025__seed2/attempt-001/launch.json",
+      "sha256": "232635780D303896F6B6874F17B9DDC30FB964908D163C85EE168F7349AAA9E4"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/topk_softmax_025__seed3/attempt-001/launch.json",
+      "sha256": "D6B338A2DD4FF3D878994B97AD3F76DBBE6BAFDADBF2E150055295291837BB29"
+    },
+    {
+      "bytes": 3535,
+      "path": "main/matched50/cells/topk_softmax_025__seed4/attempt-001/launch.json",
+      "sha256": "5735F304F88F422D1A234C1A117D4F2F07C6EB7537DD3EBCB839F92C4D948A2B"
+    },
+    {
+      "bytes": 3535,
+      "path": "main/matched50/cells/topk_softmax_025__seed5/attempt-001/launch.json",
+      "sha256": "6C7DB73AC03CC23CD63B7B13510B3DD6F95190B8FE1B2B48898630250909FC11"
+    },
+    {
+      "bytes": 3439,
+      "path": "main/matched50/cells/topk_softmax_025__seed6/attempt-001/launch.json",
+      "sha256": "F6DBCDE3D6FBC580231CB3168EA3581FFFF6A07C3F9B13054651C2267E11BE46"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/topk_softmax_025__seed7/attempt-001/launch.json",
+      "sha256": "9A35CC3C7024700C7757DAE4DC7133626A58662DCD306C576B3E78BAA2006E29"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/topk_softmax_025__seed8/attempt-001/launch.json",
+      "sha256": "91CC6DC65780CBBCCE51250DD14DBD6531A8893C56232B0D89F7123FA0FA00DC"
+    },
+    {
+      "bytes": 3536,
+      "path": "main/matched50/cells/topk_softmax_025__seed9/attempt-001/launch.json",
+      "sha256": "E1D0738D75C2E05B0100C17C8C2273AE2EDE8A9103974916531A9CFBA2274067"
+    }
+  ],
+  "campaign": "matched50",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": "3C0A61B1201C9B70B71F3B7F45F5448C413A2A1AC7DAA8A13091873F4F6496C1",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "4EAE6CD71C26FBD38C304FA8D4B6966344E2FD1663188B1937D51296A4CEE042",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "DB3D4BF401617ACAB39E749E3A030C40074991A52F51F635EB55A6BEC71B2C9A",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "E59370545F391B33A42A06C0834FBD85BFAAFA5F6F2C88FA5D8593243B2CFAF5",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "BE98C060DBB8F036CEFF5E52F2223CDCB12B0A4272F99CA0B9F5634DB43CDD7F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "DAD1DC8E3570DCE62DCD2681046A08ECA1DB3A4D115E8E5D1799FBE53214515F",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "4EF93BB787E6AAEA70F2B3436729C3A296ACFC0438BB5DAEB180AA9159B7A07C",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "5D5FC763AFC1DEF159C4934B9991F0F153A1902579C13A0E5183A4EACF8FA486",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "109E0D02F62F910139CD51D17FDD1D4DBA48DEF41E0DD0FF72599E0BCF11C80A",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "8336F26CD1E386723918A616302B39021F07D7A29399F8F3C2EA80457E7BA78F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "1255EE1D406EB9E0FBEAE7B4AE007D012295C447B55C3ED4B54825BF2A465491",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "4141ADDAD79208F672AF0894578A32CFFCB7EE6F756936BD40695F6621C3F90C",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "892BCCCE0DE7FCE50EB3E8589B95F66544C36E2EA78C7111708DAAD3BA938989",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "FE83A23A1EA1EF89234B4581FB323BAFC4B9E900D3708BD6C890CA66B6A3B71E",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "E17AE52D20B315AB270C9A4B50A20109921974F088A3609886CB2AA99CCF7D14",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "748AE927A0DB5F44B6CF22B115A7F74E95DB2AC60D6A14EC67DCA53CD39DFCDC",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "2429496FED659C2D17640F578CC5084EF38EE49787C32D639619C15F19D98CED",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "65484F5562C72A2323BA4EEC6B568780B651F8EC848679EA9433C66D50FEE734",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "C510E2EBB5FDD86F4723443A823AE4DF12F6BB62CC93B1296D1B1BF39A59EDE7",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "017EFAC527514D91D3AA4100C47D6A631793062A7B28F8394ED566257A34DEE0",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "D533A825D3ACCBFF48F4E905CE7AF862CE264D724EB51E8A8E0463701DF098BB",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "31102362E9E881E999793A89F1F75FA45A9AD64B97C32D5682FF151EFC937A15",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "09272D260B885AC07621ED2F6B631F13E85798E8E19487C6C031F148C634243B",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "6DC36C6B2466C5581C81EDE016FA475BFBBF0157A074E491633D79C8D2FDBE48",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "AF3161EC59CD0CB7A44B9073E48B651B02D861F17CC2F1C7F84D7D2FFAB8CA7E",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "A0A22849F75B89550631A2E2D935B3EC6587178519B73B565DA80B84B4E58722",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "FD7937A8C102BA62EBC459EB675BF0A526C0C12C1EE2EB689CE9D9269B3831D9",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "D594B43B85E2117B9FD76ED0C1C8C7B86AD6F5DE6A072ADCDD26CB375D99D296",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "0FD4961BD8E3F9FC19BB81EB64121397C27D3B6EAA9C4F2B09838390F1EA8519",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "C86F8DA6C2F27D5C2754987BDAEF8600B14977828DB0B5A5FC4E025D39D693F3",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "82BA390753842D32671F64B1833D34BC7ADAC2A4F863B98247C460EE478604DF",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "6573A8F6931A44B6E5D1ADDA92ABF87A54A28813A99FCE627573304157D6BB97",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "AF3759BEB7475C66A5B90A1449B3DD72B1585085B7AF19B80897D62A948B31C2",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "686BEC0AC11FFE6A0F45DC6A8E98BAEB48F42F6F6AC9FD010C7BF9001035FEF1",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "4639EF3CAF9AC466D3763EF62C6EB8B82BA0154FE17E58A2A49646946D5125A4",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "1E2CD974DCD56B20974A97848A91352B0FE01E0AFABC734C73F4EDAC2D99779F",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "66436ABACDB3A05C8443B87078DEE4CC5F0851FFBF308281A5B14411347B02E4",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "9EA24726377F4FD8E64EDB3641FA57ABFAB5082DA81D16C3952BB36570C8FD4E",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "2C0193E6353E5124424731DC1675845FA9F2F0BE7225C0A250EFABF55FBDF5D8",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "E5BC7631675422F7CCBD1D2407C53A5E539878747AA644CB904EC9E2BE85053F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "13E4110572725A82088B2F20D1F3BF0AF61FB64A943D301B88247C7B2B5842B4",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "90F2908D85A650BE41634501DA603ED859A210B5D44C893BDA1E4F205FE4CAA8",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "639BB4BCDBA546014424BECAD55B7C3F4C1D7180FF3B45D7A1599F2F58B955A6",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "2F389CDC308A1E7FE5ECFE0BE7E558B22BCD03065215CDA58EF46613356FD415",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "057601AFBFB1700409023C015FF27930FFD64781D28DBD073CAC215134E039F5",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "27E5EDB0D56AC4F6280DE62829F123B7D76520B7DE9471DC5EECBE35178B704C",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "8CE1B018989024DA052E21C342DE82C2E7AECF2F5127C1F816914CE8E843FAE0",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "40F4A32D41ED491F510C30EF5FE1DEED23F4927D96B7DC89D2FEC58F0AFE4CED",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "2CC2A9B7E2EFF50A139E5DA6DD1B8A1B4FF794299A0C18B26D00FFEB3CA6D345",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "FC0F4EBB9A96F8E2E62EC328E1EC426C73D6C3E2D98E1A5B6667175D724FBC25",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 9
+    }
+  ],
+  "expected_cells": 50,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790605798.9805565,
+  "launched_attempt_count": 50,
+  "mode": "main",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 30182,
+      "ppid": 30176,
+      "rss_bytes": 1003520,
+      "session_id": 30176,
+      "start_token": "1016290",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 30328,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1019659",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 30478,
+      "ppid": 30176,
+      "rss_bytes": 475136,
+      "session_id": 30176,
+      "start_token": "1024378",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 30795,
+      "ppid": 30176,
+      "rss_bytes": 475136,
+      "session_id": 30176,
+      "start_token": "1029241",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 30943,
+      "ppid": 30176,
+      "rss_bytes": 1064960,
+      "session_id": 30176,
+      "start_token": "1033903",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31091,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1038721",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31233,
+      "ppid": 30176,
+      "rss_bytes": 806912,
+      "session_id": 30176,
+      "start_token": "1042041",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31379,
+      "ppid": 30176,
+      "rss_bytes": 479232,
+      "session_id": 30176,
+      "start_token": "1046753",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31527,
+      "ppid": 30176,
+      "rss_bytes": 483328,
+      "session_id": 30176,
+      "start_token": "1051619",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31677,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1056282",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31820,
+      "ppid": 30176,
+      "rss_bytes": 741376,
+      "session_id": 30176,
+      "start_token": "1061150",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 31968,
+      "ppid": 30176,
+      "rss_bytes": 806912,
+      "session_id": 30176,
+      "start_token": "1064519",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32117,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1069231",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32259,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1074094",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32407,
+      "ppid": 30176,
+      "rss_bytes": 495616,
+      "session_id": 30176,
+      "start_token": "1078766",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32551,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1083629",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32693,
+      "ppid": 30176,
+      "rss_bytes": 540672,
+      "session_id": 30176,
+      "start_token": "1086997",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32843,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1091715",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 32990,
+      "ppid": 30176,
+      "rss_bytes": 286720,
+      "session_id": 30176,
+      "start_token": "1096578",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33136,
+      "ppid": 30176,
+      "rss_bytes": 479232,
+      "session_id": 30176,
+      "start_token": "1101247",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33284,
+      "ppid": 30176,
+      "rss_bytes": 471040,
+      "session_id": 30176,
+      "start_token": "1106065",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33424,
+      "ppid": 30176,
+      "rss_bytes": 483328,
+      "session_id": 30176,
+      "start_token": "1109427",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33576,
+      "ppid": 30176,
+      "rss_bytes": 286720,
+      "session_id": 30176,
+      "start_token": "1114139",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33724,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1119007",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 33871,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1123677",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34019,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1128546",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34161,
+      "ppid": 30176,
+      "rss_bytes": 479232,
+      "session_id": 30176,
+      "start_token": "1131909",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34311,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1136629",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34461,
+      "ppid": 30176,
+      "rss_bytes": 286720,
+      "session_id": 30176,
+      "start_token": "1141494",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34605,
+      "ppid": 30176,
+      "rss_bytes": 471040,
+      "session_id": 30176,
+      "start_token": "1146162",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34759,
+      "ppid": 30176,
+      "rss_bytes": 741376,
+      "session_id": 30176,
+      "start_token": "1150987",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 34905,
+      "ppid": 30176,
+      "rss_bytes": 495616,
+      "session_id": 30176,
+      "start_token": "1154357",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35059,
+      "ppid": 30176,
+      "rss_bytes": 286720,
+      "session_id": 30176,
+      "start_token": "1159079",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35204,
+      "ppid": 30176,
+      "rss_bytes": 278528,
+      "session_id": 30176,
+      "start_token": "1163941",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35350,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1168605",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35500,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1173467",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35640,
+      "ppid": 30176,
+      "rss_bytes": 479232,
+      "session_id": 30176,
+      "start_token": "1176829",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35788,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1181542",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35789,
+      "ppid": 35788,
+      "rss_bytes": 10371072,
+      "session_id": 30176,
+      "start_token": "1181549",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 35936,
+      "ppid": 30176,
+      "rss_bytes": 483328,
+      "session_id": 30176,
+      "start_token": "1186411",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36078,
+      "ppid": 30176,
+      "rss_bytes": 548864,
+      "session_id": 30176,
+      "start_token": "1191123",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36232,
+      "ppid": 30176,
+      "rss_bytes": 286720,
+      "session_id": 30176,
+      "start_token": "1195936",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36378,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1199298",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36581,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1204016",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36735,
+      "ppid": 30176,
+      "rss_bytes": 1003520,
+      "session_id": 30176,
+      "start_token": "1208881",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 36884,
+      "ppid": 30176,
+      "rss_bytes": 266240,
+      "session_id": 30176,
+      "start_token": "1213601",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 37035,
+      "ppid": 30176,
+      "rss_bytes": 1064960,
+      "session_id": 30176,
+      "start_token": "1218467",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 37065,
+      "ppid": 30176,
+      "rss_bytes": 491520,
+      "session_id": 30176,
+      "start_token": "1221830",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 37318,
+      "ppid": 30176,
+      "rss_bytes": 552960,
+      "session_id": 30176,
+      "start_token": "1226543",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 37469,
+      "ppid": 30176,
+      "rss_bytes": 479232,
+      "session_id": 30176,
+      "start_token": "1231407",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 37665,
+      "ppid": 30176,
+      "rss_bytes": 471040,
+      "session_id": 30176,
+      "start_token": "1236070",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790603547.8174348,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "matched50-main-v8-first-20260928"
+}

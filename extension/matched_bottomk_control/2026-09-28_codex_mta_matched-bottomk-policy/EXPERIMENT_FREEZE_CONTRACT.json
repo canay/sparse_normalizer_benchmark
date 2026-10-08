@@ -1,0 +1,71 @@
+{
+  "schema_version": 3,
+  "freeze_id": "SND-MATCHED-BOTTOMK-20260928-FINAL-V1",
+  "run_id": "2026-09-28_codex_mta_matched-bottomk-policy",
+  "status": "final",
+  "lineage": {
+    "candidate": {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/candidate.json",
+      "sha256": "26d0308ac4986bd280b3854c174ad66c87871b43d3f9817159945ebf99a7fedf",
+      "size_bytes": 2652
+    },
+    "review": {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/reviews/claude_precompute_v1.md",
+      "sha256": "a22d8ad1809e0b92c6860a574f49cbb93a852fcb175ac23493915ab80ae338bc",
+      "size_bytes": 22677,
+      "binds_candidate_sha256": "26d0308ac4986bd280b3854c174ad66c87871b43d3f9817159945ebf99a7fedf"
+    },
+    "decision": {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/DECISION.json",
+      "sha256": "f7f8e5f97f43754b74be3945c20fa6e5b5e8f3c404246f320e8db20ea8e98a95",
+      "size_bytes": 1799,
+      "binds_review_sha256": "a22d8ad1809e0b92c6860a574f49cbb93a852fcb175ac23493915ab80ae338bc"
+    },
+    "final": {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/final_config.json",
+      "sha256": "0876f92aab6e3f49d085132ca896f0a6858a62eebeb5ba8267013dc3a9bd5eed",
+      "size_bytes": 3700,
+      "binds_candidate_sha256": "26d0308ac4986bd280b3854c174ad66c87871b43d3f9817159945ebf99a7fedf",
+      "binds_decision_sha256": "f7f8e5f97f43754b74be3945c20fa6e5b5e8f3c404246f320e8db20ea8e98a95"
+    }
+  },
+  "design_contract": {
+    "required_metrics": [
+      "best_validation_accuracy",
+      "epoch29_validation_accuracy",
+      "accuracy_selected_macro_f1",
+      "epoch29_macro_f1",
+      "complete_30epoch_log",
+      "six_paired_accuracy_contrasts"
+    ],
+    "required_baselines": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "bottomk_softmax_0125",
+      "bottomk_softmax_025"
+    ],
+    "evaluator_semantics": {
+      "applicability": "not_applicable",
+      "not_applicable_reason": "This is a single-outcome classifier comparison, not a multi-mode policy simulation; the intervention changes retained attention scores and all endpoints are actual saved classification predictions and epoch metrics."
+    }
+  },
+  "post_gate_continuation": {
+    "confirmatory_on_primary_fail": "forbidden",
+    "exploratory_non_rescue": {
+      "authorization": "none"
+    },
+    "hard_stops": [
+      "ethics",
+      "license",
+      "leakage",
+      "invalid_data",
+      "resource_ceiling"
+    ],
+    "primary_verdict_immutable": true,
+    "exploratory_result_may_upgrade_primary_verdict": false,
+    "exploratory_result_may_raise_claim_level": false,
+    "prospective_contract_sha256": "26d0308ac4986bd280b3854c174ad66c87871b43d3f9817159945ebf99a7fedf"
+  },
+  "prelaunch_scope": "Prospective lineage only; runtime/data/durability/source admission and parent main release still required; no science gate PASS"
+}

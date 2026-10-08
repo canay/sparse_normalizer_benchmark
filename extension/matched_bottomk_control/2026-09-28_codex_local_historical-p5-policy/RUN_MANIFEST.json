@@ -1,0 +1,86 @@
+{
+  "run_id": "2026-09-28_codex_local_historical-p5-policy",
+  "makale_kisa_adi": "SCI-sparse_normalizer_benchmark",
+  "operation_id": "snd-approved-b-repair-20260928",
+  "status": "ARTIFACT_VERIFIED_HISTORICAL_P5",
+  "run_kind": "posthoc_saved_metric_analysis",
+  "tool": "Codex",
+  "model_or_session": "gpt-6-astra / xhigh",
+  "host_label": "local",
+  "hostname": "workstation-a",
+  "local_run_folder": "experiments/2026-09-28_codex_local_historical-p5-policy",
+  "remote_run_folder": "not_applicable_local_analysis",
+  "sync_status": "local_evidence_verified",
+  "created_at_local": "2026-09-28T04:10:33.602330+03:00",
+  "created_at_utc": "2026-09-28T01:01:43Z",
+  "started_at": "2026-09-28T01:10:33.649541+00:00",
+  "ended_at": "2026-09-28T01:10:33.825171+00:00",
+  "working_directory": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark",
+  "command": "<user-home>\\miniforge3\\python.exe -B experiments/2026-09-28_codex_local_historical-p5-policy/src/historical_p5.py",
+  "script": "experiments/2026-09-28_codex_local_historical-p5-policy/src/historical_p5.py",
+  "config": "",
+  "dataset": "saved_CIFAR_validation_epoch_metrics_only",
+  "input_hashes": [],
+  "split": "historical_seed0-9_splits_unchanged",
+  "seed": "0-9_saved_only",
+  "repeat": "existing_saved_traces",
+  "fold": "not_applicable_no_refit",
+  "hyperparameters": {
+    "patience": 5,
+    "tie": "strict_improvement_earliest",
+    "new_training": false,
+    "official_test_evaluation": false,
+    "registered_outcomes_changed": false
+  },
+  "baselines_or_methods": [
+    "softmax",
+    "topk_softmax_0125",
+    "topk_softmax_025",
+    "bottomk_softmax_0125",
+    "bottomk_softmax_025"
+  ],
+  "resource_limits": {
+    "workers_threads": 1,
+    "ram_limit": "small_saved_metrics_only",
+    "gpu": "none",
+    "priority": "normal"
+  },
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "shell": "PowerShell7.6.5",
+    "runtime": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+    "virtualenv_or_container": "<user-home>\\miniforge3",
+    "libraries_or_lockfile": "Python standard library",
+    "cpu": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+    "ram": "saved scalar arithmetic only",
+    "gpu": "none",
+    "os_family": "windows",
+    "arch": "x86_64",
+    "python": "3.12",
+    "host": "workstation-a"
+  },
+  "artifacts": {
+    "status_file": "STATUS.md",
+    "commands": "commands.md",
+    "cli_log": "CLI.log",
+    "raw_outputs": [],
+    "processed_outputs": [
+      "outputs"
+    ],
+    "metrics": [
+      "outputs/ANALYSIS_MANIFEST.json"
+    ],
+    "timing": [],
+    "resource_reports": [
+      "EXECUTION_RECEIPT.json"
+    ],
+    "figure_table_inputs": []
+  },
+  "rerun_of": "",
+  "supersedes": "",
+  "superseded_by": "",
+  "manuscript_locations": [],
+  "notes": "Registered before execution. Historical matched-p5 emulation only, no new training, no official test, no outcome or inferential family change.",
+  "script_sha256": "0946EF31531B9A305ADC3468CA59FF160DCDBF464894A4F98F6BB5CA0DD70914",
+  "independent_admission": "INDEPENDENT_ARTIFACT_ADMISSION.json"
+}

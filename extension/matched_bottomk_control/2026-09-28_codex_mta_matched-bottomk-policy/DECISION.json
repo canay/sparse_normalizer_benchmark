@@ -1,0 +1,40 @@
+{
+  "decision_id": "D-SND-073",
+  "status": "CONDITIONAL_DESIGN_ACCEPTED_ENGINEERING_PENDING",
+  "recorded_utc": "2026-09-28T01:33:17.129065+00:00",
+  "authority": "root AUTHENTIC_REVIEW_ACCEPTED_AND_IMPLEMENTATION_RELEASED",
+  "candidate": {
+    "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/candidate.json",
+    "sha256": "26d0308ac4986bd280b3854c174ad66c87871b43d3f9817159945ebf99a7fedf",
+    "size_bytes": 2652
+  },
+  "candidate_protocol": {
+    "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/CANDIDATE.md",
+    "sha256": "89bdc950e0718f5d45a3a95ae2944775c73999ff5f6b4a4e376d603e053ea175",
+    "size_bytes": 8737
+  },
+  "review": {
+    "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/reviews/claude_precompute_v1.md",
+    "sha256": "a22d8ad1809e0b92c6860a574f49cbb93a852fcb175ac23493915ab80ae338bc",
+    "size_bytes": 22677
+  },
+  "adopted_conditions": [
+    "A1 historical50ladder/30comparators",
+    "A2 historical matchedp5 sensitivity",
+    "A3 six descriptive contrasts",
+    "A4 high precision",
+    "A5 failclosed train-only parity/order",
+    "A6 all50/nonfinite no retry/infrastructure3attempts",
+    "A7 dense mean>=.60 guard",
+    "A8 storedepoch0-29 strict earliest tie"
+  ],
+  "engineering": "B-G incorporated prospectively; fresh source/amendment review, remote data/resource/replay admission and parent main release pending",
+  "new_config_replaces_reviewed_candidate_bytes": false,
+  "registered_seed_main_authorized": false,
+  "novel_method_causal_rescue_or_gate_closure": false,
+  "saved_p5_admission": {
+    "path": "experiments/2026-09-28_codex_local_historical-p5-policy/INDEPENDENT_ARTIFACT_ADMISSION.json",
+    "sha256": "1e112c2bba7c3107b715b594a5cbeac07062f56f43e96c1d3a29e42dcb9d2c02",
+    "size_bytes": 1231
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "created_unix": 1789659590.5754764,
+  "full_composite_acceptance": {
+    "path": "experiments/2026-09-17_n3a_terminal_acceptance/v2/LOCAL_ACCEPTANCE.json",
+    "sha256": "e77631e497970c2d3311d7cbf0740da8e6583c709539d6110c5974c831066136"
+  },
+  "n3b_code_frozen": true,
+  "n3b_freeze_manifest": {
+    "path": "experiments/2026-09-17_n3b_transfer/N3B_FREEZE_MANIFEST.json",
+    "sha256": "8bc4f66d63e57159e9254ade5172eba399225dd0eac3048ce3c2d52fdb77f7fa"
+  },
+  "scientific_b_launch_authorized": false,
+  "validation_sha256": "316e2b32571f4f9f40df4e79f8067f663eeff53da840df5bea7c7a9823aa52ba"
+}

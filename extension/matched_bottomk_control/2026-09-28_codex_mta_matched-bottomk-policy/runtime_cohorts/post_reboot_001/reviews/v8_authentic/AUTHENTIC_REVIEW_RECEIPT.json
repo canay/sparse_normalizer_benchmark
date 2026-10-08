@@ -1,0 +1,106 @@
+{
+  "recorded_utc": "2026-09-28T08:55:48.083756+00:00",
+  "run_id": "snd-matched-bottomk-engineering-20260928-v8",
+  "status": "AUTHENTIC_OUTPUT_CODE_ADMISSIBLE_PENDING_RUNTIME_ADMISSION",
+  "actual_verdict": "CODE_ADMISSIBLE_PENDING_RUNTIME_ADMISSION",
+  "P1": 0,
+  "P2": 0,
+  "canonical_verify": {
+    "command": [
+      "<user-home>\\miniforge3\\python.exe",
+      "<controlled-workspace>\\AkademikAkisMerkezi\\Akis1_AnaPipeline\\tools\\claude_round_guard.py",
+      "verify-output",
+      "--stdout-json",
+      "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\q1-audit\\claude_rounds\\snd-matched-bottomk-engineering-20260928-v8\\claude_stdout.json",
+      "--terminal-json",
+      "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\q1-audit\\claude_rounds\\snd-matched-bottomk-engineering-20260928-v8\\terminal_status.json",
+      "--require-result-marker",
+      "ROUND_OUTPUT_COMPLETE",
+      "--max-result-words",
+      "4000",
+      "--max-result-bytes",
+      "24000"
+    ],
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"errors\": []}\n",
+    "stderr": "",
+    "scope": "Output authentication only"
+  },
+  "actual_terminal_full_read_tool_chunk": "3aa39a",
+  "owned_session_closed_tool_chunk": "1c08c3",
+  "requested_model": "claude-opus-5-5",
+  "requested_effort": "max",
+  "observed_runtime_effort": null,
+  "actual_model_usage": {
+    "claude-opus-5-5": {
+      "inputTokens": 138,
+      "outputTokens": 129202,
+      "cacheReadInputTokens": 35590661,
+      "cacheCreationInputTokens": 864195,
+      "webSearchRequests": 0,
+      "costUSD": 16.6162842,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 97971,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "actual_turns": 112,
+  "actual_exit_code": 0,
+  "actual_started_at": "2026-09-28T08:31:23.587619Z",
+  "actual_completed_at": "2026-09-28T08:52:09.740415Z",
+  "permission_denials": [],
+  "result_words": 2008,
+  "result_utf8_bytes": 14965,
+  "files": [
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/claude_stdout.json",
+      "sha256": "823FA8DA3F3355E0AA0EC0A01FC81FB74C4B9312861C8723A9A698163A6742F0",
+      "bytes": 16964
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/claude_stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/terminal_status.json",
+      "sha256": "D18414168B2A291565DF90B6656E6FC74B3F0E593BA7E7E3DB87F99C633AC2A4",
+      "bytes": 1833
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/CLAUDE_ENGINEERING_REVIEW_V8.md",
+      "sha256": "7DD9A70DF5C9BD3BB942C8C8D5AD8B9FEF878F8A584EB2CD6DA32333BA8EB5EF",
+      "bytes": 14965
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/canonical_verify.stdout.txt",
+      "sha256": "7BB48E8A06D6D0E1FBC47522F97008C443B968BD812CD52676EB0EBD426A0827",
+      "bytes": 33
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/canonical_verify.stderr.txt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_authentic_review/FROZEN_SOURCE_IDENTITY_CENSUS.json",
+      "sha256": "2BC91BDF22C1DD1791FB4F51C951BB5FA9A35D05BF1E5411F248D3E88C001DA3",
+      "bytes": 21561
+    }
+  ],
+  "reviewer_reported_read_depth": "37 narrow applicable mandatory owners FULL and directed project extras; producer manuscript_revision set hash-only and expressly excluded from whole-manuscript scope. No retained full CLI read transcript.",
+  "root_scoped_disposition": "Root accepted scope and no-P1/P2 verdict from actual full result; separate remote stage release remains pending.",
+  "nonblocking_P3_recorded_not_new_repair_campaign": [
+    "Old non-detached plan resume example fails closed",
+    "Real GPU cleanup duration to observe during Linux proofs",
+    "Controller-only signal disposition",
+    "Symlink containment informational"
+  ],
+  "runtime_or_compute_admitted": false,
+  "manuscript_or_scientific_round_admitted": false,
+  "frozen_source_and_packet_unchanged": true,
+  "user_scope_correction": "Long pursuing-goal concern acknowledged. No V9/general robustness or unrelated metadata cleanup; only concrete reachable execution/evidence-integrity blocker may justify reopening. Local preparation is not a finished paper."
+}

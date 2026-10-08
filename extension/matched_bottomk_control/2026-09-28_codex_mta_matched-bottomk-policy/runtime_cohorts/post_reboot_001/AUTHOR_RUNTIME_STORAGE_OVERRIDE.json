@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-09-28T13:38:10.469398+00:00",
+  "status": "EXPLICIT_AUTHOR_OPERATIONAL_OVERRIDE_BEFORE_RUNTIME_DATA",
+  "author_instructions": [
+    "o kuralları da ben yazdım. hadi esnetiyorum şu an!",
+    "sana yetiyorsa mevcut alan deneyini yap, sonuçlarını al diyorum sana, ne tatava yaptın, kural varmış. bürokrasi memuru oldun başıma ya!"
+  ],
+  "scope": "Only operational resource_ceiling.minimum_free_disk_gib:10→5. Historical FINAL_PROTOCOL10GiB storage line superseded by this explicit author amendment. All scientific protocol/methods/seeds/endpoints/numerical code unchanged.",
+  "minimum_free_disk_gib": 5,
+  "new_output_gib_ceiling": 2,
+  "archive_already_present": true,
+  "rationale": "Approximately8.95GiB actually available with170498071-byte archive already present;5GiB floor retains3GiB beyond worst-case2GiB new outputs. Frozen supervisor continues monitoring disk/output ceilings.",
+  "previous_source_manifest_sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+  "previous_final_config_sha256": "0876F92AAB6E3F49D085132CA896F0A6858A62EEBEB5BA8267013DC3A9BD5EED",
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "protocol_sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+  "unchanged_manifest_members": 39,
+  "scientific_configuration_unchanged": true,
+  "scientific_source_code_unchanged": true,
+  "old_runtime_evidence_preserved": true,
+  "new_cohort_runtime_evidence_reuse": false,
+  "physical_run_root": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "registered_main_requires_fresh_six_smokes": true
+}

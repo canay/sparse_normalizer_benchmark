@@ -1,0 +1,30 @@
+{
+  "status": "ARTIFACT_VERIFIED_SAVED_ANALYSIS_003",
+  "authority": "root independent read-only coordinator and seed_calibration scout",
+  "recorded_utc": "2026-09-28T01:11:57.938537+00:00",
+  "scope": "Bounded derived saved-data artifact verification, not Round B/C/D/E or scientific gate closure",
+  "root_hash_check": {
+    "input_files": 115,
+    "output_files": 23,
+    "sha256_and_bytes_matched": 138
+  },
+  "independent_numeric_scope": [
+    "M1 windows258 and LOSO300; exact targets39/34/2/8",
+    "300 full normalized epoch-log prefix matches",
+    "R1 validation/test/corner/budget paired means and sample SD with n10",
+    "7of78 accuracy/F1 mean direction disagreements",
+    "M3 all-method90 seed clusters and validation30 seed clusters",
+    "three-dataset27-resample PMF/inverseCDF endpoint semantics; M3validation720x6=4320 checks"
+  ],
+  "numeric_agreement": "Raw/CSV metrics, source labels, prefixes and test cluster values exact; derived arithmetic agreement with independent calculation up to2.22e-16 means,3.47e-18 selected SD,3.30e-17 M1 SD,2.78e-17 validation cluster and bootstrap means. No preregistered bitwise replay tolerance relaxed.",
+  "interpretation_limits": [
+    "39 early-positive later nonpositive sign events;21 nonevents include3 initially nonpositive targets3 and18 target31 censored",
+    "Posthoc selected windows and LOSO descriptive; no calibrated crossover prevalence",
+    "n10 conditional seed dispersion;3-dataset bootstrap limited transfer precision; accuracy-selected macroF1 secondary"
+  ],
+  "producer_sha256": "84A9BB79A1D5840548ABC0B0A86884510B3235B3E0D6800DCF11523EE6D2CF39",
+  "analysis_manifest_sha256": "F03207D6B3C2C656F791FF007161A6327B9C521E86549A25C3BA74E96EA8A3BE",
+  "execution_receipt_sha256": "8D60384898B2D6EFF09B1A5EB1E392673277F46AC6C272EB408A369394FC67CC",
+  "new_training_or_test_evaluation": false,
+  "registered_outcomes_changed": false
+}

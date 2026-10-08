@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-28T14:30:55.686061+00:00",
+  "authorized_by": "ROOT",
+  "final_local_analysis_authorized": true,
+  "campaign": "matched50",
+  "campaign_status": "COMPUTE_COMPLETE_UNOPENED",
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "producer_inventory_sha256": "F5E47CE76C360305CA9A5D330D56C457740494A182D4665FEEAEFE5F0A8F702F",
+  "actual_disposition": "Actual complete same-project delivery bytes verified against private producer inventory; exact local census verification and frozen local numerical analysis authorized now."
+}

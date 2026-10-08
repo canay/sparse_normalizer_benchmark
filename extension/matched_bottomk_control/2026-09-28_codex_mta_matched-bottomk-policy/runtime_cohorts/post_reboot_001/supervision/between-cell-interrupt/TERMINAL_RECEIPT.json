@@ -1,0 +1,91 @@
+{
+  "actual_returncode": 75,
+  "artifacts": [
+    {
+      "bytes": 1405,
+      "path": "launch.json",
+      "sha256": "8A377FA677F8477F628AD12932AE39F3D094ABB6F72777C82E80679C923F2F9B"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 8100,
+      "path": "samples.jsonl",
+      "sha256": "96E7C471681BBE313B3B37501EDC437861BE96B4ADA606636C028261691F9800"
+    },
+    {
+      "bytes": 1472,
+      "path": "heartbeat.json",
+      "sha256": "E66E8243308A838CBAAD324724200027C8A01B5DFE3D3E0764A587B12E89D6A3"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 2841,
+      "path": "engineering_smoke/between-cell-replay/cells/softmax__seed1001/attempt-001/launch.json",
+      "sha256": "D59BC8E26EF595F8EE6588E92C92638CE5237F16D3FA442875714D55A0B12858"
+    }
+  ],
+  "campaign": "between-cell-replay",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": "B9E1CF5973AC47BF3AA3E4452D11CE0E2A77C2405BA3BEBB23A7D3C343640057",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1001
+    },
+    {
+      "complete_sha256": null,
+      "disposition": "not_started",
+      "method": "topk_softmax_0125",
+      "seed": 1001
+    }
+  ],
+  "expected_cells": 2,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790603263.150659,
+  "launched_attempt_count": 1,
+  "mode": "smoke",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 25378,
+      "ppid": 25371,
+      "rss_bytes": 10211328,
+      "session_id": 25371,
+      "start_token": "984225",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 25385,
+      "ppid": 25371,
+      "rss_bytes": 524288,
+      "session_id": 25371,
+      "start_token": "984238",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790603227.303341,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "between-cell-interrupt"
+}

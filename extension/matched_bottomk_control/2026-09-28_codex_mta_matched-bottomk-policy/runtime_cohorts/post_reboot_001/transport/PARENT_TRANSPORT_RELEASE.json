@@ -1,0 +1,62 @@
+{
+  "recorded_unix": 1790605835.3669882,
+  "authorized_by": "ROOT",
+  "parent_transport_authorized": true,
+  "campaign": "matched50",
+  "campaign_status": "COMPUTE_COMPLETE_UNOPENED",
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "campaign_final_disposition_reference": {
+    "path": "main/matched50/CAMPAIGN_COMPLETE.json",
+    "sha256": "9AB036CC50076C13418668B3B53E428CCF9CC9070E4CC16600503095946FBD92",
+    "bytes": 10449
+  },
+  "supervision_terminal_references": [
+    {
+      "path": "supervision/between-cell-interrupt/TERMINAL_RECEIPT.json",
+      "sha256": "264877535B8F6EDA6548BE4A23BCBCA1CBCFFC1065DA7C132E02E48B50726694",
+      "bytes": 2514
+    },
+    {
+      "path": "supervision/between-cell-resume/TERMINAL_RECEIPT.json",
+      "sha256": "C6E24412D3FBB09D137974AD08AAD195F1E711B316A87D8540A708256320E78E",
+      "bytes": 2382
+    },
+    {
+      "path": "supervision/clean-reference-first/TERMINAL_RECEIPT.json",
+      "sha256": "D1846670F5E2B0F23C95645F2A4F2A71DFB1F7A50BCC289B6FF1C7FFAE604EF1",
+      "bytes": 4662
+    },
+    {
+      "path": "supervision/clean-secondseed-first/TERMINAL_RECEIPT.json",
+      "sha256": "00ED54CF9D8608428674242FAA06FA690FA01836CF6E3E5F238D72C44F643A6F",
+      "bytes": 2795
+    },
+    {
+      "path": "supervision/fault-rss/TERMINAL_RECEIPT.json",
+      "sha256": "77E7D99E64C41CA863208B9E03A6361EA0619331B0D3C9F1945E56E383292BEA",
+      "bytes": 2743
+    },
+    {
+      "path": "supervision/fault-stale/TERMINAL_RECEIPT.json",
+      "sha256": "471443529B85399194BFEACD9F2C324A67CFCD25695EA3575F5753A431A0C3B6",
+      "bytes": 2737
+    },
+    {
+      "path": "supervision/matched50-main-v8-first-20260928/TERMINAL_RECEIPT.json",
+      "sha256": "1AED463719D5B776F32693883A5D2B54E75F84B48B04DBFEAF23881D57FD5E08",
+      "bytes": 31512
+    },
+    {
+      "path": "supervision/midcell-interrupt/TERMINAL_RECEIPT.json",
+      "sha256": "C7FF215840F4FF29803ADEF7981D1A209E1085BE7BA38E03B91DE32EF5A4B289",
+      "bytes": 2110
+    },
+    {
+      "path": "supervision/midcell-resume/TERMINAL_RECEIPT.json",
+      "sha256": "97D97C11AF6922B7202E7BCDAF86224BFF709821EF9DCE4EDD27AF8CC75D2879",
+      "bytes": 2363
+    }
+  ],
+  "actual_disposition": "Actual registered50 terminal census and all9 genuine closed sessions verified; private complete producer inventory and same-project local delivery/analysis authorized. No remote numerical endpoint opening or public release."
+}

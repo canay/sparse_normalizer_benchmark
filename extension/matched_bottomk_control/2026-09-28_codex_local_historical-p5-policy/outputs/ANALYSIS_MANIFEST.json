@@ -1,0 +1,118 @@
+{
+  "run_id": "2026-09-28_codex_local_historical-p5-policy",
+  "status": "SAVED_P5_REPRODUCED_NOT_COMPUTE_OR_NOVELTY_GATE",
+  "started_utc": "2026-09-28T01:10:33.720620+00:00",
+  "finished_utc": "2026-09-28T01:10:33.748538+00:00",
+  "wall_seconds": 0.02729689993429929,
+  "tool": "Codex",
+  "model": "gpt-6-astra / xhigh",
+  "host": "workstation-a",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+  "input_hashes": {
+    "experiments/2026-09-28_codex_local_historical-p5-policy/src/historical_p5.py": "0946EF31531B9A305ADC3468CA59FF160DCDBF464894A4F98F6BB5CA0DD70914",
+    "experiments/2026-08-17_claude_mta_r1-validation-split/src/benchmark_r1.py": "EE2C60761260000972FEFC894003D62AC5571255EC1AA0B62E5DEE69269649D3",
+    "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/raw/r1_select_20260818_192148_ladder_ep30.jsonl": "1078E5A0829871C8B86C7E6DA95C1767FD1255DB6A21FBD4F542C5E3EA194CD8",
+    "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/processed/r1_select_20260818_192148_ladder_ep30_epoch_predictors.csv": "71FA2E9155E556DB505262E57EFBF4FC7DAF8CC3C4A02C272F905B426444B2E5",
+    "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/raw/r1_select_20260818_170424_sweep_bk_r1full.jsonl": "0ECDC3F5D6AAB3B05F856C5CACED89871CB7BFFD8B8150F3611781EBC17EF7E8",
+    "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/processed/r1_select_20260818_170424_sweep_bk_r1full_epoch_predictors.csv": "6907195828C624922BFFDCCF736DC08FBA26BBADB8783471006722D062DCBD22"
+  },
+  "completed_relevant_traces": 50,
+  "raw_processed_epoch_matches": 1107,
+  "raw_processed_required_metric_matches": 2214,
+  "historical_bottom_tuples_reproduced": 20,
+  "summaries": [
+    {
+      "method": "softmax",
+      "n": 10,
+      "mean_best_validation_accuracy": 0.67093,
+      "score_sample_sd": 0.008446833726314244,
+      "mean_delta_vs_dense": 0.0,
+      "paired_delta_sample_sd": 0.0,
+      "mean_accuracy_selected_f1_delta": 0.0,
+      "paired_f1_delta_sample_sd": 0.0,
+      "early_stops_before30": 0,
+      "patience_triggers_including_budget_limit": 0
+    },
+    {
+      "method": "topk_softmax_0125",
+      "n": 10,
+      "mean_best_validation_accuracy": 0.63866,
+      "score_sample_sd": 0.006739139410933697,
+      "mean_delta_vs_dense": -0.032269999999999986,
+      "paired_delta_sample_sd": 0.011405851324843935,
+      "mean_accuracy_selected_f1_delta": -0.030891384736803418,
+      "paired_f1_delta_sample_sd": 0.012690781491934517,
+      "early_stops_before30": 1,
+      "patience_triggers_including_budget_limit": 1
+    },
+    {
+      "method": "topk_softmax_025",
+      "n": 10,
+      "mean_best_validation_accuracy": 0.6531,
+      "score_sample_sd": 0.004897618468875119,
+      "mean_delta_vs_dense": -0.01782999999999999,
+      "paired_delta_sample_sd": 0.010191614199919439,
+      "mean_accuracy_selected_f1_delta": -0.017473125646329125,
+      "paired_f1_delta_sample_sd": 0.011263257023808636,
+      "early_stops_before30": 1,
+      "patience_triggers_including_budget_limit": 2
+    },
+    {
+      "method": "bottomk_softmax_0125",
+      "n": 10,
+      "mean_best_validation_accuracy": 0.29833,
+      "score_sample_sd": 0.009237850880420674,
+      "mean_delta_vs_dense": -0.3726,
+      "paired_delta_sample_sd": 0.011452995726494934,
+      "mean_accuracy_selected_f1_delta": -0.389727655299286,
+      "paired_f1_delta_sample_sd": 0.012452682419833116,
+      "early_stops_before30": 10,
+      "patience_triggers_including_budget_limit": 10
+    },
+    {
+      "method": "bottomk_softmax_025",
+      "n": 10,
+      "mean_best_validation_accuracy": 0.32475,
+      "score_sample_sd": 0.011256232841309641,
+      "mean_delta_vs_dense": -0.34618000000000004,
+      "paired_delta_sample_sd": 0.013758052187719017,
+      "mean_accuracy_selected_f1_delta": -0.35974620789832906,
+      "paired_f1_delta_sample_sd": 0.01866351144819062,
+      "early_stops_before30": 10,
+      "patience_triggers_including_budget_limit": 10
+    }
+  ],
+  "bottom_minus_top": [
+    {
+      "fraction": "0125",
+      "contrast": "bottom_minus_top",
+      "n": 10,
+      "mean": -0.34033,
+      "paired_sample_sd": 0.01228350746145236
+    },
+    {
+      "fraction": "025",
+      "contrast": "bottom_minus_top",
+      "n": 10,
+      "mean": -0.32835000000000003,
+      "paired_sample_sd": 0.011293287091601519
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_bottom_minus_top.csv",
+      "sha256": "F41747DD2FCE33245BAEBA4DDA3B46596B4785CDEE2BB9699DC14A7225761C23"
+    },
+    {
+      "path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_seed_endpoints.csv",
+      "sha256": "71EBD7DD7E8007B4295E98CA73A4AAC13E4C20D2BE486F29E885E42A8D56C0C3"
+    },
+    {
+      "path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_summary.csv",
+      "sha256": "B8AC5513A9A51041E9CF7EE9FA4FA45C7990A17E8B3D3A2B4EC7F74A87BC9969"
+    }
+  ],
+  "interpretation": "historical_matched_p5_descriptive; p0_bottom30_still_unknown; no_runtime_pooling",
+  "new_training_or_test_evaluation": false,
+  "registered_outcomes_changed": false
+}

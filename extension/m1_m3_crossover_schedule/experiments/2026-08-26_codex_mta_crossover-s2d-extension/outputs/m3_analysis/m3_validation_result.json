@@ -1,0 +1,63 @@
+{
+  "status": "M3_CONFIRMATION_KILLED",
+  "combined_method_status": "METHOD_CLAIM_KILLED",
+  "strongest_simple_schedule": "median_switch",
+  "mean_relative_reduction_by_dataset": {
+    "emnist_balanced": 0.07467592592592592,
+    "k49": 0.0695436507936508,
+    "svhn": 0.06924519924519924
+  },
+  "mean_relative_reduction_by_architecture": {
+    "plain_transformer": 0.08838568838568839,
+    "local_hybrid": 0.053924162257495585
+  },
+  "dataset_bootstrap_ci95_reduction_vs_dense": [
+    0.06924519924519924,
+    0.07467592592592592
+  ],
+  "dataset_bootstrap_ci95_reduction_vs_simple": [
+    0.0,
+    0.0
+  ],
+  "dataset_bootstrap_ci95_final_difference": [
+    -0.0025059101654846335,
+    -0.0012351257719536064
+  ],
+  "favorable_datasets": [
+    "emnist_balanced",
+    "k49",
+    "svhn"
+  ],
+  "favorable_architectures": [
+    "plain_transformer",
+    "local_hybrid"
+  ],
+  "task_final_tests": [
+    {
+      "dataset": "emnist_balanced",
+      "mean_difference": -0.0025059101654846335,
+      "p_raw": 1.575847827334612e-08,
+      "p_holm": 4.7275434820038355e-08,
+      "supported_harm_over_margin": false
+    },
+    {
+      "dataset": "k49",
+      "mean_difference": -0.0012351257719536064,
+      "p_raw": 9.626663098262339e-05,
+      "p_holm": 0.00019253326196524677,
+      "supported_harm_over_margin": false
+    },
+    {
+      "dataset": "svhn",
+      "mean_difference": -0.0014856778831934129,
+      "p_raw": 0.021956611531720738,
+      "p_holm": 0.021956611531720738,
+      "supported_harm_over_margin": false
+    }
+  ],
+  "criteria": {
+    "time_to_target": false,
+    "noninferiority": true,
+    "direction_breadth": true
+  }
+}

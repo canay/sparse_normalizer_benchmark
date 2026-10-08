@@ -1,0 +1,63 @@
+{
+  "campaign": "clean-secondseed",
+  "campaign_absolute_deadline_unix": 1790624732.6452851,
+  "cause": null,
+  "controller": {
+    "cpu_ticks": 0,
+    "pid": 24647,
+    "ppid": 24638,
+    "rss_bytes": 479232,
+    "session_id": 24647,
+    "start_token": "974749",
+    "state": "R",
+    "tty_nr": 0
+  },
+  "new_output_bytes": 336180,
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "owned_descendants": [
+    {
+      "cpu_ticks": 4252,
+      "pid": 24848,
+      "ppid": 24647,
+      "rss_bytes": 2308759552,
+      "session_id": 24647,
+      "start_token": "978129",
+      "state": "S",
+      "tty_nr": 0
+    }
+  ],
+  "owned_gpu_processes": [
+    {
+      "pid": 24848,
+      "reported_gpu_mib": 1092
+    }
+  ],
+  "signals_received": [],
+  "supervision_id": "clean-secondseed-first",
+  "timestamp_unix": 1790603209.102233,
+  "unit_progress": {
+    "attempt": "engineering_smoke/clean-secondseed/cells/topk_softmax_0125__seed1001/attempt-001",
+    "attempt_number": 1,
+    "completed_cells": 1,
+    "last_durable_checkpoint": "engineering_smoke/clean-secondseed/cells/softmax__seed1001/complete.json",
+    "phase": "running_whole_cell",
+    "planned_cells": 2,
+    "unit": {
+      "method": "topk_softmax_0125",
+      "seed": 1001
+    },
+    "unit_elapsed_seconds": 42.719398975372314,
+    "unit_started_unix": 1790603166.3828325,
+    "worker": {
+      "cpu_ticks": 0,
+      "pid": 24848,
+      "ppid": 24647,
+      "rss_bytes": 552960,
+      "session_id": 24647,
+      "start_token": "978129",
+      "state": "R",
+      "tty_nr": 0
+    }
+  }
+}

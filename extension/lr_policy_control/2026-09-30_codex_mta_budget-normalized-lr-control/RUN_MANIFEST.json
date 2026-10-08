@@ -1,0 +1,275 @@
+{
+  "artifacts": {
+    "cli_log": "admission/*STDOUT.log and main/budget*/method__seed*/attempt-*/stdout.log",
+    "commands": "commands.md",
+    "figure_table_inputs": [],
+    "metrics": [
+      "outputs/SCIENTIFIC_DECISION.json"
+    ],
+    "processed_outputs": [
+      "outputs/SCIENTIFIC_DECISION.json"
+    ],
+    "raw_outputs": [
+      "main/"
+    ],
+    "resource_reports": [
+      "admission/ACTUAL_POST_COMPLETION_HOST_MEASUREMENT.json",
+      "main/**/TERMINAL.json"
+    ],
+    "status_file": "STATUS.md",
+    "timing": [
+      "main/**/TERMINAL.json"
+    ]
+  },
+  "baselines_or_methods": [
+    "softmax",
+    "topk_softmax_0125",
+    "topk_softmax_025"
+  ],
+  "cells": 210,
+  "command": "nohup env -i PATH=/usr/bin:/bin:/usr/local/bin HOME=<gpu-server-home> USER=canay LANG=C.UTF-8 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 nice -n10 /usr/bin/python3.12 -B administration/continue_without_free_resource_floors.py",
+  "config": "candidate_config.json",
+  "controller_cumulative_elapsed_monotonic_seconds": 8830.578626701841,
+  "created_at_local": "2026-09-30T23:56:48.031362+03:00",
+  "created_at_utc": "2026-09-30T20:56:48Z",
+  "dataset": "CIFAR-10 training pool only; no official-test extraction/decoding",
+  "ended_at": "2026-09-30T20:55:20.609655+00:00",
+  "environment": {
+    "arch": "x86_64",
+    "cpu": "Intel(R) Core(TM) i7-14700",
+    "gpu": "NVIDIA GeForce RTX 5060, 595.91.07, 8151, 4719, 2982",
+    "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+    "libraries_or_lockfile": "actual per-cell runtime_identity plus fresh post-completion package probe",
+    "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "os_family": "linux",
+    "python": "3.12.3",
+    "ram": "available/total actual post-completion probe; execution RSS captured per cell",
+    "runtime": {
+      "CUBLAS_WORKSPACE_CONFIG": null,
+      "MKL_NUM_THREADS": "2",
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "PYTHONHASHSEED": "0",
+      "cuda": "13.0",
+      "cuda_available": true,
+      "cudnn": 92000,
+      "driver": "595.91.07",
+      "gpu": "NVIDIA GeForce RTX 5060",
+      "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+      "nice": 10,
+      "numpy": "1.26.4",
+      "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+      "precision": "high",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3.12",
+      "torch": "2.13.0+cu130",
+      "torch_interop_threads": 2,
+      "torch_threads": 2
+    },
+    "shell": "/bin/bash",
+    "virtualenv_or_container": "/usr/bin/python3.12; system interpreter"
+  },
+  "fold": "no cross-validation",
+  "host_label": "mta-cuda",
+  "hostname": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+  "hyperparameters": {
+    "archive_bytes": 170498071,
+    "archive_sha256": "6D958BE074577803D12ECDEFD02955F39262C83C16FE9348329D7FE0B5C001CE",
+    "batch_size": 256,
+    "budgets": [
+      3,
+      6,
+      9,
+      12,
+      18,
+      24,
+      30
+    ],
+    "dataset": "cifar10_training_pool_only",
+    "dropout": 0.1,
+    "expected_cells": 210,
+    "expected_minibatches_per_epoch": 157,
+    "exploratory_result_may_upgrade_registered_verdict": false,
+    "fixed_baseline_admission_sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+    "fixed_baseline_decision_sha256": "1D2CD78EF8E76584E7A218622AD420DF4A4F70CA4920FFC2EEAD5D936FD153EF",
+    "fixed_baseline_manifest_sha256": "64D33C9B349B126EC17A3770103AAC2F838FA871B314F9E980AB6156AF0B62DC",
+    "grad_clip": 5.0,
+    "interim_scientific_result_inspection_allowed": false,
+    "issue": "B007-RB-01/MCH-SND-009",
+    "lr_base": 0.001,
+    "lr_policy": "linear_per_optimizer_update_eta0_times_1_minus_t_over_T",
+    "main_requires_independent_precompute_review_and_engineering_admission": true,
+    "matmul_precision": "high",
+    "max_infrastructure_attempts_per_cell": 2,
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025"
+    ],
+    "official_test_decode_evaluation": false,
+    "patch": 4,
+    "patience": 0,
+    "primary_endpoint": "best_validation_accuracy_within_budget_earliest_tie",
+    "pythonhashseed": "0",
+    "registered_outcomes_immutable": [
+      "M1",
+      "M2",
+      "M3",
+      "N3-A",
+      "N3-B"
+    ],
+    "resource_ceiling": {
+      "cell_timeout_seconds": 300,
+      "gpu_allocated_gib": 4,
+      "minimum_free_vram_gib": 3,
+      "new_output_gib": 2,
+      "nice": 10,
+      "numerical_threads": 2,
+      "wall_hours": 6,
+      "worker_rss_gib": 4,
+      "workers": 1
+    },
+    "run_id": "2026-09-30_codex_mta_budget-normalized-lr-control",
+    "schema_version": 1,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "smoke_seeds": [
+      1000,
+      1001
+    ],
+    "source_benchmark_sha256": "EE2C60761260000972FEFC894003D62AC5571255EC1AA0B62E5DEE69269649D3",
+    "source_datasets_sha256": "C0D2E439B04D8B90E5E6907012BD383760709727F6A124FC14004499593A9D94",
+    "status": "PRECOMPUTE_REPAIR_V4_CANDIDATE",
+    "tier": "compact",
+    "torch_threads": 2,
+    "train_limit": 0,
+    "val_fraction": 0.2,
+    "weight_decay": 0.0001
+  },
+  "independent_actual_result_review_status": "NOT_STARTED",
+  "infrastructure_failures_or_retries": {
+    "main_attempt_directories": 210,
+    "main_recovery_records": 0,
+    "main_scientific_markers": 0,
+    "operator_declared_terminal_status": "COMPUTE_COMPLETE"
+  },
+  "input_hashes": [
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "71177E2CD92088FB1E8CDC7EA498D0D6F7B0467BA94F4252F50D7B5F8FBBC9FA"
+    },
+    {
+      "path": "candidate_config.json",
+      "sha256": "5E9C3816D4ED4AE08A319CC3238BDC1D2EC9EF4D24A5EA6120F107A17AE8539C"
+    },
+    {
+      "path": "baseline_bindings.json",
+      "sha256": "DB4A6D09EEDA5ACF8FAC004F29437CC833FC246E5D6E91C7079973C5CCCB5BBD"
+    },
+    {
+      "path": "src/campaign.py",
+      "sha256": "25C6E309BBB7E3137A214680A536352A8001697521696A0EF8FA055D434575F0"
+    },
+    {
+      "path": "src/decay_worker.py",
+      "sha256": "13269389AB9A0740CFDEE5E17F50CB9CCCC6DD4F2FE9174385135168201584B3"
+    },
+    {
+      "path": "src/analyze_results.py",
+      "sha256": "75980923F892BF1DE085D2E13CABB8F6A04C2ACA86D043D47DE0F6F45B907038"
+    },
+    {
+      "path": "src/verify_transport.py",
+      "sha256": "C7C99CD2EF77E5D0AAB3196158AAFFB24C39C8BC49E3CF41610C4E1284B68E2D"
+    }
+  ],
+  "local_run_folder": "experiments/2026-09-30_codex_mta_budget-normalized-lr-control/",
+  "makale_kisa_adi": "SCI-sparse_normalizer_benchmark",
+  "manuscript_locations": [],
+  "model_or_session": "requested gpt-6-astra/xhigh; actual subtype unattested",
+  "no_manuscript_integration_or_gate_closure_claimed": true,
+  "notes": "All failures preserved. Registered M1/M2/M3/N3 outcomes unchanged. Current manuscript PDF unchanged. Finite result review pending.",
+  "operation_id": "snd-lr-policy-terminal-records-20260930",
+  "original92_retrained": false,
+  "peak_observed_worker_rss_bytes": 2323611648,
+  "platform_envelope_source": {
+    "fresh_probe_not_historical_environment": true,
+    "path": "admission/ACTUAL_POST_COMPLETION_HOST_MEASUREMENT.json",
+    "sha256": "AA983F78807673AF6175A25EECE6057F6D999BF7A4BCCC8ACDEE109CC0A49A4F"
+  },
+  "preserved_before_author_amendment_cells": 92,
+  "provenance_record_timing": "standard manifest/registry added transparently after actual completion; never a prospective platform capture",
+  "remote_run_folder": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-30_codex_mta_budget-normalized-lr-control",
+  "repeat": 10,
+  "rerun_of": "",
+  "resource_limits": {
+    "cell_timeout_seconds": 300,
+    "cumulative_wall_hours": 6,
+    "gpu": "RTX5060; 4GiB allocated ceiling; freeVRAM admission floor author-waived",
+    "minimum_free_disk_or_vram": null,
+    "output_ceiling_gib": 2,
+    "priority": "nice10",
+    "ram_limit": "4GiB worker RSS",
+    "workers_threads": "1 worker / 2 numerical threads"
+  },
+  "run_id": "2026-09-30_codex_mta_budget-normalized-lr-control",
+  "run_kind": "canonical_exploratory_policy_control",
+  "runtime_identity": {
+    "CUBLAS_WORKSPACE_CONFIG": null,
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONHASHSEED": "0",
+    "cuda": "13.0",
+    "cuda_available": true,
+    "cudnn": 92000,
+    "driver": "595.91.07",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+    "nice": 10,
+    "numpy": "1.26.4",
+    "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "precision": "high",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/bin/python3.12",
+    "torch": "2.13.0+cu130",
+    "torch_interop_threads": 2,
+    "torch_threads": 2
+  },
+  "scientific_decision_sha256": "DE4A4B2B5F3B9434E79E1E2673B429BDCE770A56728ECBAF449038E5AB50C10D",
+  "script": "src/campaign.py; operational continuation administration/continue_without_free_resource_floors.py",
+  "seed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "split": "40000 fit / 10000 validation; per-seed exact index hashes in baseline_bindings.json and each receipt",
+  "started_at": "2026-09-30T13:17:20.297684+00:00",
+  "started_at_author_local": "2026-09-30T16:17:20.297684+03:00",
+  "status": "COMPUTE_COMPLETE_ANALYZED_PENDING_FINITE_INDEPENDENT_REVIEW",
+  "superseded_by": "",
+  "supersedes": "",
+  "sync_status": "downloaded_hash_verified",
+  "tool": "Codex",
+  "total_epochs": 3060,
+  "training_runtime_source": "all210 hash-bound worker receipt.json files captured during their actual executions",
+  "wall_clock_span_including_pauses_seconds": 27480.31197166443,
+  "working_directory": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-30_codex_mta_budget-normalized-lr-control"
+}

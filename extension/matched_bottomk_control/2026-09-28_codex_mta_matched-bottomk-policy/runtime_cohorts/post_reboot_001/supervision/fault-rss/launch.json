@@ -1,0 +1,45 @@
+{
+  "campaign": "fault-rss",
+  "command_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/src/controller.py",
+    "--mode",
+    "smoke",
+    "--campaign",
+    "fault-rss"
+  ],
+  "environment_overrides": {
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "mode": "smoke",
+  "owned_process": {
+    "cpu_ticks": 0,
+    "pid": 22128,
+    "ppid": 22126,
+    "rss_bytes": 520192,
+    "session_id": 22128,
+    "start_token": "940565",
+    "state": "R",
+    "tty_nr": 0
+  },
+  "parent_death_guard": "PR_SET_PDEATHSIG_SIGTERM_BEFORE_EXEC_AND_PPID_CHECK",
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790602790.7163997,
+  "supervision_id": "fault-rss",
+  "supervisor_process": {
+    "cpu_ticks": 4,
+    "pid": 22126,
+    "ppid": 22115,
+    "rss_bytes": 22904832,
+    "session_id": 22108,
+    "start_token": "940556",
+    "state": "R",
+    "tty_nr": 0
+  }
+}

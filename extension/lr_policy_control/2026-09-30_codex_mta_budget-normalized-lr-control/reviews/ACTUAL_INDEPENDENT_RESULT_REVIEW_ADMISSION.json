@@ -1,0 +1,66 @@
+{
+  "actual_completed_at_utc": "2026-09-30T21:24:18.294598Z",
+  "actual_exit_code": 0,
+  "actual_model_usage": [
+    "claude-opus-5-5"
+  ],
+  "author_exact_pdf_approval": false,
+  "canonical_guard_launch_and_verify_output": "ACTUAL_PASS_OBSERVED_NO_REVIEW_RESTART",
+  "disposition_sha256": "5E77590ED19A6BBECF02E586D8509E766832B03EFE9DA7620FBDBE897E361B93",
+  "findings": [
+    {
+      "disposition": "ACCEPTED_REQUIRED_FOR_FUTURE_MANUSCRIPT_INTEGRATION",
+      "id": "F1",
+      "local_documentation": "COMPLETE",
+      "manuscript_disclosure": "PENDING",
+      "numerical_regime_equivalence": "NOT_RUN",
+      "priority": "P2"
+    },
+    {
+      "disposition": "ACCEPTED_REQUIRED_FOR_FUTURE_MANUSCRIPT_INTEGRATION",
+      "id": "F2",
+      "local_documentation": "COMPLETE",
+      "manuscript_qualifiers": "PENDING",
+      "priority": "P2"
+    },
+    {
+      "disposition": "LOCAL_SCHEMA_DOCUMENTATION_COMPLETE_RAW_BYTES_PRESERVED",
+      "future_public_export": "NOT_DONE",
+      "id": "F3",
+      "literal_protocol_all_fields_finite": false,
+      "priority": "P3"
+    }
+  ],
+  "formal_c_d_e_f": "NOT_STARTED",
+  "freeze_receipt_sha256": "9A7FFF804B0BD24D310A174DBF38E8422904CDC532BAADC8CC1DB38AD7B3FB32",
+  "frozen_input_bytes": 4285012,
+  "frozen_input_files": 1918,
+  "independent_mismatches": 0,
+  "manuscript_integration": "NOT_DONE",
+  "metric_records_independently_recomputed": 420,
+  "new_peak_lr_experiment_selected": false,
+  "not_run": [
+    "frozen_analyzer_rerun",
+    "engineering_tests_rerun",
+    "archive_split_init_rederivation",
+    "cross_execution_regime_numerical_equivalence",
+    "broader_comparator_custody",
+    "fresh_prior_art_review"
+  ],
+  "operation_id": "snd-lr-policy-verified-result-20261001",
+  "original_input_manifest_sha256": "E1CF9166F7A6E69BF9B4AE130C2E1D3BEC27D6173823A4D63FC8024C20E9BBDA",
+  "original_report_sha256": "35AC3B1970143B88A584E76D18D69826CC798A350587C226D79310F950DA9113",
+  "paired_contrasts_independently_recomputed": 28,
+  "provider_effort": "UNATTESTED",
+  "provider_stdout_sha256": "E25AA7FF3A7BD8C604EF0274D923BB0F3DB7F25CAB9ABC8833BCB216628B0B44",
+  "public_release_or_submit": false,
+  "raw_schema_note_sha256": "8846F20754E0E1707B05F10A02EBF0C3F1B97C24DBC683A3BD33EBBC67337845",
+  "readout_sha256": "6BB48A453978770E55F146425A2AB3FF151802D88B08A65E391D10D215671AF1",
+  "recorded_at_utc": "2026-09-30T21:37:33.151016+00:00",
+  "requested_effort": "max",
+  "root_read_entire_original_report": true,
+  "scientific_s2_full_paper": "NOT_DONE",
+  "status": "VERIFIED_FOR_BOUNDED_INTEGRATION",
+  "terminal_sha256": "18CB8E58662E9CF71299805BDD917DE3CB9DD61B26B6379B8A1401257D9064A5",
+  "verdict": "POLICY_RESULT_VERIFIED_FOR_BOUNDED_INTEGRATION"
+}

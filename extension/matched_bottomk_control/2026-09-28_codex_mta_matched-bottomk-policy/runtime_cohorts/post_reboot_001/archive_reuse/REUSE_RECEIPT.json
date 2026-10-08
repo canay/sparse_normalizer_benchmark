@@ -1,0 +1,30 @@
+{
+  "actual_bootstrap_producer_sha256": "13204FE3FF10FB5587077C9F929EC72435D2DF62599F83427B1E7EF9D24EDEBE",
+  "actual_executor": "ROOT Codex gpt-6-astra / requested xhigh",
+  "actual_failure": null,
+  "actual_verified_carrier_sha256": "73758EDE0C017783C47AC59540375824BB4221D7F839C8AAE0E7EFF239117273",
+  "bytes": 170498071,
+  "final_url": "https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz",
+  "finished_unix": 1790595028.3490684,
+  "fresh_physical_run": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "frozen_original_acquisition_producer_sha256": "3C1ECCE673BF1E3770CE6BE0367501137DBA397CEBC52E722A29C5CF711D6AFC",
+  "http_download_on_target": false,
+  "old_physical_source_archive": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/data/cifar-10-python.tar.gz",
+  "original_acquisition_custody_sha256": "2545F376B73B3F26F1998CACF9CA11E8F52696BE24C499CBED9ED8E8B529C795",
+  "original_acquisition_receipt_reference": {
+    "bytes": 2429,
+    "path": "admission/ACQUISITION_RECEIPT.json",
+    "sha256": "2545F376B73B3F26F1998CACF9CA11E8F52696BE24C499CBED9ED8E8B529C795"
+  },
+  "original_three_attempt_exhaustion_remains_ancestor_history": true,
+  "root_cohort_authority_sha256": "C32ABF6C60B16A55937A8B004DC310B1F6DDEFEB414FEECC6E730760BDD07DB8",
+  "root_native_origin_sha256": "08B5B09E2D59B82F5C5D312EE47F449A06174CDD38EB1019E4A8BC583047E410",
+  "scientific_source_changed": false,
+  "sha256": "6D958BE074577803D12ECDEFD02955F39262C83C16FE9348329D7FE0B5C001CE",
+  "source_manifest_sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+  "started_unix": 1790595027.5528724,
+  "status": "ARCHIVE_IDENTITY_VERIFIED_BEFORE_DECODE",
+  "tar_or_pickle_opened": false,
+  "transport": "Exclusive verified same-owned-filesystem hardlink of already admitted official archive; no new HTTP download",
+  "url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz"
+}

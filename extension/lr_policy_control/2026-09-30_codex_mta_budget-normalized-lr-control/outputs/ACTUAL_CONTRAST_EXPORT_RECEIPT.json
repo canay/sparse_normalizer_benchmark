@@ -1,0 +1,18 @@
+{
+  "budgets": [
+    3,
+    6,
+    9,
+    12,
+    18,
+    24,
+    30
+  ],
+  "csv_sha256": "F229C9CC6EDE781E129D32DC039564111125EBDC051770AE5CE772B3015C4A6F",
+  "fixed_reference_is_same_seed_path_not_independent_replication": true,
+  "intervals": "nominal unadjusted two-sided95percent Student-t df9; descriptive",
+  "rows": 28,
+  "source_sha256": "DE4A4B2B5F3B9434E79E1E2673B429BDCE770A56728ECBAF449038E5AB50C10D",
+  "status": "ALL28_CONTRASTS_EXPORTED_WITH_UNITS_ONLY_NO_REANALYSIS",
+  "units": "percentage points"
+}

@@ -1,0 +1,96 @@
+{
+  "actual_returncode": 0,
+  "artifacts": [
+    {
+      "bytes": 1356,
+      "path": "launch.json",
+      "sha256": "426EAEA3CECC409826820C297601663EF749E8C4D846DFA2251D9A71CFCCD16D"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 19461,
+      "path": "samples.jsonl",
+      "sha256": "84799D9A4F9198FA34D155E55461517F95E768BE1967F56894BDE0829152CB4B"
+    },
+    {
+      "bytes": 1555,
+      "path": "heartbeat.json",
+      "sha256": "3E471B2401B86FDCEE40BD05255181E65BF54360AB92F56A13E9B1D173E1D5A1"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 2587,
+      "path": "engineering_smoke/clean-secondseed/cells/softmax__seed1001/attempt-001/launch.json",
+      "sha256": "2D6F1BD39ABFA7408B9CEBDB7BD07BA6CA4F526ED3A2452D2D1D7F605C8B81FF"
+    },
+    {
+      "bytes": 3341,
+      "path": "engineering_smoke/clean-secondseed/cells/topk_softmax_0125__seed1001/attempt-001/launch.json",
+      "sha256": "D241E9DD0AF9E3B5EA9A4427AC21C9AFBEB5CD831BE9E219F5DE809A9137C795"
+    }
+  ],
+  "campaign": "clean-secondseed",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": "2D90519417EBA9C06EB91DA6EC661DD1087E02E978D72F3F77CBBF31771E16A9",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1001
+    },
+    {
+      "complete_sha256": "A12152C5BD031D18EAC310496D52A48CF554F4A2883F894E13B8CCDCF73D8629",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 1001
+    }
+  ],
+  "expected_cells": 2,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790603214.1796598,
+  "launched_attempt_count": 2,
+  "mode": "smoke",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 24655,
+      "ppid": 24647,
+      "rss_bytes": 278528,
+      "session_id": 24647,
+      "start_token": "974759",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 24848,
+      "ppid": 24647,
+      "rss_bytes": 552960,
+      "session_id": 24647,
+      "start_token": "978129",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790603132.5700674,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "clean-secondseed-first"
+}

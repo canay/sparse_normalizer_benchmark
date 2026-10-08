@@ -1,0 +1,67 @@
+{
+  "recorded_utc": "2026-09-28T13:52:26.475412+00:00",
+  "status": "PARENT_MAIN_RELEASE_NOT_SCIENTIFIC_RESULT",
+  "campaign": "matched50",
+  "registered_seed_main_authorized": true,
+  "runtime_identity_sha256": "7073FE083E0948D6A6AE6A254934E90058F9DB90AC8DA44AC87EB1BFF2F9B18F",
+  "references": {
+    "source_manifest": {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+      "bytes": 7201
+    },
+    "final_config": {
+      "path": "final_config.json",
+      "sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+      "bytes": 3699
+    },
+    "protocol": {
+      "path": "FINAL_PROTOCOL.md",
+      "sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+      "bytes": 11509
+    },
+    "engineering_release": {
+      "path": "admission/ENGINEERING_RELEASE.json",
+      "sha256": "CBDC1C15A6D7A5CB092C7529C2E20706DA70F0A8307260627BFADD363668FF5F",
+      "bytes": 2634
+    },
+    "data_env": {
+      "path": "admission/DATA_ENV_ADMISSION.json",
+      "sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+      "bytes": 10146
+    },
+    "environment_lineage": {
+      "path": "admission/ENVIRONMENT_LINEAGE_ADMISSION.json",
+      "sha256": "CE0EAB3980100A51110295FE49758280147552F6F163564B9179B37F5DD70941",
+      "bytes": 2102
+    },
+    "smoke_input_binding": {
+      "path": "admission/SMOKE_INPUT_BINDING.json",
+      "sha256": "BD1E0793B089D46D6423C53109E099F9AFA7788F220429EF84232B18AB0FFB00",
+      "bytes": 1256
+    },
+    "engineering_smoke": {
+      "path": "admission/ENGINEERING_SMOKE_ADMISSION.json",
+      "sha256": "A308D699B36ECCC88EFB7858B2A02F2392FC2B2F501A367C483B81B2169E39A9",
+      "bytes": 17096
+    },
+    "design_review": {
+      "path": "reviews/claude_precompute_v1.md",
+      "sha256": "A22D8AD1809E0B92C6860A574F49CBB93A852FCB175AC23493915AB80AE338BC",
+      "bytes": 22677
+    },
+    "engineering_review": {
+      "path": "reviews/claude_engineering_v8.md",
+      "sha256": "7DD9A70DF5C9BD3BB942C8C8D5AD8B9FEF878F8A584EB2CD6DA32333BA8EB5EF",
+      "bytes": 14965
+    }
+  },
+  "actual_executor": "ROOT Codex gpt-6-astra / requested xhigh",
+  "actual_root_disposition": "ROOT has inspected actual current6smoke admission, all6genuine closed terminals/cleanup, strict>600s bitwise replay, parameter parity and complete-boundary proof. Under explicit author instruction to run and obtain results with sufficient actual storage, authorize exact frozen matched50 now with current source/config and5GiB operational floor,2GiB output cap. All scientific settings/endpoints unchanged; no partial aggregate or remote endpoint peek.",
+  "local_root_authorization_custody": {
+    "path": "q1-audit/snd-approved-b-repair-20260928/v8_remote_stage/root_main_release/author_storage_001/ROOT_ACTUAL_MAIN_DISPOSITION.json",
+    "sha256": "4E58D9A3E7617DF020BA976290EADE9FC5841CE4F0D32533BCCD83D130383842",
+    "bytes": 1538
+  },
+  "scientific_or_manuscript_gate_closed": false
+}

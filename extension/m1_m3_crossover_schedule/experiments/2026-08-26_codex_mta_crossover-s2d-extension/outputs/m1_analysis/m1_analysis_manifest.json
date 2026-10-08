@@ -1,0 +1,10 @@
+{
+  "analysis_source_sha256": "44392caa9ee49ac6074fff38090789a6d564a90347fefa4dd0597cdc2d6c706a",
+  "validation_report_sha256": "7206589b1509cf71b5791d66472d5ef538d3295f06fab6ffb721de3b1cbc5f4a",
+  "outputs": {
+    "m1_cell_features.csv": "d146ad856102f03c23e3229770c13bc5f21adaed0626984032527db47613b405",
+    "m1_lodo_predictions.csv": "08a1b027af2fb4a055a2279f74729300aba5d288739162e2a176896d0ad5a6d1",
+    "m1_result.json": "a77653ec58a296429ce592986ab66fbf656fd5dfd8000dfa03f39f1a3422d3a9",
+    "m1_switch_map.json": "c3bb4669b1bfb974fee53e55326e0054fc315fb6cf833e1fd8baa69b959134af"
+  }
+}

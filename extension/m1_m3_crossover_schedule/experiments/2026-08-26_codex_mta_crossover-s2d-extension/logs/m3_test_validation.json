@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "phase": "m3_test",
+  "validator_source_sha256": "f466b31d18e14993709d906b60eb30927d8f21e3cddf369c31e292b0098ac6d6",
+  "root": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-08-26_codex_mta_crossover-s2d-extension\\outputs\\m3_test",
+  "raw_files": {
+    "mch002_20260901_102139_m3test_plain_transformer_compact.jsonl": "435ec0f2325d41e3bd53aa444f1222f35913368d27bd51092b39be74b2919ee6",
+    "mch002_20260901_123951_m3test_plain_transformer_deep.jsonl": "2803143294b7f1a9bfd79fea0140e131a5b10f1e844036718011d801d38c5a4c",
+    "mch002_20260901_170526_m3test_plain_transformer_wide.jsonl": "79528e10459ff5b2629a35a4f40bdea45feeede2e29a68deeecf183c8242fe2d",
+    "mch002_20260901_210446_m3test_local_hybrid_compact.jsonl": "6b617060f50812f669aaa221ff84776d1fa219ab74245297aba17c8da132a19b",
+    "mch002_20260901_234306_m3test_local_hybrid_deep.jsonl": "b2f234c35fce5a2f33e87ac9a24b2cfaf56bcc35f3c649998bbf40aea2978ca7",
+    "mch002_20260902_044957_m3test_local_hybrid_wide.jsonl": "9a87b8dc2e975655dfe5f7dcb55ed09b436ba5c5da9527270aee63892a732e0a"
+  },
+  "manifest_files": {
+    "mch002_20260901_102139_m3test_plain_transformer_compact.json": "bbc11616730fd3a0ef471ac81f8b3a7fbbafef6d0fc738e6ed4d348c6a70e1b0",
+    "mch002_20260901_123951_m3test_plain_transformer_deep.json": "2d5ad1f1ca63d029ae849873a5c5dc45d56ee7a86f7e7b158b9bdcd8bcaed1f0",
+    "mch002_20260901_170526_m3test_plain_transformer_wide.json": "82220cc30a5da2b0c2018f7a7d65dd334fe8d89b3d474596284a0fadc2f616ca",
+    "mch002_20260901_210446_m3test_local_hybrid_compact.json": "e866954d14ef1f7b58eddb58bc54997e24b03f44103aac93351d55ac9bfe47bb",
+    "mch002_20260901_234306_m3test_local_hybrid_deep.json": "3c5d6b4a24673a767b711fc8c0c90c0c380c0165b5d293612a77638678c0ee55",
+    "mch002_20260902_044957_m3test_local_hybrid_wide.json": "eb8fec73251a056806761f856050cf5160c65b8e851b796a6c9a697d29b13e0b"
+  },
+  "runner_source_hashes": [
+    "8beda4eb7c5f37c8ffdd68ac01e1b49b8f7fd785c62fe6b2c7c5b371fd004806"
+  ],
+  "completed_cells": 720,
+  "expected_cells": 720,
+  "failed_rows": 0,
+  "recovered_failed_rows": 0,
+  "unresolved_failed_rows": 0,
+  "errors": []
+}

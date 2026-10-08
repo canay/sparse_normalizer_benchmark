@@ -1,0 +1,20 @@
+{
+  "budget": 12,
+  "method": "softmax",
+  "mode": "main",
+  "parent_pid": 196024,
+  "parent_start_token": "20082532",
+  "preflight": {
+    "disk_free_bytes": 21303672832,
+    "free_resource_floors_enforced": false,
+    "gpu_free_bytes": 3126853632,
+    "gpu_probe_error": null,
+    "new_output_bytes": 878650,
+    "operational_amendment": "snd-lr-policy-author-resource-amendment-20260930",
+    "operational_amendment_receipt_sha256": "B10A3891AADD66AEE2994CCCB48E6033606E32BDF814AF89B44EDC7CE1DFB914",
+    "timestamp_unix": 1790794243.5284524
+  },
+  "release_sha256": "2B591EBC0990C52A78B0ED8C302D0D4EA6A586E046CA6D87DE8D323B1A0D4E46",
+  "seed": 3,
+  "started_unix": 1790794243.5389612
+}

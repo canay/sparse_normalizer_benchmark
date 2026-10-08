@@ -1,0 +1,490 @@
+{
+  "mechanistic_switch": {
+    "mnist": {
+      "plain_transformer": {
+        "compact": 16,
+        "deep": 12,
+        "wide": 12
+      },
+      "local_hybrid": {
+        "compact": 19,
+        "deep": 13,
+        "wide": 12
+      }
+    },
+    "fashion_mnist": {
+      "plain_transformer": {
+        "compact": 20,
+        "deep": 14,
+        "wide": 7
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 11,
+        "wide": 9
+      }
+    },
+    "kmnist": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 26,
+        "wide": 23
+      },
+      "local_hybrid": {
+        "compact": 29,
+        "deep": 24,
+        "wide": 21
+      }
+    },
+    "cifar10": {
+      "plain_transformer": {
+        "compact": 24,
+        "deep": 19,
+        "wide": 20
+      },
+      "local_hybrid": {
+        "compact": 21,
+        "deep": 18,
+        "wide": 15
+      }
+    },
+    "cifar100": {
+      "plain_transformer": {
+        "compact": 8,
+        "deep": 5,
+        "wide": 3
+      },
+      "local_hybrid": {
+        "compact": 3,
+        "deep": 5,
+        "wide": 3
+      }
+    },
+    "twenty_news": {
+      "plain_transformer": {
+        "compact": 4,
+        "deep": 3,
+        "wide": 3
+      },
+      "local_hybrid": {
+        "compact": 3,
+        "deep": 3,
+        "wide": 3
+      }
+    },
+    "synthetic_marker": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      },
+      "local_hybrid": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      }
+    },
+    "emnist_letters": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 21,
+        "wide": 21
+      },
+      "local_hybrid": {
+        "compact": 23,
+        "deep": 15,
+        "wide": 13
+      }
+    },
+    "emnist_digits": {
+      "plain_transformer": {
+        "compact": 18,
+        "deep": 9,
+        "wide": 9
+      },
+      "local_hybrid": {
+        "compact": 13,
+        "deep": 7,
+        "wide": 9
+      }
+    },
+    "usps": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      },
+      "local_hybrid": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      }
+    }
+  },
+  "median_switch": {
+    "mnist": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "fashion_mnist": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "kmnist": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "cifar10": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "cifar100": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "twenty_news": {
+      "plain_transformer": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      },
+      "local_hybrid": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      }
+    },
+    "synthetic_marker": {
+      "plain_transformer": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      },
+      "local_hybrid": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      }
+    },
+    "emnist_letters": {
+      "plain_transformer": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      },
+      "local_hybrid": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      }
+    },
+    "emnist_digits": {
+      "plain_transformer": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      },
+      "local_hybrid": {
+        "compact": 15,
+        "deep": 15,
+        "wide": 15
+      }
+    },
+    "usps": {
+      "plain_transformer": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      },
+      "local_hybrid": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      }
+    }
+  },
+  "early_accuracy_switch": {
+    "mnist": {
+      "plain_transformer": {
+        "compact": 19,
+        "deep": 17,
+        "wide": 18
+      },
+      "local_hybrid": {
+        "compact": 18,
+        "deep": 17,
+        "wide": 16
+      }
+    },
+    "fashion_mnist": {
+      "plain_transformer": {
+        "compact": 12,
+        "deep": 13,
+        "wide": 12
+      },
+      "local_hybrid": {
+        "compact": 13,
+        "deep": 12,
+        "wide": 12
+      }
+    },
+    "kmnist": {
+      "plain_transformer": {
+        "compact": 20,
+        "deep": 20,
+        "wide": 19
+      },
+      "local_hybrid": {
+        "compact": 21,
+        "deep": 19,
+        "wide": 18
+      }
+    },
+    "cifar10": {
+      "plain_transformer": {
+        "compact": 18,
+        "deep": 20,
+        "wide": 19
+      },
+      "local_hybrid": {
+        "compact": 18,
+        "deep": 19,
+        "wide": 19
+      }
+    },
+    "cifar100": {
+      "plain_transformer": {
+        "compact": 18,
+        "deep": 19,
+        "wide": 19
+      },
+      "local_hybrid": {
+        "compact": 18,
+        "deep": 19,
+        "wide": 19
+      }
+    },
+    "twenty_news": {
+      "plain_transformer": {
+        "compact": 19,
+        "deep": 21,
+        "wide": 23
+      },
+      "local_hybrid": {
+        "compact": 19,
+        "deep": 20,
+        "wide": 23
+      }
+    },
+    "synthetic_marker": {
+      "plain_transformer": {
+        "compact": 9,
+        "deep": 9,
+        "wide": 9
+      },
+      "local_hybrid": {
+        "compact": 9,
+        "deep": 9,
+        "wide": 9
+      }
+    },
+    "emnist_letters": {
+      "plain_transformer": {
+        "compact": 23,
+        "deep": 21,
+        "wide": 21
+      },
+      "local_hybrid": {
+        "compact": 21,
+        "deep": 19,
+        "wide": 18
+      }
+    },
+    "emnist_digits": {
+      "plain_transformer": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      },
+      "local_hybrid": {
+        "compact": 13,
+        "deep": 13,
+        "wide": 13
+      }
+    },
+    "usps": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 25,
+        "wide": 28
+      },
+      "local_hybrid": {
+        "compact": 30,
+        "deep": 29,
+        "wide": 30
+      }
+    }
+  },
+  "entropy_switch": {
+    "mnist": {
+      "plain_transformer": {
+        "compact": 19,
+        "deep": 13,
+        "wide": 16
+      },
+      "local_hybrid": {
+        "compact": 19,
+        "deep": 13,
+        "wide": 15
+      }
+    },
+    "fashion_mnist": {
+      "plain_transformer": {
+        "compact": 19,
+        "deep": 14,
+        "wide": 11
+      },
+      "local_hybrid": {
+        "compact": 16,
+        "deep": 13,
+        "wide": 13
+      }
+    },
+    "kmnist": {
+      "plain_transformer": {
+        "compact": 21,
+        "deep": 18,
+        "wide": 17
+      },
+      "local_hybrid": {
+        "compact": 19,
+        "deep": 17,
+        "wide": 19
+      }
+    },
+    "cifar10": {
+      "plain_transformer": {
+        "compact": 22,
+        "deep": 18,
+        "wide": 16
+      },
+      "local_hybrid": {
+        "compact": 20,
+        "deep": 18,
+        "wide": 15
+      }
+    },
+    "cifar100": {
+      "plain_transformer": {
+        "compact": 22,
+        "deep": 18,
+        "wide": 15
+      },
+      "local_hybrid": {
+        "compact": 18,
+        "deep": 19,
+        "wide": 10
+      }
+    },
+    "twenty_news": {
+      "plain_transformer": {
+        "compact": 20,
+        "deep": 20,
+        "wide": 18
+      },
+      "local_hybrid": {
+        "compact": 20,
+        "deep": 20,
+        "wide": 18
+      }
+    },
+    "synthetic_marker": {
+      "plain_transformer": {
+        "compact": 24,
+        "deep": 25,
+        "wide": 26
+      },
+      "local_hybrid": {
+        "compact": 24,
+        "deep": 25,
+        "wide": 26
+      }
+    },
+    "emnist_letters": {
+      "plain_transformer": {
+        "compact": 20,
+        "deep": 12,
+        "wide": 15
+      },
+      "local_hybrid": {
+        "compact": 19,
+        "deep": 10,
+        "wide": 16
+      }
+    },
+    "emnist_digits": {
+      "plain_transformer": {
+        "compact": 18,
+        "deep": 7,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 4,
+        "wide": 12
+      }
+    },
+    "usps": {
+      "plain_transformer": {
+        "compact": 21,
+        "deep": 21,
+        "wide": 21
+      },
+      "local_hybrid": {
+        "compact": 21,
+        "deep": 21,
+        "wide": 21
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "2026-09-28_codex_local_saved-seed-diagnostics",
+  "makale_kisa_adi": "SCI-sparse_normalizer_benchmark",
+  "operation_id": "snd-approved-b-repair-20260928",
+  "status": "registered_not_executed",
+  "run_kind": "posthoc_saved_metric_analysis",
+  "tool": "Codex",
+  "model_or_session": "gpt-6-astra / xhigh",
+  "host_label": "local",
+  "hostname": "workstation-a",
+  "local_run_folder": "experiments/2026-09-28_codex_local_saved-seed-diagnostics",
+  "remote_run_folder": "not_applicable_local_analysis",
+  "sync_status": "local_registered",
+  "created_at_local": "2026-09-28T03:50:41.040040+03:00",
+  "created_at_utc": "2026-09-28T00:50:40Z",
+  "started_at": "",
+  "ended_at": "",
+  "working_directory": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark",
+  "command": "<user-home>\\miniforge3\\python.exe experiments/2026-09-28_codex_local_saved-seed-diagnostics/src/saved_seed_diagnostics.py --project . --output experiments/2026-09-28_codex_local_saved-seed-diagnostics/outputs/attempt-001",
+  "script": "experiments/2026-09-28_codex_local_saved-seed-diagnostics/src/saved_seed_diagnostics.py",
+  "config": "",
+  "dataset": "existing_saved_metrics_no_dataset_label_loading",
+  "input_hashes": [],
+  "split": "unchanged_historical_training_validation_and_saved_test_metrics",
+  "seed": "M1:0-4; R1:0-9; M3:10-19",
+  "repeat": "existing_saved_repetitions",
+  "fold": "not_applicable_no_refit",
+  "hyperparameters": {
+    "no_training": true,
+    "no_test_evaluation": true,
+    "registered_rules_changed": false,
+    "paired_t_intervals": "nominal95_unadjusted_descriptive_n10_only",
+    "M1_selected_windows": "no_calibrated_interval; descriptive_SD_and_LOSO"
+  },
+  "baselines_or_methods": [],
+  "resource_limits": {
+    "workers_threads": "1 process; NumPy thread env capped at2 when unset",
+    "ram_limit": "4GiB process target",
+    "gpu": "no_GPU_used",
+    "priority": "normal_local_CPU"
+  },
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "shell": "PowerShell7.6.5",
+    "runtime": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+    "virtualenv_or_container": "<user-home>\\miniforge3",
+    "libraries_or_lockfile": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.0",
+      "scikit-learn": "1.9.0"
+    },
+    "cpu": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+    "ram": "measurement in execution receipt pending",
+    "gpu": "no_GPU_used",
+    "os_family": "windows",
+    "arch": "x86_64",
+    "python": "3.12",
+    "host": "workstation-a"
+  },
+  "artifacts": {
+    "status_file": "STATUS.md",
+    "commands": "commands.md",
+    "cli_log": "",
+    "raw_outputs": [],
+    "processed_outputs": [],
+    "metrics": [],
+    "timing": [],
+    "resource_reports": [],
+    "figure_table_inputs": []
+  },
+  "rerun_of": "",
+  "supersedes": "",
+  "superseded_by": "",
+  "manuscript_locations": [
+    "F01/F03/F04/F05/F06 evidence-bound repair; no stage closure"
+  ],
+  "notes": "Author-authorized posthoc saved-data disclosure. Originals immutable. No train/official-test evaluation. Final input/output hashes in ANALYSIS_MANIFEST; numerical bootstrap endpoint equality tolerance2e-15 prospective, raw/processed metrics exact.",
+  "script_sha256": "84A9BB79A1D5840548ABC0B0A86884510B3235B3E0D6800DCF11523EE6D2CF39",
+  "pre_execution_producer_amendment": {
+    "previous_sha256": "55A481E66193DDDEAA261D9BFFED1BCEF85EA16FD9B6FCE630CBDF4669143FB7",
+    "reason": "Add explicitly descriptive signed accuracy/F1 comparison over all78 nonbaseline cells before execution; no thresholds or registered outcomes changed"
+  },
+  "attempt001_failure": {
+    "status": "FAILED_NON_EVIDENCE",
+    "receipt": "EXECUTION_RECEIPT.json",
+    "producer_snapshot": "src/saved_seed_diagnostics_attempt001.py",
+    "sha256": "6D716ADEB96F7780F4E8E6AEEC6AD83EC000D4FE4A8A8FF17CDC22BC0521A2FF",
+    "cause": "exact27 probability distribution requires inverseCDF, not linear empirical27 quantile; registered20k procedure unchanged"
+  },
+  "next_attempt": "attempt-003",
+  "attempt002_metadata_erratum": {
+    "source_snapshot": "src/saved_seed_diagnostics_attempt002.py",
+    "sha256": "0918F3CDA2582957490DE94015842F1823142D26D4A114366D6BB39842560854",
+    "actual_status": "Completed arithmetic; superseded metadata count",
+    "erratum": "M3validation720x6metricchecks=4320, not5040; no metric or outcome changed",
+    "receipt_rerun_of_alias": "initial actual run_id is campaign run_id, not the attempt001 alias"
+  }
+}

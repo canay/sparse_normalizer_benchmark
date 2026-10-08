@@ -1,0 +1,88 @@
+{
+  "best_epoch": 2,
+  "cfg_base_lr": 0.001,
+  "cfg_batch_size": 256,
+  "cfg_budget": 3,
+  "cfg_max_epochs": 3,
+  "cfg_patch": 4,
+  "cfg_patience": 0,
+  "cfg_val_fraction": 0.2,
+  "classes": 10,
+  "dataset": "cifar10",
+  "dataset_source": "cifar10:patch4",
+  "embed_dim": 64,
+  "epoch_log": [
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.9999963767826557,
+      "attention_entropy": 4.046402296423912,
+      "epoch": 0,
+      "train_loss": 1.9901387691497803,
+      "val_accuracy": 0.3373,
+      "val_loss": 1.7905263721942901,
+      "val_macro_f1": 0.30591380765105913
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 1.0,
+      "attention_entropy": 4.010398134589195,
+      "epoch": 1,
+      "train_loss": 1.6704628467559814,
+      "val_accuracy": 0.4113,
+      "val_loss": 1.5882033079862594,
+      "val_macro_f1": 0.40157846252749296
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 1.0,
+      "attention_entropy": 3.996216741204262,
+      "epoch": 2,
+      "train_loss": 1.5598732233047485,
+      "val_accuracy": 0.4371,
+      "val_loss": 1.5358320116996764,
+      "val_macro_f1": 0.42808206728240955
+    }
+  ],
+  "epochs_run": 3,
+  "heads": 4,
+  "layers": 2,
+  "lr_epoch_trace": [
+    {
+      "epoch": 0,
+      "first": 0.001,
+      "last": 0.0006687898089171976
+    },
+    {
+      "epoch": 1,
+      "first": 0.0006666666666666668,
+      "last": 0.00033545647558386415
+    },
+    {
+      "epoch": 2,
+      "first": 0.0003333333333333334,
+      "last": 2.123142250530785e-06
+    }
+  ],
+  "lr_policy": "linear_per_optimizer_update_eta0_times_1_minus_t_over_T",
+  "lr_sequence_float64_sha256": "12DACDAA95CB582FC8B55A346748E00FDEFD60D56B6C6BB1107363940D142E55",
+  "masked_attention": false,
+  "method": "softmax",
+  "n_train": 40000,
+  "n_val": 10000,
+  "optimizer_updates": 471,
+  "parameter_count": 107978,
+  "peak_memory_mb": 854.82568359375,
+  "seed": 9,
+  "seq_len": 65,
+  "status": "completed",
+  "tier": "compact",
+  "train_seconds": 3.349672526004724,
+  "val_accuracy": 0.4371,
+  "val_attention_entropy": 3.996216741204262,
+  "val_loss": 1.5358320116996764,
+  "val_macro_f1": 0.42808206728240955,
+  "val_nonzero_ratio": 1.0
+}

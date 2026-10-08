@@ -1,0 +1,55 @@
+{
+  "recorded_utc": "2026-09-28T09:02:18.264821+00:00",
+  "status": "PARENT_AUTHORIZED_ENGINEERING_ONLY_PENDING_ACTUAL_RUNTIME",
+  "producer": "Root scoped disposition recorded by Codex sole writer",
+  "root_stage_release_pending": false,
+  "reversible_data_acquisition_and_engineering_smoke_authorized": true,
+  "registered_seed_main_authorized": false,
+  "proposed_scope": "Frozen V8 exclusive transfer, official archive/train-only data/environment admission, owned Linux faults and nonregistered smoke only. No matched50 MAIN_RELEASE.",
+  "references": {
+    "source_manifest": {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+      "bytes": 7132
+    },
+    "final_config": {
+      "path": "final_config.json",
+      "sha256": "0876F92AAB6E3F49D085132CA896F0A6858A62EEBEB5BA8267013DC3A9BD5EED",
+      "bytes": 3700
+    },
+    "protocol": {
+      "path": "FINAL_PROTOCOL.md",
+      "sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+      "bytes": 11509
+    },
+    "design_review": {
+      "path": "reviews/claude_precompute_v1.md",
+      "sha256": "A22D8AD1809E0B92C6860A574F49CBB93A852FCB175AC23493915AB80AE338BC",
+      "bytes": 22677
+    },
+    "engineering_review": {
+      "path": "reviews/claude_engineering_v8.md",
+      "sha256": "7DD9A70DF5C9BD3BB942C8C8D5AD8B9FEF878F8A584EB2CD6DA32333BA8EB5EF",
+      "bytes": 14965
+    }
+  },
+  "engineering_output_authentication": {
+    "path": "reviews/v8_authentic/AUTHENTIC_REVIEW_RECEIPT.json",
+    "sha256": "698E0FD59F40BE6B21A4D12AF9B88A1A9F326F985D5AFEF1A5CEEEB311ECE209",
+    "bytes": 4685
+  },
+  "actual_verdict": "CODE_ADMISSIBLE_PENDING_RUNTIME_ADMISSION",
+  "runtime_proofs_pending": true,
+  "no_P3_repair_campaign": true,
+  "root_disposition": {
+    "actual_message": "root68e32c",
+    "scope": "Exclusive frozen V8 transfer; official train-only acquisition/data-env; owned Linux faults; six nonregistered smoke sessions only.",
+    "authentication_checks": [
+      "c7e0a2",
+      "e95efc"
+    ],
+    "fresh_read_only_capacity_utc": "2026-09-28T08:54:57Z",
+    "final_member_and_carrier_exact_read_before_execution": true,
+    "no_main_release": true
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "candidate_id": "MCH-SND-005-N3-V2-20260909",
+  "binds_candidate_sha256": "83ed33052874298dbcc0c26f0fc40fdc7ff3981f34d019d67dec23721a0ba38f",
+  "created_at_utc": "2026-09-09T08:16:57.2448528Z",
+  "pilot_admission": "conditional_on_final_mechanical_preflight",
+  "schema_version": 3,
+  "scientific_design_changed": false,
+  "binds_decision_sha256": "4a442bc6cc76bda84944496955ae1e05375dd17ec894f88d1d42b8120ca4be9c",
+  "artifacts": [
+    {
+      "sha256": "09c6094bb6461ef42d9487ea75bdac2c19243800a98a21733258c6f28162147e",
+      "size_bytes": 10512,
+      "path": "src/analyze_assay.py"
+    },
+    {
+      "sha256": "750a389e366c93b84e13ab284038bd394a7d4ac18fe9019b9b59c7c6c0a0ebb5",
+      "size_bytes": 12331,
+      "path": "src/campaign.py"
+    },
+    {
+      "sha256": "6a091d83a968c03cb1849792ecb610bfb5487a9efe901c6854e51f251c51570e",
+      "size_bytes": 11042,
+      "path": "src/fork_runner.py"
+    },
+    {
+      "sha256": "dc02aaabc4e66e2d3526e66b89791d67ff66b2f22fb4c19f583b9bdbeca246f7",
+      "size_bytes": 4711,
+      "path": "src/resource_summary.py"
+    },
+    {
+      "sha256": "8193b99400ad50740cc4457652c89500508264306e709f44786f0aa9a71e47e8",
+      "size_bytes": 7649,
+      "path": "src/supervise.py"
+    },
+    {
+      "sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+      "size_bytes": 5195,
+      "path": "src/training_models.py"
+    },
+    {
+      "sha256": "a00243650487d62894d2f36295ed42d897c2b867bf84c965e201b7a96deb2200",
+      "size_bytes": 8925,
+      "path": "src/training_operators.py"
+    },
+    {
+      "sha256": "b3e533cd8d3a2d57b3f2a7432748a4027940283f2e6c67c5171375164c390212",
+      "size_bytes": 47922,
+      "path": "src/training_runner.py"
+    },
+    {
+      "sha256": "5ed5d77f67c0594d1b28202117d89801e8639e2d2c1c44a8668ff48e4cb65e35",
+      "size_bytes": 5185,
+      "path": "tests/test_admission_repairs.py"
+    },
+    {
+      "sha256": "5fce51a4ace1668709c49ebbd7ae7e763b02628122d251a57f3f6ed160ac351b",
+      "size_bytes": 1912,
+      "path": "tests/test_analysis.py"
+    },
+    {
+      "sha256": "0d8ff031d2164c9b6c30b4784ed4f8eb4edd4d489a360b7d164ef99ae512576d",
+      "size_bytes": 3948,
+      "path": "tests/test_campaign.py"
+    },
+    {
+      "sha256": "bba7ac650acd91d627b8c9bbd3fdaac629056bef055058430e72a91ad30ef8df",
+      "size_bytes": 12233,
+      "path": "tests/test_fork_runner.py"
+    },
+    {
+      "sha256": "0b3238156f655be082bf31602d10067664d67ccb902e4f492a5b20bdbfb2ceef",
+      "size_bytes": 7919,
+      "path": "tests/test_n3_operators.py"
+    },
+    {
+      "sha256": "448ff757f4c616ffb4028af43b0f7ca27c6acaa70ca441da72ecaeecae144e63",
+      "size_bytes": 4751,
+      "path": "tests/test_supervise.py"
+    },
+    {
+      "sha256": "f32e9fa915a106e6d6d02ef2fcd805ede7b6dfb7275b01a839b0d55e18f922ff",
+      "size_bytes": 13111,
+      "path": "PROSPECTIVE_V2.md"
+    },
+    {
+      "sha256": "451717e80a1f06b3f348b2f6a2401728f2454e33c268d031d0080e5c8083ce5f",
+      "size_bytes": 2555,
+      "path": "config_n3a_candidate.json"
+    },
+    {
+      "sha256": "e623dd32a3958a30cb61bb0fc280fd5948aaf7b081aa3c523f759ba53e230ae2",
+      "size_bytes": 2570,
+      "path": "config_private_pilot_candidate.json"
+    }
+  ],
+  "decision": {
+    "sha256": "4a442bc6cc76bda84944496955ae1e05375dd17ec894f88d1d42b8120ca4be9c",
+    "size_bytes": 3971,
+    "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/DECISION_D1_D5.md"
+  },
+  "post_gate_continuation": {
+    "confirmatory_on_primary_fail": "forbidden",
+    "exploratory_non_rescue": {
+      "authorization": "none"
+    },
+    "hard_stops": [
+      "ethics",
+      "license",
+      "leakage",
+      "invalid_data",
+      "resource_ceiling"
+    ],
+    "primary_verdict_immutable": true,
+    "exploratory_result_may_upgrade_primary_verdict": false,
+    "exploratory_result_may_raise_claim_level": false
+  },
+  "independent_review": {
+    "sha256": "0de04991eb8ad1c57117640b51326732c63382305b8e9b780e729d1e54a2afcb",
+    "size_bytes": 10430,
+    "path": "experiments/2026-09-09_codex_mta_forward-backward-v2/reviews/20260909T105044/review.txt"
+  },
+  "status": "FROZEN_PRECOMPUTE_D1_D5",
+  "evaluator_semantics": {
+    "applicability": "not_applicable",
+    "not_applicable_reason": "Paired trained-classifier loss contrasts; not a multi-mode policy/failure-avoidance simulation evaluator. No unaffected failure mode is credited."
+  },
+  "mechanical_changes": [
+    "D1 analysis and B review binding",
+    "D2 hidden transaction preservation",
+    "D3 exactly one pilot launch",
+    "D4 two threads, low priority",
+    "D5 operator constant guards"
+  ],
+  "main_admission": "pending_measured_private_pilot_and_named_conditions"
+}

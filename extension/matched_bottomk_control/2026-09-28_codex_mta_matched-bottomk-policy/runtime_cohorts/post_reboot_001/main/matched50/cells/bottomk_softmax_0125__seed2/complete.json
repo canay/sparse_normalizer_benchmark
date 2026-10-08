@@ -1,0 +1,71 @@
+{
+  "artifacts": [
+    {
+      "bytes": 14214,
+      "path": "attempt-001/scientific_bundle.json",
+      "sha256": "629AF9B9BFCACE2E355B2CF0CCBACC823AD6C7D0F44041093921F449EB18EE67"
+    },
+    {
+      "bytes": 10496,
+      "path": "attempt-001/row.json",
+      "sha256": "795143A96B9FF2002B1B0A5C0BE96255A05B9E569E399FB583A30EAADEDB9198"
+    },
+    {
+      "bytes": 2810,
+      "path": "attempt-001/worker_receipt.json",
+      "sha256": "B7E7C6E055C8F94164AA46CB15D47E6E5062AFD7647A8D4A606C514D19187C18"
+    },
+    {
+      "bytes": 3552,
+      "path": "attempt-001/launch.json",
+      "sha256": "F0AEF7A308F05161E80F5C93AD6263EE89FEE05D656CAB7BBD747338143D732A"
+    },
+    {
+      "bytes": 82,
+      "path": "attempt-001/stdout.log",
+      "sha256": "96EC61D9E060195D1D6CBF945076CBC3C5552895868F5432BCB796BFC0E1AD1C"
+    },
+    {
+      "bytes": 0,
+      "path": "attempt-001/stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 2275,
+      "path": "attempt-001/attempt_receipt.json",
+      "sha256": "CBAF6CDDA93F4C001456DE52640328C92439F1D0A31C5EBA316C1C41B3211382"
+    }
+  ],
+  "attempt_receipt_path": "attempt-001/attempt_receipt.json",
+  "attempt_receipt_sha256": "CBAF6CDDA93F4C001456DE52640328C92439F1D0A31C5EBA316C1C41B3211382",
+  "classification": "VALID_COMPLETE",
+  "identity": {
+    "data_env_admission_sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+    "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "bottomk_softmax_0125",
+      "bottomk_softmax_025"
+    ],
+    "mode": "main",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C"
+  },
+  "row_path": "attempt-001/row.json",
+  "row_sha256": "795143A96B9FF2002B1B0A5C0BE96255A05B9E569E399FB583A30EAADEDB9198",
+  "worker_receipt_path": "attempt-001/worker_receipt.json",
+  "worker_receipt_sha256": "B7E7C6E055C8F94164AA46CB15D47E6E5062AFD7647A8D4A606C514D19187C18"
+}

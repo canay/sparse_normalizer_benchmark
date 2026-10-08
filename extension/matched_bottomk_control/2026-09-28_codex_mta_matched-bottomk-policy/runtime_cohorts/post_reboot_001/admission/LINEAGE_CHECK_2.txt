@@ -1,0 +1,5 @@
+UYARI cozumsuz alan (olculemedi, uydurulmadi): os_family=UNKNOWN
+UYARI cozumsuz alan (olculemedi, uydurulmadi): arch=UNKNOWN
+UYARI cozumsuz alan (olculemedi, uydurulmadi): python=UNKNOWN
+CROSS_PLATFORM_REPLICATION: farkli ortam ACIK onayla ayri soy olarak kabul edildi (onay: DECISION.json:D-SND-073 plus final_config separate_runtime_population). Kanonik sonuc kendiliginden degismez; run kaydini ayri lineage etiketiyle tutun.
+  NOT: kanonik zarf COZULEMEDI, yani bu ayri soy beyani bir esitlik iddiasi DEGILDIR ve fark listesi eksiktir. Cozumsuz alanlar: os_family=UNKNOWN, arch=UNKNOWN, python=UNKNOWN

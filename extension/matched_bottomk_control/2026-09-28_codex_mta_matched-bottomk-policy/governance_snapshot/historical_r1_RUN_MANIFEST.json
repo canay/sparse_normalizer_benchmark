@@ -1,0 +1,1141 @@
+{
+  "schema": "folder_run_manifest_v1",
+  "run_id": "2026-08-17_claude_mta_r1-validation-split",
+  "written_at": "2026-09-21 11:24 +03:00",
+  "written_by": {
+    "tool": "Cowork-Claude",
+    "model": "claude-opus-5",
+    "operation_id": "snd-r1-folder-record-and-receipt-20260921"
+  },
+  "provenance_note": "This folder-level record was written on 2026-09-21 by an operation that did NOT execute these runs. Every field is computed from the folder's own artefacts: hashes are recomputed here, counts are read here. Nothing is reconstructed from memory or from prose. It indexes the 44 per-run manifests that were already present; it does not replace them.",
+  "declared_absences": [
+    "No execution transcript exists for the 2026-08-17 and 2026-08-18 campaigns. The 17 files under logs/ are all dated 2026-08-20 and cover the batch-256 repair and the E5-B campaign only.",
+    "The frozen test read (outputs/test/r1_test_20260818_092550.jsonl) has no per-run manifest and its rows carry no runtime field, so the runtime that produced it is not recorded anywhere.",
+    "Driver, operating system, Python, cuDNN and NumPy are not captured per run: benchmark_r1.py exposes them through a print-and-exit --env flag, and every manifest records env=false."
+  ],
+  "runtime_distribution": {
+    "2.11.0+cu128": 31,
+    "2.13.0+cu130": 13
+  },
+  "raw_records": {
+    "dir": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/raw",
+    "files": 45,
+    "rows": 2559,
+    "completed": 2262,
+    "entries": [
+      {
+        "file": "r1_select_20260817_165439_masksmoke.jsonl",
+        "sha256": "b39732532751a5ae86b0548d130afff1bae1222af5641423a5252908133aa538",
+        "bytes": 6472,
+        "rows": 7,
+        "completed": 7,
+        "datasets": [
+          "twenty_news"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_165604_pilot_cifar10.jsonl",
+        "sha256": "ae8c73e3dd5e013a6d5b1d5226b422642afb9c76c59f28a8d9dc43ccec4fa98e",
+        "bytes": 16778,
+        "rows": 2,
+        "completed": 2,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_171644_speedtest.jsonl",
+        "sha256": "461f4704fbb72c47d0cdd411075076744c119ec43bc81b33736381cbe9c4cb68",
+        "bytes": 16687,
+        "rows": 2,
+        "completed": 2,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_172020_allpaths.jsonl",
+        "sha256": "57a7e2d8abf4876b1023beec4b0a1df12969d21c35b1262a45039b0aadc85e6f",
+        "bytes": 19189,
+        "rows": 21,
+        "completed": 21,
+        "datasets": [
+          "cifar10",
+          "cifar100",
+          "fashion_mnist",
+          "kmnist",
+          "mnist",
+          "synthetic_marker",
+          "twenty_news"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_172222_grid_compact.jsonl",
+        "sha256": "11965d3e7290e3787bf85f67c5f3904dce86808be44f7f0800d4eca63d24d9e9",
+        "bytes": 2426322,
+        "rows": 490,
+        "completed": 194,
+        "datasets": [
+          "cifar10",
+          "cifar100",
+          "fashion_mnist",
+          "kmnist",
+          "mnist",
+          "synthetic_marker",
+          "twenty_news"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_214343_grid_kmnist.jsonl",
+        "sha256": "b05055f3b72f046d5bc750cb45f81babba80ecb77e28d015b6849fb242cdabf8",
+        "bytes": 133875,
+        "rows": 15,
+        "completed": 15,
+        "datasets": [
+          "kmnist"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_220842_grid_cifar10.jsonl",
+        "sha256": "53178a97d755e6716cd2918602d3f6cef73671f3a783ae23d234bfe284b2b6d7",
+        "bytes": 556771,
+        "rows": 66,
+        "completed": 66,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260817_232932_grid_cifar100.jsonl",
+        "sha256": "23a4ec7fbf17101049928319d0300937e1042896ab8bd98b7effdd1c97dbec1e",
+        "bytes": 570664,
+        "rows": 67,
+        "completed": 67,
+        "datasets": [
+          "cifar100"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_005134_grid_twenty_news.jsonl",
+        "sha256": "389bef08dc794311867f0548ec1e50b33207482f3da23bf384e4a25981567a9b",
+        "bytes": 436949,
+        "rows": 63,
+        "completed": 63,
+        "datasets": [
+          "twenty_news"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_012421_grid_synthetic_marker.jsonl",
+        "sha256": "c01f256319f4ea1d5887fe311b086230c63f693a499945b1badf406d08661734",
+        "bytes": 211985,
+        "rows": 67,
+        "completed": 67,
+        "datasets": [
+          "synthetic_marker"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_091116_repair_kmnist.jsonl",
+        "sha256": "22b72a7a7ee757d5ef68fdcb624578792db30708ae9c2200443b9e18c86890c0",
+        "bytes": 9715,
+        "rows": 1,
+        "completed": 1,
+        "datasets": [
+          "kmnist"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_091238_repair_cifar10.jsonl",
+        "sha256": "505a3cb4b5da5c5652ae7038172a0a9dca0a230023144996ccfba9d204b3e2e7",
+        "bytes": 33813,
+        "rows": 4,
+        "completed": 4,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_091752_repair_cifar100.jsonl",
+        "sha256": "0754ddcc972bf8c13fe0fffd10038673eb83c1e06f7ef669a1c817f18a2636bc",
+        "bytes": 26413,
+        "rows": 3,
+        "completed": 3,
+        "datasets": [
+          "cifar100"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_092115_repair_twenty_news.jsonl",
+        "sha256": "c832768fcf04a84528a7107a2992a32e521822824140f318c6eb4b0b892c5376",
+        "bytes": 48105,
+        "rows": 7,
+        "completed": 7,
+        "datasets": [
+          "twenty_news"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_092452_repair_synthetic_marker.jsonl",
+        "sha256": "512ae4b4d1254ff879fa88fc546a7ae6f243b7ad317d1feef92c53586ac0f6da",
+        "bytes": 8099,
+        "rows": 3,
+        "completed": 3,
+        "datasets": [
+          "synthetic_marker"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_152327_sweep_r0corner.jsonl",
+        "sha256": "a7878edf4a7790164c085016d5596bea7830315ad321feafc7603cb39dc482cc",
+        "bytes": 160324,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_152543_sweep_trainA_10k.jsonl",
+        "sha256": "e7b69fe45f5430889a3b9c080160a6444e7c9f7e63188a7e154c6dd76563e86e",
+        "bytes": 363933,
+        "rows": 47,
+        "completed": 47,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_153500_sweep_trainA_20k.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "rows": 0,
+        "completed": 0,
+        "datasets": []
+      },
+      {
+        "file": "r1_select_20260818_153501_sweep_trainA_31k.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "rows": 0,
+        "completed": 0,
+        "datasets": []
+      },
+      {
+        "file": "r1_select_20260818_153502_sweep_epochB_06.jsonl",
+        "sha256": "20e3e60d4609c5622f54554fd7ae6834f1fa6459d1eaca04af61e8ae16097919",
+        "bytes": 113196,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_154609_sweep_epochB_12.jsonl",
+        "sha256": "9bcf983cf570b0f4bf2e66797c3b7fffe6709c4c047cbf7aa1c55c081358a930",
+        "bytes": 190920,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_160805_sweep_patchC_8.jsonl",
+        "sha256": "6d17db1266f91c7ce879bd615eacf4f9122ffc00afce1c380cc16ce93c726825",
+        "bytes": 417517,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_162131_sweep_batchD_96.jsonl",
+        "sha256": "0b7e0bc2dcb198c831d57b17c71b73af53b78769b602d972eed31d2d7bc1e18b",
+        "bytes": 410144,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_170355_sweep_bk_r0corner.jsonl",
+        "sha256": "4ca91e8c9b828aa3d9bca024b226a08a1b8ca65f1cd805af86d48d418b9fef3c",
+        "bytes": 45794,
+        "rows": 20,
+        "completed": 20,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_170424_sweep_bk_r1full.jsonl",
+        "sha256": "0ecdc3f5d6aab3b05f856c5caced89871cb7bffd8b8150f3611781ebc17ef7e8",
+        "bytes": 68513,
+        "rows": 20,
+        "completed": 20,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_171021_ladder_ep3.jsonl",
+        "sha256": "7f1259fb15fd9e9ce273b89f05e97ab11f1b280105f3477a58851f5eb55b9772",
+        "bytes": 75437,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_171603_ladder_ep6.jsonl",
+        "sha256": "ef902c4d29d6021707125344ab6dafe640567dd7669e0e6fa0edf5c22e445a60",
+        "bytes": 114148,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_172709_ladder_ep9.jsonl",
+        "sha256": "732ada35b94b8b682cb16b5a0463a4637003e317abeced68f5b41f8bbccfbbee",
+        "bytes": 152931,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_174339_ladder_ep12.jsonl",
+        "sha256": "913aa49ad661944cd394ab11af8bd881ebb722509e68bbb4b1c564115d8d307d",
+        "bytes": 191869,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_180534_ladder_ep18.jsonl",
+        "sha256": "db5f60a750358972080566ea8eee78a4c7c5d2026c78a7f2266e23f7c4ce1c5d",
+        "bytes": 269632,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_183817_ladder_ep24.jsonl",
+        "sha256": "709a47ffe45af4a8a012a4eabadf515245b4b942fa33bdc55e1143d5f334ebf8",
+        "bytes": 347384,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260818_192148_ladder_ep30.jsonl",
+        "sha256": "1078e5a0829871c8b86c7e6da95c1767fd1255db6a21fbd4f542c5e3ea194cd8",
+        "bytes": 425150,
+        "rows": 50,
+        "completed": 50,
+        "datasets": [
+          "cifar10"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_104614_e5b_usps.jsonl",
+        "sha256": "b4e7d915f6a5222740bd2e778cf8277dccb83bed0ade29af4ccefea91153bae5",
+        "bytes": 620432,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "usps"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_105912_e5b_svhn.jsonl",
+        "sha256": "c36a0405dfd67ffd0b5e1349461967240932a993bd8b54b31f696ff02e1b97d5",
+        "bytes": 623416,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "svhn"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_124849_e5b_emnist_balanced.jsonl",
+        "sha256": "ca36fd1ed9859c1b06138d1ed7072e85c262eda46ae48697a5cfa5533d858c8c",
+        "bytes": 611436,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "emnist_balanced"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_135845_e5b_emnist_letters.jsonl",
+        "sha256": "2cb1c8704eb17384057d592c7bebdb659e7d84c33ec82c73ad73371b23de54fc",
+        "bytes": 456864,
+        "rows": 54,
+        "completed": 53,
+        "datasets": [
+          "emnist_letters"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_143834_e5b_emnist_digits.jsonl",
+        "sha256": "e4c5da923baad81b511f6c2c6a5a512fddf95146564f938949855a3eff49d49d",
+        "bytes": 583449,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "emnist_digits"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_154317_e5b_k49.jsonl",
+        "sha256": "3c9b9b0ee3982e52a0170c230aff9dfa43b58de165f9b9853caf24a148d74412",
+        "bytes": 614744,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "k49"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_165341_grid_batch256_repair.jsonl",
+        "sha256": "47ba484fe8d8e97a027879da606b84f948aa6fca95041ae0ef00e568d1a2b415",
+        "bytes": 1731852,
+        "rows": 210,
+        "completed": 210,
+        "datasets": [
+          "fashion_mnist",
+          "kmnist",
+          "mnist"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_192824_e5b_usps.jsonl",
+        "sha256": "8593c48b541a6e05c6cb4c9e73ca6d4a9ab9b9c289da3c1d38731bf0a0634771",
+        "bytes": 609408,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "usps"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_193945_e5b_svhn.jsonl",
+        "sha256": "5121eabcc473aa35de03f71bf4f7c5a8fb6f608e088bb90c36f81cfb939eacc1",
+        "bytes": 617834,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "svhn"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_211624_e5b_emnist_balanced.jsonl",
+        "sha256": "f96dd6edd8dcfc832e56f448673904d7ad2b1580c1290215fcf43ebd250ff456",
+        "bytes": 601589,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "emnist_balanced"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_221010_e5b_emnist_letters.jsonl",
+        "sha256": "8aa05aad21c59c99e5f19a92345e00cacdc0714ff2625d59fc6523ec977abb47",
+        "bytes": 607729,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "emnist_letters"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_230411_e5b_emnist_digits.jsonl",
+        "sha256": "954b2c2d266ed039718ea15fc4889f45d0fb12fe3587da6282ad94059f11b8df",
+        "bytes": 552497,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "emnist_digits"
+        ]
+      },
+      {
+        "file": "r1_select_20260820_235220_e5b_k49.jsonl",
+        "sha256": "3ad5b827f749f1dfe7e4421e1afcef4beef5b2ed30e26d595feb1e885d3804ee",
+        "bytes": 615902,
+        "rows": 70,
+        "completed": 70,
+        "datasets": [
+          "k49"
+        ]
+      }
+    ]
+  },
+  "run_manifests": {
+    "dir": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/processed",
+    "count": 44,
+    "entries": [
+      {
+        "file": "r1_select_20260817_165439_masksmoke_manifest.json",
+        "sha256": "88bdc322a679259ed5951957b95fb4003320c22511f3564ae863548a5897d14d",
+        "run_id": "r1_select_20260817_165439_masksmoke",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": null,
+        "failed": null,
+        "finished": "2026-08-17 16:54:50 +0300",
+        "self_check": true,
+        "max_epochs": 1,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_171644_speedtest_manifest.json",
+        "sha256": "441c850803d751ce9cba90e5299b541f79af23164cad81cc2059e606b1a54c4f",
+        "run_id": "r1_select_20260817_171644_speedtest",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": null,
+        "failed": null,
+        "finished": "2026-08-17 17:19:36 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_172020_allpaths_manifest.json",
+        "sha256": "260e198359e790be923c9d6cf7c2c9fe9d56fcc9688a77fc0bb02f046798dfe3",
+        "run_id": "r1_select_20260817_172020_allpaths",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": null,
+        "failed": null,
+        "finished": "2026-08-17 17:21:33 +0300",
+        "self_check": true,
+        "max_epochs": 1,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_172222_grid_compact_manifest.json",
+        "sha256": "5d0a556f30bf846114a2759c76c669a6a449d06600dd54f109ee56712c92752f",
+        "run_id": "r1_select_20260817_172222_grid_compact",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": null,
+        "failed": null,
+        "finished": "2026-08-17 20:20:10 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_214343_grid_kmnist_manifest.json",
+        "sha256": "d98e1a4b32a40f97b6c9b8284aae110444ea8d21d1094df80903bef119b240c0",
+        "run_id": "r1_select_20260817_214343_grid_kmnist",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 15,
+        "failed": 0,
+        "finished": "2026-08-17 22:08:40 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_220842_grid_cifar10_manifest.json",
+        "sha256": "1f180f3ead7ebeabc5113bd5f446d99711eb869d15aaf12816d2eeafd8abb221",
+        "run_id": "r1_select_20260817_220842_grid_cifar10",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 66,
+        "failed": 0,
+        "finished": "2026-08-17 23:29:31 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260817_232932_grid_cifar100_manifest.json",
+        "sha256": "e1c65ff2df231b0a900661be18c128c515ab9c66f2a8cbd67737dacf0c690748",
+        "run_id": "r1_select_20260817_232932_grid_cifar100",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 67,
+        "failed": 0,
+        "finished": "2026-08-18 00:51:33 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_005134_grid_twenty_news_manifest.json",
+        "sha256": "5120850a8adcdbe4aebdf3e1ed750440a672c1ce2f40759751b4c5b0e09190d4",
+        "run_id": "r1_select_20260818_005134_grid_twenty_news",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 63,
+        "failed": 0,
+        "finished": "2026-08-18 01:24:19 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_012421_grid_synthetic_marker_manifest.json",
+        "sha256": "0b290cd2d135784632f83f9c3f10ac49d98f6a559927a07e63113cdb6931e3e5",
+        "run_id": "r1_select_20260818_012421_grid_synthetic_marker",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 67,
+        "failed": 0,
+        "finished": "2026-08-18 01:50:29 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_091116_repair_kmnist_manifest.json",
+        "sha256": "a1f9f2b470c9b6044184f0e1513373e1b0e18b6d0a3427480cad0ce80da544e6",
+        "run_id": "r1_select_20260818_091116_repair_kmnist",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 1,
+        "failed": 0,
+        "finished": "2026-08-18 09:12:37 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_091238_repair_cifar10_manifest.json",
+        "sha256": "720df2123eaffe70f6bf0678a9f5734a4bf3bcb23be52d004782422bc76dd4a7",
+        "run_id": "r1_select_20260818_091238_repair_cifar10",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 4,
+        "failed": 0,
+        "finished": "2026-08-18 09:17:50 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_091752_repair_cifar100_manifest.json",
+        "sha256": "0c0672fc1b652760a6a758f74042bfdb2d747bb8edf8b036cdf43a98be6e56a8",
+        "run_id": "r1_select_20260818_091752_repair_cifar100",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 3,
+        "failed": 0,
+        "finished": "2026-08-18 09:21:14 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_092115_repair_twenty_news_manifest.json",
+        "sha256": "0041fb7a41e3dfe9730f2d0a9f949b176255651d1547e5948912dd22e3049642",
+        "run_id": "r1_select_20260818_092115_repair_twenty_news",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 7,
+        "failed": 0,
+        "finished": "2026-08-18 09:24:51 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_092452_repair_synthetic_marker_manifest.json",
+        "sha256": "1d1844bbf87b97efd9690bce7665edd51f36e27f0b152dc8789dd33647c00bf7",
+        "run_id": "r1_select_20260818_092452_repair_synthetic_marker",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 3,
+        "failed": 0,
+        "finished": "2026-08-18 09:25:42 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_152327_sweep_r0corner_manifest.json",
+        "sha256": "2ba9ace126a1a70eeadcbd7b2f84cde2035544238424235ad3f861d2eafa0eef",
+        "run_id": "r1_select_20260818_152327_sweep_r0corner",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-18 15:25:41 +0300",
+        "self_check": false,
+        "max_epochs": 6,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_152543_sweep_trainA_10k_manifest.json",
+        "sha256": "7ea027abcc4dab774a5cc76fc77550a26f6e831c425acffcbcd64da7db16146d",
+        "run_id": "r1_select_20260818_152543_sweep_trainA_10k",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 47,
+        "failed": 0,
+        "finished": "2026-08-18 15:34:59 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_153500_sweep_trainA_20k_manifest.json",
+        "sha256": "084d633895fd2e3ceb30d5ddea1890148672dab240029075c8fa5357ab961503",
+        "run_id": "r1_select_20260818_153500_sweep_trainA_20k",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 0,
+        "failed": 0,
+        "finished": "2026-08-18 15:35:00 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_153501_sweep_trainA_31k_manifest.json",
+        "sha256": "8d3a9ac39d60c5961a2ba54af0367b81f89ec0b9684c1f6d4ca56a17c4ca5dff",
+        "run_id": "r1_select_20260818_153501_sweep_trainA_31k",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 0,
+        "failed": 0,
+        "finished": "2026-08-18 15:35:01 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_153502_sweep_epochB_06_manifest.json",
+        "sha256": "707b1ff566be22d1769d4e05797b5a26a18563f2a79ecb7bb5603bfd6b5e83ba",
+        "run_id": "r1_select_20260818_153502_sweep_epochB_06",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 15:46:08 +0300",
+        "self_check": false,
+        "max_epochs": 6,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_154609_sweep_epochB_12_manifest.json",
+        "sha256": "358002978031aea1944d4dee1571f8898034849177663fd8c7729341866bbe6b",
+        "run_id": "r1_select_20260818_154609_sweep_epochB_12",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 16:08:04 +0300",
+        "self_check": false,
+        "max_epochs": 12,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_160805_sweep_patchC_8_manifest.json",
+        "sha256": "61d89a6e717817f52d775c6ae9bfea51b4c49f7a5ced39555b5828378d5d3c07",
+        "run_id": "r1_select_20260818_160805_sweep_patchC_8",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 16:21:30 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_162131_sweep_batchD_96_manifest.json",
+        "sha256": "f291a8298831acb5e881462c859b87e221bda796f2aa40d8685894f7b3992665",
+        "run_id": "r1_select_20260818_162131_sweep_batchD_96",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 17:03:54 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_170355_sweep_bk_r0corner_manifest.json",
+        "sha256": "6ac9a674e8e9a0c4c5825e2afd91398b17a8ea878983708d0205ce48839fcf0c",
+        "run_id": "r1_select_20260818_170355_sweep_bk_r0corner",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 20,
+        "failed": 0,
+        "finished": "2026-08-18 17:04:23 +0300",
+        "self_check": false,
+        "max_epochs": 6,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_170424_sweep_bk_r1full_manifest.json",
+        "sha256": "4d8b6ed70e31a2dfa5b52f3bdea5e8069d130c3ef2bb7819704f589b1b0f2537",
+        "run_id": "r1_select_20260818_170424_sweep_bk_r1full",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 20,
+        "failed": 0,
+        "finished": "2026-08-18 17:09:30 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_171021_ladder_ep3_manifest.json",
+        "sha256": "140c19d525bffbf7aa349a7de3f2d2a889c1e7cceda1310f7f9afde75da8a091",
+        "run_id": "r1_select_20260818_171021_ladder_ep3",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 17:16:02 +0300",
+        "self_check": false,
+        "max_epochs": 3,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_171603_ladder_ep6_manifest.json",
+        "sha256": "172eceac56519382775a49ddf5729a9e540a35fed4ec5508bc7ac2a806fc3a65",
+        "run_id": "r1_select_20260818_171603_ladder_ep6",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 17:27:08 +0300",
+        "self_check": false,
+        "max_epochs": 6,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_172709_ladder_ep9_manifest.json",
+        "sha256": "e5e71abd4b29ff54ad127669962f3b1fa4c4ddae2b61af6ef69d8ae1f5a6a979",
+        "run_id": "r1_select_20260818_172709_ladder_ep9",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 17:43:38 +0300",
+        "self_check": false,
+        "max_epochs": 9,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_174339_ladder_ep12_manifest.json",
+        "sha256": "130342a5d9ea4f2b9e93de2da21cc0b2c73e2b8cb97a11053f36e4ad2440ba7e",
+        "run_id": "r1_select_20260818_174339_ladder_ep12",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 18:05:33 +0300",
+        "self_check": false,
+        "max_epochs": 12,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_180534_ladder_ep18_manifest.json",
+        "sha256": "443b4e8f43db1ca6004716bbc0f3920188d4eab165a2d6d8255e4078f4356088",
+        "run_id": "r1_select_20260818_180534_ladder_ep18",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 18:38:16 +0300",
+        "self_check": false,
+        "max_epochs": 18,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_183817_ladder_ep24_manifest.json",
+        "sha256": "d74eea3bb01a17a6d0737ecb3231f3bec04657d642b2a89809b0e63a361b16f7",
+        "run_id": "r1_select_20260818_183817_ladder_ep24",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 19:21:47 +0300",
+        "self_check": false,
+        "max_epochs": 24,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260818_192148_ladder_ep30_manifest.json",
+        "sha256": "186ec813574d3b8f66feae600ba3a157fdec8d9a4d7cc3e3c9fca30cc59a852c",
+        "run_id": "r1_select_20260818_192148_ladder_ep30",
+        "torch": "2.11.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 50,
+        "failed": 0,
+        "finished": "2026-08-18 20:16:07 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_104614_e5b_usps_manifest.json",
+        "sha256": "cac2dcab795acd813dea5c30d79f2471962d39c749811bfb7a083f65c4613f94",
+        "run_id": "r1_select_20260820_104614_e5b_usps",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 10:59:11 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_105912_e5b_svhn_manifest.json",
+        "sha256": "46ea28995a2c45c4395d107a5306ac7a34595dee112fdd5b4da4d2ab48fabc0b",
+        "run_id": "r1_select_20260820_105912_e5b_svhn",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 12:48:48 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_124849_e5b_emnist_balanced_manifest.json",
+        "sha256": "80323d7dd7c8f4bd9202073be4055634613dc636932acbf084ac3691fc428b8c",
+        "run_id": "r1_select_20260820_124849_e5b_emnist_balanced",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 13:58:44 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_135845_e5b_emnist_letters_manifest.json",
+        "sha256": "0d064b2b7bccf5396eb05a03ceb20baaf97c65b0baf173cbad66cf28587a05c7",
+        "run_id": "r1_select_20260820_135845_e5b_emnist_letters",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 53,
+        "failed": 1,
+        "finished": "2026-08-20 14:38:33 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_143834_e5b_emnist_digits_manifest.json",
+        "sha256": "bc39522ccb86f4bd28a1cb04ae0bc5886885281a8ba40726196f20a27f21792f",
+        "run_id": "r1_select_20260820_143834_e5b_emnist_digits",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 15:43:16 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_154317_e5b_k49_manifest.json",
+        "sha256": "d8da4e486be78092933d5725cfd4a8226cd5e81aadbff8469c13165a5450d6c6",
+        "run_id": "r1_select_20260820_154317_e5b_k49",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 16:52:07 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_165341_grid_batch256_repair_manifest.json",
+        "sha256": "b88d9e578d24f1916ad679801da68686af7b8861f62b1ed49078b7d0532ab1e4",
+        "run_id": "r1_select_20260820_165341_grid_batch256_repair",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 210,
+        "failed": 0,
+        "finished": "2026-08-20 19:28:23 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_192824_e5b_usps_manifest.json",
+        "sha256": "9a0581964c1409767d016976c4cebfbee4594a021cef3d8641a5c414b1b8a466",
+        "run_id": "r1_select_20260820_192824_e5b_usps",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 19:39:44 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_193945_e5b_svhn_manifest.json",
+        "sha256": "3b0f78d872deb06990a21cdbd3c0f79cbe4dad380b34f6bfbe42c4fe4b8ba12f",
+        "run_id": "r1_select_20260820_193945_e5b_svhn",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 21:16:23 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_211624_e5b_emnist_balanced_manifest.json",
+        "sha256": "5613d84619e2df3ce335c39afb492b88434de2920a43ec06a8e1f1ef5e32582b",
+        "run_id": "r1_select_20260820_211624_e5b_emnist_balanced",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 22:10:09 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_221010_e5b_emnist_letters_manifest.json",
+        "sha256": "988370be038d4d5962c84e422310343c298eec04286cd390bea85185871b4a8f",
+        "run_id": "r1_select_20260820_221010_e5b_emnist_letters",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 23:04:10 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_230411_e5b_emnist_digits_manifest.json",
+        "sha256": "e1f4b793e43de91543eb46f1b4023e81fd8067326882053b85cd21a924affcbb",
+        "run_id": "r1_select_20260820_230411_e5b_emnist_digits",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-20 23:52:19 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      },
+      {
+        "file": "r1_select_20260820_235220_e5b_k49_manifest.json",
+        "sha256": "8c46b9483f6328cb616d4fda50ccbdeaba843db71662d9e14173dd52243b191d",
+        "run_id": "r1_select_20260820_235220_e5b_k49",
+        "torch": "2.13.0+cu130",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+        "completed": 70,
+        "failed": 0,
+        "finished": "2026-08-21 00:47:20 +0300",
+        "self_check": false,
+        "max_epochs": 30,
+        "env_capture": false
+      }
+    ]
+  },
+  "frozen_test": {
+    "file": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/test/r1_test_20260818_092550.jsonl",
+    "sha256": "2c16dd136b9dc6cd4433de63b3377ac5d68ce4c4e466f04af90ea373bfccd702",
+    "rows": 350,
+    "distinct_selection_sha256": [
+      "a3071cfd24f4ed148e4601f17ebd5c80f2f47ba878d5959d4877297c44cff1be"
+    ]
+  },
+  "frozen_selection": {
+    "file": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/selection.json",
+    "sha256_recorded": "a3071cfd24f4ed148e4601f17ebd5c80f2f47ba878d5959d4877297c44cff1be",
+    "file_sha256": "1d218741e6b4747d2b6a891173082543dcf759ad7f07ea013d11561bc5a5a9c4",
+    "frozen_at": "2026-08-18 09:25:49 +0300",
+    "selection_basis": "validation accuracy only; the official test partition was not read",
+    "selected": {
+      "cifar10": "topk_softmax_05",
+      "cifar100": "topk_softmax_05",
+      "fashion_mnist": "topk_softmax_025",
+      "kmnist": "topk_softmax_05",
+      "mnist": "topk_softmax_05",
+      "synthetic_marker": "topk_softmax_05",
+      "twenty_news": "topk_softmax_05"
+    }
+  },
+  "logs": {
+    "dir": "experiments/2026-08-17_claude_mta_r1-validation-split/logs",
+    "files": 17,
+    "dates_present": [
+      "20260820"
+    ]
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "created_at": "2026-09-05T22:32:22+03:00",
+  "operation_id": "snd-weekend-round-a-20260905",
+  "scope": "local supplementary preparation; no public release or external submission",
+  "files": [
+    {
+      "path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/benchmark_r1.py",
+      "original_project_path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/benchmark_r1.py",
+      "bytes": 34636,
+      "sha256": "ee2c60761260000972fefc894003d62ac5571255ec1aa0b62e5dee69269649d3",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/datasets_r1.py",
+      "original_project_path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/datasets_r1.py",
+      "bytes": 8471,
+      "sha256": "c0d2e439b04d8b90e5e6907012bd383760709727f6a124fc14004499593a9d94",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/datasets_e5b.py",
+      "original_project_path": "experiments/2026-08-17_claude_mta_r1-validation-split/src/datasets_e5b.py",
+      "bytes": 9611,
+      "sha256": "e531f1f7cf6ebb2f07612b2ed7e7d662a2a7aee34606685fec75c65628c58140",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m1.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m1.py",
+      "bytes": 15053,
+      "sha256": "44392caa9ee49ac6074fff38090789a6d564a90347fefa4dd0597cdc2d6c706a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m2.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m2.py",
+      "bytes": 12211,
+      "sha256": "1f1ff5bd5b8a4a05e5bdb7431732f7807cdf92f652598310cfa4e470216f2cfc",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m3.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m3.py",
+      "bytes": 10452,
+      "sha256": "a793554efd224be8696c97f2c8aa944d35d00383b589cac31e5fd5927a8207d7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m3_test.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/analyze_m3_test.py",
+      "bytes": 6773,
+      "sha256": "c2ee2bc5863cf691d739b0cf6e71201cad8bd57757f0762ae2b7b1105c58f93a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/build_m3_switch_map.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/build_m3_switch_map.py",
+      "bytes": 7839,
+      "sha256": "b2fb2282a91b5c94901dcdae569f630aeb900ead5eee78e2b844c7ee85a2a60e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/extension_runner.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/extension_runner.py",
+      "bytes": 37833,
+      "sha256": "8beda4eb7c5f37c8ffdd68ac01e1b49b8f7fd785c62fe6b2c7c5b371fd004806",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/frozen_m1_extension_runner.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/frozen_m1_extension_runner.py",
+      "bytes": 31948,
+      "sha256": "6d2debda2a46f757856205777437fa73540ff243acde4cf49fe25beb4d87ffe7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/validate_run.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/src/validate_run.py",
+      "bytes": 9058,
+      "sha256": "f466b31d18e14993709d906b60eb30927d8f21e3cddf369c31e292b0098ac6d6",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/tests/test_analysis_contract.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/tests/test_analysis_contract.py",
+      "bytes": 3806,
+      "sha256": "a0e12aefd64b86dff695c4ab8e9dc79b1ddbba4ba77945955801633279631a7b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/tests/test_extension_runner.py",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/tests/test_extension_runner.py",
+      "bytes": 4975,
+      "sha256": "5d0a23b52a53456633b9d54d44f54fb5a8db1e83ffa4eeb4bbbb2011f367f0d6",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_181806_m1_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_181806_m1_plain_transformer_compact.jsonl",
+      "bytes": 1638924,
+      "sha256": "aff30a23c3ae46e03000fd8469652fd2172b49d04d9cb4e43dcea49605a3d3e1",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_193057_m1_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_193057_m1_plain_transformer_deep.jsonl",
+      "bytes": 1648123,
+      "sha256": "ea02a4cad812a55ab8a5030094f02792cf02227aaaa4cdac630babb8a6ab766c",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_214422_m1_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_214422_m1_plain_transformer_wide.jsonl",
+      "bytes": 1644368,
+      "sha256": "014788aed4f75f506b525dee811b892b3de91624450c6d6fe433e4bc026089c2",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_233135_m1_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260826_233135_m1_local_hybrid_compact.jsonl",
+      "bytes": 1645861,
+      "sha256": "2db303af44c0ad7c2b3dd70ee79eaa575a929959a12ab1b8260d782687b2c588",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260827_004617_m1_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260827_004617_m1_local_hybrid_deep.jsonl",
+      "bytes": 1648504,
+      "sha256": "ebed963421a151473a94e147dc7aee79daef3094f8f84530d2e61088bdd53183",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260827_031017_m1_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/raw/mch002_20260827_031017_m1_local_hybrid_wide.jsonl",
+      "bytes": 1648812,
+      "sha256": "6ebe4703d6c97fa75bff0ba317d0eec78643c047ebe29c9823e82b9d5df5b6d0",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_181806_m1_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_181806_m1_plain_transformer_compact.json",
+      "bytes": 3611,
+      "sha256": "aac42ffbaa9db4eaa8764dee1a29f23bd6d2a427b4dcee094c75f55e7c15b31d",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_193057_m1_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_193057_m1_plain_transformer_deep.json",
+      "bytes": 3599,
+      "sha256": "65166593423ae09c463be9b1ff6a73189c7ea84cbc49d4dd04a2d68cddcc6700",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_214422_m1_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_214422_m1_plain_transformer_wide.json",
+      "bytes": 3599,
+      "sha256": "1ad242221b290a31b806cc56314e78634a7097fb8a0386bd3268da25c8b605a4",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_233135_m1_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260826_233135_m1_local_hybrid_compact.json",
+      "bytes": 3591,
+      "sha256": "10772285c553607c6289ce3f55d0f2de35e34476294e8f61912975f9d0230566",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260827_004617_m1_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260827_004617_m1_local_hybrid_deep.json",
+      "bytes": 3579,
+      "sha256": "cf46c4b23e890bc308fb6593431e5075bb4dc652bf43031a08b3d554a29a1ae6",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260827_031017_m1_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1/manifests/mch002_20260827_031017_m1_local_hybrid_wide.json",
+      "bytes": 3579,
+      "sha256": "fb0ace7b1c78ea8419b3fe2e4272d2df00ca03f9c92e2c7bd65034e7e7339f0c",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_174642_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_174642_m2_plain_transformer_compact.jsonl",
+      "bytes": 3364010,
+      "sha256": "a4eec5f6b1038c94101091dcacceaf2a0f7bb1d8b11b349a4bea26114d642d83",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_203401_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_203401_m2_plain_transformer_compact.jsonl",
+      "bytes": 103758,
+      "sha256": "69963176f197d0aa7c1ac570bc2490e52f4656851be3879d36ecc6fa94b78c16",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_203654_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260827_203654_m2_plain_transformer_compact.jsonl",
+      "bytes": 3222982,
+      "sha256": "cc05a15609c7c25b081d56cf6eeb4eb93b451def8255c8ecd263088666554add",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_002233_m2_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_002233_m2_plain_transformer_deep.jsonl",
+      "bytes": 3419281,
+      "sha256": "29a0a7f8781fd609c4435ddd4b20a41a382a193275c6bd51c50054ca844ff423",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_054114_m2_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_054114_m2_plain_transformer_deep.jsonl",
+      "bytes": 454314,
+      "sha256": "2c5d5239b579a50e5af136641a7bf3b6de3b0924a3553c49ce579df7d3b7e127",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_111500_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_111500_m2_plain_transformer_compact.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_123407_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_123407_m2_plain_transformer_compact.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_123409_m2_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_123409_m2_plain_transformer_deep.jsonl",
+      "bytes": 833304,
+      "sha256": "45c0e1d938fb5068fe36ede4cf76ed145658a2a691bf7ee31711c7c73db53961",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_141726_m2_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_141726_m2_plain_transformer_wide.jsonl",
+      "bytes": 3730989,
+      "sha256": "8426967c1393b03be11d14b15e4cfd249705ecb3843506c2907a2f18eda78935",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_182048_m2_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_182048_m2_plain_transformer_wide.jsonl",
+      "bytes": 2957843,
+      "sha256": "edabf6f8a183035990748f17e3fd4b2b420ad7266d6e0cf5ff28e7bd1958a390",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_233843_m2_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260828_233843_m2_local_hybrid_compact.jsonl",
+      "bytes": 6691706,
+      "sha256": "3343a711325359cef36f69b6affd029a710a55f9c55f2b9ae2d6a14ec03d1d09",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_063904_m2_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_063904_m2_local_hybrid_deep.jsonl",
+      "bytes": 3569453,
+      "sha256": "168ce0710d33104130369bc0c4c30187b61d91b0b82423383c03211b5d36f371",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_122639_m2_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_122639_m2_local_hybrid_deep.jsonl",
+      "bytes": 3130270,
+      "sha256": "df75cd76998dd8484c63b4a953cbf53e6e1b82e51dadd6a156cb8128191d0bb7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_202229_m2_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260829_202229_m2_local_hybrid_wide.jsonl",
+      "bytes": 6694958,
+      "sha256": "e0d6f785e4dddd251bd4582e8be1d60473f6c35269c44fba1bc434a47d610dd4",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_161925_m2_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_161925_m2_plain_transformer_compact.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_161926_m2_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_161926_m2_plain_transformer_deep.jsonl",
+      "bytes": 1993948,
+      "sha256": "0339fd71f956e0d33878cbef2c13d640ab3c14b9e8d8c437a3aace43354fcda2",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213222_m2_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213222_m2_plain_transformer_wide.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213223_m2_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213223_m2_local_hybrid_compact.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213224_m2_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213224_m2_local_hybrid_deep.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213225_m2_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/raw/mch002_20260830_213225_m2_local_hybrid_wide.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_174642_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_174642_m2_plain_transformer_compact.json",
+      "bytes": 3843,
+      "sha256": "b5ea1c38675d614e3a901a704a16ce0eb16161e769fd20b5aa90380261eceafe",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_203401_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_203401_m2_plain_transformer_compact.json",
+      "bytes": 3238,
+      "sha256": "152929f9bf0dad1a68b1ebc3554f76853c956fc410541abb0d154bac4edc2cd5",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_203654_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260827_203654_m2_plain_transformer_compact.json",
+      "bytes": 3494,
+      "sha256": "7cb3f4898cf06506deae5d3c2190a40963e71d67d93a7bcf29d3794074882029",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_002233_m2_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_002233_m2_plain_transformer_deep.json",
+      "bytes": 3831,
+      "sha256": "6335fd09cb77d29e65192632af972dbb433f061216b4c8a7762661253284080e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_054114_m2_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_054114_m2_plain_transformer_deep.json",
+      "bytes": 3227,
+      "sha256": "ea1a99ce1b2fb8aa9205f168847cc01621554dcbb9f029e8f6cb0281750c0793",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_111500_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_111500_m2_plain_transformer_compact.json",
+      "bytes": 3140,
+      "sha256": "1f790a5993e2be9c81236a6842d868b39fd9ef533a2452b3f7d5571cdae08e7b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_123407_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_123407_m2_plain_transformer_compact.json",
+      "bytes": 3140,
+      "sha256": "8994f20b2e9d61d44bbfd8c7baecbdca8643fb2794470fa2103c4ce446c86585",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_123409_m2_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_123409_m2_plain_transformer_deep.json",
+      "bytes": 3385,
+      "sha256": "ee9ee115ff500454a22d9d55bdc6b1c8275656c334fccce38ebd177e440a6eb5",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_141726_m2_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_141726_m2_plain_transformer_wide.json",
+      "bytes": 3831,
+      "sha256": "c99e3d073e787a688278ecb634a34d365e794a6b28e53fb503d73b2af841bfd5",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_182048_m2_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_182048_m2_plain_transformer_wide.json",
+      "bytes": 3482,
+      "sha256": "fa73a79d8b41eb37e1b9d99500d2368573447881c1b5b0dd5be5beca2102fa92",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_233843_m2_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260828_233843_m2_local_hybrid_compact.json",
+      "bytes": 4077,
+      "sha256": "aa7092bf34d4fbc228e6ba3b2777534cbab10d9c7e2e430a4e150160a16561c5",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_063904_m2_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_063904_m2_local_hybrid_deep.json",
+      "bytes": 3811,
+      "sha256": "483846314f510a5874f55b1334501cd8610f150d7a1b09fda0f156bebd57d942",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_122639_m2_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_122639_m2_local_hybrid_deep.json",
+      "bytes": 3462,
+      "sha256": "1dc3412d1025f22807b7d9a5e38e3f42ababff4959f498aebe1b1d61b463e32d",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_202229_m2_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260829_202229_m2_local_hybrid_wide.json",
+      "bytes": 4065,
+      "sha256": "499066f454ea75f474cb8a9b75cb7417ff4bbff6fed549052c02af2ec449caf0",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_161925_m2_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_161925_m2_plain_transformer_compact.json",
+      "bytes": 3140,
+      "sha256": "2fd8f38b8b18a05774f52829f94f9a08d5aaf347ce070919b57663dd923fe8bc",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_161926_m2_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_161926_m2_plain_transformer_deep.json",
+      "bytes": 3312,
+      "sha256": "3e5c02be8a6bd9d5a853c5d635668fe82743739927b7d786e2e0938922e34836",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213222_m2_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213222_m2_plain_transformer_wide.json",
+      "bytes": 3128,
+      "sha256": "07bd73afd23f47689445b52f729c287352c9fa61d78f93063b1bb2643fa90b1f",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213223_m2_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213223_m2_local_hybrid_compact.json",
+      "bytes": 3120,
+      "sha256": "c27d5ab9561396c853af2dc2c2c6a40c806ffdf30eeb049e0ec2a023a8d9efd9",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213224_m2_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213224_m2_local_hybrid_deep.json",
+      "bytes": 3108,
+      "sha256": "f7ad515a96ff28c51293f96f42e83a787133e5832349a084055e3a9692548206",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213225_m2_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2/manifests/mch002_20260830_213225_m2_local_hybrid_wide.json",
+      "bytes": 3108,
+      "sha256": "3b33296f537edf94824c3f34ecd2d9ec516bf8a9d59a3f484b722c58b4bfdf52",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260830_214456_m3a_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260830_214456_m3a_plain_transformer_compact.jsonl",
+      "bytes": 991786,
+      "sha256": "66bcca0f833915bcce5698558bcea93b01a8e80ec9a45daa0ef77a4f057c5f55",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260830_225235_m3a_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260830_225235_m3a_plain_transformer_deep.jsonl",
+      "bytes": 997969,
+      "sha256": "93cd0284f40e23255a1effd47e9b420570f243fcb21e428da30380b1d3cb2565",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_010507_m3a_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_010507_m3a_plain_transformer_wide.jsonl",
+      "bytes": 993100,
+      "sha256": "d68d27aa04bfbbe46759782c60ec93aff530a050540d23b116c3fb0b1defd2bd",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_031415_m3a_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_031415_m3a_local_hybrid_compact.jsonl",
+      "bytes": 999466,
+      "sha256": "1db6b44e01ad46454d43e64f2b5f6e9c2149bc1270e9e72e5faa5fbff2af7cc2",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_043221_m3a_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_043221_m3a_local_hybrid_deep.jsonl",
+      "bytes": 1000834,
+      "sha256": "16ad35769804febda90d7c876f1a9b6d79902c06bde1169b7ed52a17ff92475e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_070547_m3a_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_070547_m3a_local_hybrid_wide.jsonl",
+      "bytes": 1000204,
+      "sha256": "da1d7bc65fa85606d099cb5f9ff313a28d37b8e1e14665ff63c764aa4be206c5",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_103754_m3b_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_103754_m3b_plain_transformer_compact.jsonl",
+      "bytes": 701029,
+      "sha256": "5c6ef380b1098111213acaacb364f50a57badee4df083879c18ecfff9f10cf2a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_123409_m3b_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_123409_m3b_plain_transformer_compact.jsonl",
+      "bytes": 300188,
+      "sha256": "dbfc4ab8d56b115690189403e0d3968e8b4db74e900c133966e7539c88ed31e9",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_125050_m3b_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_125050_m3b_plain_transformer_deep.jsonl",
+      "bytes": 1000611,
+      "sha256": "e9d2a6dc488aec65a4a186c9df1f594bd5a88e53c0913218157f86dd942c7ebb",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_150251_m3b_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_150251_m3b_plain_transformer_wide.jsonl",
+      "bytes": 999413,
+      "sha256": "e8f625aa2d18a63c3a725aba75da3338f9019ac955a606029f817813c8be3daf",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_170154_m3b_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_170154_m3b_local_hybrid_compact.jsonl",
+      "bytes": 1002138,
+      "sha256": "18945b9e83991e58423b45ef3fbcbe61ec2b49fd58d80615a7fddb2f95141f1e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_182121_m3b_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_182121_m3b_local_hybrid_deep.jsonl",
+      "bytes": 1000636,
+      "sha256": "4367a2bb68f4cfb2c3de37c9b4cfdf9d9a97374d62079aa55e5f145d51dae39e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_205325_m3b_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/raw/mch002_20260831_205325_m3b_local_hybrid_wide.jsonl",
+      "bytes": 1000456,
+      "sha256": "7b400ba6885e9c8bb13776f438e9bce0236f6c6820d2d3089aed627f7b9a2e5b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260830_214456_m3a_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260830_214456_m3a_plain_transformer_compact.json",
+      "bytes": 3348,
+      "sha256": "229ed66ed2629466cc5d7ce91d3ceedb1c1125667f024d1f150982c575be9e5e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260830_225235_m3a_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260830_225235_m3a_plain_transformer_deep.json",
+      "bytes": 3336,
+      "sha256": "cd977e46ba6525d7d072a32a65d565b4512e0b6dd374c324e1da44bcaebef2ca",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_010507_m3a_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_010507_m3a_plain_transformer_wide.json",
+      "bytes": 3336,
+      "sha256": "94768eff1511422a6373022d3643b76527c3d5e1b978083c31f4f7552ba34d1c",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_031415_m3a_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_031415_m3a_local_hybrid_compact.json",
+      "bytes": 3328,
+      "sha256": "b31149d7ed2b8299f0ad6cd660bc513d30e0c65aac7fadfc7104bc3c3f2b4469",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_043221_m3a_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_043221_m3a_local_hybrid_deep.json",
+      "bytes": 3316,
+      "sha256": "becb061a826ba0957954ec7ac4eb683663bdfa272dabd1512a08163c5685e2ba",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_070547_m3a_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_070547_m3a_local_hybrid_wide.json",
+      "bytes": 3316,
+      "sha256": "7f4a7fd4e56b571138b1e1e75f7ad0d7624b243c9dd8c5fce30d840f5791ee1b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_103754_m3b_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_103754_m3b_plain_transformer_compact.json",
+      "bytes": 4259,
+      "sha256": "00b07926fc0be66c93c53e84c1b63f7d367fad26c555918e135d7af3f1e5a811",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_123409_m3b_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_123409_m3b_plain_transformer_compact.json",
+      "bytes": 3093,
+      "sha256": "35e721a40ee9f08839a9840d120636e26b4eb9e07824d2de5a116ec833405931",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_125050_m3b_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_125050_m3b_plain_transformer_deep.json",
+      "bytes": 3543,
+      "sha256": "dd1ade8a58824f966cceea4c9c101a5fd5385026a1c6c4b80c1631c2f83ca9c7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_150251_m3b_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_150251_m3b_plain_transformer_wide.json",
+      "bytes": 3543,
+      "sha256": "3bf44dc7312861b283e235220c2696dc85530817dd3e0b6bddd1379c0bb02ca9",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_170154_m3b_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_170154_m3b_local_hybrid_compact.json",
+      "bytes": 3535,
+      "sha256": "11fef89cc81df5c791cba759dbf4d846ef22cf23a98fd2d5ede3af8c48263e9b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_182121_m3b_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_182121_m3b_local_hybrid_deep.json",
+      "bytes": 3523,
+      "sha256": "ad9267cf1fe42b96fb8ac98abf193c77bb75e5ec8c204457dde089584dd530f3",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_205325_m3b_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_validation/manifests/mch002_20260831_205325_m3b_local_hybrid_wide.json",
+      "bytes": 3523,
+      "sha256": "931c942809e77eb7c34989206b29195e10b4e07e0cc5bf1c9b70ecb79e8f4bff",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_102139_m3test_plain_transformer_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_102139_m3test_plain_transformer_compact.jsonl",
+      "bytes": 2007732,
+      "sha256": "435ec0f2325d41e3bd53aa444f1222f35913368d27bd51092b39be74b2919ee6",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_123951_m3test_plain_transformer_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_123951_m3test_plain_transformer_deep.jsonl",
+      "bytes": 2013312,
+      "sha256": "2803143294b7f1a9bfd79fea0140e131a5b10f1e844036718011d801d38c5a4c",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_170526_m3test_plain_transformer_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_170526_m3test_plain_transformer_wide.jsonl",
+      "bytes": 2007248,
+      "sha256": "79528e10459ff5b2629a35a4f40bdea45feeede2e29a68deeecf183c8242fe2d",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_210446_m3test_local_hybrid_compact.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_210446_m3test_local_hybrid_compact.jsonl",
+      "bytes": 2016380,
+      "sha256": "6b617060f50812f669aaa221ff84776d1fa219ab74245297aba17c8da132a19b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_234306_m3test_local_hybrid_deep.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_234306_m3test_local_hybrid_deep.jsonl",
+      "bytes": 2016253,
+      "sha256": "b2f234c35fce5a2f33e87ac9a24b2cfaf56bcc35f3c649998bbf40aea2978ca7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260902_044957_m3test_local_hybrid_wide.jsonl",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260902_044957_m3test_local_hybrid_wide.jsonl",
+      "bytes": 2015445,
+      "sha256": "9a87b8dc2e975655dfe5f7dcb55ed09b436ba5c5da9527270aee63892a732e0a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_102139_m3test_plain_transformer_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_102139_m3test_plain_transformer_compact.json",
+      "bytes": 3797,
+      "sha256": "bbc11616730fd3a0ef471ac81f8b3a7fbbafef6d0fc738e6ed4d348c6a70e1b0",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_123951_m3test_plain_transformer_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_123951_m3test_plain_transformer_deep.json",
+      "bytes": 3785,
+      "sha256": "2d5ad1f1ca63d029ae849873a5c5dc45d56ee7a86f7e7b158b9bdcd8bcaed1f0",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_170526_m3test_plain_transformer_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_170526_m3test_plain_transformer_wide.json",
+      "bytes": 3785,
+      "sha256": "82220cc30a5da2b0c2018f7a7d65dd334fe8d89b3d474596284a0fadc2f616ca",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_210446_m3test_local_hybrid_compact.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_210446_m3test_local_hybrid_compact.json",
+      "bytes": 3777,
+      "sha256": "e866954d14ef1f7b58eddb58bc54997e24b03f44103aac93351d55ac9bfe47bb",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_234306_m3test_local_hybrid_deep.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260901_234306_m3test_local_hybrid_deep.json",
+      "bytes": 3765,
+      "sha256": "3c5d6b4a24673a767b711fc8c0c90c0c380c0165b5d293612a77638678c0ee55",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260902_044957_m3test_local_hybrid_wide.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/manifests/mch002_20260902_044957_m3test_local_hybrid_wide.json",
+      "bytes": 3765,
+      "sha256": "eb8fec73251a056806761f856050cf5160c65b8e851b796a6c9a697d29b13e0b",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_analysis_manifest.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_analysis_manifest.json",
+      "bytes": 605,
+      "sha256": "ee63d2c1d1677a799e31bdd5a53943406112fdc33d1993b11d6f5024e21b38a2",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_cell_features.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_cell_features.csv",
+      "bytes": 57410,
+      "sha256": "d146ad856102f03c23e3229770c13bc5f21adaed0626984032527db47613b405",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_lodo_predictions.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_lodo_predictions.csv",
+      "bytes": 3985,
+      "sha256": "08a1b027af2fb4a055a2279f74729300aba5d288739162e2a176896d0ad5a6d1",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_result.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_result.json",
+      "bytes": 2675,
+      "sha256": "a77653ec58a296429ce592986ab66fbf656fd5dfd8000dfa03f39f1a3422d3a9",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_switch_map.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m1_analysis/m1_switch_map.json",
+      "bytes": 9409,
+      "sha256": "c3bb4669b1bfb974fee53e55326e0054fc315fb6cf833e1fd8baa69b959134af",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_analysis_manifest.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_analysis_manifest.json",
+      "bytes": 514,
+      "sha256": "788bb2ace49e31c96f529970bdccbc7660bc7ec93943a995963bbb65d5f61f7a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_pairwise_endpoints.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_pairwise_endpoints.csv",
+      "bytes": 388469,
+      "sha256": "3d88b99d9243e8f8a2164a3b51976195c63eec50d8f2f5a85df970f9a8f71af2",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_result.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m2_result.json",
+      "bytes": 1620,
+      "sha256": "0886a050be86fdf31b2e89c5ce6d5c34160fd67ad13c73db3d6ad986eea42c37",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m3_discovery_lock.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m2_analysis/m3_discovery_lock.json",
+      "bytes": 714,
+      "sha256": "a6fd34ecb16845527443dad380c6499b2f760aeceb72faa1f7596d36a3e4460f",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_switch_map.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_switch_map.json",
+      "bytes": 2884,
+      "sha256": "2e5571f1a1462dbc3418f1958d927a5dfe2f01552014098a7da718f235717ed8",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_switch_map_manifest.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_switch_map_manifest.json",
+      "bytes": 739,
+      "sha256": "9330866974eac6dd51bafb40ed2f0c63c638fed843a54f4fe06dbc53df72ed4e",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_test_freeze.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_test_freeze.json",
+      "bytes": 902,
+      "sha256": "3edf3b02c84d11017f38ef64de7d9181a9d39f0463aadffcaa6913bb1844a28f",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_pairwise.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_pairwise.csv",
+      "bytes": 82773,
+      "sha256": "8aeeb7bd0ef45fd319b721bcd6d1ce534a22111ac94046c6bbbc60ceb691caf7",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_result.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_result.json",
+      "bytes": 1698,
+      "sha256": "f5c380a8ddbf18a2ef66449a1324bc5e328c88969ae0eff6ab94148a82b99eba",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_task_tests.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_task_tests.csv",
+      "bytes": 312,
+      "sha256": "6e87599b8dea1554b8d097a0f5be0c59d35cbda7973561a453ca553a19a3ef71",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_analysis_manifest.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_analysis_manifest.json",
+      "bytes": 690,
+      "sha256": "252d50cf7cde2f4affd3e926900de5971fd688a88efa0ac71247c33e4d22ae57",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_pairwise.csv",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_pairwise.csv",
+      "bytes": 13875,
+      "sha256": "f38b0a1202a6211f5defeca74dac26e5649b6529c546024cac6f919f19ce571f",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_result.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test_analysis/m3_test_result.json",
+      "bytes": 1150,
+      "sha256": "495de1ec4860fdd77770b65a01377d68be6180cb98bc878632b6cb1ca9751101",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m1_validation.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m1_validation.json",
+      "bytes": 2167,
+      "sha256": "7206589b1509cf71b5791d66472d5ef538d3295f06fab6ffb721de3b1cbc5f4a",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m2_validation.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m2_validation.json",
+      "bytes": 5819,
+      "sha256": "713d053b89091f61b3c372a608bdb0739206abc139b4a483a217421cf7fb8a63",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m3_validation.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m3_validation.json",
+      "bytes": 4019,
+      "sha256": "85cb6310ceaceaf643bf35dc69d8b844a4480b4c0d7cd6025362e2a2fc23ab67",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m3_test_validation.json",
+      "original_project_path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/logs/m3_test_validation.json",
+      "bytes": 2225,
+      "sha256": "e31e885f93d2bad2625b40769c4dae7134f04b91d152fd87b09676eba21d8c57",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "provenance/original_saved_verification.json",
+      "original_project_path": "experiments/2026-09-05_codex_local_saved-extension-check/VERIFICATION.json",
+      "bytes": 85594,
+      "sha256": "6a2728b9efc2c397a989e74b65c1bb377f121f1df9713ae764adfe9dc639199f",
+      "kind": "byte_exact_scientific_input"
+    },
+    {
+      "path": "provenance/schedule_endpoint_check.json",
+      "original_project_path": ".orchestrator/weekend_controller/evidence/snd-weekend-integration-20260905/schedule_endpoint_check.json",
+      "bytes": 40269,
+      "sha256": "75d55e2ce3ecab2872d4316a298d9fae437669d323b7c3fed15bd7da25e3f707",
+      "kind": "byte_exact_scientific_input"
+    }
+  ],
+  "verifier_adaptation": {
+    "original_sha256": "c0b4c5a80c843a096dd160838c062f1b893fa0fa35104502a4a46b64210048a8",
+    "packaged_sha256": "9e9d4b7e1e14b759f7b17c8996532a76e9b7176493f5fafb6e493be76d4a2ded",
+    "changes": "standalone path and output plumbing plus English status text; numerical verification body unchanged"
+  }
+}

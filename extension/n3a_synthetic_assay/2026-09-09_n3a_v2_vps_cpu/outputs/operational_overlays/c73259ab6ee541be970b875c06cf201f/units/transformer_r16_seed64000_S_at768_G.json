@@ -1,0 +1,8 @@
+{
+  "classification": "PREEXISTING_VERIFIED",
+  "complete_sha256": "4b4470f6c44e56604449ee3e488ec14ac333b04735ed82e09da1034a5ba5bcc6",
+  "overlay_admission_sha256": "80f3687dd97e3a2a4bd38b25cbb1895543b98fa51902568674bb8abb3736f413",
+  "overlay_attempt": "c73259ab6ee541be970b875c06cf201f",
+  "unit_id": "transformer_r16_seed64000_S_at768_G",
+  "verified_at_unix": 1789259380.1110952
+}

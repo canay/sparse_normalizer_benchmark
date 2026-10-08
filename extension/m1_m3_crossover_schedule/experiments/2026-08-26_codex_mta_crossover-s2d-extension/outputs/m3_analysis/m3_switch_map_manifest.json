@@ -1,0 +1,15 @@
+{
+  "status": "M3_SWITCH_MAP_FROZEN",
+  "strongest_simple_schedule": "median_switch",
+  "used_confirmation_epochs": [
+    1,
+    2,
+    3
+  ],
+  "m1_features_sha256": "d146ad856102f03c23e3229770c13bc5f21adaed0626984032527db47613b405",
+  "m1_analysis_manifest_sha256": "ee63d2c1d1677a799e31bdd5a53943406112fdc33d1993b11d6f5024e21b38a2",
+  "m3_discovery_lock_sha256": "a6fd34ecb16845527443dad380c6499b2f760aeceb72faa1f7596d36a3e4460f",
+  "m3_baseline_validation_sha256": "0a3d3e006dc5daf1c6642882a76a99c6e254b62d2ddb3da7f21c9cf688e3dc69",
+  "builder_source_sha256": "b2fb2282a91b5c94901dcdae569f630aeb900ead5eee78e2b844c7ee85a2a60e",
+  "switch_map_sha256": "2e5571f1a1462dbc3418f1958d927a5dfe2f01552014098a7da718f235717ed8"
+}

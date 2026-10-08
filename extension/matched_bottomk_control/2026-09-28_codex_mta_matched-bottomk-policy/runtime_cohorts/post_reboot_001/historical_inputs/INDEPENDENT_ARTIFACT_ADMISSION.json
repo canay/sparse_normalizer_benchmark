@@ -1,0 +1,37 @@
+{
+  "status": "ARTIFACT_VERIFIED_HISTORICAL_P5",
+  "authority": "root independent coordinator plus seed_calibration independent raw emulation",
+  "recorded_utc": "2026-09-28T01:33:17.122641+00:00",
+  "root_hash_check": {
+    "inputs": 6,
+    "outputs": 3,
+    "matched": 9
+  },
+  "scope": "Bounded saved-p5 source/row/metric/stop/tie verification; no main or round closure",
+  "producer_sha256": "0946EF31531B9A305ADC3468CA59FF160DCDBF464894A4F98F6BB5CA0DD70914",
+  "analysis_manifest_sha256": "94c3eaa099f03b4e4c48e432d298a99f46a77f68ed2268ecc20454fef3e6292a",
+  "execution_receipt_sha256": "bfb5eee7b122639da43b23598b8997841407973b8d45fcf9bb80a61ff00dea5e",
+  "numeric_agreement": "Means and paired sample SD agree with independent scout within IEEE arithmetic rounding; raw/CSV metrics and all20bottom tuples exact",
+  "checks": {
+    "relevant_traces": 50,
+    "epoch_metric_rows": 1107,
+    "required_metric_comparisons": 2214,
+    "early_stops_before30": [
+      0,
+      1,
+      1,
+      10,
+      10
+    ],
+    "patience_triggers_including30": [
+      0,
+      1,
+      2,
+      10,
+      10
+    ],
+    "strict_earliest_ties": true
+  },
+  "new_training_or_test_evaluation": false,
+  "registered_outcomes_changed": false
+}

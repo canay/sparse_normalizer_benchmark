@@ -1,0 +1,16 @@
+{
+  "elapsed_monotonic_seconds": 16.333029919012915,
+  "ended_unix": 1790774900.770727,
+  "exit_code": 0,
+  "failure_sha256": null,
+  "failure_tag": null,
+  "max_observed_rss_bytes": 2313359360,
+  "monitor_error": null,
+  "scientific_failure_sha256": null,
+  "status": "VALID_COMPLETE",
+  "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+  "stdout_sha256": "E1F90A4C52CECC9BBFBF84317097DE1CB172657071E993956A098772F684A1AF",
+  "stop_reason": null,
+  "worker_pid": 118885,
+  "worker_start_token": "18149936"
+}

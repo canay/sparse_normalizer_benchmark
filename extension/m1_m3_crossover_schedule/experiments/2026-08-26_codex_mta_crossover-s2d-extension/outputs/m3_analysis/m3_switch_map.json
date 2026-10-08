@@ -1,0 +1,154 @@
+{
+  "mechanistic_switch": {
+    "emnist_balanced": {
+      "plain_transformer": {
+        "compact": 25,
+        "deep": 16,
+        "wide": 16
+      },
+      "local_hybrid": {
+        "compact": 22,
+        "deep": 15,
+        "wide": 15
+      }
+    },
+    "k49": {
+      "plain_transformer": {
+        "compact": 25,
+        "deep": 18,
+        "wide": 17
+      },
+      "local_hybrid": {
+        "compact": 20,
+        "deep": 14,
+        "wide": 15
+      }
+    },
+    "svhn": {
+      "plain_transformer": {
+        "compact": 23,
+        "deep": 18,
+        "wide": 18
+      },
+      "local_hybrid": {
+        "compact": 24,
+        "deep": 21,
+        "wide": 16
+      }
+    }
+  },
+  "early_accuracy_switch": {
+    "emnist_balanced": {
+      "plain_transformer": {
+        "compact": 24,
+        "deep": 24,
+        "wide": 21
+      },
+      "local_hybrid": {
+        "compact": 21,
+        "deep": 20,
+        "wide": 17
+      }
+    },
+    "k49": {
+      "plain_transformer": {
+        "compact": 22,
+        "deep": 21,
+        "wide": 19
+      },
+      "local_hybrid": {
+        "compact": 20,
+        "deep": 19,
+        "wide": 18
+      }
+    },
+    "svhn": {
+      "plain_transformer": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      },
+      "local_hybrid": {
+        "compact": 30,
+        "deep": 30,
+        "wide": 30
+      }
+    }
+  },
+  "entropy_switch": {
+    "emnist_balanced": {
+      "plain_transformer": {
+        "compact": 20,
+        "deep": 14,
+        "wide": 17
+      },
+      "local_hybrid": {
+        "compact": 18,
+        "deep": 11,
+        "wide": 16
+      }
+    },
+    "k49": {
+      "plain_transformer": {
+        "compact": 18,
+        "deep": 12,
+        "wide": 16
+      },
+      "local_hybrid": {
+        "compact": 16,
+        "deep": 9,
+        "wide": 13
+      }
+    },
+    "svhn": {
+      "plain_transformer": {
+        "compact": 3,
+        "deep": 3,
+        "wide": 3
+      },
+      "local_hybrid": {
+        "compact": 3,
+        "deep": 3,
+        "wide": 3
+      }
+    }
+  },
+  "median_switch": {
+    "emnist_balanced": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "k49": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    },
+    "svhn": {
+      "plain_transformer": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      },
+      "local_hybrid": {
+        "compact": 14,
+        "deep": 14,
+        "wide": 14
+      }
+    }
+  }
+}

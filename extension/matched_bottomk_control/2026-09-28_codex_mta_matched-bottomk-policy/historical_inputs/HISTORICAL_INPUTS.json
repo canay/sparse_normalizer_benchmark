@@ -1,0 +1,48 @@
+{
+  "scope": "Immutable existing records for pre-main p5 equivalence and separate-runtime descriptive drift; not a new training population",
+  "files": [
+    {
+      "path": "historical_inputs/r1_select_20260818_192148_ladder_ep30.jsonl",
+      "original_project_path": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/raw/r1_select_20260818_192148_ladder_ep30.jsonl",
+      "sha256": "1078E5A0829871C8B86C7E6DA95C1767FD1255DB6A21FBD4F542C5E3EA194CD8",
+      "bytes": 425150
+    },
+    {
+      "path": "historical_inputs/r1_select_20260818_170424_sweep_bk_r1full.jsonl",
+      "original_project_path": "experiments/2026-08-17_claude_mta_r1-validation-split/outputs/raw/r1_select_20260818_170424_sweep_bk_r1full.jsonl",
+      "sha256": "0ECDC3F5D6AAB3B05F856C5CACED89871CB7BFFD8B8150F3611781EBC17EF7E8",
+      "bytes": 68513
+    },
+    {
+      "path": "historical_inputs/historical_p5_seed_endpoints.csv",
+      "original_project_path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_seed_endpoints.csv",
+      "sha256": "71EBD7DD7E8007B4295E98CA73A4AAC13E4C20D2BE486F29E885E42A8D56C0C3",
+      "bytes": 2974
+    },
+    {
+      "path": "historical_inputs/historical_p5_summary.csv",
+      "original_project_path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_summary.csv",
+      "sha256": "B8AC5513A9A51041E9CF7EE9FA4FA45C7990A17E8B3D3A2B4EC7F74A87BC9969",
+      "bytes": 824
+    },
+    {
+      "path": "historical_inputs/historical_p5_bottom_minus_top.csv",
+      "original_project_path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/historical_p5_bottom_minus_top.csv",
+      "sha256": "F41747DD2FCE33245BAEBA4DDA3B46596B4785CDEE2BB9699DC14A7225761C23",
+      "bytes": 162
+    },
+    {
+      "path": "historical_inputs/ANALYSIS_MANIFEST.json",
+      "original_project_path": "experiments/2026-09-28_codex_local_historical-p5-policy/outputs/ANALYSIS_MANIFEST.json",
+      "sha256": "94C3EAA099F03B4E4C48E432D298A99F46A77F68ED2268ECC20454FEF3E6292A",
+      "bytes": 5226
+    },
+    {
+      "path": "historical_inputs/INDEPENDENT_ARTIFACT_ADMISSION.json",
+      "original_project_path": "experiments/2026-09-28_codex_local_historical-p5-policy/INDEPENDENT_ARTIFACT_ADMISSION.json",
+      "sha256": "1E112C2BBA7C3107B715B594A5CBEAC07062F56F43E96C1D3A29E42DCB9D2C02",
+      "bytes": 1231
+    }
+  ],
+  "preparation_failure": "First administrative copy used incorrect outputs/admission path and stopped;6 exact alreadycopied files retained and verified, canonical root admission then copied; no training or analysis."
+}

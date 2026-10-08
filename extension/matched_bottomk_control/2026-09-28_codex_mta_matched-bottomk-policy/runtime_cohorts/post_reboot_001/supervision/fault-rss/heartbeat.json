@@ -1,0 +1,63 @@
+{
+  "campaign": "fault-rss",
+  "campaign_absolute_deadline_unix": null,
+  "cause": "RESOURCE_WORKER_RSS_CEILING",
+  "controller": {
+    "cpu_ticks": 0,
+    "pid": 22128,
+    "ppid": 22126,
+    "rss_bytes": 520192,
+    "session_id": 22128,
+    "start_token": "940565",
+    "state": "R",
+    "tty_nr": 0
+  },
+  "new_output_bytes": 3045,
+  "observed_stop_causes": [
+    "RESOURCE_WORKER_RSS_CEILING"
+  ],
+  "observed_stop_events": [
+    {
+      "cause": "RESOURCE_WORKER_RSS_CEILING",
+      "event_unix": 1790602795.799082,
+      "time_basis": "stop_detected"
+    }
+  ],
+  "owned_descendants": [
+    {
+      "cpu_ticks": 2,
+      "pid": 22129,
+      "ppid": 22128,
+      "rss_bytes": 22499328,
+      "session_id": 22128,
+      "start_token": "940569",
+      "state": "S",
+      "tty_nr": 0
+    }
+  ],
+  "owned_gpu_processes": [],
+  "signals_received": [],
+  "supervision_id": "fault-rss",
+  "timestamp_unix": 1790602795.7993164,
+  "unit_progress": {
+    "attempt": null,
+    "attempt_number": null,
+    "completed_cells": 0,
+    "last_durable_checkpoint": null,
+    "phase": null,
+    "planned_cells": null,
+    "unit": null,
+    "unit_elapsed_seconds": 0,
+    "unit_started_unix": null,
+    "worker": {
+      "cpu_ticks": 0,
+      "pid": 22129,
+      "ppid": 22128,
+      "rss_bytes": 266240,
+      "session_id": 22128,
+      "start_token": "940569",
+      "state": "R",
+      "tty_nr": 0
+    }
+  }
+}

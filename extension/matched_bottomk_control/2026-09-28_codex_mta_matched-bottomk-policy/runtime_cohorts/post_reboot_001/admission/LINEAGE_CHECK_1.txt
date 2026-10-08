@@ -1,0 +1,7 @@
+{
+  "arch": "x86_64",
+  "code_sha256": "2661b171dec9ad49d031acea65f91f8bce4c7c1cf8c3e317e3100effd8ac6b7c",
+  "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+  "os_family": "linux",
+  "python": "3.12"
+}

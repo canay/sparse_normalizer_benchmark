@@ -1,0 +1,338 @@
+{
+  "classification": null,
+  "dispositions": [
+    {
+      "complete_sha256": "3C0A61B1201C9B70B71F3B7F45F5448C413A2A1AC7DAA8A13091873F4F6496C1",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "4EAE6CD71C26FBD38C304FA8D4B6966344E2FD1663188B1937D51296A4CEE042",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "DB3D4BF401617ACAB39E749E3A030C40074991A52F51F635EB55A6BEC71B2C9A",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "E59370545F391B33A42A06C0834FBD85BFAAFA5F6F2C88FA5D8593243B2CFAF5",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "BE98C060DBB8F036CEFF5E52F2223CDCB12B0A4272F99CA0B9F5634DB43CDD7F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 0
+    },
+    {
+      "complete_sha256": "DAD1DC8E3570DCE62DCD2681046A08ECA1DB3A4D115E8E5D1799FBE53214515F",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "4EF93BB787E6AAEA70F2B3436729C3A296ACFC0438BB5DAEB180AA9159B7A07C",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "5D5FC763AFC1DEF159C4934B9991F0F153A1902579C13A0E5183A4EACF8FA486",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "109E0D02F62F910139CD51D17FDD1D4DBA48DEF41E0DD0FF72599E0BCF11C80A",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "8336F26CD1E386723918A616302B39021F07D7A29399F8F3C2EA80457E7BA78F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 1
+    },
+    {
+      "complete_sha256": "1255EE1D406EB9E0FBEAE7B4AE007D012295C447B55C3ED4B54825BF2A465491",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "4141ADDAD79208F672AF0894578A32CFFCB7EE6F756936BD40695F6621C3F90C",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "892BCCCE0DE7FCE50EB3E8589B95F66544C36E2EA78C7111708DAAD3BA938989",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "FE83A23A1EA1EF89234B4581FB323BAFC4B9E900D3708BD6C890CA66B6A3B71E",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "E17AE52D20B315AB270C9A4B50A20109921974F088A3609886CB2AA99CCF7D14",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 2
+    },
+    {
+      "complete_sha256": "748AE927A0DB5F44B6CF22B115A7F74E95DB2AC60D6A14EC67DCA53CD39DFCDC",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "2429496FED659C2D17640F578CC5084EF38EE49787C32D639619C15F19D98CED",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "65484F5562C72A2323BA4EEC6B568780B651F8EC848679EA9433C66D50FEE734",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "C510E2EBB5FDD86F4723443A823AE4DF12F6BB62CC93B1296D1B1BF39A59EDE7",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "017EFAC527514D91D3AA4100C47D6A631793062A7B28F8394ED566257A34DEE0",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 3
+    },
+    {
+      "complete_sha256": "D533A825D3ACCBFF48F4E905CE7AF862CE264D724EB51E8A8E0463701DF098BB",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "31102362E9E881E999793A89F1F75FA45A9AD64B97C32D5682FF151EFC937A15",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "09272D260B885AC07621ED2F6B631F13E85798E8E19487C6C031F148C634243B",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "6DC36C6B2466C5581C81EDE016FA475BFBBF0157A074E491633D79C8D2FDBE48",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "AF3161EC59CD0CB7A44B9073E48B651B02D861F17CC2F1C7F84D7D2FFAB8CA7E",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 4
+    },
+    {
+      "complete_sha256": "A0A22849F75B89550631A2E2D935B3EC6587178519B73B565DA80B84B4E58722",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "FD7937A8C102BA62EBC459EB675BF0A526C0C12C1EE2EB689CE9D9269B3831D9",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "D594B43B85E2117B9FD76ED0C1C8C7B86AD6F5DE6A072ADCDD26CB375D99D296",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "0FD4961BD8E3F9FC19BB81EB64121397C27D3B6EAA9C4F2B09838390F1EA8519",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "C86F8DA6C2F27D5C2754987BDAEF8600B14977828DB0B5A5FC4E025D39D693F3",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 5
+    },
+    {
+      "complete_sha256": "82BA390753842D32671F64B1833D34BC7ADAC2A4F863B98247C460EE478604DF",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "6573A8F6931A44B6E5D1ADDA92ABF87A54A28813A99FCE627573304157D6BB97",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "AF3759BEB7475C66A5B90A1449B3DD72B1585085B7AF19B80897D62A948B31C2",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "686BEC0AC11FFE6A0F45DC6A8E98BAEB48F42F6F6AC9FD010C7BF9001035FEF1",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "4639EF3CAF9AC466D3763EF62C6EB8B82BA0154FE17E58A2A49646946D5125A4",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 6
+    },
+    {
+      "complete_sha256": "1E2CD974DCD56B20974A97848A91352B0FE01E0AFABC734C73F4EDAC2D99779F",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "66436ABACDB3A05C8443B87078DEE4CC5F0851FFBF308281A5B14411347B02E4",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "9EA24726377F4FD8E64EDB3641FA57ABFAB5082DA81D16C3952BB36570C8FD4E",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "2C0193E6353E5124424731DC1675845FA9F2F0BE7225C0A250EFABF55FBDF5D8",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "E5BC7631675422F7CCBD1D2407C53A5E539878747AA644CB904EC9E2BE85053F",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 7
+    },
+    {
+      "complete_sha256": "13E4110572725A82088B2F20D1F3BF0AF61FB64A943D301B88247C7B2B5842B4",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "90F2908D85A650BE41634501DA603ED859A210B5D44C893BDA1E4F205FE4CAA8",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "639BB4BCDBA546014424BECAD55B7C3F4C1D7180FF3B45D7A1599F2F58B955A6",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "2F389CDC308A1E7FE5ECFE0BE7E558B22BCD03065215CDA58EF46613356FD415",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "057601AFBFB1700409023C015FF27930FFD64781D28DBD073CAC215134E039F5",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 8
+    },
+    {
+      "complete_sha256": "27E5EDB0D56AC4F6280DE62829F123B7D76520B7DE9471DC5EECBE35178B704C",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "8CE1B018989024DA052E21C342DE82C2E7AECF2F5127C1F816914CE8E843FAE0",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "40F4A32D41ED491F510C30EF5FE1DEED23F4927D96B7DC89D2FEC58F0AFE4CED",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "2CC2A9B7E2EFF50A139E5DA6DD1B8A1B4FF794299A0C18B26D00FFEB3CA6D345",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 9
+    },
+    {
+      "complete_sha256": "FC0F4EBB9A96F8E2E62EC328E1EC426C73D6C3E2D98E1A5B6667175D724FBC25",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 9
+    }
+  ],
+  "expected_cells": 50,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790605794.5664723,
+  "identity": {
+    "data_env_admission_sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+    "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "bottomk_softmax_0125",
+      "bottomk_softmax_025"
+    ],
+    "mode": "main",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C"
+  },
+  "returncode": 0,
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "status": "CONTROLLER_COMPLETE",
+  "stop_event": null,
+  "supervision_id": "matched50-main-v8-first-20260928"
+}

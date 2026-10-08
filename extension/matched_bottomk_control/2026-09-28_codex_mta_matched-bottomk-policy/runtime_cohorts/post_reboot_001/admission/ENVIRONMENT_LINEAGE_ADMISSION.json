@@ -1,0 +1,42 @@
+{
+  "actual_checks": [
+    {
+      "actual_returncode": 0,
+      "command_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/src/provenance_tools/experiment_lineage_preflight.py",
+        "manifest-check",
+        "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+        "--manifest",
+        "RUN_MANIFEST.json"
+      ],
+      "output": "admission/LINEAGE_CHECK_1.txt",
+      "output_sha256": "1E2D68D2270E47941EE0BAB153CEC662B61E4E9C9E2B8E92710903F0E9D2F060"
+    },
+    {
+      "actual_returncode": 0,
+      "command_argv": [
+        "/usr/bin/python3",
+        "-B",
+        "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/src/provenance_tools/experiment_lineage_preflight.py",
+        "check",
+        "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+        "--manifest",
+        "governance_snapshot/historical_r1_RUN_MANIFEST.json",
+        "--cross-platform-approved",
+        "DECISION.json:D-SND-073 plus final_config separate_runtime_population"
+      ],
+      "output": "admission/LINEAGE_CHECK_2.txt",
+      "output_sha256": "E2CEEBDE6E90E0256EF5B891908CE68965CF4460E1CB7FC52A489BD7AE2587F0"
+    }
+  ],
+  "coarse_platform_check_is_not_torch_numeric_equality": true,
+  "historical_environment_missing_fields_not_backfilled": true,
+  "historical_manifest_sha256": "4CD3759D6F8747246FB54C4B8A827198AE3F277422646C1CB7FF5FC8D7486C71",
+  "runtime_identity_sha256": "7073FE083E0948D6A6AE6A254934E90058F9DB90AC8DA44AC87EB1BFF2F9B18F",
+  "same_full_runtime_claimed": false,
+  "separate_population_authority": "DECISION.json:D-SND-073/FINAL_PROTOCOL.md",
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "status": "SEPARATE_RUNTIME_LINEAGE_ADMITTED"
+}

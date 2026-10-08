@@ -1,0 +1,63 @@
+{
+  "campaign": "midcell-replay",
+  "campaign_absolute_deadline_unix": 1790624463.5023348,
+  "cause": null,
+  "controller": {
+    "cpu_ticks": 0,
+    "pid": 22596,
+    "ppid": 22584,
+    "rss_bytes": 491520,
+    "session_id": 22596,
+    "start_token": "947830",
+    "state": "R",
+    "tty_nr": 0
+  },
+  "new_output_bytes": 25745,
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "owned_descendants": [
+    {
+      "cpu_ticks": 1019,
+      "pid": 22602,
+      "ppid": 22596,
+      "rss_bytes": 2217029632,
+      "session_id": 22596,
+      "start_token": "947846",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "owned_gpu_processes": [
+    {
+      "pid": 22602,
+      "reported_gpu_mib": 1070
+    }
+  ],
+  "signals_received": [],
+  "supervision_id": "midcell-interrupt",
+  "timestamp_unix": 1790602873.6201768,
+  "unit_progress": {
+    "attempt": "engineering_smoke/midcell-replay/cells/softmax__seed1000/attempt-001",
+    "attempt_number": 1,
+    "completed_cells": 0,
+    "last_durable_checkpoint": null,
+    "phase": "running_whole_cell",
+    "planned_cells": 1,
+    "unit": {
+      "method": "softmax",
+      "seed": 1000
+    },
+    "unit_elapsed_seconds": 10.06360650062561,
+    "unit_started_unix": 1790602863.5565693,
+    "worker": {
+      "cpu_ticks": 0,
+      "pid": 22602,
+      "ppid": 22596,
+      "rss_bytes": 552960,
+      "session_id": 22596,
+      "start_token": "947846",
+      "state": "R",
+      "tty_nr": 0
+    }
+  }
+}

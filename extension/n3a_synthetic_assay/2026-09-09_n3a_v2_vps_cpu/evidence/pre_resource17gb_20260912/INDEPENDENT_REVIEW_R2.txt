@@ -1,0 +1,54 @@
+**PILOT_ADMISSION: ADMITTED. MAIN_N3A_ADMISSION: ADMITTED_AFTER_NAMED_MECHANICAL_CONDITIONS.** No scientific outcome exists and none was read. Nothing was executed. Hashes were compared as printed text between CANDIDATE_V2.json and the final Linux log, not recomputed.
+
+## 1. Launch-blocking defects
+
+I verified the operator algebra, the D/S pairing on data, initialization and batch order, the fork batch rule, the S-replay identity check, the census and hash bindings, and the decision rule against PROSPECTIVE_V2. The estimand and inference code match the registered protocol. The context gate's median requirement is implied by the sign-test cutoff, so its absence from code is not a defect. Four items block launch; one is minor.
+
+- **D1. Analysis-time binding is open.** `src/analyze_assay.py:135-165`, function `main`. The CLI verifies the validation receipt, B manifest hashes and unit receipts, but never checks that the analysis program running now is the one the admission hashed, and never requires that the B freeze was independently checked or bound to the pre-A protocol text. After A outcomes exist the decision rule could be edited and the CLI would still run. Minimal repair, needed before admission because the source census is admission-bound: after loading `validation`, refuse unless its producer-binding sources equal `source_census(root)`; after loading the B manifest, refuse unless it carries a non-empty `independent_review` and an `a_protocol_sha256` equal to the run root's PROSPECTIVE_V2.md hash. Necessary validity safeguard.
+
+- **D2. A signal inside an evaluation staging window makes the unit permanently unverifiable.** `src/training_runner.py:631-667` stages into a dot-prefixed temporary directory under `transactions/`. Recovery at lines 581-601 globs only `step_*`, so the residue survives resume. `src/campaign.py:125` then rejects any residue, so the campaign can never reach COMPLETED_VERIFIED, and no code path may move the residue. An interrupted `.published_*.cleanup` retirement behaves the same way. The supervisor's own resource-ceiling SIGTERM can trigger this. Minimal repair: in `recover_evaluation_transactions`, move `.step_*.tmp` directories unchanged to `unit_root/failed_attempts/` and finish `.published_*.cleanup` retirements; neither location is in the artifact census. Durability safeguard, fail-closed today, recoverable only by a manual move the protocol does not describe.
+
+- **D3. Resource receipt reads only the last launch.** `src/resource_summary.py:22,41,51-52`. The status file is rewritten per launch, so an interrupted and resumed pilot under-reports elapsed time and peak resident memory, and peak is a pass criterion. Minimal repair: read every record in `outputs/launches/` and refuse unless exactly one COMPLETED_VERIFIED launch exists, or sum elapsed and take the maximum peak. Gate-input integrity.
+
+- **D4. Thread count contradicts the central VPS envelope.** Both configs set `torch_threads` to 4, and `src/supervise.py:57-61` starts the worker at normal priority. STUDY_DESIGN_AND_EXPERIMENTS records the VPS default as at most two threads, three with a monitored justification, with shared services kept below disruption risk. The value sits inside the producer binding and the receipt's allowed-difference list, so it cannot change after the pilot. Minimal repair: set 2 in both configs, or record an explicit author exception citing the pilot's supervisor CPU and RSS evidence, and add low priority to the worker command. Operational policy, not validity.
+
+- **D5, minor.** `src/campaign.py:50-53` does not compare the score-range ceiling and VJP zero tolerance with the operator constants; the engineering CLI does at `training_runner.py:882-885`. Copy those two checks.
+
+Estimand note: a parameter-update-norm-matched G/N variant would be an optional alternative estimand, not a validity safeguard. The registered estimand is the total effect at matched score-node dose, every fork step logs actual gradient and update norms and parent displacement, S forks log the hypothetical G/N parameter gradients, and the decision output hard-codes mechanism ineligibility. No repair is needed there.
+
+## 2. PILOT_ADMISSION: ADMITTED
+
+Basis: run kind resource_pilot, pilot seed forbidden in the scientific config and scientific seeds forbidden in the pilot, own disk ceiling and wall limit, 5 GB floor, in-process and process-tree RSS guards, outcome-blind stdout, heartbeats and receipt, and a final Linux fixture log whose hash list equals the CANDIDATE_V2 manifest. The admission covers one private, blinded, CPU pilot under `supervise.py` on the census that will also be admitted for main, so apply D1 to D5 first and rerun the Linux engineering script. No main permission follows from the pilot.
+
+## 3. MAIN_N3A_ADMISSION conditions
+
+1. **Repairs applied.** D1 to D5 landed; Linux engineering script rerun on the VPS with ENGINEERING_ALL_PASS; printed hashes equal the new CANDIDATE_V2 artifacts; the log records the fixture architecture for both architectures, which the current logs do not.
+2. **Pilot receipt.** RESOURCE_RECEIPT.json with status PASS, outcomes_read false, planned units equal to the plan, one launch record, at the admitted thread count. The receipt's linear seconds is not a wall budget, because the per-step disk census walks the whole tree and grows with it.
+
+| Receipt field | Must satisfy |
+|---|---|
+| projected bytes including reserve | at most 16,000,000,000 |
+| projected remaining free disk | at least 5,000,000,000 |
+| peak resident memory | at most 8,000,000,000 |
+| launch records | exactly 1 |
+
+3. **Real-signal resume at the admitted thread count on the VPS.** The supervisor fixture, or an engineering-fixture root, run with the admitted `torch_threads`, showing exit 75, relaunch, COMPLETED_VERIFIED and S-replay identity. Current evidence is at one thread.
+4. **ADMISSION.json for run kind scientific.** Config hash of the candidate config copied as config.json, final source census, document hashes for PROSPECTIVE_V2.md and CANDIDATE_V2.json, independent_review pointing at this review's stored record, prelaunch_evidence pointing at the artifacts of conditions 1 to 3.
+5. **Central preflight artifacts.** RUN_MANIFEST.json and registry row carrying the section-10 durability fields including the three fields dated 2026-08-27 and 2026-09-05, opaque-runtime admission in heartbeat mode, stored prelaunch output of the freeze tool, and the prior-art note cited in CANDIDATE_V2 with a worth_testing status. I read none of these and assert no PASS.
+6. **Prospective relaunch policy in the manifest.** INTERRUPTED_UNKNOWN, launch-wall timeout and disk or RAM guard errors permit relaunch under the same census through the non-restarting supervisor with a new launch record. WORKFLOW_NONDETERMINISTIC, INVALID_CONTROL, census mismatch and residue do not.
+7. **Firewall procedure.** No person or tool opens metrics, predictions or decision files of the scientific root, on the VPS or on the Syncthing mirror, until ANALYSIS_RELEASE.json exists; the B freeze manifest carries that attestation.
+8. **Disk headroom re-measured immediately before launch** against the receipt's projection plus the floor.
+
+None of these grants permission to read A effects or to run B.
+
+## 4. Firewall defensibility and scope of support
+
+Running A while implementing B is defensible. B's dataset, architecture, checkpoints, windows, seeds, direction, threshold and precision boundary are fixed in a hash-bound document that predates any A outcome. The remaining B freedoms, loader, token mask, initialization and sample order, are declared frozen before any A reading, and an unimplementable interface is a workflow failure rather than a re-selection. The analysis CLI refuses without a frozen B manifest, and every operational surface I read is outcome-blind: campaign stdout prints status, counts, elapsed and bytes; the supervisor terminal carries a null decision; heartbeats carry steps and counts; the receipt carries bytes, seconds and memory. The raw metric files remain readable on disk and are mirrored, so at that layer the guard is procedural, which condition 7 and the D1 repair make explicit. An unimplemented B is not transfer evidence, and A support can never substitute for it.
+
+If A later returns BACKWARD_SUPPORTED_SYNTHETIC, the supportable statement is narrow: in this synthetic 32-position, top-8 routing task, with two small router architectures and fresh paired seeds, the assigned informative tail-direction surrogate lowered validation cross-entropy relative to a norm-matched permuted-direction null over 32 updates, late in training at densities above the selected support, alongside the registered sparse-versus-dense crossover context. It shows no real-data transfer, no mechanism behind benchmark reversals, no new method, no direction benefit independent of parameter step size, and no novelty for the P-minus-L placement contrast given prior tail-preservation work and generic straight-through estimators. FORWARD_ONLY is weaker still. INCONCLUSIVE or KILLED are reportable outcomes with no confirmatory B.
+
+## 5. READ_SET and gaps
+
+Read in full: STUDY_DESIGN_AND_EXPERIMENTS.md and EXPERIMENT_DURABILITY_AND_RECOVERY.md from the central pipeline root; in the candidate root CANDIDATE_V2.json, PROSPECTIVE_V2.md, both candidate configs, all eight `src/*.py`, all five `tests/*.py`, and the four `evidence/linux_engineering_*.log` files. No file was truncated. Only the final log matches the candidate manifest; the three earlier logs show pre-repair hashes and are superseded. The logs do not record which architecture the second fork-runner block used.
+
+Present but outside the allowed set and not read: the `reviews/` directory, PAUSE_STATE, REOPENING_AUTHORITY, production_owner.json, both REVIEW_REQUEST files, ENGINEERING_TEST_RECEIPT, ENGINEERING_INPUTS.sha256, PAUSE_SOURCE_SHA256 csv, the deploy and validation shell scripts, the tar archives, and the real_pid_smoke evidence files. Excluded by instruction: N2 and M1 to M3 raw outcomes, manuscript, author details, prior reviewer conclusions. Absent from the candidate root: RUN_MANIFEST.json, STATUS.md, ADMISSION.json, ANALYSIS_RELEASE.json. Not read: EXPERIMENT_REGISTRY.csv, the cited prior-art note, TOOL_ENVIRONMENT.md, any Windows fixture log. The completeness of the forbidden-seed list against old runs is unverifiable from this read set.

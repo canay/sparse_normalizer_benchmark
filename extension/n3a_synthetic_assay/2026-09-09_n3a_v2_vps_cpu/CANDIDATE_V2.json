@@ -1,0 +1,114 @@
+{
+  "schema_version": 3,
+  "candidate_id": "MCH-SND-005-N3-V2-20260909",
+  "status": "CANDIDATE_PENDING_INDEPENDENT_ADMISSION",
+  "created_at_utc": "2026-09-09 07:36:14 UTC",
+  "author_authority": "2026-09-09: bence deneyi baslat, o vakti kaybetmeyelim; new experiment only; manuscript/Rounds deferred.",
+  "scope": "Assigned surrogate direction at matched score-node dose; total effect, not parameter-update-norm isolation. P-L is secondary fixed-charge placement. All A units on VPS CPU, fresh seeds, full retention. No scientific result exists.",
+  "artifacts": [
+    {
+      "path": "src/analyze_assay.py",
+      "sha256": "5fffa325736f56ce9215f9f9d34679476cd3b7d79ffb84ef8a7349cc68dcd522",
+      "size_bytes": 9614
+    },
+    {
+      "path": "src/campaign.py",
+      "sha256": "eb432fa1b65d27f135a8a24ce251b0953d3ba288e90347f033c526295aeba2b4",
+      "size_bytes": 12025
+    },
+    {
+      "path": "src/fork_runner.py",
+      "sha256": "6a091d83a968c03cb1849792ecb610bfb5487a9efe901c6854e51f251c51570e",
+      "size_bytes": 11042
+    },
+    {
+      "path": "src/resource_summary.py",
+      "sha256": "b211e5e0f973a0c87deedf696c8c5acdb01a1a0621337d268a7265707a73ae97",
+      "size_bytes": 4103
+    },
+    {
+      "path": "src/supervise.py",
+      "sha256": "285b691ba20c27466fa8ed0efde1c894ba1656339759ccf1e1ed79bcd221b43a",
+      "size_bytes": 7629
+    },
+    {
+      "path": "src/training_models.py",
+      "sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+      "size_bytes": 5195
+    },
+    {
+      "path": "src/training_operators.py",
+      "sha256": "a00243650487d62894d2f36295ed42d897c2b867bf84c965e201b7a96deb2200",
+      "size_bytes": 8925
+    },
+    {
+      "path": "src/training_runner.py",
+      "sha256": "144bf2a5a6562ef565ca44f96d3d56724e73278ccc5ee08dcf10d4e638596a0f",
+      "size_bytes": 46984
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "sha256": "5fce51a4ace1668709c49ebbd7ae7e763b02628122d251a57f3f6ed160ac351b",
+      "size_bytes": 1912
+    },
+    {
+      "path": "tests/test_campaign.py",
+      "sha256": "b5e40e400ffbd73f2785df548a490618682aa76d653e563c1cd9b792e88692d8",
+      "size_bytes": 3875
+    },
+    {
+      "path": "tests/test_fork_runner.py",
+      "sha256": "f6be76ef8ee4cceea61037043973c5718629297f28202fd035a6cf80ecbbd537",
+      "size_bytes": 12233
+    },
+    {
+      "path": "tests/test_n3_operators.py",
+      "sha256": "0b3238156f655be082bf31602d10067664d67ccb902e4f492a5b20bdbfb2ceef",
+      "size_bytes": 7919
+    },
+    {
+      "path": "tests/test_supervise.py",
+      "sha256": "342b8e5831a23c6cd2949ace25b98a322bc59029e11b6c4433144742474f2b43",
+      "size_bytes": 4574
+    },
+    {
+      "path": "PROSPECTIVE_V2.md",
+      "sha256": "f23c024b505607e0674737ece5c2752ecc3f736cdb799eb0419f9dfda8243bd0",
+      "size_bytes": 12312
+    },
+    {
+      "path": "config_n3a_candidate.json",
+      "sha256": "9e6aa1eb74dad6f7cedff31114548d29e09592a21b3322dd8ab92ccd623fa5b2",
+      "size_bytes": 2555
+    },
+    {
+      "path": "config_private_pilot_candidate.json",
+      "sha256": "a835563b46fdecacd0053e0bcf3ee57ea1e27ae32a71bc564f13b8bfb6f129d5",
+      "size_bytes": 2570
+    }
+  ],
+  "evaluator_semantics": {
+    "applicability": "not_applicable",
+    "not_applicable_reason": "Paired trained-classifier loss contrasts; not a multi-mode policy/failure-avoidance simulation evaluator. No unaffected failure mode is credited."
+  },
+  "post_gate_continuation": {
+    "confirmatory_on_primary_fail": "forbidden",
+    "exploratory_non_rescue": {
+      "authorization": "none"
+    },
+    "hard_stops": [
+      "ethics",
+      "license",
+      "leakage",
+      "invalid_data",
+      "resource_ceiling"
+    ],
+    "primary_verdict_immutable": true,
+    "exploratory_result_may_upgrade_primary_verdict": false,
+    "exploratory_result_may_raise_claim_level": false
+  },
+  "pilot": "Private seed990209 full-length resource/invariant pilot; outcomes remain blinded. Measured 64-seed extrapolation plus1GB reserve <=16GB and projected free>=5GB before science.",
+  "analysis_firewall": "No A effects read until independently checked B source/protocol/analysis manifest is actually frozen; no B confirmation on A primary failure; old official tests and invalid N2 are excluded.",
+  "prior_art_note": "MD/01_literature/2026-09-04_novelty_research/POSITIONING_UPDATE_20260905.md and MCH-SND-005 entries in closest_prior_work.md / novelty_stress_test.md; no claim of newly invented STE or generic tail routing.",
+  "revision_note": "Before actual independent R2 reading and before pilot: add independent Linux heartbeat/process-tree supervisor, real-signal/resume fixture, outcome-blind resource summary, and host-local *.lock exclusion. Earlier R2 invocation returned only quota refusal."
+}

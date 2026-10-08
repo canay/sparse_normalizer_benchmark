@@ -1,0 +1,11 @@
+{
+  "attempt_number": null,
+  "completed_cells": 50,
+  "last_durable_checkpoint": "main/matched50/cells/bottomk_softmax_025__seed9/complete.json",
+  "last_progress_unix": 1790605794.384117,
+  "phase": "between_cells",
+  "planned_cells": 50,
+  "unit": null,
+  "unit_started_unix": null,
+  "worker": null
+}

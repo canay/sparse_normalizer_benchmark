@@ -1,0 +1,38 @@
+{
+  "status": "M3_TEST_PASS",
+  "final_method_status": "KILLED",
+  "strongest_simple_schedule": "median_switch",
+  "test_difference_by_dataset": {
+    "emnist_balanced": -0.00223492907801419,
+    "k49": -0.0023252998503990783,
+    "svhn": -0.001708154066789593
+  },
+  "dataset_bootstrap_ci95_test_difference": [
+    -0.0023252998503990783,
+    -0.001708154066789593
+  ],
+  "task_tests": [
+    {
+      "dataset": "emnist_balanced",
+      "mean_difference": -0.00223492907801419,
+      "p_raw": 3.7500673920942206e-07,
+      "p_holm": 1.1250202176282661e-06,
+      "supported_harm_over_margin": false
+    },
+    {
+      "dataset": "k49",
+      "mean_difference": -0.0023252998503990783,
+      "p_raw": 5.725803619954282e-05,
+      "p_holm": 0.00011451607239908564,
+      "supported_harm_over_margin": false
+    },
+    {
+      "dataset": "svhn",
+      "mean_difference": -0.001708154066789593,
+      "p_raw": 0.048876499172744316,
+      "p_holm": 0.048876499172744316,
+      "supported_harm_over_margin": false
+    }
+  ],
+  "test_freeze_sha256": "3edf3b02c84d11017f38ef64de7d9181a9d39f0463aadffcaa6913bb1844a28f"
+}

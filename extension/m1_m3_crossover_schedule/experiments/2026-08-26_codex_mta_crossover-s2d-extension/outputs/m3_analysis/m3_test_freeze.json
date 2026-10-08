@@ -1,0 +1,17 @@
+{
+  "status": "M3_VALIDATION_FROZEN_OFFICIAL_TEST_AUTHORIZED",
+  "strongest_simple_schedule": "median_switch",
+  "methods": [
+    "softmax",
+    "topk_softmax_025",
+    "mechanistic_switch",
+    "median_switch"
+  ],
+  "validation_report_sha256": "85cb6310ceaceaf643bf35dc69d8b844a4480b4c0d7cd6025362e2a2fc23ab67",
+  "validation_result_sha256": "f5c380a8ddbf18a2ef66449a1324bc5e328c88969ae0eff6ab94148a82b99eba",
+  "switch_map_sha256": "2e5571f1a1462dbc3418f1958d927a5dfe2f01552014098a7da718f235717ed8",
+  "switch_map_manifest_sha256": "9330866974eac6dd51bafb40ed2f0c63c638fed843a54f4fe06dbc53df72ed4e",
+  "discovery_lock_sha256": "a6fd34ecb16845527443dad380c6499b2f760aeceb72faa1f7596d36a3e4460f",
+  "m2_result_sha256": "0886a050be86fdf31b2e89c5ce6d5c34160fd67ad13c73db3d6ad986eea42c37",
+  "analysis_source_sha256": "a793554efd224be8696c97f2c8aa944d35d00383b589cac31e5fd5927a8207d7"
+}

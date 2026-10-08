@@ -1,0 +1,83 @@
+{
+  "actual_returncode": 0,
+  "campaign_absolute_deadline_unix": 1790625147.9339275,
+  "classification": "VALID_COMPLETE",
+  "classified_exitcode": 0,
+  "completion_supervision_admission": {
+    "heartbeat": {
+      "campaign": "matched50",
+      "campaign_absolute_deadline_unix": 1790625147.9339275,
+      "cause": null,
+      "controller": {
+        "cpu_ticks": 0,
+        "pid": 30176,
+        "ppid": 30164,
+        "rss_bytes": 475136,
+        "session_id": 30176,
+        "start_token": "1016274",
+        "state": "R",
+        "tty_nr": 0
+      },
+      "new_output_bytes": 2157971,
+      "observed_stop_causes": [],
+      "observed_stop_events": [],
+      "owned_descendants": [
+        {
+          "cpu_ticks": 4746,
+          "pid": 35350,
+          "ppid": 30176,
+          "rss_bytes": 1694773248,
+          "session_id": 30176,
+          "start_token": "1168605",
+          "state": "D",
+          "tty_nr": 0
+        }
+      ],
+      "owned_gpu_processes": [
+        {
+          "pid": 35350,
+          "reported_gpu_mib": 1084
+        }
+      ],
+      "signals_received": [],
+      "supervision_id": "matched50-main-v8-first-20260928",
+      "timestamp_unix": 1790605118.906805,
+      "unit_progress": {
+        "attempt": "main/matched50/cells/bottomk_softmax_025__seed6/attempt-001",
+        "attempt_number": 1,
+        "completed_cells": 34,
+        "last_durable_checkpoint": "main/matched50/cells/bottomk_softmax_0125__seed6/complete.json",
+        "phase": "running_whole_cell",
+        "planned_cells": 50,
+        "unit": {
+          "method": "bottomk_softmax_025",
+          "seed": 6
+        },
+        "unit_elapsed_seconds": 47.76234269142151,
+        "unit_started_unix": 1790605071.1444614,
+        "worker": {
+          "cpu_ticks": 0,
+          "pid": 35350,
+          "ppid": 30176,
+          "rss_bytes": 552960,
+          "session_id": 30176,
+          "start_token": "1168605",
+          "state": "R",
+          "tty_nr": 0
+        }
+      }
+    },
+    "observed_unix": 1790605119.6913123
+  },
+  "durable_scientific_bundle_no_retry": false,
+  "finished_unix": 1790605119.6913364,
+  "primary_stop_cause": null,
+  "process_failure_tags": {
+    "cuda_text": false,
+    "exit137": false,
+    "kernel_oom_vs_other_sigkill": "not_sigkill",
+    "oom_text": false,
+    "signal": null
+  },
+  "whole_attempt_wall_seconds": 48.56251935
+}

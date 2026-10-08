@@ -1,0 +1,8 @@
+{
+  "classification": "CONTINUATION_VERIFIED",
+  "complete_sha256": "ca350de6e63c8274bf1a755dd8533f717d8725bc15c7b4efc0d65c6567e39c48",
+  "overlay_admission_sha256": "80f3687dd97e3a2a4bd38b25cbb1895543b98fa51902568674bb8abb3736f413",
+  "overlay_attempt": "c73259ab6ee541be970b875c06cf201f",
+  "unit_id": "transformer_r1_seed64033_S_at128_L",
+  "verified_at_unix": 1789377451.0723872
+}

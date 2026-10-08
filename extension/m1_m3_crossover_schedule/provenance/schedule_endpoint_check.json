@@ -1,0 +1,2068 @@
+{
+  "operation_id": "snd-weekend-integration-20260905",
+  "at": "2026-09-05T21:28:15+03:00",
+  "status": "PASS",
+  "scope": "Independent saved-output verification of F-01; no new outcome or changed endpoint",
+  "all_180_target_times_precede_both_switches": true,
+  "maximum_target_epoch": 12,
+  "minimum_switch_epoch": 14,
+  "pairs": [
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        10
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        11
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        12
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        13
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        14
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        15
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        16
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        17
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        18
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "compact",
+        19
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        10
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        11
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        12
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        13
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        14
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        15
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        16
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        17
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "deep",
+        19
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        10
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        11
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        12
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        13
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        14
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        15
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        17
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "plain_transformer",
+        "wide",
+        19
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        10
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        11
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        12
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        13
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        14
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        15
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        17
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        18
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "compact",
+        19
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 22,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        10
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        11
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        12
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        13
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        14
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        15
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        16
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        17
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        18
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "deep",
+        19
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        10
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        11
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        12
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        13
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        14
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        15
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        16
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        17
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        18
+      ],
+      "target_epoch": 2,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "emnist_balanced",
+        "local_hybrid",
+        "wide",
+        19
+      ],
+      "target_epoch": 2,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        10
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        11
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        12
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        13
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        14
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        15
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        16
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        17
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        18
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "compact",
+        19
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 25,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        10
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        11
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        12
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        13
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        14
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        15
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        17
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "deep",
+        19
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        10
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        11
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        12
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        13
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        14
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        15
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        17
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        18
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "plain_transformer",
+        "wide",
+        19
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 17,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        10
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        11
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        12
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        13
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        14
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        15
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        17
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "compact",
+        19
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 20,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        10
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        11
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        12
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        13
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        14
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        15
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        16
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        17
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        18
+      ],
+      "target_epoch": 4,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "deep",
+        19
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 14,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        10
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        11
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        12
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        13
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        14
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        15
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        16
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        17
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        18
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "k49",
+        "local_hybrid",
+        "wide",
+        19
+      ],
+      "target_epoch": 3,
+      "predicted_switch_epoch": 15,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        10
+      ],
+      "target_epoch": 11,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        11
+      ],
+      "target_epoch": 9,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        12
+      ],
+      "target_epoch": 12,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        13
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        14
+      ],
+      "target_epoch": 11,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        15
+      ],
+      "target_epoch": 12,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        16
+      ],
+      "target_epoch": 10,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        17
+      ],
+      "target_epoch": 11,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        18
+      ],
+      "target_epoch": 11,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "compact",
+        19
+      ],
+      "target_epoch": 12,
+      "predicted_switch_epoch": 23,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        10
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        11
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        12
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        13
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        14
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        15
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        16
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        17
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        18
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "deep",
+        19
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        10
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        11
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        12
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        13
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        14
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        15
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        16
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        17
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        18
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "plain_transformer",
+        "wide",
+        19
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 18,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        10
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        11
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        12
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        13
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        14
+      ],
+      "target_epoch": 9,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        15
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        16
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        17
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        18
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "compact",
+        19
+      ],
+      "target_epoch": 8,
+      "predicted_switch_epoch": 24,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        10
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        11
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        12
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        13
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        14
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        15
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        16
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        17
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "deep",
+        19
+      ],
+      "target_epoch": 7,
+      "predicted_switch_epoch": 21,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        10
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        11
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        12
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        13
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        14
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        15
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        16
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        17
+      ],
+      "target_epoch": 6,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        18
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    },
+    {
+      "key": [
+        "svhn",
+        "local_hybrid",
+        "wide",
+        19
+      ],
+      "target_epoch": 5,
+      "predicted_switch_epoch": 16,
+      "median_switch_epoch": 14
+    }
+  ],
+  "test_differences_by_method": [
+    {
+      "dataset": "emnist_balanced",
+      "method": "topk_softmax_025",
+      "paired_conditions": 60,
+      "mean_difference": -0.0029450354609929065
+    },
+    {
+      "dataset": "emnist_balanced",
+      "method": "median_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.0025540780141844
+    },
+    {
+      "dataset": "emnist_balanced",
+      "method": "mechanistic_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.00223492907801419
+    },
+    {
+      "dataset": "k49",
+      "method": "topk_softmax_025",
+      "paired_conditions": 60,
+      "mean_difference": -0.003294679222767009
+    },
+    {
+      "dataset": "k49",
+      "method": "median_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.0012543129166990871
+    },
+    {
+      "dataset": "k49",
+      "method": "mechanistic_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.0023252998503990783
+    },
+    {
+      "dataset": "svhn",
+      "method": "topk_softmax_025",
+      "paired_conditions": 60,
+      "mean_difference": -0.000875845113706214
+    },
+    {
+      "dataset": "svhn",
+      "method": "median_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.001741446424912929
+    },
+    {
+      "dataset": "svhn",
+      "method": "mechanistic_switch",
+      "paired_conditions": 60,
+      "mean_difference": -0.001708154066789593
+    }
+  ],
+  "verified_artifacts": [
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_validation_pairwise.csv",
+      "sha256": "8aeeb7bd0ef45fd319b721bcd6d1ce534a22111ac94046c6bbbc60ceb691caf7"
+    },
+    {
+      "path": "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_analysis/m3_switch_map.json",
+      "sha256": "2e5571f1a1462dbc3418f1958d927a5dfe2f01552014098a7da718f235717ed8"
+    }
+  ],
+  "raw_input_digest": {
+    "cell_count": 720,
+    "files": {
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_102139_m3test_plain_transformer_compact.jsonl": "435ec0f2325d41e3bd53aa444f1222f35913368d27bd51092b39be74b2919ee6",
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_123951_m3test_plain_transformer_deep.jsonl": "2803143294b7f1a9bfd79fea0140e131a5b10f1e844036718011d801d38c5a4c",
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_170526_m3test_plain_transformer_wide.jsonl": "79528e10459ff5b2629a35a4f40bdea45feeede2e29a68deeecf183c8242fe2d",
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_210446_m3test_local_hybrid_compact.jsonl": "6b617060f50812f669aaa221ff84776d1fa219ab74245297aba17c8da132a19b",
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260901_234306_m3test_local_hybrid_deep.jsonl": "b2f234c35fce5a2f33e87ac9a24b2cfaf56bcc35f3c649998bbf40aea2978ca7",
+      "experiments/2026-08-26_codex_mta_crossover-s2d-extension/outputs/m3_test/raw/mch002_20260902_044957_m3test_local_hybrid_wide.jsonl": "9a87b8dc2e975655dfe5f7dcb55ed09b436ba5c5da9527270aee63892a732e0a"
+    }
+  }
+}

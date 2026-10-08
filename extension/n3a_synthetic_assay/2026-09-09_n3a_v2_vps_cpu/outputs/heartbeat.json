@@ -1,0 +1,14 @@
+{
+  "attempt_id": "ca44a555c66141dd980bcb3e13e01387",
+  "config_sha256": "60efdcdb199c810006a6ec08d8af922084b3127d5b72a8104ec8d1dba6e119c0",
+  "inner_completed": 32,
+  "inner_total": 32,
+  "last_durable_step": 32,
+  "phase": "fork",
+  "phase_started_at_unix": 1789571842.1812162,
+  "pid": 2254855,
+  "run_id": "2026-09-09_n3a_v2_vps_cpu",
+  "timestamp_unix": 1789571894.0293994,
+  "unit_elapsed_seconds": 51.84818229917437,
+  "unit_id": "transformer_r24_seed64063_S_at768_N"
+}

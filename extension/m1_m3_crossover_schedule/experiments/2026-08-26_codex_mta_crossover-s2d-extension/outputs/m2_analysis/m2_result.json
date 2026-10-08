@@ -1,0 +1,49 @@
+{
+  "status": "M2_METHOD_CLAIM_KILLED",
+  "operation_id": "snd-crossover-mechanism-s2d-extension-20260826",
+  "m1_status": "M1_KILLED",
+  "strongest_simple_schedule": "median_switch",
+  "macro_mean_time_to_target": {
+    "softmax": 7.33,
+    "topk_softmax_025": 7.25,
+    "median_switch": 7.0699999999999985,
+    "early_accuracy_switch": 7.216666666666667,
+    "entropy_switch": 7.203333333333333,
+    "mechanistic_switch": 7.046666666666667,
+    "headwise_adaptive_entmax": 8.646666666666665,
+    "cosine_alpha": 7.403333333333333
+  },
+  "median_relative_reduction_vs_dense": 0.0,
+  "median_relative_reduction_vs_strongest_simple": 0.0,
+  "dataset_bootstrap_ci95_reduction_vs_dense": [
+    -0.07097155510692325,
+    0.1372229784407966
+  ],
+  "dataset_bootstrap_ci95_reduction_vs_strongest_simple": [
+    -0.007185585846054954,
+    0.00929087063233651
+  ],
+  "dataset_bootstrap_ci95_final_accuracy_difference": [
+    -0.006383143187057739,
+    0.0006462885824335127
+  ],
+  "noninferiority_margin": 0.005,
+  "architecture_mean_relative_benefit": {
+    "plain_transformer": 0.05272887248455966,
+    "local_hybrid": 0.024044245809927596
+  },
+  "tier_mean_relative_benefit": {
+    "compact": 0.0343450079351109,
+    "deep": 0.04306852839283181,
+    "wide": 0.03774614111378818
+  },
+  "criteria": {
+    "median_reduction_at_least_10_percent": false,
+    "bootstrap_reductions_above_zero": false,
+    "full_budget_noninferiority": false,
+    "architecture_capacity_breadth": true,
+    "confirmation": "pending"
+  },
+  "bootstrap_seed": 260827,
+  "bootstrap_resamples": 20000
+}

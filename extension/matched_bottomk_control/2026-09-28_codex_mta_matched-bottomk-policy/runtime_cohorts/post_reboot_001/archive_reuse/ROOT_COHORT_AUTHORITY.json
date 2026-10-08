@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-09-28T11:21:12.789060+00:00",
+  "authorized_by": "ROOT",
+  "actual_executor": "ROOT Codex gpt-6-astra / requested xhigh",
+  "runtime_cohort_setup_authorized": true,
+  "registered_seed_main_authorized": false,
+  "old_physical_run": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy",
+  "new_physical_run": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "source_manifest_sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+  "final_config_sha256": "0876F92AAB6E3F49D085132CA896F0A6858A62EEBEB5BA8267013DC3A9BD5EED",
+  "protocol_sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+  "exact52_header_sha256": "EFCB4101250CA07120614E91004460447DAE00A92685453E3AD0A3788334AD02",
+  "failed_between_resume_terminal_sha256": "8B56077F3146FE381DB61B887B8992CCD04D93A7C6C29340CD30D91D3A8074CD",
+  "original_acquisition_receipt_reference": {
+    "path": "admission/ACQUISITION_RECEIPT.json",
+    "sha256": "2545F376B73B3F26F1998CACF9CA11E8F52696BE24C499CBED9ED8E8B529C795",
+    "bytes": 2429
+  },
+  "root_native_origin_sha256": "08B5B09E2D59B82F5C5D312EE47F449A06174CDD38EB1019E4A8BC583047E410",
+  "archive_sha256": "6D958BE074577803D12ECDEFD02955F39262C83C16FE9348329D7FE0B5C001CE",
+  "archive_bytes": 170498071,
+  "old_cohort_resume_forbidden": true,
+  "isolated_runtime_recovery_limit": 1,
+  "fresh_data_env_linux_faults_and_all_six_smokes_required": true,
+  "scientific_design_or_manuscript_changes_authorized_by_this_record": false,
+  "input_custody": [
+    {
+      "path": ".orchestrator/USER_AUTHORIZATION_CURRENT_MTA_TRANSFER_20260928.md",
+      "sha256": "1C843846437A37F43E6D64EDBB8002FDF3FE1898EA2F86993AAF5CDC335AC650",
+      "bytes": 1981
+    },
+    {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/SOURCE_MANIFEST.json",
+      "sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+      "bytes": 7132
+    },
+    {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/final_config.json",
+      "sha256": "0876F92AAB6E3F49D085132CA896F0A6858A62EEBEB5BA8267013DC3A9BD5EED",
+      "bytes": 3700
+    },
+    {
+      "path": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/FINAL_PROTOCOL.md",
+      "sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+      "bytes": 11509
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_remote_stage/EXACT52_TRANSFER_HEADER.json",
+      "sha256": "EFCB4101250CA07120614E91004460447DAE00A92685453E3AD0A3788334AD02",
+      "bytes": 9001
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_remote_stage/local_official_archive_fallback_nativecurl/LOCAL_OFFICIAL_ACQUISITION_RECEIPT.json",
+      "sha256": "08B5B09E2D59B82F5C5D312EE47F449A06174CDD38EB1019E4A8BC583047E410",
+      "bytes": 1645
+    },
+    {
+      "path": "q1-audit/snd-approved-b-repair-20260928/v8_remote_stage/root_stage_runs/probe-between-cell-resume_20260928T110337670697Z/read_terminal.stdout.bin",
+      "sha256": "8B56077F3146FE381DB61B887B8992CCD04D93A7C6C29340CD30D91D3A8074CD",
+      "bytes": 2624
+    }
+  ],
+  "actual_remote_read_command": {
+    "argv": [
+      "ssh.exe",
+      "-i",
+      "<user-home>/.ssh/id_ed25519",
+      "-o",
+      "BatchMode=yes",
+      "-o",
+      "ConnectTimeout=15",
+      "canay@gpu-server",
+      "cat -- <gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/admission/ACQUISITION_RECEIPT.json"
+    ],
+    "started_utc": "2026-09-28T11:21:11.942001+00:00",
+    "finished_utc": "2026-09-28T11:21:12.788554+00:00",
+    "returncode": 0,
+    "stdout_sha256": "2545F376B73B3F26F1998CACF9CA11E8F52696BE24C499CBED9ED8E8B529C795",
+    "stdout_bytes": 2429,
+    "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "stderr_bytes": 0
+  },
+  "actual_disposition": "Under the direct standing same-project user authorization, authorize ONE isolated post_reboot_001 technical cohort after the actual second external reboot interrupted the original between-cell resume. Preserve the whole original cohort and failed terminal; copy only exact52 verified source/review/release members, honestly reuse the already verified archive with actual new custody, and require fresh data-env, owned fault paths and all six nonregistered proofs. No source/config/protocol/scientific change, original-root resume, system repair, unowned-process action or registered main release is authorized by this record."
+}

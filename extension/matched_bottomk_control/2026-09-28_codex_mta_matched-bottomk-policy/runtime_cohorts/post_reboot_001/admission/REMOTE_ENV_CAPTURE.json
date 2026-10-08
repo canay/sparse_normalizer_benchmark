@@ -1,0 +1,54 @@
+{
+  "actual_command_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/src/data_env_preflight.py",
+    "--tool",
+    "Codex",
+    "--model-or-session",
+    "gpt-6-astra / requested xhigh; ROOT actual remote execution, repair_editor prepared script; independent review is separate"
+  ],
+  "actual_launcher_model_or_session": "gpt-6-astra / requested xhigh; ROOT actual remote execution, repair_editor prepared script; independent review is separate",
+  "actual_launcher_tool": "Codex",
+  "df": "Filesystem        1B-blocks         Used  Available Use% Mounted on\n/dev/nvme1n1p5 458520133632 425539391488 9613963264  98% /",
+  "environment_overrides": {
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "free": "total        used        free      shared  buff/cache   available\nMem:     33411936256  3069960192 10651926528    25526272 20048809984 30341976064\nSwap:    16183717888           0 16183717888",
+  "nvidia_smi": "Mon Sep 28 16:38:18 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5060        Off |   00000000:01:00.0  On |                  N/A |\n|  0%   41C    P8             12W /  145W |     135MiB /   8151MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            3206      G   /usr/lib/xorg/Xorg                       84MiB |\n|    0   N/A  N/A            3381      G   /usr/bin/gnome-shell                     24MiB |\n+-----------------------------------------------------------------------------------------+",
+  "pip_freeze": "appdirs==1.4.4\nattrs==23.2.0\nBabel==2.10.3\nbcc==0.29.1\nbcrypt==5.0.0\nbeautifulsoup4==4.12.3\nblinker==1.7.0\nBrlapi==0.8.5\nBrotli==1.1.0\ncertifi==2023.11.17\ncffi==2.1.1\nchardet==5.2.0\nclick==8.1.6\ncloud-init==26.1\ncloudpickle==3.1.2\ncolorama==0.4.6\ncommand-not-found==0.3\nconfigobj==5.0.8\ncontourpy==1.0.7\ncryptography==50.0.0\ncssselect==1.2.0\ncuda-bindings==13.3.1\ncuda-pathfinder==1.6.1\ncuda-toolkit==13.0.3.0\ncupshelpers==1.0\n# Editable install with no version control (CybORG==2.1)\n-e <gpu-server-home>/KALKAN-RL/source/cage-challenge-2/CybORG\ncycler==0.11.0\ndbus-python==1.3.2\ndecorator==5.1.1\ndefer==1.0.6\ndistro==1.9.0\ndistro-info==1.7+build1\ndocutils==0.22.1\nFarama-Notifications==0.0.6\nfilelock==3.32.2\nfonttools==4.46.0\nfs==2.4.16\nfsspec==2026.7.0\ngym==0.26.2\ngym-notices==0.1.0\ngymnasium==1.3.0\nhtml5lib==1.1\nhttplib2==0.20.4\nidna==3.6\niniconfig==2.3.0\ninvoke==3.0.3\nJinja2==3.1.6\njoblib==1.5.3\njsonpatch==1.32\njsonpointer==2.0\njsonschema==4.10.3\nkiwisolver==0.0.0\nlanguage-selector==0.1\nlaunchpadlib==1.11.0\nlazr.restfulclient==0.14.6\nlazr.uri==1.0.6\nliac-arff==2.5.0\nlouis==3.29.0\nlxml==5.2.1\nlz4==4.0.2+dfsg\nmarkdown-it-py==3.0.0\nMarkupSafe==3.0.3\nmatplotlib==3.6.3\nmdurl==0.1.2\nmpmath==1.3.0\nnarwhals==2.25.0\nnetaddr==0.8.0\nnetifaces==0.11.0\nnetworkx==3.6.1\nnumpy==1.26.4\nnvidia-cublas==13.1.1.3\nnvidia-cuda-cupti==13.0.85\nnvidia-cuda-nvrtc==13.0.88\nnvidia-cuda-runtime==13.0.96\nnvidia-cudnn-cu13==9.20.0.48\nnvidia-cufft==12.0.0.61\nnvidia-cufile==1.15.1.6\nnvidia-curand==10.4.0.35\nnvidia-cusolver==12.0.4.66\nnvidia-cusparse==12.6.3.3\nnvidia-cusparselt-cu13==0.8.1\nnvidia-nccl-cu13==2.29.7\nnvidia-nvjitlink==13.3.33\nnvidia-nvshmem-cu13==3.4.5\nnvidia-nvtx==13.0.85\noauthlib==3.2.2\nolefile==0.46\npackaging==26.3\npandas==2.3.3\nparamiko==4.0.0\npexpect==4.9.0\npillow==10.2.0\npluggy==1.6.0\nprettytable==3.16.0\nptyprocess==0.7.0\npycairo==1.25.1\npycparser==3.0\npycups==2.0.1\nPygments==2.20.0\nPyGObject==3.48.2\nPyJWT==2.7.0\nPyNaCl==1.6.2\npyparsing==3.1.1\npyrsistent==0.20.0\npyserial==3.5\npytest==8.4.1\npython-apt==2.7.7+ubuntu5.2\npython-dateutil==2.8.2\npython-debian==0.1.49+ubuntu2\npytz==2024.1\npyusb==1.2.1.post2\npyxdg==0.28\nPyYAML==6.0.2\nrequests==2.31.0\nrich==13.7.1\nscikit-learn==1.9.0\nSciPy==1.11.4\nscreen-resolution-extra==0.0.0\nsetuptools==80.9.0\nsix==1.16.0\nsoupsieve==2.5\nssh-import-id==5.11\nstable_baselines3==2.9.0\nsympy==1.14.0\nsystemd-python==235\nthreadpoolctl==3.6.0\ntorch==2.13.0\ntriton==3.7.1\ntyping_extensions==4.16.0\ntzdata==2026.3\nubuntu-drivers-common==0.0.0\nubuntu-pro-client==8001\nufoLib2==0.16.0\nufw==0.36.2\nunattended-upgrades==0.1\nunicodedata2==15.1.0\nurllib3==2.0.7\nwadllib==1.3.6\nwcwidth==0.8.2\nwebencodings==0.5.1\nwheel==0.45.1\nxdg==5\nxkit==0.0.0",
+  "resource_floor": {
+    "disk_free_bytes": 9613963264,
+    "gpu_free_bytes": 7932477440,
+    "timestamp_unix": 1790602699.1892288
+  },
+  "runtime_identity": {
+    "CUBLAS_WORKSPACE_CONFIG": null,
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONHASHSEED": "0",
+    "cuda": "13.0",
+    "cuda_available": true,
+    "cudnn": 92000,
+    "driver": "595.91.07",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+    "nice": 10,
+    "numpy": "1.26.4",
+    "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "precision": "high",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/bin/python3.12",
+    "torch": "2.13.0+cu130",
+    "torch_interop_threads": 2,
+    "torch_threads": 2
+  },
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "timestamp_unix": 1790602699.189232,
+  "who": "noron    seat0        2026-09-28 14:03 (login screen)\nnoron    :1           2026-09-28 14:03 (:1)"
+}

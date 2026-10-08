@@ -1,0 +1,61 @@
+{
+  "recorded_utc": "2026-09-28T13:38:10.470974+00:00",
+  "status": "AUTHOR_STORAGE_AMENDED_ENGINEERING_ONLY_PENDING_ACTUAL_RUNTIME",
+  "producer": "Root scoped disposition recorded by Codex sole writer",
+  "root_stage_release_pending": false,
+  "reversible_data_acquisition_and_engineering_smoke_authorized": true,
+  "registered_seed_main_authorized": false,
+  "proposed_scope": "Frozen V8 exclusive transfer, official archive/train-only data/environment admission, owned Linux faults and nonregistered smoke only. No matched50 MAIN_RELEASE.",
+  "references": {
+    "source_manifest": {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+      "bytes": 7201
+    },
+    "final_config": {
+      "path": "final_config.json",
+      "sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+      "bytes": 3699
+    },
+    "protocol": {
+      "path": "FINAL_PROTOCOL.md",
+      "sha256": "9A1A674D80C0B85524B4353FA2E632B7CC958C10E75240700B4E90920D7ECA51",
+      "bytes": 11509
+    },
+    "design_review": {
+      "path": "reviews/claude_precompute_v1.md",
+      "sha256": "A22D8AD1809E0B92C6860A574F49CBB93A852FCB175AC23493915AB80AE338BC",
+      "bytes": 22677
+    },
+    "engineering_review": {
+      "path": "reviews/claude_engineering_v8.md",
+      "sha256": "7DD9A70DF5C9BD3BB942C8C8D5AD8B9FEF878F8A584EB2CD6DA32333BA8EB5EF",
+      "bytes": 14965
+    }
+  },
+  "engineering_output_authentication": {
+    "path": "reviews/v8_authentic/AUTHENTIC_REVIEW_RECEIPT.json",
+    "sha256": "698E0FD59F40BE6B21A4D12AF9B88A1A9F326F985D5AFEF1A5CEEEB311ECE209",
+    "bytes": 4685
+  },
+  "actual_verdict": "CODE_ADMISSIBLE_PENDING_RUNTIME_ADMISSION",
+  "runtime_proofs_pending": true,
+  "no_P3_repair_campaign": true,
+  "root_disposition": {
+    "actual_message": "root68e32c",
+    "scope": "Exclusive frozen V8 transfer; official train-only acquisition/data-env; owned Linux faults; six nonregistered smoke sessions only.",
+    "authentication_checks": [
+      "c7e0a2",
+      "e95efc"
+    ],
+    "fresh_read_only_capacity_utc": "2026-09-28T08:54:57Z",
+    "final_member_and_carrier_exact_read_before_execution": true,
+    "no_main_release": true
+  },
+  "author_storage_override": {
+    "path": "AUTHOR_RUNTIME_STORAGE_OVERRIDE.json",
+    "sha256": "447E1E22AFFE54C81CD1E57071D97169E954CD1E13797B74028F8CBDA81B26ED",
+    "bytes": 1841
+  },
+  "review_scope_statement": "Actual V8 code/design reviews retained byte-identical; they reviewed predecessor config. Current explicit author authority amends operational disk floor only, without a new review claim."
+}

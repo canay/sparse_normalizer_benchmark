@@ -1,0 +1,159 @@
+{
+  "actual_returncode": 0,
+  "artifacts": [
+    {
+      "bytes": 1296,
+      "path": "launch.json",
+      "sha256": "977DE709688565E0E4B3C91C62EE01B9D682118A96EF087AEF1327D2F8D217D7"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 55586,
+      "path": "samples.jsonl",
+      "sha256": "5FF0DDFC5219199C5316A1913B6BB21067BB808A8690AAE9B1E8457D00081CA1"
+    },
+    {
+      "bytes": 1568,
+      "path": "heartbeat.json",
+      "sha256": "50D5AFBE46346028DC49B017FAC411729BC4E2EE326209BFD05CF06E9C30B131"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 3525,
+      "path": "engineering_smoke/clean-reference/cells/bottomk_softmax_0125__seed1000/attempt-001/launch.json",
+      "sha256": "7E14CE49FF5BB06DF0C4DB6AD3C3692EC7F272F833C0AE14FC72E6972929B374"
+    },
+    {
+      "bytes": 3530,
+      "path": "engineering_smoke/clean-reference/cells/bottomk_softmax_025__seed1000/attempt-001/launch.json",
+      "sha256": "346C35E208C0DC95510A4AF1122C5253256B08696637C61024C38C4A73EA772D"
+    },
+    {
+      "bytes": 2669,
+      "path": "engineering_smoke/clean-reference/cells/softmax__seed1000/attempt-001/launch.json",
+      "sha256": "5265B31B35833F87F729F4E7312E9FCAA3D638BE2EB958E47C7290F6AA189B34"
+    },
+    {
+      "bytes": 3421,
+      "path": "engineering_smoke/clean-reference/cells/topk_softmax_0125__seed1000/attempt-001/launch.json",
+      "sha256": "3FAA713A511A7B669B501DE970A191B4A087D5C668B039C38B00A5AAFFFBD93C"
+    },
+    {
+      "bytes": 3508,
+      "path": "engineering_smoke/clean-reference/cells/topk_softmax_025__seed1000/attempt-001/launch.json",
+      "sha256": "D39416359BD96D9E7AA70F3AB66979EA331FB33D9FB71569B3C5D7811198D18C"
+    }
+  ],
+  "campaign": "clean-reference",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": "1F62FD4A31F0558378FB7D2D0B2E5DC7ADFBD9430245B29C828A51F28224D0F7",
+      "disposition": "completed",
+      "method": "softmax",
+      "seed": 1000
+    },
+    {
+      "complete_sha256": "11F8080D5CB15BB4F068A2E510B7AC70525AEBDFC7F8AB587D26C1D54B7368AA",
+      "disposition": "completed",
+      "method": "topk_softmax_0125",
+      "seed": 1000
+    },
+    {
+      "complete_sha256": "877E509049FAD5CE40BEC1630DEB986541944B03F7AEF694349E69339FE3A144",
+      "disposition": "completed",
+      "method": "topk_softmax_025",
+      "seed": 1000
+    },
+    {
+      "complete_sha256": "262F78346F901601AB7ABD49BB8D055AE8FD80B35E64626385B657CDA11EDD4D",
+      "disposition": "completed",
+      "method": "bottomk_softmax_0125",
+      "seed": 1000
+    },
+    {
+      "complete_sha256": "3DAFF8FBE3EC9A879A12E70FC329E74DFCBE00BC490C060B42069E7256118F02",
+      "disposition": "completed",
+      "method": "bottomk_softmax_025",
+      "seed": 1000
+    }
+  ],
+  "expected_cells": 5,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790603121.4927351,
+  "launched_attempt_count": 5,
+  "mode": "smoke",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 23509,
+      "ppid": 23497,
+      "rss_bytes": 483328,
+      "session_id": 23497,
+      "start_token": "951197",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 23539,
+      "ppid": 23497,
+      "rss_bytes": 286720,
+      "session_id": 23497,
+      "start_token": "954558",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 23575,
+      "ppid": 23497,
+      "rss_bytes": 286720,
+      "session_id": 23497,
+      "start_token": "959271",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 23892,
+      "ppid": 23497,
+      "rss_bytes": 491520,
+      "session_id": 23497,
+      "start_token": "964140",
+      "state": "R",
+      "tty_nr": 0
+    },
+    {
+      "cpu_ticks": 0,
+      "pid": 24095,
+      "ppid": 23497,
+      "rss_bytes": 282624,
+      "session_id": 23497,
+      "start_token": "968802",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790602896.9328973,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "clean-reference-first"
+}

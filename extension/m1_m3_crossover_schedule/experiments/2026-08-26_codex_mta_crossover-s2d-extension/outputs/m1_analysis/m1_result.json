@@ -1,0 +1,72 @@
+{
+  "status": "M1_KILLED",
+  "operation_id": "snd-crossover-mechanism-s2d-extension-20260826",
+  "input_validation_sha256": "7206589b1509cf71b5791d66472d5ef538d3295f06fab6ffb721de3b1cbc5f4a",
+  "raw_file_sha256": {
+    "mch002_20260826_181806_m1_plain_transformer_compact.jsonl": "aff30a23c3ae46e03000fd8469652fd2172b49d04d9cb4e43dcea49605a3d3e1",
+    "mch002_20260826_193057_m1_plain_transformer_deep.jsonl": "ea02a4cad812a55ab8a5030094f02792cf02227aaaa4cdac630babb8a6ab766c",
+    "mch002_20260826_214422_m1_plain_transformer_wide.jsonl": "014788aed4f75f506b525dee811b892b3de91624450c6d6fe433e4bc026089c2",
+    "mch002_20260826_233135_m1_local_hybrid_compact.jsonl": "2db303af44c0ad7c2b3dd70ee79eaa575a929959a12ab1b8260d782687b2c588",
+    "mch002_20260827_004617_m1_local_hybrid_deep.jsonl": "ebed963421a151473a94e147dc7aee79daef3094f8f84530d2e61088bdd53183",
+    "mch002_20260827_031017_m1_local_hybrid_wide.jsonl": "6ebe4703d6c97fa75bff0ba317d0eec78643c047ebe29c9823e82b9d5df5b6d0"
+  },
+  "cell_count": 60,
+  "persistent_reversal_cells": 39,
+  "persistent_reversal_datasets_outside_cifar10": [
+    "cifar100",
+    "emnist_digits",
+    "emnist_letters",
+    "fashion_mnist",
+    "kmnist",
+    "mnist",
+    "synthetic_marker",
+    "twenty_news",
+    "usps"
+  ],
+  "persistent_reversal_architectures": [
+    "local_hybrid",
+    "plain_transformer"
+  ],
+  "persistent_reversal_tiers": [
+    "compact",
+    "deep",
+    "wide"
+  ],
+  "macro_mae": {
+    "constant": 9.066666666666668,
+    "mechanistic": 10.583333333333334,
+    "early_accuracy": 7.649999999999999,
+    "entropy": 8.466666666666667,
+    "metadata": 11.083333333333334
+  },
+  "strongest_baseline": "early_accuracy",
+  "relative_mae_improvement": -0.3834422657952073,
+  "proposed_minus_strongest_bootstrap_ci95": [
+    -0.5833333333333333,
+    7.4833333333333325
+  ],
+  "bootstrap_seed": 260826,
+  "bootstrap_resamples": 20000,
+  "positive_influence_by_dataset": {
+    "mnist": 0.5,
+    "fashion_mnist": 0.16666666666666785,
+    "kmnist": 1.666666666666666,
+    "cifar10": 0.0,
+    "cifar100": 0.0,
+    "twenty_news": 0.0,
+    "synthetic_marker": 0.0,
+    "emnist_letters": 0.33333333333333215,
+    "emnist_digits": 1.5000000000000002,
+    "usps": 1.333333333333333
+  },
+  "max_single_dataset_influence": 0.303030303030303,
+  "spearman": -0.031565574249569545,
+  "event_balanced_accuracy": 0.5,
+  "mean_signed_calibration_error": -0.8166666666666667,
+  "criteria": {
+    "crossovers_breadth": true,
+    "relative_mae_at_least_10_percent": false,
+    "bootstrap_interval_below_zero": false,
+    "max_dataset_influence_at_most_half": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+ "operation_id": "snd-claude-roundef-package-20261008",
+ "decision": "DEC-QH-19 (author, 2026-10-08): Option C deposit of the extension code and processed run records",
+ "custody_copy": "author's backup of experiments.zip (unchanged); private location not published",
+ "excluded_counts": {
+  "M1-M3 CHECKSUMS.sha256 replaced by the regenerated SHA256SUMS": 1,
+  "lr_policy_control: engineering, backup, supervisor or superseded tree": 210,
+  "lr_policy_control: excluded type .gz": 3,
+  "lr_policy_control: excluded type .tag": 1,
+  "lr_policy_control: family input/log tree (binary inputs or host logs)": 49,
+  "lr_policy_control: host-specific launcher, compute-resource receipt or bulk transfer receipt": 2,
+  "lr_policy_control: review record not cited by the supplement source manifest": 1882,
+  "matched_bottomk_control: engineering, backup, supervisor or superseded tree": 5453,
+  "matched_bottomk_control: excluded type .gz": 1,
+  "matched_bottomk_control: excluded type .lnk": 1,
+  "matched_bottomk_control: excluded type .lock": 65,
+  "matched_bottomk_control: excluded type .pyc": 1,
+  "matched_bottomk_control: host-specific launcher, compute-resource receipt or bulk transfer receipt": 4,
+  "n3a_synthetic_assay: engineering, backup, supervisor or superseded tree": 17,
+  "n3a_synthetic_assay: excluded type .lnk": 2,
+  "n3a_synthetic_assay: excluded type .npy": 256,
+  "n3a_synthetic_assay: excluded type .npz": 256,
+  "n3a_synthetic_assay: excluded type .pt": 512,
+  "n3a_synthetic_assay: excluded type .pyc": 3,
+  "n3a_synthetic_assay: excluded type .tar": 3,
+  "n3a_synthetic_assay: family input/log tree (binary inputs or host logs)": 769,
+  "n3a_synthetic_assay: host-specific launcher, compute-resource receipt or bulk transfer receipt": 42,
+  "saved_seed_diagnostics: host-specific launcher, compute-resource receipt or bulk transfer receipt": 1
+ },
+ "excluded_mb": {
+  "lr_policy_control: engineering, backup, supervisor or superseded tree": 0.36,
+  "lr_policy_control: excluded type .gz": 0.7,
+  "lr_policy_control: excluded type .tag": 0.0,
+  "lr_policy_control: family input/log tree (binary inputs or host logs)": 1.28,
+  "lr_policy_control: host-specific launcher, compute-resource receipt or bulk transfer receipt": 0.0,
+  "lr_policy_control: review record not cited by the supplement source manifest": 5.79,
+  "matched_bottomk_control: engineering, backup, supervisor or superseded tree": 15.24,
+  "matched_bottomk_control: excluded type .gz": 0.0,
+  "matched_bottomk_control: excluded type .lnk": 0.0,
+  "matched_bottomk_control: excluded type .lock": 0.0,
+  "matched_bottomk_control: excluded type .pyc": 0.01,
+  "matched_bottomk_control: host-specific launcher, compute-resource receipt or bulk transfer receipt": 0.01,
+  "n3a_synthetic_assay: engineering, backup, supervisor or superseded tree": 58.34,
+  "n3a_synthetic_assay: excluded type .lnk": 0.0,
+  "n3a_synthetic_assay: excluded type .npy": 256.03,
+  "n3a_synthetic_assay: excluded type .npz": 1431.61,
+  "n3a_synthetic_assay: excluded type .pt": 73.85,
+  "n3a_synthetic_assay: excluded type .pyc": 0.09,
+  "n3a_synthetic_assay: excluded type .tar": 0.54,
+  "n3a_synthetic_assay: family input/log tree (binary inputs or host logs)": 1.76,
+  "n3a_synthetic_assay: host-specific launcher, compute-resource receipt or bulk transfer receipt": 107.52,
+  "saved_seed_diagnostics: host-specific launcher, compute-resource receipt or bulk transfer receipt": 0.0
+ },
+ "raw_archives_not_redistributed": {
+  "n3a_remote_archive": {
+   "description": "Raw N3-A unit archive verified at terminal acceptance; not redistributed (15 GB). The full per-file receipt stays in the author's custody copy.",
+   "archive_bytes": 15233710080,
+   "archive_sha256": "a58cf4fe0f79e25108c49c1f93e300d2f188b2b1d6ca4144241dd2db3c84e2f8",
+   "receipt_member": "2026-09-17_n3a_terminal_acceptance/v2/REMOTE_RECEIPT.json",
+   "receipt_sha256": "a1bd3201acee8bab74f989b51d24bc64df4b37bc8f98da03a8adc90aef7bfc47",
+   "verified_units": [
+    6144
+   ]
+  }
+ },
+ "dataset_archives": "Public benchmark datasets are acquired from their upstream providers by the loaders; not redistributed."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "phase": "m1",
+  "validator_source_sha256": "f466b31d18e14993709d906b60eb30927d8f21e3cddf369c31e292b0098ac6d6",
+  "root": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-08-26_codex_mta_crossover-s2d-extension\\outputs\\m1",
+  "raw_files": {
+    "mch002_20260826_181806_m1_plain_transformer_compact.jsonl": "aff30a23c3ae46e03000fd8469652fd2172b49d04d9cb4e43dcea49605a3d3e1",
+    "mch002_20260826_193057_m1_plain_transformer_deep.jsonl": "ea02a4cad812a55ab8a5030094f02792cf02227aaaa4cdac630babb8a6ab766c",
+    "mch002_20260826_214422_m1_plain_transformer_wide.jsonl": "014788aed4f75f506b525dee811b892b3de91624450c6d6fe433e4bc026089c2",
+    "mch002_20260826_233135_m1_local_hybrid_compact.jsonl": "2db303af44c0ad7c2b3dd70ee79eaa575a929959a12ab1b8260d782687b2c588",
+    "mch002_20260827_004617_m1_local_hybrid_deep.jsonl": "ebed963421a151473a94e147dc7aee79daef3094f8f84530d2e61088bdd53183",
+    "mch002_20260827_031017_m1_local_hybrid_wide.jsonl": "6ebe4703d6c97fa75bff0ba317d0eec78643c047ebe29c9823e82b9d5df5b6d0"
+  },
+  "manifest_files": {
+    "mch002_20260826_181806_m1_plain_transformer_compact.json": "aac42ffbaa9db4eaa8764dee1a29f23bd6d2a427b4dcee094c75f55e7c15b31d",
+    "mch002_20260826_193057_m1_plain_transformer_deep.json": "65166593423ae09c463be9b1ff6a73189c7ea84cbc49d4dd04a2d68cddcc6700",
+    "mch002_20260826_214422_m1_plain_transformer_wide.json": "1ad242221b290a31b806cc56314e78634a7097fb8a0386bd3268da25c8b605a4",
+    "mch002_20260826_233135_m1_local_hybrid_compact.json": "10772285c553607c6289ce3f55d0f2de35e34476294e8f61912975f9d0230566",
+    "mch002_20260827_004617_m1_local_hybrid_deep.json": "cf46c4b23e890bc308fb6593431e5075bb4dc652bf43031a08b3d554a29a1ae6",
+    "mch002_20260827_031017_m1_local_hybrid_wide.json": "fb0ace7b1c78ea8419b3fe2e4272d2df00ca03f9c92e2c7bd65034e7e7339f0c"
+  },
+  "runner_source_hashes": [
+    "6d2debda2a46f757856205777437fa73540ff243acde4cf49fe25beb4d87ffe7"
+  ],
+  "completed_cells": 600,
+  "expected_cells": 600,
+  "failed_rows": 0,
+  "recovered_failed_rows": 0,
+  "unresolved_failed_rows": 0,
+  "errors": []
+}

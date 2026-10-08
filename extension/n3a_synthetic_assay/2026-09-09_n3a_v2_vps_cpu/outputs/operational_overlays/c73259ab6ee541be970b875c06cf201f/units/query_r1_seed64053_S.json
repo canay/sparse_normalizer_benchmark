@@ -1,0 +1,8 @@
+{
+  "classification": "CONTINUATION_VERIFIED",
+  "complete_sha256": "516c33d52764970f8d98a96dde4890663f7c82e7e0ec0ca2eb475ac65aa58313",
+  "overlay_admission_sha256": "80f3687dd97e3a2a4bd38b25cbb1895543b98fa51902568674bb8abb3736f413",
+  "overlay_attempt": "c73259ab6ee541be970b875c06cf201f",
+  "unit_id": "query_r1_seed64053_S",
+  "verified_at_unix": 1789494908.0372553
+}

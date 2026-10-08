@@ -1,0 +1,17 @@
+{
+  "budget": 9,
+  "method": "topk_softmax_025",
+  "mode": "main",
+  "parent_pid": 116237,
+  "parent_start_token": "18085177",
+  "preflight": {
+    "disk_free_bytes": 21315125248,
+    "gpu_free_bytes": 7773093888,
+    "gpu_probe_error": null,
+    "new_output_bytes": 820347,
+    "timestamp_unix": 1790775462.6944203
+  },
+  "release_sha256": "2B591EBC0990C52A78B0ED8C302D0D4EA6A586E046CA6D87DE8D323B1A0D4E46",
+  "seed": 7,
+  "started_unix": 1790775462.7056057
+}

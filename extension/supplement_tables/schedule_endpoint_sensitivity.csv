@@ -1,0 +1,5 @@
+phase,schedule,paired_units,fixed_target_before_switch,same_time_to_target_as_fixed_topk
+m2,mechanistic_switch,300,238,269
+m2,median_switch,300,258,270
+m3_validation,mechanistic_switch,180,180,180
+m3_validation,median_switch,180,180,180

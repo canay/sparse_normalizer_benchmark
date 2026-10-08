@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-09-28_codex_local_historical-p5-policy",
+  "status": "COMPLETED_PENDING_INDEPENDENT_ARTIFACT_VERIFY",
+  "started_utc": "2026-09-28T01:10:33.649541+00:00",
+  "ended_utc": "2026-09-28T01:10:33.825171+00:00",
+  "wall_seconds": 0.17555480008013546,
+  "exit_code": 0,
+  "command_argv": [
+    "<user-home>\\miniforge3\\python.exe",
+    "-B",
+    "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-09-28_codex_local_historical-p5-policy\\src\\historical_p5.py"
+  ],
+  "producer_sha256": "0946EF31531B9A305ADC3468CA59FF160DCDBF464894A4F98F6BB5CA0DD70914",
+  "host": "workstation-a",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+  "cli_log_sha256": "5A810A2A252F827C5D5844DB78DDC421BE2379F90A257870AE7A1B1DCDFB79C5",
+  "new_training_or_test_evaluation": false,
+  "registered_outcomes_changed": false
+}

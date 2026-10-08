@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "phase": "m3",
+  "validator_source_sha256": "f466b31d18e14993709d906b60eb30927d8f21e3cddf369c31e292b0098ac6d6",
+  "root": "<controlled-workspace>\\CALISMALAR\\60_GONDERILDI\\SCI-sparse_normalizer_benchmark\\experiments\\2026-08-26_codex_mta_crossover-s2d-extension\\outputs\\m3_validation",
+  "raw_files": {
+    "mch002_20260830_214456_m3a_plain_transformer_compact.jsonl": "66bcca0f833915bcce5698558bcea93b01a8e80ec9a45daa0ef77a4f057c5f55",
+    "mch002_20260830_225235_m3a_plain_transformer_deep.jsonl": "93cd0284f40e23255a1effd47e9b420570f243fcb21e428da30380b1d3cb2565",
+    "mch002_20260831_010507_m3a_plain_transformer_wide.jsonl": "d68d27aa04bfbbe46759782c60ec93aff530a050540d23b116c3fb0b1defd2bd",
+    "mch002_20260831_031415_m3a_local_hybrid_compact.jsonl": "1db6b44e01ad46454d43e64f2b5f6e9c2149bc1270e9e72e5faa5fbff2af7cc2",
+    "mch002_20260831_043221_m3a_local_hybrid_deep.jsonl": "16ad35769804febda90d7c876f1a9b6d79902c06bde1169b7ed52a17ff92475e",
+    "mch002_20260831_070547_m3a_local_hybrid_wide.jsonl": "da1d7bc65fa85606d099cb5f9ff313a28d37b8e1e14665ff63c764aa4be206c5",
+    "mch002_20260831_103754_m3b_plain_transformer_compact.jsonl": "5c6ef380b1098111213acaacb364f50a57badee4df083879c18ecfff9f10cf2a",
+    "mch002_20260831_123409_m3b_plain_transformer_compact.jsonl": "dbfc4ab8d56b115690189403e0d3968e8b4db74e900c133966e7539c88ed31e9",
+    "mch002_20260831_125050_m3b_plain_transformer_deep.jsonl": "e9d2a6dc488aec65a4a186c9df1f594bd5a88e53c0913218157f86dd942c7ebb",
+    "mch002_20260831_150251_m3b_plain_transformer_wide.jsonl": "e8f625aa2d18a63c3a725aba75da3338f9019ac955a606029f817813c8be3daf",
+    "mch002_20260831_170154_m3b_local_hybrid_compact.jsonl": "18945b9e83991e58423b45ef3fbcbe61ec2b49fd58d80615a7fddb2f95141f1e",
+    "mch002_20260831_182121_m3b_local_hybrid_deep.jsonl": "4367a2bb68f4cfb2c3de37c9b4cfdf9d9a97374d62079aa55e5f145d51dae39e",
+    "mch002_20260831_205325_m3b_local_hybrid_wide.jsonl": "7b400ba6885e9c8bb13776f438e9bce0236f6c6820d2d3089aed627f7b9a2e5b"
+  },
+  "manifest_files": {
+    "mch002_20260830_214456_m3a_plain_transformer_compact.json": "229ed66ed2629466cc5d7ce91d3ceedb1c1125667f024d1f150982c575be9e5e",
+    "mch002_20260830_225235_m3a_plain_transformer_deep.json": "cd977e46ba6525d7d072a32a65d565b4512e0b6dd374c324e1da44bcaebef2ca",
+    "mch002_20260831_010507_m3a_plain_transformer_wide.json": "94768eff1511422a6373022d3643b76527c3d5e1b978083c31f4f7552ba34d1c",
+    "mch002_20260831_031415_m3a_local_hybrid_compact.json": "b31149d7ed2b8299f0ad6cd660bc513d30e0c65aac7fadfc7104bc3c3f2b4469",
+    "mch002_20260831_043221_m3a_local_hybrid_deep.json": "becb061a826ba0957954ec7ac4eb683663bdfa272dabd1512a08163c5685e2ba",
+    "mch002_20260831_070547_m3a_local_hybrid_wide.json": "7f4a7fd4e56b571138b1e1e75f7ad0d7624b243c9dd8c5fce30d840f5791ee1b",
+    "mch002_20260831_103754_m3b_plain_transformer_compact.json": "00b07926fc0be66c93c53e84c1b63f7d367fad26c555918e135d7af3f1e5a811",
+    "mch002_20260831_123409_m3b_plain_transformer_compact.json": "35e721a40ee9f08839a9840d120636e26b4eb9e07824d2de5a116ec833405931",
+    "mch002_20260831_125050_m3b_plain_transformer_deep.json": "dd1ade8a58824f966cceea4c9c101a5fd5385026a1c6c4b80c1631c2f83ca9c7",
+    "mch002_20260831_150251_m3b_plain_transformer_wide.json": "3bf44dc7312861b283e235220c2696dc85530817dd3e0b6bddd1379c0bb02ca9",
+    "mch002_20260831_170154_m3b_local_hybrid_compact.json": "11fef89cc81df5c791cba759dbf4d846ef22cf23a98fd2d5ede3af8c48263e9b",
+    "mch002_20260831_182121_m3b_local_hybrid_deep.json": "ad9267cf1fe42b96fb8ac98abf193c77bb75e5ec8c204457dde089584dd530f3",
+    "mch002_20260831_205325_m3b_local_hybrid_wide.json": "931c942809e77eb7c34989206b29195e10b4e07e0cc5bf1c9b70ecb79e8f4bff"
+  },
+  "runner_source_hashes": [
+    "8beda4eb7c5f37c8ffdd68ac01e1b49b8f7fd785c62fe6b2c7c5b371fd004806"
+  ],
+  "completed_cells": 720,
+  "expected_cells": 720,
+  "failed_rows": 0,
+  "recovered_failed_rows": 0,
+  "unresolved_failed_rows": 0,
+  "errors": []
+}

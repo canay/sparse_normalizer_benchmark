@@ -1,0 +1,95 @@
+{
+  "cells": 12,
+  "cumulative_elapsed_monotonic_seconds": 346.10921834700275,
+  "ended_unix": 1790774160.6964664,
+  "mode": "smoke",
+  "release_sha256": "A96F9A73F25915E3DBB5D0C4117710BF736A4DE2EF204A7EE2E0AB48B968A3EC",
+  "results": [
+    {
+      "budget": 3,
+      "complete_sha256": "20B9EB78E120F284F872D6A7048C0316FBECDC53CF508C61955595E63D597B56",
+      "method": "softmax",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 3,
+      "complete_sha256": "96881442501A6D81936175E9D7615730AC61A645515CEA55B5ABBA1A2BAD48EF",
+      "method": "softmax",
+      "outcome": "completed",
+      "seed": 1001
+    },
+    {
+      "budget": 3,
+      "complete_sha256": "257F731DF90C6CB6372DF813AC12DAF1E7C57145AB538D203748F0A9C3E74457",
+      "method": "topk_softmax_0125",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 3,
+      "complete_sha256": "CB4110036A697DCC6ED9DBCD2F4DA792481B80ED67843F7066882F77A696C3DF",
+      "method": "topk_softmax_0125",
+      "outcome": "completed",
+      "seed": 1001
+    },
+    {
+      "budget": 3,
+      "complete_sha256": "466334F92EB6689CDFB08F4AD23446989AEDC65661CDE194F220B7D115851F3C",
+      "method": "topk_softmax_025",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 3,
+      "complete_sha256": "D74318284C8A161A9A98144B54E5F77028352B7AA4C7A8341AE8E725EE24B2CB",
+      "method": "topk_softmax_025",
+      "outcome": "completed",
+      "seed": 1001
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "562B072F4D1EA99BA0099D1226114233F551B4552B7D4B3DA62CB850E659169E",
+      "method": "softmax",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "B8F393DC3E4DDE26CE87F7AD5DAA32DBD9336A54FF6C39B13D3B13B2487D2EA6",
+      "method": "softmax",
+      "outcome": "completed",
+      "seed": 1001
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "67B947588B072728D872BAAFEA9DB179E87C01939159D57A1CCAACC6CDFD2E1B",
+      "method": "topk_softmax_0125",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "54D1FECF3B67896F81DB9A9E5AEA0EE8EA100BAB7C3B0CE1ECAC226BDE6C3768",
+      "method": "topk_softmax_0125",
+      "outcome": "completed",
+      "seed": 1001
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "1BA714A28918FC7A0016F9C8EF5C621114A06DAC4CDCC514ABF6B056D7A87C5E",
+      "method": "topk_softmax_025",
+      "outcome": "completed",
+      "seed": 1000
+    },
+    {
+      "budget": 30,
+      "complete_sha256": "8EC4A834F709695665AE1DAF261877E44302F15B2F5CD47596C1BD4DBFBC0B45",
+      "method": "topk_softmax_025",
+      "outcome": "completed",
+      "seed": 1001
+    }
+  ],
+  "started_unix": 1790773814.5872476,
+  "status": "SMOKE_COMPLETE"
+}

@@ -1,0 +1,120 @@
+{
+  "campaign_absolute_deadline_unix": 1790625147.9339275,
+  "command_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/src/worker.py",
+    "--method",
+    "topk_softmax_0125",
+    "--seed",
+    "3",
+    "--mode",
+    "main",
+    "--attempt-dir",
+    "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed3/attempt-001"
+  ],
+  "identity": {
+    "data_env_admission_sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+    "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+    "methods": [
+      "softmax",
+      "topk_softmax_0125",
+      "topk_softmax_025",
+      "bottomk_softmax_0125",
+      "bottomk_softmax_025"
+    ],
+    "mode": "main",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C"
+  },
+  "owned_process": {
+    "cpu_ticks": 0,
+    "pid": 32693,
+    "ppid": 30176,
+    "rss_bytes": 540672,
+    "session_id": 30176,
+    "start_token": "1086997",
+    "state": "R",
+    "tty_nr": 0
+  },
+  "parent_death_guard": "PR_SET_PDEATHSIG_SIGTERM_BEFORE_EXEC_AND_PPID_CHECK",
+  "resource_floor": {
+    "disk_free_bytes": 9611014144,
+    "gpu_free_bytes": 7936671744,
+    "timestamp_unix": 1790604255.0461934
+  },
+  "started_unix": 1790604255.0479448,
+  "supervision_admission": {
+    "heartbeat": {
+      "campaign": "matched50",
+      "campaign_absolute_deadline_unix": 1790625147.9339275,
+      "cause": null,
+      "controller": {
+        "cpu_ticks": 0,
+        "pid": 30176,
+        "ppid": 30164,
+        "rss_bytes": 475136,
+        "session_id": 30176,
+        "start_token": "1016274",
+        "state": "R",
+        "tty_nr": 0
+      },
+      "new_output_bytes": 1269834,
+      "observed_stop_causes": [],
+      "observed_stop_events": [],
+      "owned_descendants": [
+        {
+          "cpu_ticks": 3292,
+          "pid": 32551,
+          "ppid": 30176,
+          "rss_bytes": 0,
+          "session_id": 30176,
+          "start_token": "1083629",
+          "state": "Z",
+          "tty_nr": 0
+        }
+      ],
+      "owned_gpu_processes": [],
+      "signals_received": [],
+      "supervision_id": "matched50-main-v8-first-20260928",
+      "timestamp_unix": 1790604254.4621277,
+      "unit_progress": {
+        "attempt": "main/matched50/cells/softmax__seed3/attempt-001",
+        "attempt_number": 1,
+        "completed_cells": 15,
+        "last_durable_checkpoint": "main/matched50/cells/bottomk_softmax_025__seed2/complete.json",
+        "phase": "running_whole_cell",
+        "planned_cells": 50,
+        "unit": {
+          "method": "softmax",
+          "seed": 3
+        },
+        "unit_elapsed_seconds": 33.07820177078247,
+        "unit_started_unix": 1790604221.383925,
+        "worker": {
+          "cpu_ticks": 0,
+          "pid": 32551,
+          "ppid": 30176,
+          "rss_bytes": 491520,
+          "session_id": 30176,
+          "start_token": "1083629",
+          "state": "R",
+          "tty_nr": 0
+        }
+      }
+    },
+    "observed_unix": 1790604255.0463176
+  },
+  "supervision_id": "matched50-main-v8-first-20260928"
+}

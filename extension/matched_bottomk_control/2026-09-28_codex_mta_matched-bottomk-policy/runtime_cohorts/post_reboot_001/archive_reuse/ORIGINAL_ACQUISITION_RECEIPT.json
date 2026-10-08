@@ -1,0 +1,44 @@
+{
+  "actual_executor": "ROOT Codex gpt-6-astra / requested xhigh",
+  "actual_failure": null,
+  "actual_verified_carrier_sha256": "0939ACB3195661CEE601E426F439C0661D29B80EF0A3AD87F9161A27124B35B1",
+  "attempt_receipt_path": "transport_fallbacks/root_local_official_001/RECEIPT.json",
+  "attempt_receipt_sha256": "7D195B13E7BA5E72F4472CC121758E6A5BEE54E05100E508E0AB8D9E5A55537F",
+  "bytes": 170498071,
+  "final_url": "https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz",
+  "finished_unix": 1790592553.8118596,
+  "frozen_original_acquisition_producer_sha256": "3C1ECCE673BF1E3770CE6BE0367501137DBA397CEBC52E722A29C5CF711D6AFC",
+  "frozen_scientific_source_changed": false,
+  "http_download_on_target": false,
+  "original_remote_attempt_receipts": [
+    {
+      "bytes": 561,
+      "path": "acquisition_attempts/attempt-001/RECEIPT.json",
+      "sha256": "8D9673761B4643241BDB8ECBD6A77F3AE2EADE64E2DCE85636CAE07ECE332F2B"
+    },
+    {
+      "bytes": 1492,
+      "path": "acquisition_attempts/attempt-002/RECEIPT.json",
+      "sha256": "005930652A870C80AD35ECFB6AE809C35FEA31C4F08977BB9B6D8E384A974206"
+    },
+    {
+      "bytes": 1671,
+      "path": "acquisition_attempts/attempt-003/RECEIPT.json",
+      "sha256": "4764968CB909D060544E74DF878127DEFC0E84DE5E01DA67093D9684050BC6C5"
+    }
+  ],
+  "original_remote_three_attempt_cap_exhausted": true,
+  "prospective_fallback_decision_sha256": "AAA807EC97E2C2103E63BB246F6D6DB1367F72BD58B94C7BE5E5F63BA5081A6F",
+  "receiver_producer_sha256": "FA5F1C49003FBAA3A08D658BD972136239312A67B39DEE493F684E5A771C064E",
+  "requested_origin_transport_url": "https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz",
+  "root_local_origin_receipt_sha256": "08B5B09E2D59B82F5C5D312EE47F449A06174CDD38EB1019E4A8BC583047E410",
+  "separately_authorized_transport_fallback_number": 1,
+  "sha256": "6D958BE074577803D12ECDEFD02955F39262C83C16FE9348329D7FE0B5C001CE",
+  "source_manifest_sha256": "2B6A7A75842F5A4DCA34B50B013CE1C98B63A727150D0C3E1D04DAF0C09E5E60",
+  "started_unix": 1790592539.0049877,
+  "status": "ARCHIVE_IDENTITY_VERIFIED_BEFORE_DECODE",
+  "tar_or_pickle_opened": false,
+  "transport": "Genuine ROOT-local official HTTP download followed by exclusive stdin transfer to registered MTA",
+  "url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+  "url_field_semantics": "Frozen registered official URL; actual ROOT-native-curl request used requested_origin_transport_url"
+}

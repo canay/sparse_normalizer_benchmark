@@ -1,0 +1,49 @@
+{
+  "archive": {
+    "bytes": 15233710080,
+    "sha256": "a58cf4fe0f79e25108c49c1f93e300d2f188b2b1d6ca4144241dd2db3c84e2f8"
+  },
+  "composite": {
+    "attempts": [
+      {
+        "attempt": "c73259ab6ee541be970b875c06cf201f",
+        "counts": {
+          "CONTINUATION_VERIFIED": 5489,
+          "PREEXISTING_VERIFIED": 655
+        },
+        "pid": 2254855,
+        "started": 1789259369.665066,
+        "terminal": {
+          "exit_code": 0,
+          "finished_at_unix": 1789572267.2688017,
+          "scientific_decision": null,
+          "verified_units": 6144
+        }
+      }
+    ],
+    "outcomes_read": false,
+    "overlay_admission_sha256": "80f3687dd97e3a2a4bd38b25cbb1895543b98fa51902568674bb8abb3736f413",
+    "preserved_files": 27149,
+    "status": "PASS",
+    "units": 6144,
+    "validation_sha256": "316e2b32571f4f9f40df4e79f8067f663eeff53da840df5bea7c7a9823aa52ba"
+  },
+  "delta_sha256": {
+    "2026-09-09_n3a_v2_vps_cpu/__pycache__/launch_resource_guard.cpython-312.pyc": "0ec0bace249d9837db9f75de3b7db2b7d2b3837abfc6e2b6980283ba5e579838",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/analyze_assay.cpython-312.pyc": "94941c8ca05a86ffd4251034a16abb03a85c64d6713f4faa91ba8859fd73ac6f",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/campaign.cpython-312.pyc": "c80ea51cc39468a7a01bb3ec638abfdc2b26238f84a4614e640c9eb4b3fe8e66",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/fork_runner.cpython-312.pyc": "e2a2ad6271f177d407d27d20238fd4da773d8c9ffdee44d291df8af40a5de5ca",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/resource_summary.cpython-312.pyc": "6b7563c1b645869609e8c312b95891b2b169fa3255dfab3a699bbcf250d5fef0",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/supervise.cpython-312.pyc": "e98713a5091baa26e3a3cc5e396243bfc959354cc1a9ee6afbe7ebc923347cde",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/training_models.cpython-312.pyc": "0356ad2fb13124d437d7cfe6d9e78d14ed912228f373a68d927b1ebd0289ad22",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/training_operators.cpython-312.pyc": "4e2904a76d5c1bdf38bdf94f5a970416c35ec7a58ae7db1df3eb12f56c3c7a9e",
+    "2026-09-09_n3a_v2_vps_cpu/src/__pycache__/training_runner.cpython-312.pyc": "4ce695ddc0069cf1e0053ee729381e565521f8de0a09f9807c1e2e4c6e8539ed"
+  },
+  "finalizer_sha256": "29ff0acf7bb72e95e1d9a93576c5d111e65ef230b073bc8aa7a31bf3b9e1665a",
+  "members": 261134,
+  "outcomes_read": false,
+  "remote_receipt_sha256": "a1bd3201acee8bab74f989b51d24bc64df4b37bc8f98da03a8adc90aef7bfc47",
+  "status": "PASS",
+  "supplemental_lineage_sha256": "d66e97d72846bca89ecb1e81a89ed50d40331c92ae336e8b181e2ab04c5f0ae6",
+  "verified_unix": 1789658950.3616276
+}

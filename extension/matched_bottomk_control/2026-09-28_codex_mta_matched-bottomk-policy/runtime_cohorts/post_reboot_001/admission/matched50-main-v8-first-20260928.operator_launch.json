@@ -1,0 +1,56 @@
+{
+  "status": "DETACHED_LAUNCH_CAPTURE_NOT_RUNTIME_ADMISSION",
+  "captured_unix": 1790603547.7635388,
+  "wrapper_pid_from_actual_shell": 30164,
+  "wrapper_process_at_capture": {
+    "pid": 30164,
+    "ppid": 30157,
+    "start_token": "1016266",
+    "state": "R",
+    "session_id": 30164,
+    "tty_nr": 0,
+    "cpu_ticks": 1,
+    "rss_bytes": 20455424
+  },
+  "actual_wrapper_argv_at_capture": [
+    "/usr/bin/python3",
+    "-B",
+    "src/launch.py",
+    "supervise",
+    "--supervision-id",
+    "matched50-main-v8-first-20260928",
+    "--",
+    "--mode",
+    "main",
+    "--campaign",
+    "matched50"
+  ],
+  "actual_wrapper_cwd_at_capture": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "wrapper_cmdline_sha256_at_capture": "FBD1866E540D00F0CA0569BDA97B5553F60E4D43CBC987CE529F8B013370BC58",
+  "supervisor_process": null,
+  "supervisor_identity_requires_separate_actual_launch_receipt": true,
+  "actual_cwd": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001",
+  "operator_script": "<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/snd-author-storage-001-main-launch.sh",
+  "supervision_id": "matched50-main-v8-first-20260928",
+  "launcher_python_argv": [
+    "-"
+  ],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "actual_release_references": {
+    "admission/ENGINEERING_RELEASE.json": {
+      "sha256": "CBDC1C15A6D7A5CB092C7529C2E20706DA70F0A8307260627BFADD363668FF5F",
+      "bytes": 2634
+    },
+    "admission/SMOKE_INPUT_BINDING.json": {
+      "sha256": "BD1E0793B089D46D6423C53109E099F9AFA7788F220429EF84232B18AB0FFB00",
+      "bytes": 1256
+    },
+    "admission/MAIN_RELEASE.json": {
+      "sha256": "65C8B1AF457BDF93DF8A60E41EDD398AA8EBAE64BEF79CBAEBC244CDBB59A61F",
+      "bytes": 3036
+    }
+  },
+  "stdout_log": "admission/matched50-main-v8-first-20260928.detached.stdout.log",
+  "stderr_log": "admission/matched50-main-v8-first-20260928.detached.stderr.log"
+}

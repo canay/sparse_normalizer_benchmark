@@ -1,0 +1,9 @@
+{
+  "analysis_source_sha256": "1f1ff5bd5b8a4a05e5bdb7431732f7807cdf92f652598310cfa4e470216f2cfc",
+  "validation_report_sha256": "713d053b89091f61b3c372a608bdb0739206abc139b4a483a217421cf7fb8a63",
+  "outputs": {
+    "m2_pairwise_endpoints.csv": "3d88b99d9243e8f8a2164a3b51976195c63eec50d8f2f5a85df970f9a8f71af2",
+    "m2_result.json": "0886a050be86fdf31b2e89c5ce6d5c34160fd67ad13c73db3d6ad986eea42c37",
+    "m3_discovery_lock.json": "a6fd34ecb16845527443dad380c6499b2f760aeceb72faa1f7596d36a3e4460f"
+  }
+}

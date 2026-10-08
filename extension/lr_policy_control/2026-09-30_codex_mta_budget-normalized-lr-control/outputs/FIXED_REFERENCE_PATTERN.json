@@ -1,0 +1,78 @@
+{
+  "baseline_bindings_sha256": "DB4A6D09EEDA5ACF8FAC004F29437CC833FC246E5D6E91C7079973C5CCCB5BBD",
+  "config_sha256": "5E9C3816D4ED4AE08A319CC3238BDC1D2EC9EF4D24A5EA6120F107A17AE8539C",
+  "not_independent_replication": true,
+  "patterns": {
+    "topk_softmax_0125": {
+      "budget3": {
+        "mean_accuracy_difference": 0.02743,
+        "paired_seed_correct_count_differences": [
+          237,
+          195,
+          149,
+          376,
+          290,
+          200,
+          364,
+          411,
+          158,
+          363
+        ],
+        "sum_correct_count_differences": 2743
+      },
+      "budget30": {
+        "mean_accuracy_difference": -0.03094,
+        "paired_seed_correct_count_differences": [
+          -120,
+          -276,
+          -472,
+          -349,
+          -302,
+          -169,
+          -340,
+          -280,
+          -357,
+          -429
+        ],
+        "sum_correct_count_differences": -3094
+      },
+      "reference_has_positive_to_negative_reversal": true
+    },
+    "topk_softmax_025": {
+      "budget3": {
+        "mean_accuracy_difference": 0.02254,
+        "paired_seed_correct_count_differences": [
+          263,
+          30,
+          161,
+          338,
+          272,
+          156,
+          261,
+          384,
+          191,
+          198
+        ],
+        "sum_correct_count_differences": 2254
+      },
+      "budget30": {
+        "mean_accuracy_difference": -0.0174,
+        "paired_seed_correct_count_differences": [
+          -54,
+          -101,
+          -365,
+          -146,
+          -228,
+          -13,
+          -187,
+          -174,
+          -171,
+          -301
+        ],
+        "sum_correct_count_differences": -1740
+      },
+      "reference_has_positive_to_negative_reversal": true
+    }
+  },
+  "status": "FIXED_RATE_WITHIN_PATH_REFERENCE_PATTERN_VERIFIED"
+}

@@ -1,0 +1,88 @@
+{
+  "best_epoch": 2,
+  "cfg_base_lr": 0.001,
+  "cfg_batch_size": 256,
+  "cfg_budget": 3,
+  "cfg_max_epochs": 3,
+  "cfg_patch": 4,
+  "cfg_patience": 0,
+  "cfg_val_fraction": 0.2,
+  "classes": 10,
+  "dataset": "cifar10",
+  "dataset_source": "cifar10:patch4",
+  "embed_dim": 64,
+  "epoch_log": [
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 1.0,
+      "attention_entropy": 4.082519584894181,
+      "epoch": 0,
+      "train_loss": 1.9811679124832153,
+      "val_accuracy": 0.3366,
+      "val_loss": 1.7643741756677627,
+      "val_macro_f1": 0.31072424016731703
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.9999999321997166,
+      "attention_entropy": 4.06748133301735,
+      "epoch": 1,
+      "train_loss": 1.658337116241455,
+      "val_accuracy": 0.4331,
+      "val_loss": 1.5571197301149369,
+      "val_macro_f1": 0.4249338076870283
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.9999999880790711,
+      "attention_entropy": 4.0626422464847565,
+      "epoch": 2,
+      "train_loss": 1.5360558032989502,
+      "val_accuracy": 0.4547,
+      "val_loss": 1.5011937648057938,
+      "val_macro_f1": 0.4472739958692723
+    }
+  ],
+  "epochs_run": 3,
+  "heads": 4,
+  "layers": 2,
+  "lr_epoch_trace": [
+    {
+      "epoch": 0,
+      "first": 0.001,
+      "last": 0.0006687898089171976
+    },
+    {
+      "epoch": 1,
+      "first": 0.0006666666666666668,
+      "last": 0.00033545647558386415
+    },
+    {
+      "epoch": 2,
+      "first": 0.0003333333333333334,
+      "last": 2.123142250530785e-06
+    }
+  ],
+  "lr_policy": "linear_per_optimizer_update_eta0_times_1_minus_t_over_T",
+  "lr_sequence_float64_sha256": "12DACDAA95CB582FC8B55A346748E00FDEFD60D56B6C6BB1107363940D142E55",
+  "masked_attention": false,
+  "method": "softmax",
+  "n_train": 40000,
+  "n_val": 10000,
+  "optimizer_updates": 471,
+  "parameter_count": 107978,
+  "peak_memory_mb": 854.82568359375,
+  "seed": 0,
+  "seq_len": 65,
+  "status": "completed",
+  "tier": "compact",
+  "train_seconds": 3.3491497689974494,
+  "val_accuracy": 0.4547,
+  "val_attention_entropy": 4.0626422464847565,
+  "val_loss": 1.5011937648057938,
+  "val_macro_f1": 0.4472739958692723,
+  "val_nonzero_ratio": 0.9999999880790711
+}

@@ -1,0 +1,8 @@
+{
+  "acquired_at_unix": 1789235312.8125026,
+  "config_sha256": "60efdcdb199c810006a6ec08d8af922084b3127d5b72a8104ec8d1dba6e119c0",
+  "host": "vps-host",
+  "lock_id": "978821c40b5843f7ae2afd8f059f70a2",
+  "pid": 1944220,
+  "schema_version": 1
+}

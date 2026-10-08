@@ -1,0 +1,15 @@
+{
+  "active_worker_count": 0,
+  "admission_sha256": "d91c8d20a5bad038a1241f6f38d3cc376e5c42097a1dcfb5694222f2f02a9b96",
+  "checked_at_unix": 1789235307.6662946,
+  "config_sha256": "60efdcdb199c810006a6ec08d8af922084b3127d5b72a8104ec8d1dba6e119c0",
+  "free_disk_bytes": 25157554176,
+  "free_inodes": 24301046,
+  "full_ceiling_headroom_pass": true,
+  "full_ceiling_plus_floor_bytes": 22000000000,
+  "hostname": "vps-host",
+  "outcomes_read": false,
+  "policy": "No in-flight resource changes; evidence preserved on guard halt",
+  "status": "PASS",
+  "total_inodes": 26083328
+}

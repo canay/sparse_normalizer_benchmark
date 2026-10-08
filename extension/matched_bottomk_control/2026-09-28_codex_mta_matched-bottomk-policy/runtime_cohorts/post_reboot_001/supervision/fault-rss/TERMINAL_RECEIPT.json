@@ -1,0 +1,96 @@
+{
+  "actual_returncode": -15,
+  "artifacts": [
+    {
+      "bytes": 1249,
+      "path": "launch.json",
+      "sha256": "01C85A56B8FA17E39DBE95FB897F49DB675484577291001A4C6AA235838C069F"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 1849,
+      "path": "samples.jsonl",
+      "sha256": "6E1953EC0911826E120758266470271B649C6FABDFC5D7E4BE63874D41F7E473"
+    },
+    {
+      "bytes": 1399,
+      "path": "heartbeat.json",
+      "sha256": "3B68C533002F64F88A0C8D6A990A970884DB1F4A5E21C1BAEE82D5BB67076D5B"
+    }
+  ],
+  "attempt_launch_references": [],
+  "campaign": "fault-rss",
+  "cause": "RESOURCE_WORKER_RSS_CEILING",
+  "census_integrity": "UNVERIFIED:FileNotFoundError:[Errno 2] No such file or directory: '<gpu-server-home>/experiments/SCI-sparse_normalizer_benchmark/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/engineering_smoke/fault-rss/identity.json'",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "disposition": "integrity_unverified",
+      "method": "softmax",
+      "seed": 1000
+    },
+    {
+      "disposition": "integrity_unverified",
+      "method": "topk_softmax_0125",
+      "seed": 1000
+    },
+    {
+      "disposition": "integrity_unverified",
+      "method": "topk_softmax_025",
+      "seed": 1000
+    },
+    {
+      "disposition": "integrity_unverified",
+      "method": "bottomk_softmax_0125",
+      "seed": 1000
+    },
+    {
+      "disposition": "integrity_unverified",
+      "method": "bottomk_softmax_025",
+      "seed": 1000
+    }
+  ],
+  "expected_cells": 5,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790602798.0042577,
+  "launched_attempt_count": 0,
+  "mode": "smoke",
+  "observed_stop_causes": [
+    "RESOURCE_WORKER_RSS_CEILING"
+  ],
+  "observed_stop_events": [
+    {
+      "cause": "RESOURCE_WORKER_RSS_CEILING",
+      "event_unix": 1790602795.799082,
+      "time_basis": "stop_detected"
+    }
+  ],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 22129,
+      "ppid": 22128,
+      "rss_bytes": 266240,
+      "session_id": 22128,
+      "start_token": "940569",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790602790.7163997,
+  "status": "SUPERVISOR_STOPPED_NON_EVIDENCE",
+  "supervision_id": "fault-rss"
+}

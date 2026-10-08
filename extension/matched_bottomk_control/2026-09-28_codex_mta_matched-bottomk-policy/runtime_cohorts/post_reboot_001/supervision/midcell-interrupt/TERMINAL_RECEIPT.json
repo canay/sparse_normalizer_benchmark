@@ -1,0 +1,75 @@
+{
+  "actual_returncode": 75,
+  "artifacts": [
+    {
+      "bytes": 1402,
+      "path": "launch.json",
+      "sha256": "F0E7EE9C851D58CB7279D07465ECCAA3F2ABB1E14AAAAE84BCA4DEBFEDDD513E"
+    },
+    {
+      "bytes": 0,
+      "path": "stdout.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "bytes": 3101,
+      "path": "samples.jsonl",
+      "sha256": "6DBCD85D70F8A9041F237D3E1890DE56E9BB95348C988D739823D4B358067FFC"
+    },
+    {
+      "bytes": 1455,
+      "path": "heartbeat.json",
+      "sha256": "A80B2C30A509BFF29AAEC69F9259B0E75989F8FBA5CCC66E168EDF754B959CDA"
+    }
+  ],
+  "attempt_launch_references": [
+    {
+      "bytes": 2547,
+      "path": "engineering_smoke/midcell-replay/cells/softmax__seed1000/attempt-001/launch.json",
+      "sha256": "0B26B2EBCDD5F7D921DB707DE6A2DC63B25390088F335AE09E0817B7BC5D0F58"
+    }
+  ],
+  "campaign": "midcell-replay",
+  "cause": null,
+  "census_integrity": "VALIDATED_FULL_CENSUS",
+  "cleanup_identity_checked": true,
+  "cleanup_survivors": [],
+  "controller_stop_receipt": null,
+  "dispositions": [
+    {
+      "complete_sha256": null,
+      "disposition": "current_incomplete",
+      "method": "softmax",
+      "seed": 1000
+    }
+  ],
+  "expected_cells": 1,
+  "final_config_sha256": "3C84B63EF74DAFF1E17E2C6ED23EFD1B9C5545E93AFFDB3540CD0F9088256A9A",
+  "finished_unix": 1790602878.6976688,
+  "launched_attempt_count": 1,
+  "mode": "smoke",
+  "observed_stop_causes": [],
+  "observed_stop_events": [],
+  "saved_owned_tokens": [
+    {
+      "cpu_ticks": 0,
+      "pid": 22602,
+      "ppid": 22596,
+      "rss_bytes": 552960,
+      "session_id": 22596,
+      "start_token": "947846",
+      "state": "R",
+      "tty_nr": 0
+    }
+  ],
+  "signals_received": [],
+  "source_manifest_sha256": "2661B171DEC9AD49D031ACEA65F91F8BCE4C7C1CF8C3E317E3100EFFD8AC6B7C",
+  "started_unix": 1790602863.379835,
+  "status": "CONTROLLER_TERMINAL",
+  "supervision_id": "midcell-interrupt"
+}

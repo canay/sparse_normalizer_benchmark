@@ -1,0 +1,679 @@
+{
+  "admission_sha256": "A33708FDF5BD5E7CCCE48CCFC028448A61DB62E21C49C5A0DCB51A11CF08B4E4",
+  "comparator_is_new_independent_replication": false,
+  "decision_sha256": "1D2CD78EF8E76584E7A218622AD420DF4A4F70CA4920FFC2EEAD5D936FD153EF",
+  "entries": [
+    {
+      "initial_parameter_sha256": "EBE83C773575BC5954B35812C6EB0E9E9F47914B9B35EAF7D108ED0AE6A21468",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed0/attempt-001/worker_receipt.json",
+      "receipt_sha256": "C33135113B78CEA589255802183581EDFDAA9474893A1BD0EC7235E7F33F2FD6",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed0/attempt-001/row.json",
+      "row_sha256": "92AA9F29458162E5562927EB2FDFF9944B834415520E5611C10E92D5B1CD55EA",
+      "seed": 0
+    },
+    {
+      "initial_parameter_sha256": "D1651924CE0767DE12185D6363AEB9FE7D24E12B5CB0974A2ABDD2283F7C05FD",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed1/attempt-001/worker_receipt.json",
+      "receipt_sha256": "C91003922A58492F2B4CC653973B44B08568CDC2E39B3C16D2F818BC1E7F44D8",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed1/attempt-001/row.json",
+      "row_sha256": "2FD843715203EA39F3C150907D10AD5B528AA49BFF5D01C7B50E0D3A7E0BB3C7",
+      "seed": 1
+    },
+    {
+      "initial_parameter_sha256": "C55DDA9D94006A322C50DF374EA697C960D6B26423722F9FBC3974E20748EB9A",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed2/attempt-001/worker_receipt.json",
+      "receipt_sha256": "74135A37C7378408150A01EECC3AF0DFC1BB13B88301744A825FB35FCFDCAF2A",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed2/attempt-001/row.json",
+      "row_sha256": "718524A38D9DAD692A48672CD17A501929F23FB4228921D5DBAE3A83A9199ADC",
+      "seed": 2
+    },
+    {
+      "initial_parameter_sha256": "496A0C6095A6CAC7F45865C148B390960BBADD96A0681392A28710A9BC507248",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed3/attempt-001/worker_receipt.json",
+      "receipt_sha256": "6F9D59AA2DEDD923D21C8C04BF3559FF9D1E553A562980C70DAC7B9E4A885B70",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed3/attempt-001/row.json",
+      "row_sha256": "23DE8B120B9C367A0BE873897E64C90A108F5A4ACEB5734C72B7CDE6DEC42F35",
+      "seed": 3
+    },
+    {
+      "initial_parameter_sha256": "ED8B34C357867D1E5D03A7CEEE3358446BC38E27086743F76EB62058C78F5D15",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed4/attempt-001/worker_receipt.json",
+      "receipt_sha256": "ACEAF0F7DEB31D8F2DFD9EE1A6303F491EFDC2A1C720EE764994D9FD3A7F2150",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed4/attempt-001/row.json",
+      "row_sha256": "36B0B62AA4F3B1505D5AF3F57D3F3827395FF2FD116C6EF4901D83E9E5BB6A40",
+      "seed": 4
+    },
+    {
+      "initial_parameter_sha256": "333B58305EAE9746F29A1AE91B9847B4BC50E8BDA3099AC76A31C3290B27C31D",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed5/attempt-001/worker_receipt.json",
+      "receipt_sha256": "B916C112F0A11D4E78ACB6AD140691537ADD6C2A75BF13796073545EE23F0C35",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed5/attempt-001/row.json",
+      "row_sha256": "76C68FD7FB63A1241FCF1790EB60BF34EB6BA88ED64B9B72A378E2EB171CC86E",
+      "seed": 5
+    },
+    {
+      "initial_parameter_sha256": "90AFA8E35E0219CAFB4143FDE1EAC2623EBE6FFFC3E62762EEE1E49D83647A0B",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed6/attempt-001/worker_receipt.json",
+      "receipt_sha256": "AD517D592699C6D6B4A872BA397B4F68910B0D37F7DE86232926597C1797E407",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed6/attempt-001/row.json",
+      "row_sha256": "952F6BA122DD72D03DF8484F853B35705555E8B6627C95A47E52D87D8DB6C3FC",
+      "seed": 6
+    },
+    {
+      "initial_parameter_sha256": "3BF6715C33F436BFB68A247AC8191351D2401EC1C98588D8C1B145CF4E5D77F7",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed7/attempt-001/worker_receipt.json",
+      "receipt_sha256": "2F3664AE821D7CB71CE375CEACAB8BF91401BB7848B6C8D10C96C9C3059F5F5B",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed7/attempt-001/row.json",
+      "row_sha256": "8930EA7A3961C267153EA2F79635F7381C9907A8AD943C47B8E4DA813E202241",
+      "seed": 7
+    },
+    {
+      "initial_parameter_sha256": "FFB1EACAB29D30E4B651B5EF3E1FAFDF0D99C8C8A02CA4F6428C4D4136C6C596",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed8/attempt-001/worker_receipt.json",
+      "receipt_sha256": "A5B5A1A7102AD816FB21BD3E681A0BA60086C76395015D18DDC9130545C9E7B0",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed8/attempt-001/row.json",
+      "row_sha256": "29DAE7524260AD6F61410644A668F40431A26039BF267BF48E1FFE74A8782505",
+      "seed": 8
+    },
+    {
+      "initial_parameter_sha256": "F1EF0AF5927D834FAC8CFD0C5F532112B64294AA7EA9F9FCF5A8A34FA4D42E68",
+      "method": "softmax",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed9/attempt-001/worker_receipt.json",
+      "receipt_sha256": "353CCE83F1D56525059E6B7AA3BA5DE92C60709FFABD8F9C6506343E9E68A454",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/softmax__seed9/attempt-001/row.json",
+      "row_sha256": "9CC298BF9C02DC940BC8297AF16F7716C21FC0B44F436D50610FAB63480EC9FB",
+      "seed": 9
+    },
+    {
+      "initial_parameter_sha256": "EBE83C773575BC5954B35812C6EB0E9E9F47914B9B35EAF7D108ED0AE6A21468",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed0/attempt-001/worker_receipt.json",
+      "receipt_sha256": "F58A7CDC8989FC6F0DB7161111D61CBAC164405C85A66D85BB14E1B7E97EE5B9",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed0/attempt-001/row.json",
+      "row_sha256": "50414641D3168C0584B2827C61C3835606A6040EED90BE5E30ECDA50F491B18F",
+      "seed": 0
+    },
+    {
+      "initial_parameter_sha256": "D1651924CE0767DE12185D6363AEB9FE7D24E12B5CB0974A2ABDD2283F7C05FD",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed1/attempt-001/worker_receipt.json",
+      "receipt_sha256": "4F766839B4A905F9E3BAAFBBD984D37FD787D21F7CC830F8E407301D9DA3FE68",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed1/attempt-001/row.json",
+      "row_sha256": "D7587F3C2E0A92629CBB9CEE2DC01EA7A4C8B775302913D7CF03523A39BEED5F",
+      "seed": 1
+    },
+    {
+      "initial_parameter_sha256": "C55DDA9D94006A322C50DF374EA697C960D6B26423722F9FBC3974E20748EB9A",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed2/attempt-001/worker_receipt.json",
+      "receipt_sha256": "FF4BD9D0445969AE0E6D825F14A1F172AFB38884085750526AE5C18C66271CAE",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed2/attempt-001/row.json",
+      "row_sha256": "AF5F4D5E75775078D85C968301097F454DB49BAA475AA7DEB5D34C6D4DF6A7C7",
+      "seed": 2
+    },
+    {
+      "initial_parameter_sha256": "496A0C6095A6CAC7F45865C148B390960BBADD96A0681392A28710A9BC507248",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed3/attempt-001/worker_receipt.json",
+      "receipt_sha256": "19919E45E7AB89DEB4BF7D4A2523808717E6B0E2A6604903C156CB15BE356C80",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed3/attempt-001/row.json",
+      "row_sha256": "2C0215BE0CDE02AF0DB61F2FDF14ACB62025AD4A46EB89F05AE46C41E9F404F5",
+      "seed": 3
+    },
+    {
+      "initial_parameter_sha256": "ED8B34C357867D1E5D03A7CEEE3358446BC38E27086743F76EB62058C78F5D15",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed4/attempt-001/worker_receipt.json",
+      "receipt_sha256": "E3DDDE8E40E821B755D9A621928C3FC07B5B8A59DC6E77FEAAE5A761E5CCA401",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed4/attempt-001/row.json",
+      "row_sha256": "43E0836EEB67E174B1C442C6AD84490AFE45C5504AB9909AF8899CF2F1F825AB",
+      "seed": 4
+    },
+    {
+      "initial_parameter_sha256": "333B58305EAE9746F29A1AE91B9847B4BC50E8BDA3099AC76A31C3290B27C31D",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed5/attempt-001/worker_receipt.json",
+      "receipt_sha256": "0F60D07C32859023FDA4E9924EB0B5B1DF49F21AC88D9B467C39511495D19F61",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed5/attempt-001/row.json",
+      "row_sha256": "9E339BEBE3DB39D594183A69FFABAB00F9AA1E72F2C31EE63B9A19B87C3F5299",
+      "seed": 5
+    },
+    {
+      "initial_parameter_sha256": "90AFA8E35E0219CAFB4143FDE1EAC2623EBE6FFFC3E62762EEE1E49D83647A0B",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed6/attempt-001/worker_receipt.json",
+      "receipt_sha256": "9BC87B6ED67E36F6AF7531D6C587CB4EB0409E802F71B4411993C6C9A486AC55",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed6/attempt-001/row.json",
+      "row_sha256": "458597B43CE95B737AEAD45F811D72AC05BB7F8D71F855273C5A1A4EDB92F90F",
+      "seed": 6
+    },
+    {
+      "initial_parameter_sha256": "3BF6715C33F436BFB68A247AC8191351D2401EC1C98588D8C1B145CF4E5D77F7",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed7/attempt-001/worker_receipt.json",
+      "receipt_sha256": "07CC61FD7EFC864A7AD4F0161519D58EA15509A1752C0943A880E03706CF0AB8",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed7/attempt-001/row.json",
+      "row_sha256": "F1F20F9373B79A2CE44E72FB854DC96B482307AB9B3EF99E479706D308971BA9",
+      "seed": 7
+    },
+    {
+      "initial_parameter_sha256": "FFB1EACAB29D30E4B651B5EF3E1FAFDF0D99C8C8A02CA4F6428C4D4136C6C596",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed8/attempt-001/worker_receipt.json",
+      "receipt_sha256": "13EABB76A0A09C923A52325C19FEFB7C07197978DA32E9D74DE9D5C4F700381C",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed8/attempt-001/row.json",
+      "row_sha256": "C2304B4B2B494C9A894F64FAA4B9DD04D2B2AF8A73E06C06EAC2990ED6E77EC6",
+      "seed": 8
+    },
+    {
+      "initial_parameter_sha256": "F1EF0AF5927D834FAC8CFD0C5F532112B64294AA7EA9F9FCF5A8A34FA4D42E68",
+      "method": "topk_softmax_0125",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed9/attempt-001/worker_receipt.json",
+      "receipt_sha256": "A7295EECA16DD8C101A1E8FE27B6B6599F02C822AD46BE518E97413E8697E76C",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_0125__seed9/attempt-001/row.json",
+      "row_sha256": "31E0587BD8091BC3C56A738F0E32135132646982EABCAB338F188D161B8C3C8B",
+      "seed": 9
+    },
+    {
+      "initial_parameter_sha256": "EBE83C773575BC5954B35812C6EB0E9E9F47914B9B35EAF7D108ED0AE6A21468",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed0/attempt-001/worker_receipt.json",
+      "receipt_sha256": "E3A8081708BB4F4CF952EB795003A7DFDCE5FC9F97B613E9BA47643142EA7210",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed0/attempt-001/row.json",
+      "row_sha256": "EF360B27FDB8FAC8D5D19F01122DD7E6098A4EF5219F17E3777C83B9AA0D9B17",
+      "seed": 0
+    },
+    {
+      "initial_parameter_sha256": "D1651924CE0767DE12185D6363AEB9FE7D24E12B5CB0974A2ABDD2283F7C05FD",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed1/attempt-001/worker_receipt.json",
+      "receipt_sha256": "1FFBABC4874D0D212200D9EFD4D2EAF9EF4A2CA07E8C968AFA1BB478F6629C35",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed1/attempt-001/row.json",
+      "row_sha256": "2633155FEDAA19015B6489314937B8B752535A70181257D87B457D1AAC91A8A3",
+      "seed": 1
+    },
+    {
+      "initial_parameter_sha256": "C55DDA9D94006A322C50DF374EA697C960D6B26423722F9FBC3974E20748EB9A",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed2/attempt-001/worker_receipt.json",
+      "receipt_sha256": "E006BB99F8BBA5CDC4EB61A0B346DD71B9388BA3A501954BBD910E4C67D2E9FB",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed2/attempt-001/row.json",
+      "row_sha256": "34A7EDADF0D2D5AC6853344E9AE15FC6219AE1E9578E1BC45144C02AB6FEC113",
+      "seed": 2
+    },
+    {
+      "initial_parameter_sha256": "496A0C6095A6CAC7F45865C148B390960BBADD96A0681392A28710A9BC507248",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed3/attempt-001/worker_receipt.json",
+      "receipt_sha256": "6B72E9DB6C9BEDE3F9B3758312F506F9858AF655CEB7B78761DF658A1108E9A3",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed3/attempt-001/row.json",
+      "row_sha256": "762946CF4615A889373168D28B97678DC42F64E4F2EEFC38637B250608DC6DFE",
+      "seed": 3
+    },
+    {
+      "initial_parameter_sha256": "ED8B34C357867D1E5D03A7CEEE3358446BC38E27086743F76EB62058C78F5D15",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed4/attempt-001/worker_receipt.json",
+      "receipt_sha256": "D32918D715E75F05A8AA1EFD1797DA8C9E28719A519F42CC06FC8213F09BC168",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed4/attempt-001/row.json",
+      "row_sha256": "58249D6E7D0B4335A1CC300929ED6694F1C71A0CAC7949DBBCAB63012F11876C",
+      "seed": 4
+    },
+    {
+      "initial_parameter_sha256": "333B58305EAE9746F29A1AE91B9847B4BC50E8BDA3099AC76A31C3290B27C31D",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed5/attempt-001/worker_receipt.json",
+      "receipt_sha256": "90CEA0BB636F798AA7C8FAA1DA2B64DB342520C0AA976828D17D5CC9BC03BEB7",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed5/attempt-001/row.json",
+      "row_sha256": "8316782E6A5C5D6971B86F97F3ABD1DD72F5CA712CF182A05F4583FD90BEBA84",
+      "seed": 5
+    },
+    {
+      "initial_parameter_sha256": "90AFA8E35E0219CAFB4143FDE1EAC2623EBE6FFFC3E62762EEE1E49D83647A0B",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed6/attempt-001/worker_receipt.json",
+      "receipt_sha256": "B167B216C64816C1F950BB49B9ACDB74981FB5F105EE1B8A58394F0661A63AC4",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed6/attempt-001/row.json",
+      "row_sha256": "145534B816669080DCB36B1E9291BA560F88A3280E82946F9CCA288FC30397C5",
+      "seed": 6
+    },
+    {
+      "initial_parameter_sha256": "3BF6715C33F436BFB68A247AC8191351D2401EC1C98588D8C1B145CF4E5D77F7",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed7/attempt-001/worker_receipt.json",
+      "receipt_sha256": "3D16B4E77C65594354CDCCCEE4BA894CD523336F7EB4E6AEC2A875F6607B0C10",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed7/attempt-001/row.json",
+      "row_sha256": "CB4626DFB60C9B929966AD9129B5579155D9D55A19594F94E6B6A394AB77F882",
+      "seed": 7
+    },
+    {
+      "initial_parameter_sha256": "FFB1EACAB29D30E4B651B5EF3E1FAFDF0D99C8C8A02CA4F6428C4D4136C6C596",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed8/attempt-001/worker_receipt.json",
+      "receipt_sha256": "30DFFF3F2E2AFD093BBD10FE2B07A48994DDFEE069AB3DAFBB4761E1EA988F3A",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed8/attempt-001/row.json",
+      "row_sha256": "24FF37535B37BB90343C5DEC6C1896B7F4E731785879E32B484AB2365B25DC65",
+      "seed": 8
+    },
+    {
+      "initial_parameter_sha256": "F1EF0AF5927D834FAC8CFD0C5F532112B64294AA7EA9F9FCF5A8A34FA4D42E68",
+      "method": "topk_softmax_025",
+      "receipt_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed9/attempt-001/worker_receipt.json",
+      "receipt_sha256": "8608D124E18BD05D2989722DAB4A7E56B101FF62696B965F5DF794022C367EE9",
+      "row_project_relative": "experiments/2026-09-28_codex_mta_matched-bottomk-policy/runtime_cohorts/post_reboot_001/main/matched50/cells/topk_softmax_025__seed9/attempt-001/row.json",
+      "row_sha256": "C4B05629F374BD691324B48342FE93EE07F8C3AE7FEB614F97441CC6E2AE3DDB",
+      "seed": 9
+    }
+  ],
+  "fixed_rate_reference_uses_30_epoch_prefixes": true,
+  "manifest_sha256": "64D33C9B349B126EC17A3770103AAC2F838FA871B314F9E980AB6156AF0B62DC",
+  "runtime_identity": {
+    "CUBLAS_WORKSPACE_CONFIG": null,
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONHASHSEED": "0",
+    "cuda": "13.0",
+    "cuda_available": true,
+    "cudnn": 92000,
+    "driver": "595.91.07",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "host": "noron-HP-Elite-Tower-800-G9-Desktop-PC",
+    "nice": 10,
+    "numpy": "1.26.4",
+    "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "precision": "high",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/bin/python3.12",
+    "torch": "2.13.0+cu130",
+    "torch_interop_threads": 2,
+    "torch_threads": 2
+  },
+  "source_population": "matched50/post_reboot_001",
+  "splits": {
+    "0": {
+      "fit_class_counts": [
+        4018,
+        3964,
+        3991,
+        3950,
+        4016,
+        4006,
+        4014,
+        3990,
+        4001,
+        4050
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "59D7AE88D9C4365ABC634C96B1F299462CD6E21886A03E5BE94E02971F9EAEBB",
+      "seed": 0,
+      "validation_class_counts": [
+        982,
+        1036,
+        1009,
+        1050,
+        984,
+        994,
+        986,
+        1010,
+        999,
+        950
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "1A71D44828A4AA1B09797F8B7CCE912519B6D721B05E2F23757775391A3F27EC"
+    },
+    "1": {
+      "fit_class_counts": [
+        3991,
+        3971,
+        4015,
+        3991,
+        4015,
+        4037,
+        3987,
+        4034,
+        3980,
+        3979
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "47DD8516E2552AE41DA02E7178D682E1D038493E39823F64FD5444FD055FA18F",
+      "seed": 1,
+      "validation_class_counts": [
+        1009,
+        1029,
+        985,
+        1009,
+        985,
+        963,
+        1013,
+        966,
+        1020,
+        1021
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "28A3223305FEBBCB1C267CB25129DA32691FB64FD91814686A99B0B5854948FC"
+    },
+    "2": {
+      "fit_class_counts": [
+        4048,
+        4012,
+        3994,
+        4011,
+        4004,
+        4018,
+        3971,
+        3963,
+        4004,
+        3975
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "9E667F96E7FC746C653C474266C5CCFA8148D49F0267E487CE181F2B95A5E2AA",
+      "seed": 2,
+      "validation_class_counts": [
+        952,
+        988,
+        1006,
+        989,
+        996,
+        982,
+        1029,
+        1037,
+        996,
+        1025
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "182CAA25B38E2DA8F7A32C95358D3B8523BF2168D83CB31056CAAFDC688D82BB"
+    },
+    "3": {
+      "fit_class_counts": [
+        4040,
+        3943,
+        4021,
+        3999,
+        3984,
+        3950,
+        4067,
+        3993,
+        3983,
+        4020
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "61FD35A0C47B5C034E72FB9014A473130EF5F75F3DB2CE018F840F2BA02358BA",
+      "seed": 3,
+      "validation_class_counts": [
+        960,
+        1057,
+        979,
+        1001,
+        1016,
+        1050,
+        933,
+        1007,
+        1017,
+        980
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "5D83427F583A72B79468BC05FF383BDA8A4F2EFEA4EDA1FED00C65E1CBDB2228"
+    },
+    "4": {
+      "fit_class_counts": [
+        3969,
+        4024,
+        3982,
+        4023,
+        3984,
+        3998,
+        3972,
+        4025,
+        4050,
+        3973
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "38B0577ABC2B9CA922B01C1FA9CD2738CA8A08CB4E00559D78A3E40543C178B0",
+      "seed": 4,
+      "validation_class_counts": [
+        1031,
+        976,
+        1018,
+        977,
+        1016,
+        1002,
+        1028,
+        975,
+        950,
+        1027
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "FB1F96BBA9401C1D5E72C962343657CC0E29708F3B3A8E6F01CFBEE4147CD992"
+    },
+    "5": {
+      "fit_class_counts": [
+        4011,
+        4020,
+        4017,
+        3992,
+        3984,
+        3980,
+        3975,
+        3986,
+        4015,
+        4020
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "E2247836975DA9077C4DC4A2BFE2D21DA13DF9420E013885CCCAEA1FB2020416",
+      "seed": 5,
+      "validation_class_counts": [
+        989,
+        980,
+        983,
+        1008,
+        1016,
+        1020,
+        1025,
+        1014,
+        985,
+        980
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "41C33F14BC4A96C5C3ED5E9892922A831CB40EC72DFF286AA0E7E5F0A338D750"
+    },
+    "6": {
+      "fit_class_counts": [
+        4030,
+        3960,
+        3981,
+        4012,
+        3965,
+        4024,
+        4073,
+        4002,
+        3991,
+        3962
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "02A4C14863496AEB1F6BCDE5992B9D5E1F1CD7A0BA2845A7CE23D705E49D1F6A",
+      "seed": 6,
+      "validation_class_counts": [
+        970,
+        1040,
+        1019,
+        988,
+        1035,
+        976,
+        927,
+        998,
+        1009,
+        1038
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "77D96C71B123F2F657CC522A741C897A6143FB30E2C82B359FF95A7F71510C0B"
+    },
+    "7": {
+      "fit_class_counts": [
+        4013,
+        4003,
+        3988,
+        4024,
+        4055,
+        3985,
+        3981,
+        3944,
+        4028,
+        3979
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "9932312F07114CA133B1EBD6B1ACA9BA0A65C47A193C8D9600D39F9D9DE56711",
+      "seed": 7,
+      "validation_class_counts": [
+        987,
+        997,
+        1012,
+        976,
+        945,
+        1015,
+        1019,
+        1056,
+        972,
+        1021
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "EAFB2ADF058AD9494100EF4B2245836FC17D807E676325F3889C1AC7CDBE7025"
+    },
+    "8": {
+      "fit_class_counts": [
+        3950,
+        3983,
+        3966,
+        3959,
+        4017,
+        3990,
+        4021,
+        4077,
+        4033,
+        4004
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "FCC1BF046C5CA249A0A7C9BE57625164D3548B0D6C645200217A51808E3ED03F",
+      "seed": 8,
+      "validation_class_counts": [
+        1050,
+        1017,
+        1034,
+        1041,
+        983,
+        1010,
+        979,
+        923,
+        967,
+        996
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "33BD27BC8245C24E3F9A9F83196E26BC5E022EDAB9F4D83FB9D0F709F30D9F0E"
+    },
+    "9": {
+      "fit_class_counts": [
+        3997,
+        4027,
+        4016,
+        3947,
+        4037,
+        3986,
+        3994,
+        3958,
+        4032,
+        4006
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "5DE139AF5C8C7E6CC2A1DC6DDC338ED014441907E631DCF3598DBD8803156578",
+      "seed": 9,
+      "validation_class_counts": [
+        1003,
+        973,
+        984,
+        1053,
+        963,
+        1014,
+        1006,
+        1042,
+        968,
+        994
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "A21FF5A1EDE56BCC5A59C2F33D854E1E29BA1CF263867967DFD1A18F1F817AD4"
+    },
+    "1000": {
+      "fit_class_counts": [
+        3995,
+        4039,
+        4034,
+        3956,
+        3994,
+        3958,
+        4004,
+        3995,
+        4033,
+        3992
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "854F36297305A3B0C53674972C81D333883A9ED47B6F934995B79A2D26176AC4",
+      "seed": 1000,
+      "validation_class_counts": [
+        1005,
+        961,
+        966,
+        1044,
+        1006,
+        1042,
+        996,
+        1005,
+        967,
+        1008
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "DB61E05746D0F9F850BEE8D66BACBEB385B09C9F9D99C3D9B25871F79EE8CD31"
+    },
+    "1001": {
+      "fit_class_counts": [
+        3959,
+        3986,
+        3985,
+        4028,
+        3934,
+        4025,
+        4027,
+        4044,
+        3981,
+        4031
+      ],
+      "fit_count": 40000,
+      "fit_index_byte_sha256": "C7B115CA4A54CB5E07A9759D8444F337EB3B3BD45AD2F36912A7FAC38FA94B1A",
+      "seed": 1001,
+      "validation_class_counts": [
+        1041,
+        1014,
+        1015,
+        972,
+        1066,
+        975,
+        973,
+        956,
+        1019,
+        969
+      ],
+      "validation_count": 10000,
+      "validation_index_byte_sha256": "D7C028029005CC08F2886E1F3FA3B75EEDE5A6F39387BDA720CBDA28B8BA48FF"
+    }
+  },
+  "status": "BASELINE_FIXED_RATE_WITHIN_PATH_ADMITTED",
+  "train_x_byte_sha256": "CD85ADB8EBE4AA6CF89AA22F6D2047DE4D8A64554F555A8D44A6A3B2F445A1CD",
+  "train_y_byte_sha256": "D6D2FE5C7528F766ADB2E13BF983D1E4707936C06B4CCF240EF3D2DCD72C986D"
+}

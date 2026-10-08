@@ -1,0 +1,244 @@
+{
+  "run_id": "2026-09-09_n3a_v2_vps_cpu",
+  "makale_kisa_adi": "SCI-sparse_normalizer_benchmark",
+  "operation_id": "snd-n3-v2-admission-20260909",
+  "status": "planned",
+  "run_kind": "canonical",
+  "tool": "Codex",
+  "model_or_session": "GPT-6 Astra; independent admission Claude Fable5.1/max pending",
+  "host_label": "vps",
+  "hostname": "vps-host",
+  "local_run_folder": "experiments/2026-09-09_n3a_v2_vps_cpu/",
+  "remote_run_folder": "<vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu/",
+  "sync_status": "sync_pending",
+  "created_at_utc": "2026-09-09T07:50:42Z",
+  "started_at": "",
+  "ended_at": "",
+  "working_directory": "<vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu",
+  "command": "nice -n 10 python3 src/supervise.py --run-root <vps-home>/DOCS/AKADEMIK/CALISMALAR/60_GONDERILDI/SCI-sparse_normalizer_benchmark/experiments/2026-09-09_n3a_v2_vps_cpu",
+  "script": "experiments/2026-09-09_n3a_v2_vps_cpu/src/supervise.py",
+  "config": "experiments/2026-09-09_n3a_v2_vps_cpu/config.json",
+  "dataset": "new generated synthetic inputs only; no old or official test arrays",
+  "input_generation": {
+    "source_sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+    "n": 32,
+    "train": 4096,
+    "validation": 2048,
+    "seeds": [
+      64000,
+      64001,
+      64002,
+      64003,
+      64004,
+      64005,
+      64006,
+      64007,
+      64008,
+      64009,
+      64010,
+      64011,
+      64012,
+      64013,
+      64014,
+      64015,
+      64016,
+      64017,
+      64018,
+      64019,
+      64020,
+      64021,
+      64022,
+      64023,
+      64024,
+      64025,
+      64026,
+      64027,
+      64028,
+      64029,
+      64030,
+      64031,
+      64032,
+      64033,
+      64034,
+      64035,
+      64036,
+      64037,
+      64038,
+      64039,
+      64040,
+      64041,
+      64042,
+      64043,
+      64044,
+      64045,
+      64046,
+      64047,
+      64048,
+      64049,
+      64050,
+      64051,
+      64052,
+      64053,
+      64054,
+      64055,
+      64056,
+      64057,
+      64058,
+      64059,
+      64060,
+      64061,
+      64062,
+      64063
+    ],
+    "r": [
+      1,
+      4,
+      16,
+      24
+    ],
+    "byte_hashes": "generated atomically by prepare_inputs and verified on every resume"
+  },
+  "hyperparameters": {
+    "schema_version": 1,
+    "n": 32,
+    "top_k": 8,
+    "tail_leak_mass": 0.1111111111111111,
+    "train_size": 4096,
+    "validation_size": 2048,
+    "batch_size": 128,
+    "gradient_accumulation_steps": 1,
+    "updates": 1024,
+    "fork_updates": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "adam_epsilon": 1e-8,
+    "primary_relative_margin": 0.005,
+    "alpha": 0.05,
+    "top_score_range_ceiling": 700,
+    "score_vjp_zero_tolerance": 1e-14,
+    "torch_threads": 4,
+    "max_disk_bytes": 16000000000,
+    "minimum_free_disk_bytes": 5000000000,
+    "maximum_cuda_memory_bytes": 7000000000,
+    "maximum_resident_memory_bytes": 8000000000,
+    "maximum_launch_wall_seconds": 604800,
+    "maximum_unit_wall_seconds": 7200
+  },
+  "baselines_or_methods": [
+    "D",
+    "S",
+    "L",
+    "P",
+    "G",
+    "N"
+  ],
+  "planned_units": 6144,
+  "source_sha256": [
+    {
+      "path": "src/analyze_assay.py",
+      "sha256": "5fffa325736f56ce9215f9f9d34679476cd3b7d79ffb84ef8a7349cc68dcd522",
+      "size_bytes": 9614
+    },
+    {
+      "path": "src/campaign.py",
+      "sha256": "eb432fa1b65d27f135a8a24ce251b0953d3ba288e90347f033c526295aeba2b4",
+      "size_bytes": 12025
+    },
+    {
+      "path": "src/fork_runner.py",
+      "sha256": "6a091d83a968c03cb1849792ecb610bfb5487a9efe901c6854e51f251c51570e",
+      "size_bytes": 11042
+    },
+    {
+      "path": "src/resource_summary.py",
+      "sha256": "b211e5e0f973a0c87deedf696c8c5acdb01a1a0621337d268a7265707a73ae97",
+      "size_bytes": 4103
+    },
+    {
+      "path": "src/supervise.py",
+      "sha256": "285b691ba20c27466fa8ed0efde1c894ba1656339759ccf1e1ed79bcd221b43a",
+      "size_bytes": 7629
+    },
+    {
+      "path": "src/training_models.py",
+      "sha256": "7a7ef74867c875436e73b9c49539eb545caa2ec3bb95736c9dd5e63ae00a153d",
+      "size_bytes": 5195
+    },
+    {
+      "path": "src/training_operators.py",
+      "sha256": "a00243650487d62894d2f36295ed42d897c2b867bf84c965e201b7a96deb2200",
+      "size_bytes": 8925
+    },
+    {
+      "path": "src/training_runner.py",
+      "sha256": "144bf2a5a6562ef565ca44f96d3d56724e73278ccc5ee08dcf10d4e638596a0f",
+      "size_bytes": 46984
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "sha256": "5fce51a4ace1668709c49ebbd7ae7e763b02628122d251a57f3f6ed160ac351b",
+      "size_bytes": 1912
+    },
+    {
+      "path": "tests/test_campaign.py",
+      "sha256": "b5e40e400ffbd73f2785df548a490618682aa76d653e563c1cd9b792e88692d8",
+      "size_bytes": 3875
+    },
+    {
+      "path": "tests/test_fork_runner.py",
+      "sha256": "f6be76ef8ee4cceea61037043973c5718629297f28202fd035a6cf80ecbbd537",
+      "size_bytes": 12233
+    },
+    {
+      "path": "tests/test_n3_operators.py",
+      "sha256": "0b3238156f655be082bf31602d10067664d67ccb902e4f492a5b20bdbfb2ceef",
+      "size_bytes": 7919
+    },
+    {
+      "path": "tests/test_supervise.py",
+      "sha256": "342b8e5831a23c6cd2949ace25b98a322bc59029e11b6c4433144742474f2b43",
+      "size_bytes": 4574
+    }
+  ],
+  "code_snapshot_path": "experiments/2026-09-09_n3a_v2_vps_cpu/CODE_SNAPSHOT.tar",
+  "code_snapshot_sha256": "15990cc6111bddea9c7d9995eaa7e8ba0c57ce084380cf277f78b35898448963",
+  "environment": {
+    "os_family": "Linux",
+    "arch": "aarch64",
+    "python": "3.12.3",
+    "host": "vps-host",
+    "torch": "2.12.0",
+    "cpu": "4 ARM Neoverse N1 CPUs",
+    "torch_threads": 4,
+    "ram": "23 GiB total, approximately19 GiB available at preflight",
+    "gpu": "none used; CPU only",
+    "container": "none",
+    "numeric": "float32 network parameters and input arrays; float64 routing weights/VJP; deterministic CPU kernels; no TF32/flash/memory efficient SDP"
+  },
+  "resource_limits": {
+    "workers": 1,
+    "threads": 4,
+    "max_disk_bytes": 16000000000,
+    "min_free_bytes": 5000000000,
+    "max_rss_bytes": 8000000000,
+    "whole_run_watchdog_seconds": 604800,
+    "unit_seconds": 7200
+  },
+  "artifacts": {
+    "status_file": "STATUS.md",
+    "durability_plan": "DURABILITY_PLAN.md",
+    "commands": "commands.md",
+    "config": "config.json",
+    "raw_outputs": [
+      "inputs/",
+      "outputs/"
+    ],
+    "source": "src/",
+    "immutable_snapshot": "CODE_SNAPSHOT.tar",
+    "supervisor": "outputs/supervisor/<attempt>/"
+  },
+  "rerun_of": "",
+  "supersedes": "",
+  "manuscript_locations": [],
+  "notes": "New independent N3-v2 lineage MCH-SND-005, not a continuation/resume of N2 or old orchestrator. Both pilot and science require explicit hash-bound ADMISSION. A effects remain blinded until independently frozen B code/protocol/analysis."
+}

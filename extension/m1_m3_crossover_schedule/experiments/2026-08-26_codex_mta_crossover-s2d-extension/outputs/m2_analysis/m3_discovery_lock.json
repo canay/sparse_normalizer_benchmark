@@ -1,0 +1,11 @@
+{
+  "status": "DISCOVERY_FROZEN_FOR_M3",
+  "strongest_simple_schedule": "median_switch",
+  "mechanistic_schedule": "mechanistic_switch",
+  "m1_switch_map_sha256": "c3bb4669b1bfb974fee53e55326e0054fc315fb6cf833e1fd8baa69b959134af",
+  "m1_result_sha256": "a77653ec58a296429ce592986ab66fbf656fd5dfd8000dfa03f39f1a3422d3a9",
+  "m1_analysis_manifest_sha256": "ee63d2c1d1677a799e31bdd5a53943406112fdc33d1993b11d6f5024e21b38a2",
+  "m2_validation_sha256": "713d053b89091f61b3c372a608bdb0739206abc139b4a483a217421cf7fb8a63",
+  "m2_result_sha256": "0886a050be86fdf31b2e89c5ce6d5c34160fd67ad13c73db3d6ad986eea42c37",
+  "analysis_source_sha256": "1f1ff5bd5b8a4a05e5bdb7431732f7807cdf92f652598310cfa4e470216f2cfc"
+}

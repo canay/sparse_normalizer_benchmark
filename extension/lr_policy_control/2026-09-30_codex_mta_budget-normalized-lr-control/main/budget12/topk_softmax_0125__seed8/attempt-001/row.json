@@ -1,0 +1,232 @@
+{
+  "best_epoch": 11,
+  "cfg_base_lr": 0.001,
+  "cfg_batch_size": 256,
+  "cfg_budget": 12,
+  "cfg_max_epochs": 12,
+  "cfg_patch": 4,
+  "cfg_patience": 0,
+  "cfg_val_fraction": 0.2,
+  "classes": 10,
+  "dataset": "cifar10",
+  "dataset_source": "cifar10:patch4",
+  "embed_dim": 64,
+  "epoch_log": [
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1929040282964705,
+      "epoch": 0,
+      "train_loss": 1.8517060279846191,
+      "val_accuracy": 0.4144,
+      "val_loss": 1.623827338218689,
+      "val_macro_f1": 0.3929700637179236
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1879538536071776,
+      "epoch": 1,
+      "train_loss": 1.539469838142395,
+      "val_accuracy": 0.4769,
+      "val_loss": 1.4457645863294601,
+      "val_macro_f1": 0.47121848902531455
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1846693992614745,
+      "epoch": 2,
+      "train_loss": 1.4052462577819824,
+      "val_accuracy": 0.5045,
+      "val_loss": 1.3663290828466415,
+      "val_macro_f1": 0.4990670756390319
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1843783795833587,
+      "epoch": 3,
+      "train_loss": 1.3358039855957031,
+      "val_accuracy": 0.5301,
+      "val_loss": 1.3186091631650925,
+      "val_macro_f1": 0.5271673884502937
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.184048670530319,
+      "epoch": 4,
+      "train_loss": 1.2840192317962646,
+      "val_accuracy": 0.5429,
+      "val_loss": 1.2766862750053405,
+      "val_macro_f1": 0.5462161756498431
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.181523862481117,
+      "epoch": 5,
+      "train_loss": 1.2368671894073486,
+      "val_accuracy": 0.545,
+      "val_loss": 1.2490349531173706,
+      "val_macro_f1": 0.5443844189555531
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1809015929698945,
+      "epoch": 6,
+      "train_loss": 1.2060582637786865,
+      "val_accuracy": 0.5623,
+      "val_loss": 1.2291408985853196,
+      "val_macro_f1": 0.5599709846769405
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1801071584224703,
+      "epoch": 7,
+      "train_loss": 1.1736606359481812,
+      "val_accuracy": 0.5601,
+      "val_loss": 1.2298039257526399,
+      "val_macro_f1": 0.5559959929574212
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1783017188310625,
+      "epoch": 8,
+      "train_loss": 1.1522859334945679,
+      "val_accuracy": 0.5668,
+      "val_loss": 1.212748721241951,
+      "val_macro_f1": 0.5666157903416382
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1787145704030992,
+      "epoch": 9,
+      "train_loss": 1.1320308446884155,
+      "val_accuracy": 0.5738,
+      "val_loss": 1.1941773489117622,
+      "val_macro_f1": 0.5732838202242461
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1781816124916076,
+      "epoch": 10,
+      "train_loss": 1.1194257736206055,
+      "val_accuracy": 0.5808,
+      "val_loss": 1.1838206231594086,
+      "val_macro_f1": 0.5797870905503368
+    },
+    {
+      "alpha_mean": NaN,
+      "alpha_std": NaN,
+      "attention_density": 0.13846154510974884,
+      "attention_entropy": 2.1779150635004045,
+      "epoch": 11,
+      "train_loss": 1.1032592058181763,
+      "val_accuracy": 0.5843,
+      "val_loss": 1.1758266672492028,
+      "val_macro_f1": 0.5837142922503766
+    }
+  ],
+  "epochs_run": 12,
+  "heads": 4,
+  "layers": 2,
+  "lr_epoch_trace": [
+    {
+      "epoch": 0,
+      "first": 0.001,
+      "last": 0.0009171974522292994
+    },
+    {
+      "epoch": 1,
+      "first": 0.0009166666666666666,
+      "last": 0.000833864118895966
+    },
+    {
+      "epoch": 2,
+      "first": 0.0008333333333333334,
+      "last": 0.0007505307855626326
+    },
+    {
+      "epoch": 3,
+      "first": 0.00075,
+      "last": 0.0006671974522292994
+    },
+    {
+      "epoch": 4,
+      "first": 0.0006666666666666668,
+      "last": 0.000583864118895966
+    },
+    {
+      "epoch": 5,
+      "first": 0.0005833333333333333,
+      "last": 0.0005005307855626326
+    },
+    {
+      "epoch": 6,
+      "first": 0.0005,
+      "last": 0.0004171974522292994
+    },
+    {
+      "epoch": 7,
+      "first": 0.00041666666666666664,
+      "last": 0.000333864118895966
+    },
+    {
+      "epoch": 8,
+      "first": 0.0003333333333333334,
+      "last": 0.00025053078556263274
+    },
+    {
+      "epoch": 9,
+      "first": 0.00025,
+      "last": 0.0001671974522292994
+    },
+    {
+      "epoch": 10,
+      "first": 0.00016666666666666663,
+      "last": 8.386411889596601e-05
+    },
+    {
+      "epoch": 11,
+      "first": 8.333333333333337e-05,
+      "last": 5.307855626327518e-07
+    }
+  ],
+  "lr_policy": "linear_per_optimizer_update_eta0_times_1_minus_t_over_T",
+  "lr_sequence_float64_sha256": "159DC428EFF4D949399068D53228D23FE5BFA649A5A5203BF3699E59C5537EB8",
+  "masked_attention": false,
+  "method": "topk_softmax_0125",
+  "n_train": 40000,
+  "n_val": 10000,
+  "optimizer_updates": 1884,
+  "parameter_count": 107978,
+  "peak_memory_mb": 863.45849609375,
+  "seed": 8,
+  "seq_len": 65,
+  "status": "completed",
+  "tier": "compact",
+  "train_seconds": 35.944560345989885,
+  "val_accuracy": 0.5843,
+  "val_attention_entropy": 2.1779150635004045,
+  "val_loss": 1.1758266672492028,
+  "val_macro_f1": 0.5837142922503766,
+  "val_nonzero_ratio": 0.13846154510974884
+}
